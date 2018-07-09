@@ -6,4 +6,5 @@ module.exports = {
   build: 'Jetzt mach etwas Großartiges.',
   welcome2: 'Willkommen auf Seite 2',
   goback: 'Gehe zurück zur Startseite',
+  queen: 'Königin',
 }
