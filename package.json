@@ -5,6 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "browser-lang": "0.0.1",
+    "d3": "^5.5.0",
     "gatsby": "next",
     "gatsby-link": "^1.6.45",
     "gatsby-plugin-react-helmet": "next",
@@ -12,7 +13,9 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
-    "react-intl": "^2.4.0"
+    "react-intl": "^2.4.0",
+    "react-spring": "^5.4.0",
+    "sanitize.css": "^6.0.0"
   },
   "keywords": [
     "gatsby"
