@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" width="400" height="400">
 
         <!--
-        font-family: 'Eagle Lake', cursive;
-        font-family: 'Annie Use Your Telescope', cursive;
+        // font-family: 'Eagle Lake', cursive;
+        // font-family: 'Annie Use Your Telescope', cursive;
         font-family: 'Reenie Beanie', cursive;
         font-family: 'Fondamento', cursive;
-        font-family: 'Waiting for the Sunrise', cursive;
+        // font-family: 'Waiting for the Sunrise', cursive;
         font-family: 'Cinzel Decorative', cursive;
         font-family: 'Pirata One', cursive;
         font-family: 'Snowburst One', cursive;
-        font-family: 'Farsan', cursive;
-        font-family: 'Risque', cursive;
+        // font-family: 'Farsan', cursive;
+        // font-family: 'Risque', cursive;
         -->
 
     <defs>
         <style type="text/css">
             @import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Cinzel+Decorative|Eagle+Lake|Farsan|Fondamento|Pirata+One|Reenie+Beanie|Risque|Snowburst+One|Waiting+for+the+Sunrise');
-        </style> 
+        </style>
 
         <clipPath id="circleMask">
             <circle cx="50" cy="50" r="25" />
