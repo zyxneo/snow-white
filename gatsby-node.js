@@ -1,14 +1,14 @@
 const path = require('path')
 const { languages } = require('./src/i18n/locales')
 
-exports.onCreatePage = ({ page, boundActionCreators }) => {
-  const { createPage, deletePage } = boundActionCreators
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
 
   if (page.path.includes('404')) {
     return Promise.resolve()
   }
 
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     const redirect = path.resolve('src/i18n/redirect.js')
     const redirectPage = {
       ...page,
