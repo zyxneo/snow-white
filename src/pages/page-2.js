@@ -6,15 +6,6 @@ import StoryGraph from '../components/StoryGraph'
 
 const SecondPage = () => (
   <Layout>
-    <h1>
-      <FormattedMessage id="hello" />
-    </h1>
-    <p>
-      <FormattedMessage id="welcome2" />
-    </p>
-    <Link to="/">
-      <FormattedMessage id="goback" />
-    </Link>
     <StoryGraph />
   </Layout>
 )

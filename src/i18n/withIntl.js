@@ -5,7 +5,7 @@ import { localeData } from './locales'
 
 addLocaleData(localeData)
 
-export default ComposedComponent => {
+export default (ComposedComponent) => {
   class withIntl extends Component {
     static childContextTypes = {
       language: PropTypes.object,
@@ -13,7 +13,7 @@ export default ComposedComponent => {
 
     constructor(props) {
       super()
-      const { pathContext: pageContext } = props
+      const { pageContext } = props
       const { locale, languages, originalPath } = pageContext
 
       this.state = {
