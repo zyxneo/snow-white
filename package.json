@@ -9,7 +9,7 @@
     "gatsby": "next",
     "gatsby-link": "^1.6.45",
     "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-plugin-sass": "2.0.0-beta.5",
     "intl": "^1.2.5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -43,6 +43,7 @@
     "eslint-plugin-react": "^7.10.0",
     "flow-bin": "^0.76.0",
     "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2",
     "prettier": "^1.12.0",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.2.0"

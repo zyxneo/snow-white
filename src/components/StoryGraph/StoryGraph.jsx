@@ -1,7 +1,7 @@
 import React from 'react'
 import { injectIntl, FormattedMessage } from 'react-intl'
 
-import './StoryGraph.css'
+import './StoryGraph.scss'
 
 const Avatar = (props) => {
   const {

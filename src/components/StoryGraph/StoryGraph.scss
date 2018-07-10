@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Cinzel+Decorative|Eagle+Lake|Farsan|Fondamento|Pirata+One|Reenie+Beanie|Risque|Snowburst+One|Waiting+for+the+Sunrise');
 */
 
+$color: red;
+
 .avatar-title {
   font-family: 'Snowburst One', cursive;
   font-family: 'Pirata One', cursive;
@@ -9,4 +11,5 @@
   font-family: 'Fondamento', cursive;
 
   font-size: 8pt;
+  fill: $color;
 }
