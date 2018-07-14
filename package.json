@@ -12,6 +12,7 @@
     "gatsby-plugin-sass": "2.0.0-beta.5",
     "intl": "^1.2.5",
     "react": "^16.4.1",
+    "react-scrollspy": "^3.3.5",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "react-intl": "^2.4.0",
@@ -27,6 +28,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "fix": "eslint --fix --ext .js,.jsx src",
+    "flow": "flow src",
+    "lint": "npm run flow",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -17,7 +17,7 @@ class Language extends Component {
     })
   }
 
-  handleChange = event => {
+  handleChange = (event) => {
     const { language } = this.context
     const { originalPath } = language
     const { value } = event.target

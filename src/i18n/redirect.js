@@ -12,9 +12,8 @@ class Redirect extends PureComponent {
 
     // Skip build, Browsers only
     if (typeof window !== 'undefined') {
-      const detected =
-        window.localStorage.getItem('language') ||
-        browserLang({
+      const detected = window.localStorage.getItem('language')
+        || browserLang({
           languages: langKeys,
           fallback: 'en',
         })

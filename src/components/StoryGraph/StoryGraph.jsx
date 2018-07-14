@@ -12,9 +12,7 @@ const translateCenterString = (cx, cy, scalePercent) => {
   return `translate(${tx} ${ty})`
 }
 
-const scaleString = (scalePercentX, scalePercentY) => {
-  return `scale(${scalePercentX} ${scalePercentY})`
-}
+const scaleString = (scalePercentX, scalePercentY) => `scale(${scalePercentX} ${scalePercentY})`
 
 const scaleAvatar = (cx, cy, scalePercent) => `${scaleString(scalePercent, scalePercent)} ${translateCenterString(cx, cy, scalePercent)}`
 

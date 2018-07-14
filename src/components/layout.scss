@@ -1,0 +1,42 @@
+body {
+  background: lavender;
+  font-family: sans-serif;
+
+  background: white;
+  color: black;
+  transition: background ease-in-out .5s, color ease-in-out .5s;
+
+  &.story\.storyteller\.commonLanguage {
+    background: black;
+    color: white;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Snowburst One', cursive;
+  font-weight: 100;
+}
+
+.layout {
+
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 250px;
+  padding-bottom: 1em;
+  overflow-y: scroll;
+}
+
+.content {
+  margin-left: 250px;
+  min-width: 550px;
+  max-width: 1150px;
+}
