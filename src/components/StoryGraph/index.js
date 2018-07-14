@@ -1,3 +1,7 @@
 import StoryGraph from './StoryGraph'
+import graphData from './graphData'
 
-export default StoryGraph
+export {
+  StoryGraph,
+  graphData,
+}

@@ -3,10 +3,15 @@ body {
   color: black;
   transition: background ease-in-out .5s, color ease-in-out .5s;
 
-  &.story\.storyteller\.commonLanguage {
+  &.story\.textil\.fates {
     background: black;
     color: white;
   }
+}
+
+a {
+  color: #dd0f00 !important;
+  text-decoration: none;
 }
 
 .layout {
@@ -32,7 +37,7 @@ body {
   }
 
   .is-current {
-    background: red;
+    background: rgba(128,128,128,.5);
   }
 
   .link {
@@ -45,8 +50,13 @@ body {
   margin-left: 250px;
   min-width: 550px;
   max-width: 1150px;
+  padding: 0 4em;
+
+  .padded {
+    padding: 2em 0;
+  }
 }
 
-.floated {
-  float: left;
+.storyGraph {
+  max-height: 100vh;
 }

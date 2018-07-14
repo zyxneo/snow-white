@@ -75,7 +75,7 @@ const StoryGraph = (props) => {
   const { graphData } = props
 
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns-xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120" width="800" height="800">
+    <svg className="storyGraph" xmlns="http://www.w3.org/2000/svg" xmlns-xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120">
 
       <defs>
         <clipPath id="circleMask">

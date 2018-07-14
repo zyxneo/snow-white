@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import { withIntl } from '../i18n'
 import ContentSection from '../components/ContentSection'
 
+import { graphData, StoryGraph } from '../components/StoryGraph'
 
 const Sections = [
   {
@@ -33,6 +34,10 @@ const Sections = [
   },
 
   {
+    id: 'story.asWeKnowIt',
+  },
+
+  {
     id: 'story.textil.historyOfIndustry',
   },
   {
@@ -40,12 +45,24 @@ const Sections = [
   },
   {
     id: 'story.textil.fates',
+    images: [
+      'fates/three-witches/507b2de3fd7820d7635379419b461e44.jpg',
+      'fates/thread-of-life/37beef605e6b1147dda91067b37373a5.jpg',
+      'fates/thread-of-life/ffa194d2f308ee1ca1d4460730df9bdc.jpg',
+    ],
   },
   {
     id: 'story.textil.dna',
+    images: [
+      'dns/1e128f17a2754dbaacc515b9883f9bd1.jpg',
+      'dns/jf14.reviews.prenatal.large.jpg',
+    ],
   },
   {
     id: 'story.textil.umbilicalCord',
+    images: [
+      'dns/9a89fd44784303216a1ab156c7e37c14.jpg',
+    ],
   },
   {
     id: 'story.textil.lifeBlood',
@@ -114,6 +131,7 @@ class IndexPage extends React.Component {
             currentClassName="is-current"
             onUpdate={this.handleScroll}
             className="menu"
+            offset={-200}
           >
             {Sections.map(section => (
               <li key={section.id} className="item">
@@ -125,11 +143,26 @@ class IndexPage extends React.Component {
           </Scrollspy>
         </div>
 
-        <div className="content ui text container list">
-          <h2>
-            <FormattedMessage id="site.subtitle" />
-          </h2>
-          {Sections.map(section => <ContentSection key={section.id} id={section.id} />)}
+        <div className="content">
+          <div className="ui text container list">
+            <h2>
+              <FormattedMessage id="site.subtitle" />
+            </h2>
+            {
+              Sections.map((section) => {
+                if (section.id === 'story.asWeKnowIt') {
+                  return (
+                    <section id="story.asWeKnowIt" className="item">
+                      <div className="ui hidden divider" />
+                      <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
+                      <StoryGraph graphData={graphData} />
+                    </section>
+                  )
+                }
+                return (<ContentSection key={section.id} id={section.id} images={section.images} />)
+              })
+            }
+          </div>
         </div>
 
       </Layout>
