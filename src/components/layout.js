@@ -4,6 +4,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { injectIntl } from 'react-intl'
 import '../../node_modules/sanitize.css/sanitize.css'
+// $FlowIgnore
+import 'semantic-ui-css/semantic.min.css'
 import './layout.scss'
 
 const Layout = ({

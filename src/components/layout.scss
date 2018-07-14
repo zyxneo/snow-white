@@ -1,7 +1,4 @@
 body {
-  background: lavender;
-  font-family: sans-serif;
-
   background: white;
   color: black;
   transition: background ease-in-out .5s, color ease-in-out .5s;
@@ -10,15 +7,6 @@ body {
     background: black;
     color: white;
   }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Snowburst One', cursive;
-  font-weight: 100;
 }
 
 .layout {
@@ -33,10 +21,32 @@ h5 {
   width: 250px;
   padding-bottom: 1em;
   overflow-y: scroll;
+
+  .menu {
+    padding: 0;
+    margin: 0;
+  }
+
+  .item {
+    list-style: none;
+  }
+
+  .is-current {
+    background: red;
+  }
+
+  .link {
+    display: block;
+    padding: 5px 10px;
+  }
 }
 
 .content {
   margin-left: 250px;
   min-width: 550px;
   max-width: 1150px;
+}
+
+.floated {
+  float: left;
 }

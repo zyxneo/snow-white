@@ -8,7 +8,7 @@ const graphData = {
   characters: [
     {
       id: 'queen',
-      name: <FormattedMessage id="character.queen" defaultMessage="Queen" tagName="tspan" />,
+      name: <FormattedMessage id="character.queen.title" defaultMessage="Queen" tagName="tspan" />,
       gender: 'female',
       imageX: 0,
       imageY: 0,
@@ -20,7 +20,7 @@ const graphData = {
     },
     {
       id: 'snowwhite',
-      name: <FormattedMessage id="character.snowwhite" defaultMessage="Snow White" tagName="tspan" />,
+      name: <FormattedMessage id="character.snowwhite.title" defaultMessage="Snow White" tagName="tspan" />,
       gender: 'female',
       imageX: 0,
       imageY: 0,
@@ -32,7 +32,7 @@ const graphData = {
     },
     {
       id: 'witch',
-      name: <FormattedMessage id="character.stepmother" defaultMessage="Stepmother" tagName="tspan" />,
+      name: <FormattedMessage id="character.stepmother.title" defaultMessage="Stepmother" tagName="tspan" />,
       gender: 'female',
       imageX: -4,
       imageY: 20,
@@ -44,7 +44,7 @@ const graphData = {
     },
     {
       id: 'king',
-      name: <FormattedMessage id="character.king" defaultMessage="King" tagName="tspan" />,
+      name: <FormattedMessage id="character.king.title" defaultMessage="King" tagName="tspan" />,
       gender: 'male',
       imageX: 0,
       imageY: 0,
@@ -56,7 +56,7 @@ const graphData = {
     },
     {
       id: 'prince',
-      name: <FormattedMessage id="character.prince" defaultMessage="Prince" tagName="tspan" />,
+      name: <FormattedMessage id="character.prince.title" defaultMessage="Prince" tagName="tspan" />,
       gender: 'male',
       imageX: 25,
       imageY: 10,
@@ -68,7 +68,7 @@ const graphData = {
     },
     {
       id: 'huntsman',
-      name: <FormattedMessage id="character.huntsman" defaultMessage="Huntsman" tagName="tspan" />,
+      name: <FormattedMessage id="character.huntsman.title" defaultMessage="Huntsman" tagName="tspan" />,
       gender: 'male',
       imageX: 25,
       imageY: 10,
