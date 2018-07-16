@@ -10,7 +10,7 @@ const ContentSection = ({ id, images }) => (
     <FormattedHTMLMessage id={`${id}.desc`} />
 
     {
-      images && images.map(image => <img src={`/images/${image}`} className="ui fluid image" />)
+      images && images.map(image => <img key={image} src={`/images/${image}`} className="ui fluid image" />)
     }
   </section>
 )

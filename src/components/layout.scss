@@ -25,6 +25,10 @@ a {
   color: $red !important;
   text-decoration: none;
   transition: color ease-in-out .5s;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .layout {
@@ -37,6 +41,12 @@ a {
   bottom: 0px;
   left: 0px;
   width: 250px;
+
+  &:hover {
+    .scrollBar {
+      opacity: 1;
+    }
+  }
 
   .menu {
     padding: 0;
@@ -55,6 +65,13 @@ a {
     display: block;
     padding: 5px 10px;
   }
+}
+
+.scrollBar {
+  transition: opacity ease-in-out .5s;
+  opacity: 0;
+  background: rgba(128,128,128,.5);
+  cursor: ns-resize;
 }
 
 .content {

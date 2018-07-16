@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 import Scrollspy from 'react-scrollspy'
-import { Scrollbars } from 'react-custom-scrollbars'
+import CustomScrollbar from '../components/CustomScrollbar'
 import Layout from '../components/layout'
 import { withIntl } from '../i18n'
 import ContentSection from '../components/ContentSection'
@@ -149,7 +149,7 @@ class IndexPage extends React.Component {
       <Layout bodyClass={this.state.activeSection}>
 
         <div className="sidebar">
-          <Scrollbars>
+          <CustomScrollbar>
             <Scrollspy
               items={Sections.map(section => section.id)}
               currentClassName="is-current"
@@ -165,7 +165,7 @@ class IndexPage extends React.Component {
                 </li>
               ))}
             </Scrollspy>
-          </Scrollbars>
+          </CustomScrollbar>
         </div>
 
         <div className="content">
@@ -177,7 +177,7 @@ class IndexPage extends React.Component {
               Sections.map((section) => {
                 if (section.id === 'story.asWeKnowIt') {
                   return (
-                    <section id="story.asWeKnowIt" className="item">
+                    <section key={section.id} id="story.asWeKnowIt" className="item">
                       <div className="ui hidden divider" />
                       <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
                       <StoryGraph graphData={graphData} />
