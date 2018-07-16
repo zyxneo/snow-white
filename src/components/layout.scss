@@ -1,17 +1,30 @@
+$red: #dd0f00;
+
 body {
   background: white;
   color: black;
   transition: background ease-in-out .5s, color ease-in-out .5s;
 
-  &.story\.textil\.fates {
+  &.story\.textil\.fates,
+  &.symbol\.color\.black {
     background: black;
     color: white;
+  }
+
+  &.symbol\.color\.red {
+    background: $red;
+    color: white;
+
+    a {
+      color: white !important;
+    }
   }
 }
 
 a {
-  color: #dd0f00 !important;
+  color: $red !important;
   text-decoration: none;
+  transition: color ease-in-out .5s;
 }
 
 .layout {
@@ -24,8 +37,6 @@ a {
   bottom: 0px;
   left: 0px;
   width: 250px;
-  padding-bottom: 1em;
-  overflow-y: scroll;
 
   .menu {
     padding: 0;

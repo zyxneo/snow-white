@@ -1,6 +1,7 @@
 import React from 'react'
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 import Scrollspy from 'react-scrollspy'
+import { Scrollbars } from 'react-custom-scrollbars'
 import Layout from '../components/layout'
 import { withIntl } from '../i18n'
 import ContentSection from '../components/ContentSection'
@@ -28,6 +29,9 @@ const Sections = [
   },
   {
     id: 'story.storyteller.emptySymbols',
+    images: [
+      'fairytales/d9d1324cbeee4cb98d791a22d5ef8b3a.jpg',
+    ],
   },
   {
     id: 'story.storyteller.symbols',
@@ -88,6 +92,25 @@ const Sections = [
   },
 
   {
+    id: 'symbol.color',
+  },
+  {
+    id: 'symbol.color.white',
+  },
+  {
+    id: 'symbol.color.black',
+  },
+  {
+    id: 'symbol.color.red',
+  },
+  {
+    id: 'symbol.color.redInWhite',
+  },
+  {
+    id: 'symbol.color.redInBlack',
+  },
+
+  {
     id: 'symbol.paths',
   },
   {
@@ -126,21 +149,23 @@ class IndexPage extends React.Component {
       <Layout bodyClass={this.state.activeSection}>
 
         <div className="sidebar">
-          <Scrollspy
-            items={Sections.map(section => section.id)}
-            currentClassName="is-current"
-            onUpdate={this.handleScroll}
-            className="menu"
-            offset={-200}
-          >
-            {Sections.map(section => (
-              <li key={section.id} className="item">
-                <a href={`#${section.id}`} className="link">
-                  <FormattedMessage id={`${section.id}.title`} />
-                </a>
-              </li>
-            ))}
-          </Scrollspy>
+          <Scrollbars>
+            <Scrollspy
+              items={Sections.map(section => section.id)}
+              currentClassName="is-current"
+              onUpdate={this.handleScroll}
+              className="menu"
+              offset={-200}
+            >
+              {Sections.map(section => (
+                <li key={section.id} className="item">
+                  <a href={`#${section.id}`} className="link">
+                    <FormattedMessage id={`${section.id}.title`} />
+                  </a>
+                </li>
+              ))}
+            </Scrollspy>
+          </Scrollbars>
         </div>
 
         <div className="content">
