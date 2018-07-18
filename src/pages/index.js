@@ -7,128 +7,7 @@ import { withIntl } from '../i18n'
 import ContentSection from '../components/ContentSection'
 
 import { graphData, StoryGraph } from '../components/StoryGraph'
-
-const Sections = [
-  {
-    id: 'story.introduction',
-  },
-  {
-    id: 'story.storyteller',
-  },
-  {
-    id: 'story.storyteller.legacy',
-  },
-  {
-    id: 'story.storyteller.commonLanguage',
-  },
-  {
-    id: 'story.storyteller.philosophersStone',
-  },
-  {
-    id: 'story.storyteller.historyOfStorytelling',
-  },
-  {
-    id: 'story.storyteller.emptySymbols',
-    images: [
-      'fairytales/d9d1324cbeee4cb98d791a22d5ef8b3a.jpg',
-    ],
-  },
-  {
-    id: 'story.storyteller.symbols',
-  },
-
-  {
-    id: 'story.asWeKnowIt',
-  },
-
-  {
-    id: 'story.textil.historyOfIndustry',
-  },
-  {
-    id: 'story.textil.clothing',
-  },
-  {
-    id: 'story.textil.fates',
-    images: [
-      'fates/three-witches/507b2de3fd7820d7635379419b461e44.jpg',
-      'fates/thread-of-life/37beef605e6b1147dda91067b37373a5.jpg',
-      'fates/thread-of-life/ffa194d2f308ee1ca1d4460730df9bdc.jpg',
-    ],
-  },
-  {
-    id: 'story.textil.dna',
-    images: [
-      'dns/1e128f17a2754dbaacc515b9883f9bd1.jpg',
-      'dns/jf14.reviews.prenatal.large.jpg',
-    ],
-  },
-  {
-    id: 'story.textil.umbilicalCord',
-    images: [
-      'dns/9a89fd44784303216a1ab156c7e37c14.jpg',
-    ],
-  },
-  {
-    id: 'story.textil.lifeBlood',
-  },
-
-  {
-    id: 'character.queen',
-  },
-  {
-    id: 'character.snowwhite',
-  },
-  {
-    id: 'character.stepmother',
-  },
-  {
-    id: 'character.king',
-  },
-  {
-    id: 'character.prince',
-  },
-  {
-    id: 'character.huntsman',
-  },
-
-  {
-    id: 'symbol.color',
-  },
-  {
-    id: 'symbol.color.white',
-  },
-  {
-    id: 'symbol.color.black',
-  },
-  {
-    id: 'symbol.color.red',
-  },
-  {
-    id: 'symbol.color.redInWhite',
-  },
-  {
-    id: 'symbol.color.redInBlack',
-  },
-
-  {
-    id: 'symbol.paths',
-  },
-  {
-    id: 'symbol.forest',
-  },
-  {
-    id: 'symbol.home',
-  },
-  {
-    id: 'symbol.mirror',
-  },
-  {
-    id: 'symbol.jail',
-  },
-  {
-    id: 'symbol.mine',
-  },
-]
+import Sections from '../components/sections'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -181,6 +60,10 @@ class IndexPage extends React.Component {
                       <div className="ui hidden divider" />
                       <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
                       <StoryGraph graphData={graphData} />
+                      <div className="trigger" id="sec1" />
+                      <div className="trigger" id="sec2" />
+                      <div className="trigger" id="sec3" />
+                      <div className="trigger" id="sec4" />
                     </section>
                   )
                 }
