@@ -1,4 +1,5 @@
 import React from 'react'
+import classNames from 'classnames'
 
 import './StoryGraph.scss'
 
@@ -72,10 +73,15 @@ const Avatar = (props) => {
 }
 
 const StoryGraph = (props) => {
-  const { graphData } = props
+  const { graphData, className } = props
 
   return (
-    <svg className="storyGraph" xmlns="http://www.w3.org/2000/svg" xmlns-xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120">
+    <svg
+      className={classNames('storyGraph', className)}
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns-xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 120 120"
+    >
 
       <defs>
         <clipPath id="circleMask">

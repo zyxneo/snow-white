@@ -85,10 +85,14 @@ a {
   }
 }
 
+.spacer {
+  height: 100vh;
+}
+
 .storyGraph {
   max-height: 100vh;
 }
 
-.trigger {
-  padding-top: 100px;
+.scrollable {
+  position: relative;
 }

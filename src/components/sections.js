@@ -38,9 +38,6 @@ const Sections = [
     id: 'story.scene2',
   },
   {
-    id: 'story.scene2',
-  },
-  {
     id: 'story.scene3',
   },
   {
@@ -165,6 +162,7 @@ const Sections = [
   },
   {
     id: 'symbol.color',
+    extra: 'https://youtu.be/M7G08_Y1PQQ?t=24m51s',
   },
   {
     id: 'symbol.color.white',
