@@ -2,36 +2,29 @@ import React from 'react'
 import classNames from 'classnames'
 import { FormattedMessage } from 'react-intl'
 import ScrollTrigger from 'react-scroll-trigger'
-import Scrollspy from 'react-scrollspy'
-import CustomScrollbar from '../components/CustomScrollbar'
 import Layout from '../components/layout'
 import { withIntl } from '../i18n'
 import ContentSection from '../components/ContentSection'
+import StorySection from '../components/StorySection'
 
-import { graphData, StoryGraph } from '../components/StoryGraph'
+import { StoryGraph } from '../components/StoryGraph'
+import scene1 from '../components/StoryGraph/scene1'
+import scene2 from '../components/StoryGraph/scene2'
+import scene3 from '../components/StoryGraph/scene3'
 import Sections from '../components/sections'
 
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      activeSection: 'none',
       inViewport: '',
       end: false,
+      graphData: scene1,
     }
   }
 
-  handleScroll = (props) => {
-    const id = props && props.id ? props.id : 'none'
-
-    history.replaceState(undefined, undefined, `#${id}`)
-    this.setState({
-      activeSection: id,
-    })
-  }
-
-
   onEnterViewport = (id) => {
+    history.replaceState(undefined, undefined, `#${id}`)
     this.setState({
       inViewport: id,
     })
@@ -46,11 +39,6 @@ class IndexPage extends React.Component {
     }
   }
 
-  showQueen = (id) => {
-    graphData.characters[0].cx += 10
-    this.onEnterViewport(id)
-  }
-
   onEnterEnd = () => {
     this.setState({
       end: true,
@@ -63,37 +51,15 @@ class IndexPage extends React.Component {
     })
   }
 
-
   render() {
     const {
-      activeSection,
       inViewport,
       end,
+      graphData,
     } = this.state
 
     return (
-      <Layout bodyClass={activeSection}>
-
-        <div className="sidebar">
-          <CustomScrollbar>
-            <Scrollspy
-              items={Sections.map(section => section.id)}
-              currentClassName="is-current"
-              onUpdate={this.handleScroll}
-              className="menu"
-              offset={-200}
-            >
-              {Sections.map(section => (
-                <li key={section.id} className="item">
-                  <a href={`#${section.id}`} className="link">
-                    <FormattedMessage id={`${section.id}.title`} />
-                  </a>
-                </li>
-              ))}
-            </Scrollspy>
-          </CustomScrollbar>
-        </div>
-
+      <Layout bodyClass={inViewport}>
         <div className="content">
           <div className="ui text container list">
             <h1><FormattedMessage id="site.title" /></h1>
@@ -108,29 +74,29 @@ class IndexPage extends React.Component {
                     <section key={section.id} id="story.asWeKnowIt" className="item">
                       <div className="ui hidden divider" />
                       <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
-                      <div className={classNames('scrollable', { fixed: inViewport }, { 'scroll-below': end })}>
+                      <div className={classNames('scrollable', { fixed: inViewport.lastIndexOf('story.scene.beginning') !== -1 }, { 'scroll-below': end })}>
 
+                        <ScrollTrigger onEnter={() => this.setState({ inViewport: '' })}>
+                          <br />
+                        </ScrollTrigger>
                         <StoryGraph graphData={graphData} inViewport={inViewport} />
                         <div className="spacer" />
-                        <ContentSection
-                          id="story.scene1"
-                          onEnter={() => this.showQueen('story.scene1')}
-                          onExit={this.onExitViewport}
+                        <StorySection
+                          id="story.scene.beginning.king"
+                          onEnter={() => this.setState({ graphData: scene1, inViewport: 'story.scene.beginning.king' })}
                         />
-                        <ContentSection
-                          id="story.scene2"
-                          onEnter={this.onEnterViewport}
-                          onExit={this.onExitViewport}
+                        <StorySection
+                          id="story.scene.beginning.queen"
+                          onEnter={() => this.setState({ graphData: scene2, inViewport: 'story.scene.beginning.queen' })}
                         />
-                        <ContentSection
-                          id="story.scene3"
-                          onEnter={this.onEnterViewport}
-                          onExit={this.onExitViewport}
+                        <StorySection
+                          id="story.scene.beginning.snowwhite"
+                          onEnter={() => this.setState({ graphData: scene3, inViewport: 'story.scene.beginning.snowwhite' })}
                         />
-                        <ContentSection
-                          id="story.scene4"
-                          onEnter={this.onEnterViewport}
-                          onExit={this.onExitViewport}
+                        <StorySection
+                          id="story.scene.beginning.witch"
+                          onEnter={() => this.onEnterViewport('story.scene.beginning.witch')}
+                          onExit={() => this.onExitViewport('story.scene.beginning.witch')}
                         />
                       </div>
                       <ScrollTrigger onEnter={this.onEnterEnd} onExit={this.onExitEnd}>&nbsp;</ScrollTrigger>
@@ -138,7 +104,14 @@ class IndexPage extends React.Component {
                     </section>
                   )
                 }
-                return (<ContentSection key={section.id} id={section.id} images={section.images} />)
+                return (
+                  <ContentSection
+                    key={section.id}
+                    id={section.id}
+                    images={section.images}
+                    onEnter={this.onEnterViewport}
+                  />
+                )
               })
             }
           </div>

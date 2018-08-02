@@ -1,91 +1,63 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
-import { withIntl } from '../i18n'
-import Layout from '../components/layout'
-import { StoryGraph } from '../components/StoryGraph'
+import * as d3 from 'd3'
 
-const graphData = {
-  characters: [
-    {
-      id: 'queen',
-      name: <FormattedMessage id="character.queen.title" defaultMessage="Queen" tagName="tspan" />,
-      gender: 'female',
-      imageX: 0,
-      imageY: 0,
-      imageWidth: 100,
-      imageHeight: 100,
-      cx: 22.5,
-      cy: 37.5,
-      scale: 0.25,
-    },
-    {
-      id: 'snowwhite',
-      name: <FormattedMessage id="character.snowwhite.title" defaultMessage="Snow White" tagName="tspan" />,
-      gender: 'female',
-      imageX: 0,
-      imageY: 0,
-      imageWidth: 100,
-      imageHeight: 100,
-      cx: 52.5,
-      cy: 67.5,
-      scale: 0.25,
-    },
-    {
-      id: 'witch',
-      name: <FormattedMessage id="character.stepmother.title" defaultMessage="Stepmother" tagName="tspan" />,
-      gender: 'female',
-      imageX: -4,
-      imageY: 20,
-      imageWidth: 120,
-      imageHeight: 120,
-      cx: 82.5,
-      cy: 97.5,
-      scale: 0.25,
-    },
-    {
-      id: 'king',
-      name: <FormattedMessage id="character.king.title" defaultMessage="King" tagName="tspan" />,
-      gender: 'male',
-      imageX: 0,
-      imageY: 0,
-      imageWidth: 100,
-      imageHeight: 100,
-      cx: 37.5,
-      cy: 22.5,
-      scale: 0.25,
-    },
-    {
-      id: 'prince',
-      name: <FormattedMessage id="character.prince.title" defaultMessage="Prince" tagName="tspan" />,
-      gender: 'male',
-      imageX: 25,
-      imageY: 10,
-      imageWidth: 50,
-      imageHeight: 100,
-      cx: 67.5,
-      cy: 52.5,
-      scale: 0.25,
-    },
-    {
-      id: 'huntsman',
-      name: <FormattedMessage id="character.huntsman.title" defaultMessage="Huntsman" tagName="tspan" />,
-      gender: 'male',
-      imageX: 25,
-      imageY: 10,
-      imageWidth: 50,
-      imageHeight: 100,
-      cx: 97.5,
-      cy: 82.5,
-      scale: 0.25,
-    },
-  ],
+
+class SecondPage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      myArray: [14, 18, 24, 42, 8, 15],
+    }
+  }
+
+  componentDidMount() {
+    this.myFn()
+  }
+
+  componentDidUpdate() {
+    this.myFn()
+  }
+
+  myFn = () => {
+    const { myArray } = this.state
+    d3.select('body')
+      .style('background-color', '#ddd')
+    const p = d3.select('body')
+      .selectAll('p')
+      .data(myArray)
+
+    p.transition()
+      .duration(750)
+      .ease(d3.easeElastic)
+      .delay((d, i) => i * 1000)
+      .style('font-size', d => `${d}px`)
+      .style('color', () => `hsl(${Math.random() * 360},${Math.random() * 100}%,50%)`)
+
+    // Enter…
+    p.enter()
+      .append('p')
+      .text(d => `I’m number ${d}!`)
+
+    // Exit…
+    p.exit().remove()
+  }
+
+  clickHandler = () => {
+    this.setState({
+      myArray: [20, 20, 20],
+    })
+  }
+
+  render() {
+    console.log('render')
+    return (
+      <div onClick={this.clickHandler}>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+      </div>
+    )
+  }
 }
 
-
-const SecondPage = () => (
-  <Layout>
-    <StoryGraph graphData={graphData} />
-  </Layout>
-)
-
-export default withIntl(SecondPage)
+export default SecondPage

@@ -33,10 +33,18 @@ module.exports = {
   'story.storyteller.emptySymbols.desc': 'A mesék értelmezését tovább nehezíti, hogy megváltozott világunkból eltűntek azok a használati tárgyak, melyek a régi mesékben szimbólumokként tűntek fel. Ha értelmezni kívánjuk őket, át kell helyeződnünk a középkor emberének világába, egy csendesebb, nyugodtabb, lassabb, természetközeli világba, amikor a léleknek sokkal több figyelem jutott.',
 
   'story.storyteller.symbols.title': 'A szimbólumok kiüresedése',
-  'story.storyteller.symbols.desc': 'A mese egy érdekes műfaj… Véresen komoly és egyben lágy. Az élet összes színterének valamennyi küzdelmét sűríti egy pontba, egy kicsi, kedves játékba, ami átadható egy gyermeknek, a nélkül, hogy az kárt okozna a gyermeknek, és a nélkül, hogy a gyermek tönkre tehetné… Az egyetlen mód ami ezt lehetővé teszi, egy egyezményes kódnyelv, a szimbólumok világa.',
+  'story.storyteller.symbols.desc': '<p>A mese egy érdekes műfaj… Véresen komoly és egyben lágy. Az élet összes színterének valamennyi küzdelmét sűríti egy pontba, egy kicsi, kedves játékba, ami átadható egy gyermeknek, a nélkül, hogy az kárt okozna a gyermeknek, és a nélkül, hogy a gyermek tönkre tehetné… Az egyetlen mód ami ezt lehetővé teszi, egy egyezményes kódnyelv, a szimbólumok világa.</p><p>Véleményem szerint ez a mese az idők folyamán "elkopott", avagy "eldeformálódott", így a megértése előtt vissza kell alakítanunk eredeti formájára, vagy jobban mondva vissza kell helyezni eredeti értelmezési közegébe. Remélem az alábbi részletezéssel sikerül majd ezt bizonyítani.</p>',
+
+  'story.storyteller.grimm.title': 'A Grimm fivérek',
+  'story.storyteller.grimm.desc': '<p>Lássuk, mit tudunk a meséről. Azt szinte mindenki tudja, hogy a mesét "grimm fivér" írta. Szerintem ez az általánosan ismert legrégebbi eredet, ameddig a mesét vissza lehet vezetni. Ide van egy érdekes további részletem. A mesét természetesen nem a Grimm testvérek írták, ők "csak" összegyűjtötték, akár csak a német nyelv szavait, szólásmondásait is. Amikor azon ábrándoztam, hogy hogyan lehet "mesét gyújeni" valami nagyon misztikus dologot képzeltem el. Nyilván ki kell menni az erdőbe érte, az a minimum, és ott mindenféle erdei manót megvesztegetni, hogy valami használhatóhoz jussunk. Nos egy német nyelvű dokumentumfilm szerint a valóság ennél prózaibb volt. Az összegyűjtött dokumentumok azt bizonyítják, hogy a mesék jóval egyszerűbben és olcsóbban voltak hozzáférhetők a házuk közelében lévő piacon. </p>',
 
   'story.asWeKnowIt.title': 'Ahogy ismerjük',
   'story.asWeKnowIt.desc': '...',
+
+  'story.scene.beginning.king': 'Egyszer volt, holnem volt, volt egyszer egy király...',
+  'story.scene.beginning.queen': '...és egy  királyné...',
+  'story.scene.beginning.snowwhite': '...És született egy gyermekük, Hófehérke.',
+  'story.scene.beginning.witch': 'A királyné meghalt, helyét a gonosz mostoha vette át.',
 
   'story.scene1.title': 'Az ablaknál',
   'story.scene1.desc': 'Valamikor réges-régen egy királynő ült az ablakánál, varrogatott és közben nézte, hogy hullik a hó. Megszúrta az ujját, és pár csepp vére az ablakpárkányon gyűlt hóra esett. Míg a vért nézte a havon, azt kívánta, hogy bárcsak olyan gyermeke születne, akinek bőre fehér, mint a hó, az ajkai pirosak, mint a vér, és a haja fekete, akár az ében. Nemsokára aztán a királynő világra is hozott egy leányt, akinek a bőre fehér volt, az ajkai vörösek, s a haja ébenfekete. A kis hercegnőt Hófehérkének nevezték. A királynő ezután meghalt.',

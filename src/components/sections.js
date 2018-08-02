@@ -162,7 +162,10 @@ const Sections = [
   },
   {
     id: 'symbol.color',
-    extra: 'https://youtu.be/M7G08_Y1PQQ?t=24m51s',
+    extra: [
+      'https://youtu.be/M7G08_Y1PQQ?t=24m51s',
+      'https://youtu.be/6PFqrwPCPqA&t=14m41s - fekete madonna',
+    ],
   },
   {
     id: 'symbol.color.white',

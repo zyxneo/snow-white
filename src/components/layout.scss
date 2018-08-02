@@ -35,51 +35,7 @@ a {
 
 }
 
-.sidebar {
-  position: fixed;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  width: 250px;
-
-  &:hover {
-    .scrollBar {
-      opacity: 1;
-    }
-  }
-
-  .menu {
-    padding: 0;
-    margin: 0;
-  }
-
-  .item {
-    list-style: none;
-  }
-
-  .is-current {
-    background: rgba(128,128,128,.5);
-  }
-
-  .link {
-    display: block;
-    padding: 5px 10px;
-  }
-}
-
-.scrollBar {
-  transition: opacity ease-in-out .5s;
-  opacity: 0;
-  background: rgba(128,128,128,.5);
-  cursor: ns-resize;
-}
-
 .content {
-  margin-left: 250px;
-  min-width: 550px;
-  max-width: 1150px;
-  padding: 0 4em;
-
   .padded {
     padding: 2em 0;
   }
@@ -89,10 +45,19 @@ a {
   height: 100vh;
 }
 
-.storyGraph {
-  max-height: 100vh;
-}
-
 .scrollable {
   position: relative;
+}
+
+.story {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.story-desc {
+  background: rgba(255,255,255,.5);
+  padding: 1em;
 }
