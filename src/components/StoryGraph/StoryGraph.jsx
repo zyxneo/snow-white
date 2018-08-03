@@ -4,7 +4,6 @@ import React from 'react'
 import * as d3 from 'd3'
 import classNames from 'classnames'
 import Avatar from './Avatar'
-import graphData from './graphData'
 import {
   AvatarWidth,
   AvatarHeight,
@@ -17,6 +16,7 @@ import {
   scaleString,
   scaleAvatar,
   drawBezier,
+  drawCharacterBezier,
 } from './shared'
 
 import './StoryGraph.scss'
@@ -45,11 +45,11 @@ class StoryGraph extends React.Component {
   }
 
   updateGraph = () => {
-    console.log(this.props.graphData.characters)
-    const data = this.props.graphData.characters
+    // console.log(this.props.graphData.characters)
+    const data = this.props.graphData
     const characters = d3.select('.storyGraph #characters')
       .selectAll('g.character')
-      .data(data)
+      .data(data.characters || [])
 
     characters.transition()
       .duration(1000)
@@ -102,109 +102,28 @@ class StoryGraph extends React.Component {
 
     // Exit…
     characters.exit().remove()
-  }
 
-  sceneBeginningKing = () => {
-    const {
-      queen,
-      king,
-    } = this.state
 
-    queen.transition(t)
-      .style('transform', 'scale(.25) translate(60px)')
-      .style('opacity', 0)
+    const arrows = d3.select('.storyGraph #arrows')
+      .selectAll('g.arrows')
+      .data(data.arrows || [])
 
-    king.transition(t)
-      .style('transform', `scale(1) translate(${AvatarCenterD}px, ${AvatarCenterD}px)`)
-      .style('opacity', 1)
-  }
+    const arrow = arrows.enter()
+      .append('path')
+      .attr('id', d => d.id)
+      .attr('d', d => drawCharacterBezier(data.characters, d.fromCharacter, d.fromSide, d.toCharacter, d.toSide))
+      .attr('stroke', d => d.color)
+      .attr('strokeWidth', '1')
+      .attr('fill', 'none')
 
-  sceneBeginningQueen = () => {
-    const {
-      queen,
-      king,
-    } = this.state
-
-    const {
-      graphData,
-    } = this.props
-
-    queen.transition(t)
-      .style('transform', `scale(1) translate(${AvatarCenterD}px, ${AvatarCenterD}px)`)
-      .style('opacity', 1)
-
-    king.transition(t)
-      .style('transform', scaleAvatar(graphData.characters[3].cx, graphData.characters[3].cy, graphData.characters[3].scale))
-      .style('opacity', 1)
-  }
-
-  sceneBeginningSnowwhite = () => {
-    const {
-      queen,
-      king,
-    } = this.state
-
-    const {
-      graphData,
-    } = this.props
-
-    queen.transition(t)
-      .style('transform', `scale(1) translate(${AvatarCenterD}px, ${AvatarCenterD}px)`)
-      .style('opacity', 1)
-
-    king.transition(t)
-      .style('transform', scaleAvatar(graphData.characters[3].cx, graphData.characters[3].cy, graphData.characters[3].scale))
-      .style('opacity', 1)
-  }
-
-  sceneBeginningWitch = () => {
-    const {
-      queen,
-      king,
-    } = this.state
-
-    const {
-      graphData,
-    } = this.props
-
-    queen.transition(t)
-      .style('transform', 'scale(1)')
-      .style('opacity', 1)
-
-    king.transition(t)
-      .style('transform', scaleAvatar(graphData.characters[3].cx, graphData.characters[3].cy, graphData.characters[3].scale))
-      .style('opacity', 1)
+    arrows.exit().remove()
   }
 
   render() {
     const {
-      graphData,
       className,
-      inViewport,
     } = this.props
-    /*
-    switch (inViewport) {
-      case 'story.scene.beginning.king':
-        this.sceneBeginningKing()
-        break
 
-      case 'story.scene.beginning.queen':
-        this.sceneBeginningQueen()
-        break
-
-      case 'story.scene.beginning.snowwhite':
-        this.sceneBeginningSnowwhite()
-        break
-
-      case 'story.scene.beginning.witch':
-        this.sceneBeginningWitch()
-        break
-
-      default:
-        console.log('default')
-        break
-    }
-    */
     return (
       <svg
         className={classNames('storyGraph', className)}
@@ -220,6 +139,7 @@ class StoryGraph extends React.Component {
         </defs>
 
 
+        <g id="arrows" />
         <g id="characters" />
 
         {/*
