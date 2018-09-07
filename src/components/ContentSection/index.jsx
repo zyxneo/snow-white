@@ -16,7 +16,6 @@ const ContentSection = (props) => {
   return (
     <ScrollTrigger onEnter={() => onEnter(id)} onExit={() => onExit(id)}>
       <section key={id} id={id} className="item">
-        <div className="ui hidden divider" />
         <h3>
           <FormattedMessage id={`${id}.title`} />
         </h3>
@@ -25,6 +24,7 @@ const ContentSection = (props) => {
         {
           images && images.map(image => <img key={image} src={`/images/${image}`} className="ui fluid image" />)
         }
+        <div className="ui hidden divider" />
       </section>
     </ScrollTrigger>
   )

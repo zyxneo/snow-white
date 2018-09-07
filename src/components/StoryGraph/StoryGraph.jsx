@@ -24,7 +24,7 @@ import './StoryGraph.scss'
 
 const t = d3.transition().duration(750).ease(d3.easeLinear)
 
-class StoryGraph extends React.Component {
+class StoryGraph extends React.PureComponent {
   constructor(props) {
     super(props)
     this.state = {}
@@ -49,18 +49,18 @@ class StoryGraph extends React.Component {
     const data = this.props.graphData
     const characters = d3.select('.storyGraph #characters')
       .selectAll('g.character')
-      .data(data.characters || [])
+      .data(d3.keys(data.characters) || [], d => d)
 
     characters.transition()
       .duration(1000)
-      .ease(d3.easeElastic)
-      .attr('opacity', d => d.opacity)
-      .style('transform', d => scaleAvatar(d.cx, d.cy, d.scale))
+      .ease(d3.easeExpInOut)
+      .attr('opacity', d => data.characters[d].opacity)
+      .style('transform', d => scaleAvatar(data.characters[d].cx, data.characters[d].cy, data.characters[d].scale))
 
     // Enter…
     const character = characters.enter()
       .append('g')
-      .attr('id', d => d.id)
+      .attr('id', d => d)
       .attr('class', 'character')
 
     character.append('circle')
@@ -74,9 +74,9 @@ class StoryGraph extends React.Component {
       .attr('cx', '50')
       .attr('cy', '50')
       .attr('r', '30')
-      .attr('fill', d => d.color)
+      .attr('fill', d => data.characters[d].color)
     character.append('circle')
-      .attr('class', 'none#######')
+      .attr('class', 'circle')
       .attr('cx', '50')
       .attr('cy', '50')
       .attr('r', '25')
@@ -87,33 +87,39 @@ class StoryGraph extends React.Component {
     character.append('g')
       .attr('clip-path', 'url(#circleMask)')
       .append('image')
-      .attr('x', d => d.imageX)
-      .attr('y', d => d.imageY)
-      .attr('width', d => d.imageWidth)
-      .attr('height', d => d.imageHeight)
-      .attr('href', d => `/avatars/${d.id}.jpg`)
+      .attr('x', d => data.characters[d].imageX)
+      .attr('y', d => data.characters[d].imageY)
+      .attr('width', d => data.characters[d].imageWidth)
+      .attr('height', d => data.characters[d].imageHeight)
+      .attr('href', d => `/avatars/${data.characters[d].id}.jpg`)
     character.append('text')
       .attr('text-anchor', 'middle')
       .attr('class', 'avatar-title')
       .append('textPath')
       .attr('href', '#avatarCircle')
       .attr('startOffset', '75%')
-      .text(d => d.name)
+      .text(d => data.characters[d].name)
 
     // Exit…
     characters.exit().remove()
 
-
     const arrows = d3.select('.storyGraph #arrows')
-      .selectAll('g.arrows')
-      .data(data.arrows || [])
+      .selectAll('path.arrow')
+      .data(d3.keys(data.arrows) || [], d => d)
 
-    const arrow = arrows.enter()
+    arrows.transition()
+      .duration(1000)
+      .ease(d3.easeElastic)
+      .attr('d', d => drawCharacterBezier(data.characters[data.arrows[d].fromCharacter], data.arrows[d].fromSide, data.characters[data.arrows[d].toCharacter], data.arrows[d].toSide))
+      .attr('stroke', d => data.arrows[d].color)
+      .attr('stroke-width', d => data.arrows[d].width || '1')
+      .attr('stroke-dasharray', d => data.arrows[d].dashArray || '')
+      .attr('opacity', d => data.arrows[d].opacity)
+
+    arrows.enter()
       .append('path')
-      .attr('id', d => d.id)
-      .attr('d', d => drawCharacterBezier(data.characters, d.fromCharacter, d.fromSide, d.toCharacter, d.toSide))
-      .attr('stroke', d => d.color)
-      .attr('strokeWidth', '1')
+      .attr('id', d => d)
+      .attr('class', 'arrow')
       .attr('fill', 'none')
 
     arrows.exit().remove()
@@ -140,7 +146,7 @@ class StoryGraph extends React.Component {
 
 
         <g id="arrows" />
-        <g id="characters" />
+        <g id="characters"/>
 
         {/*
 

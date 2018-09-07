@@ -33,7 +33,7 @@ export const drawBezier = (x1, y1, x2, y2, vertical, strength = 0.5) => {
 }
 
 /* eslint-disable complexity */
-export const drawCharacterBezier = (chars, char1, fromSide, char2, toSide, strength = 0.5) => {
+export const drawCharacterBezier = (char1, fromSide, char2, toSide, strength = 0.5) => {
   // beginning
   let x1 = 1
   let y1 = 1
@@ -41,36 +41,31 @@ export const drawCharacterBezier = (chars, char1, fromSide, char2, toSide, stren
   let x2 = 1
   let y2 = 1
 
-  chars.map((char) => {
-    if (char.id === char1) {
-      // console.log(char.scale * (AvatarWidth / 2))
-      x1 = char.cx
-      y1 = char.cy
-      if (fromSide === 'left') {
-        x1 -= (char.scale * AvatarcircleR)
-      } else if (fromSide === 'right') {
-        x1 += (char.scale * AvatarcircleR)
-      } else if (fromSide === 'top') {
-        y1 -= (char.scale * (AvatarcircleR + AvatarTitleHeight))
-      } else {
-        y1 += (char.scale * AvatarcircleR)
-      }
-    }
-    if (char.id === char2) {
-      x2 = char.cx
-      y2 = char.cy
-      if (toSide === 'left') {
-        x2 -= (char.scale * AvatarcircleR)
-      } else if (toSide === 'right') {
-        x2 += (char.scale * AvatarcircleR)
-      } else if (toSide === 'top') {
-        y2 -= (char.scale * (AvatarcircleR + AvatarTitleHeight))
-      } else {
-        y2 += (char.scale * AvatarcircleR)
-      }
-    }
-    return null
-  })
+  // console.log(char.scale * (AvatarWidth / 2))
+  x1 = char1.cx
+  y1 = char1.cy
+  if (fromSide === 'left') {
+    x1 -= (char1.scale * AvatarcircleR)
+  } else if (fromSide === 'right') {
+    x1 += (char1.scale * AvatarcircleR)
+  } else if (fromSide === 'top') {
+    y1 -= (char1.scale * (AvatarcircleR + AvatarTitleHeight))
+  } else {
+    y1 += (char1.scale * AvatarcircleR)
+  }
+
+  x2 = char2.cx
+  y2 = char2.cy
+  if (toSide === 'left') {
+    x2 -= (char2.scale * AvatarcircleR)
+  } else if (toSide === 'right') {
+    x2 += (char2.scale * AvatarcircleR)
+  } else if (toSide === 'top') {
+    y2 -= (char2.scale * (AvatarcircleR + AvatarTitleHeight))
+  } else {
+    y2 += (char2.scale * AvatarcircleR)
+  }
+
 
   // Control points
   let Cx1 = x1
