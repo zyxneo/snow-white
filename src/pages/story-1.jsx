@@ -591,7 +591,7 @@ const story1 = () => (
     </p>
     <p>Hófehérkét üvegkoporsóba fektették
       s arra aranybetűkkel ráírták a nevet, meg
-      hogy aki benne pihen, királylány volt; aztán.
+      hogy aki benne pihen, királylány volt. Aztán
       kivitték a hegyre, egy tisztáson letették egy
       pázsitos halomra, és búcsút vettek tőle.
       De attól fogva csak hatan jártak a bányába,

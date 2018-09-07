@@ -46,6 +46,16 @@ const graphData = {
       opacity: 1,
     },
   ],
+  arrows: [
+    {
+      id: 'queenAndKing',
+      color: 'orange',
+      fromCharacter: 'king',
+      fromSide: 'right',
+      toCharacter: 'queen',
+      toSide: 'left',
+    },
+  ],
 }
 
 export default graphData

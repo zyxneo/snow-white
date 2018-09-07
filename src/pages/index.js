@@ -11,7 +11,12 @@ import { StoryGraph } from '../components/StoryGraph'
 import scene1 from '../components/StoryGraph/scene1'
 import scene2 from '../components/StoryGraph/scene2'
 import scene3 from '../components/StoryGraph/scene3'
+import scene4 from '../components/StoryGraph/scene4'
 import Sections from '../components/sections'
+import Introduction from '../sections/Introduction'
+import Storytelling from '../sections/Storytelling'
+import Textil from '../sections/Textil'
+
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -67,6 +72,8 @@ class IndexPage extends React.Component {
               <FormattedMessage id="site.subtitle" />
             </h2>
             <img className="ui fluid image" src="/images/snowwhite/ec604b93f922dbb736628b8d5cdacfc9.jpg" />
+            <Introduction onEnter={this.onEnterViewport} />
+            <Storytelling onEnter={this.onEnterViewport} />
             {
               Sections.map((section) => {
                 if (section.id === 'story.asWeKnowIt') {
@@ -95,8 +102,7 @@ class IndexPage extends React.Component {
                         />
                         <StorySection
                           id="story.scene.beginning.witch"
-                          onEnter={() => this.onEnterViewport('story.scene.beginning.witch')}
-                          onExit={() => this.onExitViewport('story.scene.beginning.witch')}
+                          onEnter={() => this.setState({ graphData: scene4, inViewport: 'story.scene.beginning.witch' })}
                         />
                       </div>
                       <ScrollTrigger onEnter={this.onEnterEnd} onExit={this.onExitEnd}>&nbsp;</ScrollTrigger>
@@ -114,6 +120,8 @@ class IndexPage extends React.Component {
                 )
               })
             }
+
+            <Textil onEnter={this.onEnterViewport} />
           </div>
         </div>
 

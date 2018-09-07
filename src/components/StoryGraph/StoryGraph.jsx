@@ -105,14 +105,19 @@ class StoryGraph extends React.Component {
 
 
     const arrows = d3.select('.storyGraph #arrows')
-      .selectAll('g.arrows')
+      .selectAll('path.arrow')
       .data(data.arrows || [])
+
+    arrows.transition()
+      .duration(1000)
+      .ease(d3.easeElastic)
+      .attr('d', d => drawCharacterBezier(data.characters, d.fromCharacter, d.fromSide, d.toCharacter, d.toSide))
+      .attr('stroke', d => d.color)
 
     const arrow = arrows.enter()
       .append('path')
       .attr('id', d => d.id)
-      .attr('d', d => drawCharacterBezier(data.characters, d.fromCharacter, d.fromSide, d.toCharacter, d.toSide))
-      .attr('stroke', d => d.color)
+      .attr('class', 'arrow')
       .attr('strokeWidth', '1')
       .attr('fill', 'none')
 

@@ -4,20 +4,6 @@ import { FormattedMessage } from 'react-intl'
 const graphData = {
   characters: [
     {
-      id: 'snowwhite',
-      name: 'Hófehérke',
-      gender: 'female',
-      color: 'pink',
-      imageX: 0,
-      imageY: 0,
-      imageWidth: 100,
-      imageHeight: 100,
-      cx: 60,
-      cy: 60,
-      scale: 0.1,
-      opacity: 1,
-    },
-    {
       id: 'queen',
       name: 'Királynő',
       gender: 'female',
@@ -46,6 +32,7 @@ const graphData = {
       opacity: 1,
     },
   ],
+  arrows: [],
 }
 
 export default graphData

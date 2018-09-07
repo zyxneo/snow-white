@@ -1,34 +1,6 @@
 
 const Sections = [
   {
-    id: 'story.introduction',
-  },
-  {
-    id: 'story.storyteller',
-  },
-  {
-    id: 'story.storyteller.legacy',
-  },
-  {
-    id: 'story.storyteller.commonLanguage',
-  },
-  {
-    id: 'story.storyteller.philosophersStone',
-  },
-  {
-    id: 'story.storyteller.historyOfStorytelling',
-  },
-  {
-    id: 'story.storyteller.emptySymbols',
-    images: [
-      'fairytales/d9d1324cbeee4cb98d791a22d5ef8b3a.jpg',
-    ],
-  },
-  {
-    id: 'story.storyteller.symbols',
-  },
-
-  {
     id: 'story.asWeKnowIt',
   },
   {
@@ -108,36 +80,11 @@ const Sections = [
   },
 
   {
-    id: 'story.textil.historyOfIndustry',
+    id: 'symbol',
   },
   {
-    id: 'story.textil.clothing',
+    id: 'characters',
   },
-  {
-    id: 'story.textil.fates',
-    images: [
-      'fates/three-witches/507b2de3fd7820d7635379419b461e44.jpg',
-      'fates/thread-of-life/37beef605e6b1147dda91067b37373a5.jpg',
-      'fates/thread-of-life/ffa194d2f308ee1ca1d4460730df9bdc.jpg',
-    ],
-  },
-  {
-    id: 'story.textil.dna',
-    images: [
-      'dns/1e128f17a2754dbaacc515b9883f9bd1.jpg',
-      'dns/jf14.reviews.prenatal.large.jpg',
-    ],
-  },
-  {
-    id: 'story.textil.umbilicalCord',
-    images: [
-      'dns/9a89fd44784303216a1ab156c7e37c14.jpg',
-    ],
-  },
-  {
-    id: 'story.textil.lifeBlood',
-  },
-
   {
     id: 'character.queen',
   },
@@ -156,22 +103,32 @@ const Sections = [
   {
     id: 'character.huntsman',
   },
-
-  {
-    id: 'symbol',
-  },
   {
     id: 'symbol.color',
     extra: [
       'https://youtu.be/M7G08_Y1PQQ?t=24m51s',
       'https://youtu.be/6PFqrwPCPqA&t=14m41s - fekete madonna',
+      'https://youtu.be/Fub2KWmGin0?t=1h8m36s - tamasz, yin-yang, kihívás',
+    ],
+    images: [
+      'color/f45122644bfb6b126e0035c22375a506.jpg',
     ],
   },
   {
     id: 'symbol.color.white',
+    images: [
+      'queen/idea/8ca556273fb212b40469c59c5f4e235e.jpg',
+      'queen/idea/37dd928e095a4c611cf716dbae6b29b3.jpg',
+      'queen/idea/dbaea11999b1a9c236272625f3e4ddc7.jpg',
+      'queen/whiteCastle/45994dc442c599c3a4eb16b09afae670.jpg',
+      'queen/whiteCastle/49250c69bf000cad153a0fb497f997c9.jpg',
+    ],
   },
   {
     id: 'symbol.color.black',
+    images: [
+      'snowwhite/c19f3e800217ff5f1ba6052091eaac02.jpg',
+    ],
   },
   {
     id: 'symbol.color.red',
@@ -197,6 +154,9 @@ const Sections = [
   },
   {
     id: 'symbol.jail',
+  },
+  {
+    id: 'symbol.apple',
   },
   {
     id: 'symbol.mine',
