@@ -3,6 +3,13 @@ import ScrollSection from '../components/ScrollSection'
 
 const Section = props => (
   <ScrollSection {...props} id="story.introduction">
+    <img className="ui fluid image" src="/images/snowwhite/ec604b93f922dbb736628b8d5cdacfc9.jpg" />
+    <h1>Hófehérke és a ...</h1>
+    <h2>Egész estés meseelemzés felnőtteknek</h2>
+    <small>avagy</small>
+    <h2>Hófehérke - ami kimaradt</h2>
+    <small>avagy</small>
+    <h2>Hófehérke - újratöltve</h2>
     <h3>Tudtad?</h3>
     <div>
       <p>Hogy a Hófehérke a legősibb mese, a mesék afája és omegája, a mesenaprendszer központi csillaga, hogy innen kezdődik és ide tér vissza minden mese? Hogy a hófehérke mese valójában az egyik legősibb kukturális emlékünk, amelynek fő témája a párkapcsolaton és a szexualitáson keresztül bemutatni az élet misztikus körforgásának alapszerkezét?</p>

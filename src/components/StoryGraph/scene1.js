@@ -1,9 +1,6 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
-
 const graphData = {
-  characters: [
-    {
+  characters: {
+    queen: {
       id: 'queen',
       name: 'Királynő',
       gender: 'female',
@@ -17,7 +14,35 @@ const graphData = {
       scale: 0.25,
       opacity: 0,
     },
-    {
+    snowwhite: {
+      id: 'snowwhite',
+      name: 'Hófehérke',
+      gender: 'female',
+      color: 'pink',
+      imageX: 0,
+      imageY: 0,
+      imageWidth: 100,
+      imageHeight: 100,
+      cx: 52.5,
+      cy: 67.5,
+      scale: 0.25,
+      opacity: 0,
+    },
+    witch: {
+      id: 'witch',
+      name: 'Mostoha',
+      gender: 'female',
+      color: 'pink',
+      imageX: -4,
+      imageY: 20,
+      imageWidth: 120,
+      imageHeight: 120,
+      cx: 82.5,
+      cy: 97.5,
+      scale: 0.25,
+      opacity: 0,
+    },
+    king: {
       id: 'king',
       name: 'Király',
       gender: 'male',
@@ -31,7 +56,35 @@ const graphData = {
       scale: 1,
       opacity: 1,
     },
-  ],
+    prince: {
+      id: 'prince',
+      name: 'Herceg',
+      gender: 'male',
+      color: 'skyblue',
+      imageX: 25,
+      imageY: 10,
+      imageWidth: 50,
+      imageHeight: 100,
+      cx: 67.5,
+      cy: 52.5,
+      scale: 0.25,
+      opacity: 0,
+    },
+    huntsman: {
+      id: 'huntsman',
+      name: 'Vadász',
+      gender: 'male',
+      color: 'skyblue',
+      imageX: 25,
+      imageY: 10,
+      imageWidth: 50,
+      imageHeight: 100,
+      cx: 97.5,
+      cy: 82.5,
+      scale: 0.25,
+      opacity: 0,
+    },
+  },
   arrows: [],
 }
 
