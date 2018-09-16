@@ -11,7 +11,7 @@ const graphData = {
       imageHeight: 100,
       cx: 22.5,
       cy: 37.5,
-      scale: 0.25,
+      scale: 0.3,
       opacity: 0,
     },
     snowwhite: {
@@ -25,7 +25,7 @@ const graphData = {
       imageHeight: 100,
       cx: 52.5,
       cy: 67.5,
-      scale: 0.25,
+      scale: 0.3,
       opacity: 0,
     },
     witch: {
@@ -39,7 +39,7 @@ const graphData = {
       imageHeight: 120,
       cx: 82.5,
       cy: 97.5,
-      scale: 0.25,
+      scale: 0.3,
       opacity: 0,
     },
     king: {
@@ -67,7 +67,7 @@ const graphData = {
       imageHeight: 100,
       cx: 67.5,
       cy: 52.5,
-      scale: 0.25,
+      scale: 0.3,
       opacity: 0,
     },
     huntsman: {
@@ -81,7 +81,7 @@ const graphData = {
       imageHeight: 100,
       cx: 97.5,
       cy: 82.5,
-      scale: 0.25,
+      scale: 0.3,
       opacity: 0,
     },
   },

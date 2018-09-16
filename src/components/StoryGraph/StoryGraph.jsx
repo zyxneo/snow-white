@@ -53,7 +53,7 @@ class StoryGraph extends React.PureComponent {
 
     characters.transition()
       .duration(1000)
-      .ease(d3.easeElastic)
+      .ease(d3.easeExpInOut)
       .attr('opacity', d => data.characters[d].opacity)
       .style('transform', d => scaleAvatar(data.characters[d].cx, data.characters[d].cy, data.characters[d].scale))
 

@@ -6,6 +6,7 @@ import Graph from '../sections/Graph'
 import Introduction from '../sections/Introduction'
 import Storytelling from '../sections/Storytelling'
 import Textil from '../sections/Textil'
+import Symbols from '../sections/Symbols'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -33,8 +34,13 @@ class IndexPage extends React.Component {
           <div className="ui text container list">
             <Introduction onEnter={this.onEnterViewport} />
             <Storytelling onEnter={this.onEnterViewport} />
-            <Graph onEnter={this.onEnterViewport} inViewport={inViewport} />
+            <Graph
+              onEnter={this.onEnterViewport}
+              inViewport={inViewport}
+              onEnterViewport={this.onEnterViewport}
+            />
             <Textil onEnter={this.onEnterViewport} />
+            <Symbols onEnter={this.onEnterViewport} />
           </div>
         </div>
 
