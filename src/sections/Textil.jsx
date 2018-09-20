@@ -69,9 +69,7 @@ const Section = props => (
         <p>A minket körülvevő tremészeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női útat írja le. Több elemzés összpontosít a felcseperedő leánygyermek asszonnyá válásának folyamatára, és ezek az elemzések sokszor kimerülnek a menstruációra utaló szombólumok elemzésével, a „7“köznapok szolgai munkájval, melyek során hófehérke főz, mos, takarít, illetve a mostoha leánygyermeke nőisségének megnyomorításával. Kétségtelenül igazak az említett párhuzamok is, véleményem szerint azonban itt többről van szó. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
 
         <div className="masonry">
-          <img src="/images/dns/9a89fd44784303216a1ab156c7e37c14.jpg" />
           <img src="/images/dns/32de5807acc475392c15cbc49af42f35.jpg" />
-          <img src="/images/dns/127bbdae390c17a90692f3c66deb6de8.jpg" />
         </div>
       </div>
 
@@ -120,11 +118,11 @@ const Section = props => (
         <ul>
           <li>Csipkerózsikát elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
           <li>Lumpenstikli (Rumpelstilzchen) a szalmából is aranyat tud fonni. A magyar megfelelője ennek a mesének a kaponyányi manó. A rumpelstilz - mángorrúd mintájakét eredeti neve a „kapanyélnyi monyú“ etikai okokból nem kerül be a gyermek-mesekönyvekbe.</li>
-          <li>A Holle anyóhoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... (de talán a köldökzsinór fejezetnél látható „puniverzum“ vagy „G.alaxis“ kép a legtalálóbb hasonlat, avagy a mellette lévő születés-halál alagút) Holle anyó amúgy a királynőhöz hasonlóan a hó birodalmáben él. A német Hölle szó poklot jelent.</li>
+          <li>A Holle anyóhoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... Inkább kifejtem külön fejezetben. Holle anyó amúgy a királynőhöz hasonlóan a hó birodalmáben él.</li>
           <li>A lusta fonó (Die faule Spinnerin) - az egész mese alaptémája</li>
           <li>A három fonó (Die drei Spinnerinnen) - az egész mese alaptémája</li>
           <li>Spindel, Weberschiffchen und Nadel - az egész mese alaptémája</li>
-          <li>Dornröschen</li>
+          <li>Csipkerózsika (Dornröschen)</li>
           <li>Die Wassernixe</li>
           <li>Die Schlickerlinge</li>
           <li>Der Sperling und seine vier Kinder</li>

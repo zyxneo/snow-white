@@ -155,9 +155,9 @@ const Section = props => (
     <ScrollSection {...props} id="story.color.red">
       <h3>Vörös</h3>
       <div>
-        <img src="/images/color/red/c172016bf5a11d2cf765cae1fec5218d.jpg" className="ui medium left floated image" /><h4>Mi jut eszünkbe róla?</h4><p>Tűz: fűt, feltüzel, belső energia. Vér, vérvonal, testvér, háború. Lüktető életerő, vágy az életben maradásra. (Élet)</p>
+        <img src="/images/color/red/c172016bf5a11d2cf765cae1fec5218d.jpg" className="ui medium left floated image" /><h4>Mi jut eszünkbe róla?</h4><p>Tűz: fűt, feltüzel, belső energia. A lüktető, oxigéndús vér színe, életerő, vágy az életben maradásra (Élet). Vérvonal, testvér, háború.</p>
         <p>Radzsasz, az érzékiség világa. (noha a szó „királyit“ jelent, a mesében a király és királynő a szattva létszintjéhez tatozik) „a mozgás, erőkifejtés, lendület, nyughatatlanság, szenvedélyesség sajátossága“.</p>
-        <p>A szerelmespár színe, a szív színe, mely egymásért dobog, és mely veszélyben van. A párkák által font élet fonalának a színe. A vágy színe, „a vágy hozza létre a menyországot és a poklot“ (Bakos Attila - A Duna evangéliuma). (A vörös áll a fekete és a fehér között, a jellem fejlődése innen két irányba törénhet)</p>
+        <p>A szerelmespár színe, a szív színe, mely egymásért dobog, és mely veszélyben van. A napfelkelte és a naplemente színe, vagyis a napkorong azon színe, amely félúton közötte áll a delelő, vakító fehér fénynek és az éjszaka fekete sötétjének. A párkák által font élet fonalának a színe, mely születés és halál között húzódik. A vágy színe, „a vágy hozza létre a menyországot és a poklot“ (Bakos Attila - A Duna evangéliuma). (A vörös áll a fekete és a fehér között, a jellem fejlődése innen két irányba törénhet)</p>
       </div>
     </ScrollSection>
 
@@ -262,9 +262,53 @@ const Section = props => (
       <h3>Alma</h3>
       <div>
         <p>Az alma egy termés, szigorú értelmezésben az alma nevű növény termése, tágabban az almafélék termése. Még tágabb értelemben a rózsafélék termése is hasonlít az almára, pélrául gránátalma. De ha a csipkerózsa termésére gondolunk, egy másik mese is ide köthető, amiben az orsó is nagy szerepet kap. Népművészeti ábrázolások közt gyakori szimbólum, női jelkép. A kerekre, vérpirosga érett alma a méh (uterus) szimbóluma is lehet.</p>
-        <p>Véleményem szerint a közismert mesében jelentéktelen és alig értelmezhető szerepet kap ez a szimbólum. Nagyon érdekes másfelől az a búvópatakként előtörő szimbólum amikor a felnyíló alma magja kihajt.</p><img src="/images/snowwhite/biancaneve/Biancaneve-281629.jpg" className="ui fluid image" /><p>A mérgerett alma megakadása a torokban egységes a meseváltozatok között is, de az, hogy hogyan lesz eltávolítva nem. Egyesekben herceg csókja segít, másokban a balfék törpék elejtik a koporsót, de végeredményben nem zárja el többé a légutakat, és ezzel az alma begejezte szerepét. Hmm... Hol itt a tanulság kérem? Hát nem sokkal szebb lenne ha a földre eső alma magja kihajtana? Ráadásul úgy, hogy a két fél közösen növesztene hajtást? Mindenképp elgondolkodtatóbb... „Az ember lényegi sajátosságait fölösleges, sőt káros egymást kizáró tényezőkként feltüntetni.“</p>
+        <p>Véleményem szerint a közismert mesében jelentéktelen és alig értelmezhető szerepet kap ez a szimbólum. Nagyon érdekes másfelől az a búvópatakként előtörő szimbólum amikor a felnyíló alma magja kihajt.</p>
+        <img src="/images/snowwhite/biancaneve/Biancaneve-281629.jpg" className="ui fluid image" />
+        <p>A mérgerett alma megakadása a torokban egységes a meseváltozatok között is, de az, hogy hogyan lesz eltávolítva nem. Egyesekben herceg csókja segít, másokban a balfék törpék elejtik a koporsót, de végeredményben nem zárja el többé a légutakat, és ezzel az alma begejezte szerepét. Hmm... Hol itt a tanulság kérem? Hát nem sokkal szebb lenne ha a földre eső alma magja kihajtana? Ráadásul úgy, hogy a két fél közösen növesztene hajtást? Mindenképp elgondolkodtatóbb... „Az ember lényegi sajátosságait fölösleges, sőt káros egymást kizáró tényezőkként feltüntetni.“</p>
         <p>Az alma preparálása sem tiszta. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészszéges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
         <p>Mint kiderült, az egyes mesék eltérnek az alma leírását illetően. Mivel az „I Pet Goat II“ animációt többségében francia nevű alkotók készítették, megkérdeztem a kollégámat, ismer-e valamit a maggal gapcsolatban. Azt ugyan nem, de elmondása szerint náluk az alma egyik fele piros, a másik fehér volt. Megjegyezte, ennek nem sok értelmét látja. Nekem viszont ez olaj volt a tűzre, hiszen az olasz Biancaneve illusztrációiban is pont ezt látni.</p><img src="/images/snowwhite/biancaneve/Biancaneve-28329.jpg" className="ui fluid image" />
+      </div>
+    </ScrollSection>
+
+    <ScrollSection {...props} id="story.symbol.mine">
+      <h3>A hét</h3>
+      <div>
+        <p>Szándékosan nem törpe. Utálom őket. Hogy olyan kis... izék...</p>
+        <p>Hogyan hívták őket? </p>
+        <img src="/images/7/6136290580b43221a4d2066e04fd36bd.jpg" className="ui medium right floated image" />
+        <ol>
+          <li>Dó</li>
+          <li>Ré</li>
+          <li>Mi</li>
+          <li>Fá</li>
+          <li>Szó</li>
+          <li>Lá</li>
+          <li>Ti?</li>
+        </ol>
+        <div className="clearfix" />
+        vagy
+        <ol>
+          <li>Vörös</li>
+          <li>Narancs</li>
+          <li>Sárga</li>
+          <li>Zöld</li>
+          <li>Kék</li>
+          <li>Indigó</li>
+          <li>Ibolya?</li>
+        </ol>
+        vagy netán
+        <img src="/images/7/e267397e1f04035edfa97f980874d2be.jpg" className="ui medium right floated image" />
+        <ol>
+          <li>Muladhara (Gyökér-)</li>
+          <li>Svadisthana (Szakrális-)</li>
+          <li>Manipura (Napfonat-)</li>
+          <li>Anahata (Torok-)</li>
+          <li>Visuddha (Szív-)</li>
+          <li>Ajna (Homlok-)</li>
+          <li>Sahasrara (Koronacsakra)?</li>
+        </ol>
+        <div className="clearfix" />
+        <p>Nem. Hapci, Vidor, mittudomén... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, hat irányba, előre-hátra, jobbra-balra és fel-le, ez a mi három dimeniós világunk. Ennek a meghaladásáról lenne szó? Ez egy külön planéta, a Hetedhét ország?</p>
       </div>
     </ScrollSection>
 

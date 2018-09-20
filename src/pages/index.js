@@ -1,5 +1,4 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
 import Layout from '../components/layout'
 import { withIntl } from '../i18n'
 import Graph from '../sections/Graph'
@@ -7,6 +6,7 @@ import Introduction from '../sections/Introduction'
 import Storytelling from '../sections/Storytelling'
 import Textil from '../sections/Textil'
 import Symbols from '../sections/Symbols'
+import Terminal from '../sections/Terminal'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -41,6 +41,7 @@ class IndexPage extends React.Component {
             />
             <Textil onEnter={this.onEnterViewport} />
             <Symbols onEnter={this.onEnterViewport} />
+            <Terminal onEnter={this.onEnterViewport} />
           </div>
         </div>
 
