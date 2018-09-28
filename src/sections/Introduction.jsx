@@ -10,7 +10,8 @@ const Section = props => (
     <h2>Hófehérke - ami kimaradt</h2>
     <small>avagy</small>
     <h2>Hófehérke - újratöltve</h2>
-    <p>Sok képpel, hogy ne únjátok halálra magatokat...</p>
+    <p>avagy Hófehérke Csipkerózsika orsójával Holle anyónál... Szóvan nem csak hófehérke...</p>
+    <p>Sok képpel, hogy ne unjátok halálra magatokat... (jobb egérgomb, kép megjelenítése a kinagyításhoz)</p>
     <h3>Tudtad?</h3>
     <div>
       <p>Hogy a Hófehérke a legősibb mese, a mesék afája és omegája, a mesenaprendszer központi csillaga, hogy innen kezdődik és ide tér vissza minden mese? Hogy a hófehérke mese valójában az egyik legősibb kukturális emlékünk, amelynek fő témája a párkapcsolaton és a szexualitáson keresztül bemutatni az élet misztikus körforgásának alapszerkezét?</p>

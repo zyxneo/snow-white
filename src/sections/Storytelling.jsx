@@ -88,12 +88,12 @@ const Section = props => (
         <p>Arcképe bekerült a Grimm mesék második kötetébe, megnevezés helyett ezzel a felirattal: „a mesemondónő“ („<a href="https://upload.wikimedia.org/wikipedia/commons/3/36/Die_Maerchenfrau.jpg" target="_blank" rel="noopener noreferrer">Märchenfrau“</a>). Ő az egyik legjobban dokumentált forrás, megközelítőleg 40 mesét jegyeznek a nevéhez, és még biztos sok érdekes dolgot, egyvalamit azonban nem: a Hófehérkét. A mese eredete így méginkább a ködös múltba vész. Dorothea történetét azért akartam mindenképp megemlíteni, mert jól pédázza a mesemondókat, így a mese útját. A mese átalakulását pedig a maguk a Grimm meséskönyvek bizonyítják 7 kortárs kiadáson keresztül, a mese u.i. több változatban került lejegyzésre, és végül maguk Grimmék csiszolták arra a formára ami jelenleg az interneten is a legelterjedtebb. Csakhogy egy nem az a forma, ami a gyűjtésekből származik, lefogadom, még csak nem is az, ahogyan ismerjük...</p>
 
         <p>Az első kép L. Katzenstein festénye, grimmék a mesemondónőnél címmel, a második egy erről készült metszet. Ezeknek a képeknek később még szeretnék külön jelentőséget tulajdonítani...</p>
-        <div style={{ columnCount: 2, columnGap: '10px' }}>
+        <p style={{ columnCount: 2, columnGap: '10px' }}>
           <img className="ui fluid image" src="/images/grimm/viehmann-1.jpg" />
           <img className="ui fluid image" src="/images/grimm/viehmann-2.jpg" />
-        </div>
+        </p>
 
-        <p>Hófehérke a Grimm Kinder- und Hausmerchen első, 1812-es kiadásában:</p>
+        <p>Hófehérke a Grimm Kinder- und Hausmerchen első, 1812-es eredeti gótbetűs kiadásában: (Amúgy ha valakinek megvan ez a könyv engem nagyon érdekelne, szívesem meg is venném, de nem 42.000.000 Ft-ért, amennyiért legutóbb láttam...)</p>
         <img className="ui fluid image" src="/images/grimm/schneewittchen.jpg" />
 
       </div>
@@ -101,6 +101,12 @@ const Section = props => (
       <h3>A mese magyar vonatkozásai</h3>
       <div>
         <p>Az elemzés során - remélhetőleg - a magyar nyelv sajátos egyezéseire is kitérnék. Nem valamiféle nacionalizmus vezérel, pusztán úgy „magyarázom“ ahogy tudom, így ha magyar nyelvi hasonlatokkal élek, tudjátok be annak, hogy csak a megértést próbálom segíteni. Nem Dorothea írja most ezt az elemzést. Neki francia felmenői voltak, így az ő meséi szimbólumainak gyökereit is a francia kultúrában keresik, a fennmaradó rész pedig a Grimmek révén a germanisztika tárgykörét képezi. Szerintem a mesék egyetemes tudást képviselnek. Állítólag a mese alapszerkezete <a href="http://starling.rinet.ru/kozmin/tales/?index=types&searchnumber=709&numtype=" target="_blank" rel="noopener noreferrer">világszerte fellelhető</a>, s magam úgy vélem, kora felülmúlja a nemzetállamokét.</p>
+      </div>
+    </ScrollSection>
+    <ScrollSection {...props} id="story.storytelling.autopsie">
+      <h3>Elemzés</h3>
+      <div>
+        <p>A mese elemzése során a boncasztalra kívánom fektetni a hófehérkét, hogy minden rétegét alaposan megismerhessük. Ez az elemzés ennyiben egyedülálló lesz, ebben eltér minden más értelmezéstől. Hozzávalók: Hófehérke, boncasztal, szike, <s>vödör a vérnek, vödör a hányáshoz</s>. Az egyetlen probléma ezzel a megközelítéssel, hogy nem <i>in vivo</i> azaz nem természetes élőhelyén figeljük meg a Hófehérkét, ahogy éjszaka szaladgál az erdőben, hanem kimerevítve, élettől mentesen. Viszont fontosnak tartom, hogy egyszer tudjunk beletekinteni azokba a rétegekbe, melyekbe egy hétköznapi értelmezés nem juthat el.</p>
       </div>
     </ScrollSection>
   </React.Fragment>

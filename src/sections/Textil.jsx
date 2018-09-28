@@ -7,7 +7,7 @@ const Section = props => (
       <h3>A textilipar fejlődése</h3>
       <div>
         <img src="/images/queen/window/bafab403a16de2beb62be5c9badce849.jpg" className="ui medium left floated image" />
-        <p>Szögezzük le, nem biztos, hogy mit is csinál a királynő az ablakban, varr, fon, (köt), de nyilván textilipari kézműves tevékenységet végez, miközben megszúrja az ujját. Ma azt is hihetnénk, varrógéppel dolgozott. Jelenleg műanyag ipari termékekben járunk, és nem ismerjük az eredetét az eleve rongyosra szaggatottan kapható göncöknek. Így nagy hátránnyal indulunk a megértéshez. Nem volt ez mindig így, az elmúlt 80 évben sorsdöntő fordulat zajlott le. A legidősebbek még emlékeznek a len, kender feldolgozására, fonásra, szövésre, hímzésre.</p>
+        <p>####Szögezzük le, nem biztos, hogy mit is csinál a királynő az ablakban, varr, fon, (köt), de nyilván kézműves tevékenységet végez, miközben megszúrja az ujját. Ma azt is hihetnénk, varrógéppel dolgozott. Jelenleg műanyag ipari termékekben járunk, és nem ismerjük az eredetét az eleve rongyosra szaggatottan kapható göncöknek. Így nagy hátránnyal indulunk a megértéshez. Nem volt ez mindig így, az elmúlt 80 évben sorsdöntő fordulat zajlott le. A legidősebbek még emlékeznek a len, kender feldolgozására, fonásra, szövésre, hímzésre.</p>
         <div className="clearfix" />
       </div>
 
@@ -39,7 +39,7 @@ const Section = props => (
 
         <p className="padded">A három ősi boszorka tehát az élet fonalát sodorja. Az egyik a szöszt adja, a másik sodorja, a harmadik a fonalat elvágja</p>
         <img src="/images/fates/thread-of-life/e060710ee49c97f5e15f0107682903b3.jpg" className="ui fluid image" />
-        <p className="padded">Gubanc, tekervény, sodrat, fonal, szövet, textil...  Az ablaknál fonó királynő előrevetíti a jövő történéseit: hófehérke „gubancba“ keveredik, az élet messzire „sodorja“. Ebben a kon„textus“ban a királynő egy párka, ábrándokat „sző“. A mostoha „fon“dorlatos, a történet „fonala“ „tekervényes“.</p>
+        <p className="padded">Gubanc, tekervény, sodrat, fonal, szövet, textil...  Az ablaknál kézműves tevékenységet végző királynő előrevetíti a jövő történéseit: hófehérke „gubancba“ keveredik, az élet messzire „sodorja“. Ebben a kon„textus“ban a királynő egy párka, ábrándokat „sző“. A mostoha „fon“dorlatos, a történet „fonala“ „tekervényes“.</p>
 
         <p>
           <img src="/images/fates/three-witches/507b2de3fd7820d7635379419b461e44.jpg" className="ui fluid image" />
@@ -65,8 +65,22 @@ const Section = props => (
 
       <h3>Köldökzsinór</h3>
       <div>
-        <p>A látható biológiai szál, mely fizikailag összeköti anyát gyermekével. Az anyának is van köldöke, a lánygyermeknek méhe, mutatva a végtelen láncolatot – mint a Matrjoska baba. (Ha szaporosásbiológiailag vizsgáljuk meg a mese mondanivalóját, ismét érdekes dolgot találunk: A királynő, aki egy nőstény, épp az ablaknál „hímez“. A hímpor, a hímzés díszítő jellege a hím állatok díszességére utal, igy jogos a feltételezés, miszerint az élet folyamának fenntartása zajlik épp).</p>
-        <p>A minket körülvevő tremészeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női útat írja le. Több elemzés összpontosít a felcseperedő leánygyermek asszonnyá válásának folyamatára, és ezek az elemzések sokszor kimerülnek a menstruációra utaló szombólumok elemzésével, a „7“köznapok szolgai munkájval, melyek során hófehérke főz, mos, takarít, illetve a mostoha leánygyermeke nőisségének megnyomorításával. Kétségtelenül igazak az említett párhuzamok is, véleményem szerint azonban itt többről van szó. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
+        <p>A látható biológiai szál, mely fizikailag összeköti anyát gyermekével. Az anyának is van köldöke, a lánygyermeknek méhe, mutatva a végtelen láncolatot – mint a Matrjoska baba.</p>
+        <p>A fonás során a szál a guzsalyra akasztott szöszből sodródik. A szösz szimbólikusan egy nagy adag formátlan, laza kóc, valami, ami magában még szinte <b>semmi</b> Bár tapintható, de szétesik az ember keze között, egyfajta szilárd köd. Ebből a kuszaságból formálja meg a szálat a fonó egy finom sodrattal.</p>
+        <p>(Ha szaporosásbiológiailag vizsgáljuk meg a mese mondanivalóját, ismét érdekes dolgot találunk: A királynő, aki egy nőstény, épp az ablaknál „hímez“. A hímpor, a hímzés díszítő jellege a hím állatok díszességére utal, igy jogos a feltételezés, miszerint az élet folyamának fenntartása zajlik épp).</p>
+        <p className="masonry">
+          <img src="/images/dns/matrjoska/019652849fd22db5f0088af040962781.jpg" />
+          <img src="/images/dns/matrjoska/3880be7de644038d7cfb468b6a747d00.jpg" />
+          <img src="/images/dns/matrjoska/0_f546b_588af444_orig.jpg" />
+          <img src="/images/dns/matrjoska/a13b3422c1cbc19413a7dfecd5958f7a.jpg" />
+          <img src="/images/dns/matrjoska/dbebe4312c34d5cfa7c8d4149d024098.jpg" />
+          <img src="/images/dns/matrjoska/b58489aba261b35eb8ad0d6279d57192.jpg" />
+          <img src="/images/dns/matrjoska/1e1cf6035e3249360c99559e50ef6a0a.jpg" />
+          <img src="/images/dns/matrjoska/927fb907e09d87f9a6bd0900e42c9180.jpg" />
+        </p>
+        <p>A minket körülvevő tremészeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női útat írja le. Több elemzés összpontosít a felcseperedő leánygyermek asszonnyá válásának folyamatára, és ezek az elemzések sokszor kimerülnek a menstruációra utaló szombólumok elemzésével, a „7“köznapok szolgai munkájval, melyek során hófehérke főz, mos, takarít, illetve a#### mostoha leánygyermeke nőisségének megnyomorításával. Kétségtelenül igazak az említett párhuzamok is, véleményem szerint azonban itt többről van szó. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
+
+        <p>Ideális esetben a női és férfi út egymással párhuzamosan halad, mint egy felívelő spirál, a nemek egymást kiegészítik, egymást segítik a kiteljesedésben. A fonás során az elkészült finom fonalakból cérnát lehet készíteni, mégpedig két szál összesodrásával. A rokkához ezért jellemzően három orsó dukál, mikor két orsó elkészült, át lehet fonni a cérnát a harmadikra. Egyfajta szentháromság motívum, a férfi és női szál összefonódásából keletkező sodrat, a köldökzsinór szimbóluma is lehet ez.</p>
 
         <div className="masonry">
           <img src="/images/dns/32de5807acc475392c15cbc49af42f35.jpg" />
@@ -75,8 +89,8 @@ const Section = props => (
 
       <h3>A vércsepp, a vérvonal</h3>
       <div>
-        <p>Az orsó csak a mesekfilmekben néz ki úgy ahogy. Az ősi orsók, amely időből a történet is származik, nem rokkán voltak, hanem önmagukban használták őket. Ez egy hosszúkás szerszám, egy 15-20 cm-es „rudacska“ egyik végén egy „bumszlival“, ami elhegyesedik. (Nagyon szép példa a feljebb megtekinthető képen az ablak mellett fonó királynő kezében van.) Megszúrni valakit viszont csak a másik végéről lehet… Phallikus szimbólumnak is nevezhetnénk. 1 csepp vér hull az orsó nyomán, és ez az alábbiakra enged következtetni: 1., Nem ért vénát, 2., röviddel az orsó behatolása után elmaradt a vérzése, 3., esetlegesen először szúrta meg orsó, és ez kevés vér elfolyásával járt.</p>
-        <p>Milyen érdekes, hogy az említett élet szálát fonó orsót ha „elkoptatjuk“, megkapjuk a koporsó szót, ami szintén szerepel a mesében. <b>Orsó</b> - kop<b>orsó</b>. A fonás és a vér együttes szimbóluma az élet fonalára utalhat, amelyet gyakran ábrázolnak piros fonallal.</p>
+        <p>A rokkán lévő orsóval nem lehet megszúrni magát az embernek. Az ősi orsók, amely időből a történet is származik, nem rokkán voltak, hanem önmagukban használták őket. Ez egy hosszúkás szerszám, egy 15-20 cm-es „rudacska“ egyik végén egy „bumszlival“, ami elhegyesedik. Phallikus szimbólumnak is nevezhetnénk. Nagyon szép példa a feljebb megtekinthető képen az ablak mellett fonó királynő kezében van, most tételezzük fel, hogy a királynő valóban font. 1-3 csepp vér hull az orsó nyomán, és ez az alábbiakra enged következtetni: 1., Nem ért vénát, 2., röviddel az orsó behatolása után <i>elmaradt a vérzése</i>, 3., esetlegesen <i>először</i> szúrta meg orsó, és ez kevés vér elfolyásával járt.</p>
+        <p>A fonás és a vér együttes szimbóluma az élet fonalára utalhat, amelyet gyakran ábrázolnak piros fonallal.</p>
 
         <div className="masonry">
           <img src="/images/blood/b83c400a44b7d142921f5ffbba763a55.jpg" />
@@ -96,7 +110,7 @@ const Section = props => (
     <ScrollSection {...props} id=".story.textil.tissue">
       <h3>Szövettan, avagy varrodai leletek</h3>
       <div>
-        <p>Németül a varrás: <i>nähen</i>, a közelben: <i>in der Nähe</i>. Magyarul a var hegesedő sebet jelent. A varrás ősi, tágabb értelmű vagy rokonító jelentése szerintem a nyílt rész összehúzása, vágat, seb sebződése, annak gyógyulása összeforradással, közeli, összetartozó élek közelítése, összeolvadása, összehúzódása. A sebészetben a sebet tűvel, cérnával varrják össze, majd az magától varrasodik. A var szó rokonítható a bőr szóval.</p>
+        <p>Németül a varrás: <i>nähen</i>, a közelben: <i>in der Nähe</i>. Magyarul a var hegesedő sebet jelent. A varrás ősi, tágabb értelmű vagy rokonító jelentése szerintem a nyílt rész összehúzása, vágat, seb sebződése, annak gyógyulása összeforradással, közeli, összetartozó élek közelítése, összeolvadása, összehúzódása. A sebészetben a sebet tűvel, cérnával varrják össze, majd az magától varasodik. A belsőszervek nem varasodnak, csak a felszín, a var szó rokonítható a bőr szóval.</p>
         <p>A ruhaneműk életciklusában három fontos varrást különböztetnék meg:</p>
         <ol>
           <li>Szabás-varrás: a méteráru vágása, és összeillesztése. A különböző módon szőtt szöveteket formára vágják, és összevarrják, így hozva létre kezeslábas, emberforma ruhákat.</li>
@@ -108,53 +122,17 @@ const Section = props => (
           <img src="/images/dns/cb6b01d8a7e3fa5a827663e0b466da45.jpg" className="ui fluid image" />
         </p>
         <p>Hosszas példáim célja, hogy alátámasszam: a mese elején elhangzó mondat avagy tagmondat nem kevesebbet vetít előre, mint hogy Hófehérke meg fog születni. Az ember fog megszületni. Egy világ fog megszületni. S valóban, megszületik Hófehérke, a kislány aki felnő és nővé válik, az ember aki kifejlődik és beteljesíti küldetését, egy világkép, amely világos majd sötét és újra világos. Átalakul, majd elmúlik olyannak lenni mint amilyen volt, és visszatér önmagába. Újra és újra...</p>
+
+        <p>Judit hozzáfűzései:</p>
+        <ol>
+          <li>Fonás: Lehetőséget ad a teremtésre. Megjegyzem, a 0 dimenzióból teremti az 1 dimenziót, az egyenest, a szálat.</li>
+          <li>Szövés: Maga a teremtés Alapanyag készítés. Megteremti a létezés alapját, az alapsíkot, egyről a kettőre jut, 1 dimenzióból a 2-be.</li>
+          <li>Varrással a harmadik dimenzióba lépünk. A hímzés: Minőseget ad a teremtménynek.</li>
+        </ol>
+        <p>A királynő hímzett, nem teremtett, hanem a minőséget adta meg, mert maga is egy minőség. A parasztasszonyok fontak-szőttek, az udvarhölgyek hímeztek. Megkapták a gyolcsot, a finom anyagokat és hímezgettek szépen.</p>
       </div>
     </ScrollSection>
 
-    <ScrollSection {...props} id=".story.textil.spindle">
-      <h3>Fonás</h3>
-      <div>
-        <p>Az orsó (die Spindel), mint a fonás szimbóluma, avagy a fonás maga (spinnen) számtalan Grimm mesében megjelenik. Ezek a mesék további értelmezést adhatnak, miért is fontos szimbólum pl. az ujj megszúrása. Hogy kitegyem az i-re a pontot, és visszhelyezzem a kidobott rokkákat és orsókat a helyükre, itt egy lista ugyanazon Grimm kötetből, melyben orsó és/vagy fonás szerepel:</p>
-        <ul>
-          <li>Csipkerózsikát elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
-          <li>Lumpenstikli (Rumpelstilzchen) a szalmából is aranyat tud fonni. A magyar megfelelője ennek a mesének a kaponyányi manó. A rumpelstilz - mángorrúd mintájakét eredeti neve a „kapanyélnyi monyú“ etikai okokból nem kerül be a gyermek-mesekönyvekbe.</li>
-          <li>A Holle anyóhoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... Inkább kifejtem külön fejezetben. Holle anyó amúgy a királynőhöz hasonlóan a hó birodalmáben él.</li>
-          <li>A lusta fonó (Die faule Spinnerin) - az egész mese alaptémája</li>
-          <li>A három fonó (Die drei Spinnerinnen) - az egész mese alaptémája</li>
-          <li>Spindel, Weberschiffchen und Nadel - az egész mese alaptémája</li>
-          <li>Csipkerózsika (Dornröschen)</li>
-          <li>Die Wassernixe</li>
-          <li>Die Schlickerlinge</li>
-          <li>Der Sperling und seine vier Kinder</li>
-          <li>Die Gänsehirtin am Brunnen</li>
-        </ul>
-
-        <div className="masonry">
-          <img src="/images/fairytales/9310794dda3cbe1fc101108c2b9d2040.jpg" />
-          <img src="/images/fairytales/13f71b06d0e2bca27549ed6ed7892fab.jpg" />
-          <img src="/images/fairytales/aab0667a3ef2d4b3cbdd7957b8759c7f.jpg" />
-          <img src="/images/fairytales/2096352872310edbff0dc3fd7a0d86ea.jpg" />
-          <img src="/images/fairytales/d40552a519574f7fbed1ea72d1d0e928.jpg" />
-          <img src="/images/fairytales/e1fda19e8a537dff40a9d0d33322d8f8.jpg" />
-        </div>
-      </div>
-    </ScrollSection>
-
-    <ScrollSection {...props} id=".story.textil.the-old-lady">
-      <h3>Az öreg nő megmutatja</h3>
-      <div>
-        <p>További érdekes, de egyre rejtélyesebb téma az amikor némely történetben az öreg nő megmutatja fiatalnak, hogy hogyan kell...</p>
-
-        <div className="masonry">
-          <img src="/images/fates/spinning/the-old-lady/1f6ccd2abfe8df8fca0be7b6593d8b92.jpg" />
-          <img src="/images/fates/spinning/the-old-lady/4502754d2ecaf659aa7e41c0866fccb3.jpg" />
-          <img src="/images/fates/spinning/the-old-lady/11ad5ffac50cc4b84a021d9e49050bf1.jpg" />
-          <img src="/images/fates/spinning/the-old-lady/2f02201fa2ba51f981a25957aab076cf.jpg" />
-          <img src="/images/fates/spinning/the-old-lady/70a1bfd5540f0261341e9809bf37914b.jpg" />
-          <img src="/images/fates/spinning/the-old-lady/c9cd9a6caeb7b30461772c8c878a3107.jpg" />
-        </div>
-      </div>
-    </ScrollSection>
   </React.Fragment>
 )
 

@@ -7,6 +7,8 @@ import Storytelling from '../sections/Storytelling'
 import Textil from '../sections/Textil'
 import Symbols from '../sections/Symbols'
 import Terminal from '../sections/Terminal'
+import Holle from '../sections/Holle'
+import SleepingBeauty from '../sections/SleepingBeauty'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -42,6 +44,8 @@ class IndexPage extends React.Component {
             <Textil onEnter={this.onEnterViewport} />
             <Symbols onEnter={this.onEnterViewport} />
             <Terminal onEnter={this.onEnterViewport} />
+            <Holle onEnter={this.onEnterViewport} />
+            <SleepingBeauty onEnter={this.onEnterViewport} />
           </div>
         </div>
 
