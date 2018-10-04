@@ -91,7 +91,7 @@ class StoryGraph extends React.PureComponent {
       .attr('y', d => data.characters[d].imageY)
       .attr('width', d => data.characters[d].imageWidth)
       .attr('height', d => data.characters[d].imageHeight)
-      .attr('href', d => `/avatars/${d}.jpg`)
+      .attr('href', d => `/avatars/${data.characters[d].id}.jpg`)
     character.append('text')
       .attr('text-anchor', 'middle')
       .attr('class', 'avatar-title')
@@ -105,19 +105,21 @@ class StoryGraph extends React.PureComponent {
 
     const arrows = d3.select('.storyGraph #arrows')
       .selectAll('path.arrow')
-      .data(data.arrows || [])
+      .data(d3.keys(data.arrows) || [], d => d)
 
     arrows.transition()
       .duration(1000)
       .ease(d3.easeElastic)
-      .attr('d', d => drawCharacterBezier(data.characters, d.fromCharacter, d.fromSide, d.toCharacter, d.toSide))
-      .attr('stroke', d => d.color)
+      .attr('d', d => drawCharacterBezier(data.characters[data.arrows[d].fromCharacter], data.arrows[d].fromSide, data.characters[data.arrows[d].toCharacter], data.arrows[d].toSide))
+      .attr('stroke', d => data.arrows[d].color)
+      .attr('stroke-width', d => data.arrows[d].width || '1')
+      .attr('stroke-dasharray', d => data.arrows[d].dashArray || '')
+      .attr('opacity', d => data.arrows[d].opacity)
 
-    const arrow = arrows.enter()
+    arrows.enter()
       .append('path')
-      .attr('id', d => d.id)
+      .attr('id', d => d)
       .attr('class', 'arrow')
-      .attr('strokeWidth', '1')
       .attr('fill', 'none')
 
     arrows.exit().remove()
@@ -144,7 +146,7 @@ class StoryGraph extends React.PureComponent {
 
 
         <g id="arrows" />
-        <g id="characters" />
+        <g id="characters"/>
 
         {/*
 

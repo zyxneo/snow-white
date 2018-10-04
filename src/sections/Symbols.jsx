@@ -20,7 +20,7 @@ const Section = props => (
 
       <h3>Karakterek</h3>
       <div>
-        <p>A mesében feltünő különböző karakterek felfoghatók szimbólumokként. Elemzésem célja, hogy bizonyítsam, hat fő karakterre épít a mese, 3 női, 3 férfi karakterre. A 3-3 karakter azonban egyugyanazon ember különböző állapotát hivatott szimbólizálni, a nőét és a férfiét. Mivel az eltérő nemi karakterek egymással párhuzamba állíthatók, egymásnak megfeleltethetők, így végső soron egy általános <i>emberi</i> jellem-átalakulást is ki lehet domborítani a részletek felhasználásával.</p>
+        <p>A mesében feltünő különböző karakterek felfoghatók szimbólumokként. Elemzésem célja, hogy bizonyítsam, hat fő karakterre épít a mese, 3 női, 3 férfi karakterre. A 3-3 karakter azonban egyugyanazon ember különböző állapotát hivatott szimbolizálni, a nőét és a férfiét. Mivel az eltérő nemi karakterek egymással párhuzamba állíthatók, egymásnak megfeleltethetők, így végső soron egy általános <i>emberi</i> jellem-átalakulást is ki lehet domborítani a részletek felhasználásával.</p>
         <p>Az amerikai tipusú filmektől megszokhattuk, hogy a karaktereik u.n. <i>egydimenziós</i> karakterek, azaz vagy nagyon jók, vagy nagyon rosszak. Ezek a történetek már nem adják meg annak a lehetőségét, hogy az ember elgondolkodjon a közöttük lévő kapcsolaton, és tanulságokat vonjon le saját jellemi fejlődését illetően. A hollywoodi történetek megkönnyítik az állásfoglalást, mindenki a jó karakterrel azonosul, a rossz pedig mindig a másik ember. A hófehérke mese karakterei ezzel szemben ugyanazon személy fejlődésének állapotait mutatják be. A mese célja, hogy a gyermeket erre felkészítse, ezért rejtett szálakkak összeköti őket, rámutat hogyan formálódik egyik jellemből a másik. Az ilyen ősi jellemkaraktereket Jung <i>archetipusnak</i> nevezte.</p>
       </div>
     </ScrollSection>
@@ -178,7 +178,7 @@ const Section = props => (
         <p>Külön kiemelném a mesében elhangzó színeket, mivel szerintem kulcsfontosságuak. A német Grimm változat nem is asszociál úgy mint a magyar, pusztán így fogalmaz: „Hófehérke fehér volt és vörös és fekete“. Ez a megfogalmazás külön nyomatékot ad a színeknek, és annak elhallgatása, hogy mi volt fehér vörös és fekete, misztikusabbá is teszi ezeket a színeket. Az értelmezésben a történet fonala lehet segítségünkre, fontos hogy az egyes szereplőit (<i>szín</i>észeit) és a hely<i>szín</i>eket megfelelő színben lássuk.</p>
         <div className="clearfix" />
 
-        <p>Ez a három szín (<a href="https://en.wikipedia.org/wiki/Albedo_(alchemy)">albedo</a>, <a href="https://en.wikipedia.org/wiki/Rubedo">rubedo</a>, <a href="https://en.wikipedia.org/wiki/Nigredo">nigredo</a>) képezi az u.n. <i>alkímia</i> tudományának alappillérét is, Jung a jellem fejlődésének stádiumaival felelteti meg őket. Nem túlzás, ha a teljes mesét e három kulcsfontosságú színnel színezzük ki, ha a színészeket, helyszíneket lecseréljük pusztán az őket szimbólizló színekre, pontosabban azoknak ősi, természeti jelentésére.</p>
+        <p>Ez a három szín (<a href="https://en.wikipedia.org/wiki/Albedo_(alchemy)">albedo</a>, <a href="https://en.wikipedia.org/wiki/Rubedo">rubedo</a>, <a href="https://en.wikipedia.org/wiki/Nigredo">nigredo</a>) képezi az u.n. <i>alkímia</i> tudományának alappillérét is, Jung a jellem fejlődésének stádiumaival felelteti meg őket. Nem túlzás, ha a teljes mesét e három kulcsfontosságú színnel színezzük ki, ha a színészeket, helyszíneket lecseréljük pusztán az őket szimbolizáló színekre, pontosabban azoknak ősi, természeti jelentésére.</p>
 
         <p style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', columnGap: '10px' }}>
           <img className="ui fluid image" src="/images/color/c3e58e02a541466fe04c3fe1f33c3155.jpg" />
@@ -204,7 +204,7 @@ const Section = props => (
           <img src="/images/queen/idea/cc48a57b48ad26bfbf678776cec68ea5.jpg" />
         </p>
 
-        <p>Hó, hófedte téli táj, fehér márvány kastély, ősz haj, szakáll. Hidegség, higgadtság, fagyott idő. Fény, világosság, tudatosság. Tisztaság. Tej, fehér bőr. Élet a halálon túl - menyország.</p>
+        <p>Hó, hófedte téli táj, fehér márvány kastély, ősz haj, szakáll. Hidegség, higgadtság, fagyott idő. Fény, világosság, tudatosság. Tisztaság. Tej, fehér bőr. Élet a halálon túl - mennyország.</p>
         <p>szattva, az örök ragyogás, a lélek birodalma, „az egyensúly, kiegyenlítés, a rend, tisztaság, világosság, nyugalom, könnyűség, jóság sajátossága“.</p>
         <p>A király és a királyné színe, a lakhelyük színe, az évszak (időszak, idő) színe.</p>
       </div>
@@ -223,8 +223,8 @@ const Section = props => (
           <img src="/images/huntsman/d55dfc2284013fb3d7821236e032febf.jpg" />
         </p>
 
-        <p>Sötét, gonosz, alattomos, rejtőzködő, rejtett. Kiismerhetetlen mélységek. Sötét látásmód, tudatlanság, selmezavar. Tiszátalanság. A test halála, a feketére alvadt vér, hullafolt.</p>
-        <p>Tamasz, a karma, a tehetetlenség létállapota. Rossz annak aki benne van, annak aki csinálja, annak aki látja...</p>
+        <p>Sötét, gonosz, alattomos, rejtőzködő, rejtett. Kiismerhetetlen mélységek. Sötét látásmód, tudatlanság, elmezavar. Tiszátalanság. A test halála, a feketére alvadt vér, hullafolt.</p>
+        <p>Tamasz, a rossz karma, a tehetetlenség létállapota. Rossz annak aki benne van, annak aki csinálja, annak aki látja...</p>
         <p>A mostoha és a vadász színe, a mostoha egykori (özvegyi) várának színe, az éjszaka (éj időszaka, idő) színe amikor operálnak, a szándékaik színe, a sorsuk színe. A börtön sötétjének színe. Valamint az erdő mélyének, a bánya kiismerhetetlen mélységének színe.</p>
 
         <p>A tamasz, tehetetlenség világát nagyon szépen írja le a Három kívánság című mese. A sötétben, üresen kongó üst mellett tehetetlenül és éhesen ülő pár egyszer csak kiugrási lehetőséget kap, és hármat kívánhat. Az első kívánság elmegy a pillanatnyi ösztönök kielégítésére egy kolbász képében. A második kívánság az első visszacsapása, a vágy okozta szenvedés. Itt egy káromkodás hangzik el, ami maga is egy kívánság, hisz aki káromkodik, az a káromat kívánja, és a visszahatás miatt, ha én káromkodok, akkor a saját káromat kívánom. Egyszóval nem jó ez senkinek, nekik sem volt az. A harmadik kívánság ebből következően a belátás és a kármentés, tűnjön el az a kolbász. Így a nevetségessé és szánalmassá váló párocska oda jut, ahol eredetileg is volt, ahol a part szakad, a sötét, üres, kilátástalan életébe. Pedig a csoda nekik is ugyanúgy megadatott...</p>
@@ -246,9 +246,9 @@ const Section = props => (
         </p>
 
         <p>Tűz: fűt, feltüzel, belső energia. Forróság, forrongás, hőség, hős. A lüktető, oxigéndús vér színe, életerő, vágy az életben maradásra, az Élet maga. Vér-vonal, test-vér-, háború.</p>
-        <p>Radzsasz, az érzékiség világa. (noha a szó „királyit“ jelent, a mesében a király és királynő szimbólikusan a szattva létszintjéhez tatozik) „a mozgás, erőkifejtés, lendület, nyughatatlanság, szenvedélyesség sajátossága“.</p>
+        <p>Radzsasz, az érzékiség világa. (noha a szó „királyit“ jelent, a mesében a király és királynő szimbolikusan a szattva létszintjéhez tatozik) „a mozgás, erőkifejtés, lendület, nyughatatlanság, szenvedélyesség sajátossága“.</p>
         <p>A szerelmespár színe, a szív színe, mely egymásért dobog, és mely veszélyben van. A vágy színe, „a vágy hozza létre a menyországot és a poklot“ (Bakos Attila - A Duna evangéliuma). </p>
-        <p>A napfelkelte és a naplemente színe, vagyis a napkorong azon színe, amely félúton közötte áll a delelő, vakító fehér fénynek és az éjszaka fekete sötétjének. A párkák által font élet fonalának a színe, mely születés és halál között húzódik. A vörös áll a fekete és a fehér között, a jellem fejlődése innen két irányba törénhet.</p>
+        <p>A napfelkelte és a naplemente színe, vagyis a napkorong azon színe, amely félúton közötte áll a delelő, vakító fehér fénynek és az éjszaka fekete sötétjének. A párkák által font élet fonalának a színe, mely születés és halál között húzódik. A vörös áll a fekete és a fehér között, a jellem alakulása innen két irányba törénhet.</p>
       </div>
     </ScrollSection>
 
@@ -284,7 +284,15 @@ const Section = props => (
         </p>
 
         <p>Kioltott megalvadó vér, bűn, a sötét gyűlölet heve, “pír-per”. Pusztító tűz, ami fekete üszköt és romokat hagy hátra. A rég elaludt tűz után maradt hamu alatt lapuló parázs.</p>
-        <p>A három kívánság karakterei fejlődési útvonala ez, a tehetetlen sötétségből az érzékkielégítés vágya ide vonzza őket, számukra a teli has is státusszimbólum, az ösztönök megélésének és az anyagi függetlenségnek világa is komoly cél, mely számukra elérhetetlen marad, hiszen visszaesnek a sötétségbe.</p>
+        <p>A három kívánság karaktereinek fejlődési útvonala ez, a tehetetlen sötétségből az érzékkielégítés vágya ide vonzza őket, számukra a teli has is státusszimbólum, az ösztönök megélésének és az anyagi függetlenségnek világa is komoly cél, mely számukra elérhetetlen marad, hiszen visszaesnek a sötétségbe.</p>
+      </div>
+    </ScrollSection>
+
+    <ScrollSection {...props} id="story.color.redInBlack">
+      <h3>Fehér a feketében</h3>
+      <div>
+        <h4>Mi jut eszünkbe róla?</h4>
+        <p></p>
       </div>
     </ScrollSection>
 
@@ -300,8 +308,8 @@ const Section = props => (
           <img src="/images/path/5bd7cadfbb2b35b8cdbc233c414b3421.jpg" />
           <img src="/images/forest/trees/5f7e4c9c180f0d1c08d2e8daf33792b2.jpg" />
         </p>
-        <p>Hófehérke fizikai útja a szülői házból az erdőn át a szülői házba vezet. Szimbólikusan a fehér királyi kastélyból a vérvörös merényletkísérlet miatt a fekete sötétségbe jut, ott próbákat áll ki, avagy bukik el. Végső, legnagyobb tragédiája a piros alma, mely egyben lehetővé teszi számára, hogy a hős karakter kiemelje, s elvigye a fehér mennyegzőre.</p>
-        <p>A mesében fizikai útként megjelenő út a mese hallgatójának egy szimbólikus út, mely az ő jellemének fejlődését szimbólizálja. Nagyon érdekes, hogy ezen út mellett a mesén belül van egy rejtett út, Hófehérke jellemfejlődésének útja, mely kevésbé nyilvánvaló. A mese során megtett horizontális útjához képest ez egy vertikális út, melyre csak a hét törpénél eltelt időszak szimbólumai mutatnak rá.</p>
+        <p>Hófehérke fizikai útja a szülői házból az erdőn át a szülői házba vezet. szimbolikusan a fehér királyi kastélyból a vérvörös merényletkísérlet miatt a fekete sötétségbe jut, ott próbákat áll ki, avagy bukik el. Végső, legnagyobb tragédiája a piros alma, mely egyben lehetővé teszi számára, hogy a hős karakter kiemelje, s elvigye a fehér mennyegzőre.</p>
+        <p>A mesében fizikai útként megjelenő út a mese hallgatójának egy szimbolikus út, mely az ő jellemének fejlődését szimbolizálja. Nagyon érdekes, hogy ezen út mellett a mesén belül van egy rejtett út, Hófehérke jellemfejlődésének útja, mely kevésbé nyilvánvaló. A mese során megtett horizontális útjához képest ez egy vertikális út, melyre csak a hét törpénél eltelt időszak szimbólumai mutatnak rá.</p>
       </div>
     </ScrollSection>
 
@@ -327,7 +335,7 @@ const Section = props => (
           <li>Törzse: tartást ad, összeköti a fentet a lenttel, az ágakat, a gyökereket. Egységesít és elválaszt.</li>
           <li>Gyökerek: ez így kerek. Lenyúlnak a sötét mélységbe és felszívják az anyagait a fényre, ahol átalakítják őket.</li>
         </ol>
-        <p>A folyamat, melyet fotoszintézis néven tanítanak nem más, mint ahogyan a növény az isteni fény energiáját elnyeli, megnemesíti az anyagot, hogy saját testébe tudja építeni. Folyamatosan cirkuláltatja a felső és alsó világ összetevőit, a fény energiájával tör a sötét földbe gyökereivel az anyagért, és a sötét anyagból építi koronáját, hogy fényhez jusson.</p>
+        <p>A folyamat, melyet fotoszintézis néven tanítanak nem más, mint ahogyan a növény az isteni fény energiáját elnyeli, megnemesíti az anyagot, hogy saját testébe tudja építeni. Folyamatosan cirkuláltatja a felső és alsó világ összetevőit, a fény energiájával tör a sötét földbe gyökereivel az anyagért, és a sötét anyagból építi koronáját, hogy fényhez jusson. (Shiva - Shakti, Kundalini)</p>
         <p>Az erdő sokdimenziós. A fák törzsének évgyűrűi az ídő mútását szemléltetik, körkörös diagrammon.</p>
 
         <p className="masonry">
@@ -430,7 +438,7 @@ const Section = props => (
           <img src="/images/mirror/6c302f9e40d0cf66ecc714a98b4424e5.jpg" />
         </p>
 
-        <p>A hold nem rendelkezik saját fénnyel, a nap fényét tükrözi vissza. A nap és hold szimbólikája igen gazdag, így csak a „kibocsájt - befogad“, „megvilágít - visszatükröz“ értelmezésre szorítkoznék. A nap fényét „világosságnak“ mondjuk. Világ egyben jelenti az ismert, minket körülvevő univerzumot, és a fényt. A fény világítja meg a tárgyakat, ez segít hozzá a megismeréshez, e nélkül csak sötétben tapogatózunk. A világ világossága maga a megértés folyamata, ami világos, az érthető. Ami tehát érthető, az világos a magyar nyelvben. De hasonlóképp gyullad villanykörte a rajzocska felett, ha azt ábrázolják, hogy rájött valamire. A fény az elme világossága is. Sokszor volt már, hogy a sötét fejekben akartak világosságot gyújtani. Az elme azonban nem a szív, a lélek világa. A felvilágosodás kora mutatja be, mire képes a szívtelen, lélektelen elme. A magukat megvilágosodottnak tartó illuminatitagokat sem gyakran látni jézusi példabeszédeket prédikálva. És ha már Jézus, a lucifer szó jelentése: „fényhozó“ (a fény mértékegysége máig is lux). Maga a mese világa int óvva ettől az elmétől, szép példa erre a „csodalámpás“, melyből nem pislángoló lángocska, de egy hatalmas „szellem“ búvik elő. Ismét meg kell jegyezni a magyar nyelv szellem - értelem szavainak egyezését. A világító lámpást tehát csak kérni kell, és az előáll az ötletekkel, melyek valósággá válnak. (conception - definition - implementation sorrendben). A palackból kiszabadult szellem önjáróvá válása pedig rendszerint katasztrófába torkoll.</p><img src="/images/mirror/3da93911869c280edbf029351063d1e9.jpg" className="ui medium left floated image" /><p>Ezen kis kitekintő után talán jobban érthetővé válik, mi is az ami tükröződik. Nem hagyományos tükörről beszélünk, hanem egy varázslatos, igazmondó tükörről, amely a gondolatokat is képes visszatükrözni. A külvilág megítélének, a környezet válaszainak tükrén túl ez a tökür egy sokkal kifinomultabb, nem optikán alapuló „elmetükör“, egy belső visszhang, egy tudatrétegi reflexió, a „hang a fejben“, a lelkiismeret suttogásához hasonló „elmeismeret“, a bizonyoság, a belső meghasadtság ikerpárjai között rebegő hártlya, amely igazolja, hogy a belső kényszerképzet maga a valóság.</p>
+        <p>A hold nem rendelkezik saját fénnyel, a nap fényét tükrözi vissza. A nap és hold szimbolikája igen gazdag, így csak a „kibocsájt - befogad“, „megvilágít - visszatükröz“ értelmezésre szorítkoznék. A nap fényét „világosságnak“ mondjuk. Világ egyben jelenti az ismert, minket körülvevő univerzumot, és a fényt. A fény világítja meg a tárgyakat, ez segít hozzá a megismeréshez, e nélkül csak sötétben tapogatózunk. A világ világossága maga a megértés folyamata, ami világos, az érthető. Ami tehát érthető, az világos a magyar nyelvben. De hasonlóképp gyullad villanykörte a rajzocska felett, ha azt ábrázolják, hogy rájött valamire. A fény az elme világossága is. Sokszor volt már, hogy a sötét fejekben akartak világosságot gyújtani. Az elme azonban nem a szív, a lélek világa. A felvilágosodás kora mutatja be, mire képes a szívtelen, lélektelen elme. A magukat megvilágosodottnak tartó illuminatitagokat sem gyakran látni jézusi példabeszédeket prédikálva. És ha már Jézus, a lucifer szó jelentése: „fényhozó“ (a fény mértékegysége máig is lux). Maga a mese világa int óvva ettől az elmétől, szép példa erre a „csodalámpás“, melyből nem pislángoló lángocska, de egy hatalmas „szellem“ búvik elő. Ismét meg kell jegyezni a magyar nyelv szellem - értelem szavainak egyezését. A világító lámpást tehát csak kérni kell, és az előáll az ötletekkel, melyek valósággá válnak. (conception - definition - implementation sorrendben). A palackból kiszabadult szellem önjáróvá válása pedig rendszerint katasztrófába torkoll.</p><img src="/images/mirror/3da93911869c280edbf029351063d1e9.jpg" className="ui medium left floated image" /><p>Ezen kis kitekintő után talán jobban érthetővé válik, mi is az ami tükröződik. Nem hagyományos tükörről beszélünk, hanem egy varázslatos, igazmondó tükörről, amely a gondolatokat is képes visszatükrözni. A külvilág megítélének, a környezet válaszainak tükrén túl ez a tökür egy sokkal kifinomultabb, nem optikán alapuló „elmetükör“, egy belső visszhang, egy tudatrétegi reflexió, a „hang a fejben“, a lelkiismeret suttogásához hasonló „elmeismeret“, a bizonyoság, a belső meghasadtság ikerpárjai között rebegő hártlya, amely igazolja, hogy a belső kényszerképzet maga a valóság.</p>
         <div className="clearfix" />
         <img src="/images/mirror/18874d28b67091e5b90857b99c10f4ba.jpg" className="ui medium left floated image" /><p>Mi is tehát ez a tükör? Képes-e a hold a nap fényét tükrözni? Igen, <b>ezüstösen ragyog a hold az éjszaka fekete sötétjében, de a nap a fényben ragyog</b>. Az elme belső önmegigazolódása önmagával éppilyen ragyogó, gyönyörködtető a koponya sötétjében. A mostoha a holdra tekint, megkérdezi, s az igazat felel neki. A külső szemlélő pedig beleborzong a boszorkányság félelmetes szeánszába. A megigazult, tiszta, háborodott elme párbeszédje ez a monológ. Mire vezetik ezek a válaszok a mostohát? Öntelt, „beképzelt“ magatartáshoz, féltékenységhez, cselszövéshez. Igazat mond a tükör? Igen, ez mindig beigazolódik. Igazat adunk a mostohának? ... </p>
         <div className="clearfix" />
@@ -479,6 +487,16 @@ const Section = props => (
       <h3>Alma</h3>
       <div>
         <p>Az alma egy termés, szigorú értelmezésben az alma nevű növény termése, tágabban az almafélék termése. Még tágabb értelemben a rózsafélék termése is hasonlít az almára, pélrául gránátalma. De ha a csipkerózsa termésére gondolunk, egy másik mese is ide köthető, amiben az orsó is nagy szerepet kap. Népművészeti ábrázolások közt gyakori szimbólum, női jelkép. A kerekre, vérpirosga érett alma a méh (uterus) szimbóluma is lehet.</p>
+
+        <p className="masonry">
+          <img src="/images/snowwhite/apple/135659bce47f4fe335816315bd361b09.jpg" />
+          <img src="/images/snowwhite/apple/b9c3ab6d432344a08fe8fb0090f759ab.jpg" />
+          <img src="/images/snowwhite/apple/37bc2b7c29cccba339c25037a05728aa.jpg" />
+          <img src="/images/snowwhite/apple/272669_BSjOrMYXqNuXsJ0svRGCA83ed.jpg" />
+          <img src="/images/snowwhite/apple/54a253f04f1017d4d9d7938011cc855c.jpg" />
+          <img src="/images/snowwhite/37b68330d7499d53f1f6c4a62d8032b3.jpg" />
+        </p>
+
         <p>Véleményem szerint a közismert mesében jelentéktelen és alig értelmezhető szerepet kap ez a szimbólum. Nagyon érdekes másfelől az a búvópatakként előtörő szimbólum amikor a felnyíló alma magja kihajt.</p>
 
         <p><img src="/images/snowwhite/biancaneve/Biancaneve-281629.jpg" className="ui fluid image" /></p>
@@ -548,7 +566,6 @@ const Section = props => (
         <p>A bánya feltételezi, hogy elfogadjuk a törpés részt olyannak, amilyen. Más változatokban nem biztos hogy van bánya, pl. a hét huszár nem valószínű, hogy a bányában dolgozik. Mégis, szerintem ide illik a szimbólum: a sötét erdő mélyén egy sötét föld alatti üreg. Nem kerül bemutatásra. Feltehetően kincset rejt. De úgy tűnik, megéri kockáztatni, megéri mélyre ásni, mert a kincsek ott rejtőznek...</p>
       </div>
     </ScrollSection>
-
   </React.Fragment>
 )
 

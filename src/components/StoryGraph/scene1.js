@@ -1,5 +1,13 @@
 const graphData = {
   characters: {
+    center: {
+      id: 'center',
+      name: 'center',
+      cx: 60,
+      cy: 60,
+      opacity: 0,
+      scale: 0.001,
+    },
     queen: {
       id: 'queen',
       name: 'Királynő',
@@ -37,8 +45,8 @@ const graphData = {
       imageY: 20,
       imageWidth: 120,
       imageHeight: 120,
-      cx: 82.5,
-      cy: 97.5,
+      cx: 15,
+      cy: 15,
       scale: 0.3,
       opacity: 0,
     },
@@ -53,7 +61,7 @@ const graphData = {
       imageHeight: 100,
       cx: 60,
       cy: 60,
-      scale: 1,
+      scale: 0.75,
       opacity: 1,
     },
     prince: {
@@ -84,8 +92,22 @@ const graphData = {
       scale: 0.3,
       opacity: 0,
     },
+    witch2: {
+      id: 'witch',
+      name: 'Mostoha',
+      gender: 'female',
+      color: 'pink',
+      imageX: -4,
+      imageY: 20,
+      imageWidth: 120,
+      imageHeight: 120,
+      cx: 15,
+      cy: 85,
+      scale: 0.3,
+      opacity: 0,
+    },
   },
-  arrows: [],
+  arrows: {},
 }
 
 export default graphData

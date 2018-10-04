@@ -109,8 +109,10 @@ blockquote {
 }
 
 .story-desc {
-  background: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.75);
   padding: 1em;
+  margin-bottom: 50vh;
+  border-radius: 5px;
 }
 
 .masonry {

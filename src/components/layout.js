@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Helmet from 'react-helmet'
+import { BrowserRouter } from 'react-router-dom';
 import { injectIntl } from 'react-intl'
 import '../../node_modules/sanitize.css/sanitize.css'
 // $FlowIgnore
@@ -11,28 +12,30 @@ import './layout.scss'
 const Layout = ({
   children, data, intl, bodyClass,
 }) => (
-  <div>
-    <Helmet
-      title={intl.formatMessage({ id: 'site.title' })}
-      meta={[
-        {
-          name: 'description',
-          content: intl.formatMessage({ id: 'site.description' }),
-        },
-        {
-          name: 'keywords',
-          content: intl.formatMessage({ id: 'site.keywords' }),
-        },
-      ]}
-      bodyAttributes={{
-        class: bodyClass,
-      }}
-    />
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Fondamento|Pirata+One|Snowburst+One&amp;subset=latin-ext" rel="stylesheet" />
-    <div className="layout">
-      {children}
+  <BrowserRouter>
+    <div>
+      <Helmet
+        title={intl.formatMessage({ id: 'site.title' })}
+        meta={[
+          {
+            name: 'description',
+            content: intl.formatMessage({ id: 'site.description' }),
+          },
+          {
+            name: 'keywords',
+            content: intl.formatMessage({ id: 'site.keywords' }),
+          },
+        ]}
+        bodyAttributes={{
+          class: bodyClass,
+        }}
+      />
+      <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Fondamento|Pirata+One|Snowburst+One&amp;subset=latin-ext" rel="stylesheet" />
+      <div className="layout">
+        {children}
+      </div>
     </div>
-  </div>
+  </BrowserRouter>
 )
 
 export default injectIntl(Layout)

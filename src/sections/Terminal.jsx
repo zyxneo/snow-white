@@ -16,12 +16,12 @@ const Section = props => (
       <div>
         <p>Az orsó (die Spindel), mint a fonás szimbóluma, avagy a fonás maga (spinnen) számtalan Grimm mesében megjelenik. Ezek a mesék további értelmezést adhatnak, miért is fontos szimbólum pl. az ujj megszúrása. Hogy kitegyem az i-re a pontot, és visszhelyezzem a kidobott rokkákat és orsókat a helyükre, itt egy lista ugyanazon Grimm kötetből, melyben orsó és/vagy fonás szerepel:</p>
         <ul>
-          <li>Csipkerózsikát elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/csipkerozsika" target="_blank" rel="noopener noreferrer">Csipkerózsikát</a> elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
           <li>Lumpenstikli (Rumpelstilzchen) a szalmából is aranyat tud fonni. A magyar megfelelője ennek a mesének a kaponyányi manó. A rumpelstilz - mángorrúd mintájakét eredeti neve a „kapanyélnyi monyú“ etikai okokból nem kerül be a gyermek-mesekönyvekbe.</li>
-          <li>A Holle anyóhoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... Inkább kifejtem külön fejezetben. Holle anyó amúgy a királynőhöz hasonlóan a hó birodalmáben él.</li>
+          <li>A <a href="https://www.grimmstories.com/hu/grimm_mesek/holle_anyo" target="_blank" rel="noopener noreferrer">Holle anyó</a>hoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... Inkább kifejtem külön fejezetben.</li>
           <li>A lusta fonó (Die faule Spinnerin) - az egész mese alaptémája</li>
           <li>A három fonó (Die drei Spinnerinnen) - az egész mese alaptémája</li>
-          <li>Spindel, Weberschiffchen und Nadel - az egész mese alaptémája</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/az_orso_a_vetelo_meg_a_tu" target="_blank" rel="noopener noreferrer">Az orsó, a vetélő meg a tű</a>(Spindel, Weberschiffchen und Nadel) - az egész mese alaptémája</li>
           <li>Csipkerózsika (Dornröschen)</li>
           <li>Die Wassernixe</li>
           <li>Die Schlickerlinge</li>

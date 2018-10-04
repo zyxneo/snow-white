@@ -7,6 +7,7 @@ const Section = props => (
       <h3>Holle anyó</h3>
       mostohagyermek, hamupipőke
       <div>
+        <p>A mesét <a href="https://www.grimmstories.com/hu/grimm_mesek/holle_anyo" target="_blank" rel="noopener noreferrer">itt</a> elolvashatjátok</p>
         <p>Holle anyó neve egy nagyon érdekes szó, amely rámutat a nyugati nyelvek és a magyar nyelv ideológiája közt tátongó szakadékra. Holle anyó dunyhájából rázza a havat le a földre, így egy kis manipulációval - plusz egy ékezet, minusz egy l - a <b>Hó le anyó</b> nevet kapjuk. Kicsit olyan ez, mint a felhők fehér világa, egyfajta <i>menyország</i>.</p>
         <p>
           <img src="/images/fairytales/holle/45c8f2a3946446926597f94c06cb9768.jpg" className="ui fluid image" />
@@ -124,10 +125,14 @@ const Section = props => (
         <p>Babajaga az oroszok, a szláv népek boszorka alakja a maga módján élet-halál ura, ha akarja, nagyon kedves, ha akarja nagyon gonosz. A magyar mesékben a vasorrú bába jelenik meg, a szó eredete tisztázatlan, vas orú bába jelenthet a hegy ormára állított szobrot is, de a bába rész biztosnak néz ki. A bába szülész-nőgyógyászt jelent, régen ezt a munkát nők végezhették. (Ma már tudjuk, hogy a férfiak jobban értenek a szüléshez.) A megszületendő gyermek anyja méhében egy fejlődési folyamaton megy keresztül, ennek folyamán az embrió kezdetben bab formájú. Pontosabban nehéz megítélni, hogy az embriónak van-e bab formája, vagy a babnak embrió, hiszen az is egy embrió. Lényeg, hogy hasonlóság van az ember kicsinye és a növény kicsinye között. A csicsóka gumója is babásodik, a krumpli gumója is ilyen, olykor elkülönül egy kis fejecske, vagy akár végtagok. A dél-amerikai őslakosok ezt a növényt papának, vagy pápának nevezték, hasonlóképp a magyar baba szóhoz. Ebből lett aztán a spanyolok révén papáta, és batáta, illetve másik vonalon potáta és potátó. Úgy tűnik, hogy a bab, baba szó igen elterjedt világszerte, hasonlóképp az ezzel foglalkozó szakember a bába, mint javasasszon, jót akaró nő neve. Ez a szakma nagy tapasztalatot kíván, így művelői gyakran idős korúak, és munkájukból kifolyólag élet-halál urai. Nem demisztifikélni kívánom Babajaga szimbólumát, épp ellentkezőleg, szeretném összekapcsolni a az élet kezdetét jelentő szimbőlumokkal.</p>
 
         <h4>A fehér istennő</h4>
-        <p>Holle anyó mégis csak a párából hulló hópihékről híres, fehér az ő birodalma. Átvezetésként megjegyezném, hogy a Hófehérke nyitójelenetében valószínűleg serény munka folyt Holle anyónál, hiszen nagy pelyhekben hullott a hó. Visszatérve a lánykára, nos neki sehol ilyen jó dolga még nem volt. A leírás tényleg a halálközeli élményekhez hasonlít. Videó. De visszavágyik. Pont mint a tibeti halottaskönyvben. A lélek újra meg akar és újra meg is fog születni. A vágy hozza vissza, a vágy amely a szerelmespárt is tüzeli, a vágy melynek erednénye a gyermekáldás. Az egyetlen dolog, amiért a tibeti papok imádkozni tudnak, az egy szerencsés újjászületés, egy szerencsés kezdet, egy olyan helyen, ahova csak születni lehet, ahova születni kell. Hogy a szerelmesek vágya mozgatja a lelket, vagy a lélek a szerelmeseket, azt nem tudom. Mégiscsak bizarr lenne, ha egy megszületni vágyó lény vonná kontroll alá a leendő szüleinek vágyvilágát...</p>
+        <p>Holle anyó mégis csak a párából hulló hópihékről híres, fehér az ő birodalma. Átvezetésként megjegyezném, hogy a Hófehérke nyitójelenetében valószínűleg serény munka folyt Holle anyónál, hiszen nagy pelyhekben hullott a hó. Visszatérve a lánykára, nos neki sehol ilyen jó dolga még nem volt. A leírás tényleg a <a href="https://www.youtube.com/watch?v=DefqH54EqZ4" target="_blank" rel="noopener noreferrer">halálközeli élményekhez</a> hasonlít (<a href="https://www.youtube.com/watch?v=2WzzMlfqKzk" target="_blank" rel="noopener noreferrer">további</a>). De visszavágyik. Pont mint a tibeti halottaskönyvben. A lélek újra meg akar és újra meg is fog születni. A vágy hozza vissza, a vágy amely a szerelmespárt is tüzeli, a vágy melynek erednénye a gyermekáldás. Az egyetlen dolog, amiért a tibeti papok imádkozni tudnak, az egy szerencsés újjászületés, egy szerencsés kezdet, egy olyan helyen, ahova csak születni lehet, ahova születni kell. Hogy a szerelmesek vágya mozgatja a lelket, vagy a lélek a szerelmeseket, azt nem tudom. Mégiscsak bizarr lenne, ha egy megszületni vágyó lény vonná kontroll alá a leendő szüleinek vágyvilágát...</p>
         <p>Pillantsunk vissza a Hófehérke történetére. Egy télen, mikor nagy pelyhekben hullott a hó, a királynő elábrándozik, megszúrja ujját, és az élet fonala újból színt vált, a fehér fonal vörös lesz, Hófehérke megfogan. Egy kis lélek megszületik majd egy olyan világban, ahová születni kell, mert csak így lehet oda jutni, a Kiráy és Királyné gyermekeként a fehér palotába.</p>
 
         <p>Nehéz megítélni, mikor, melyik istennő tevékenykedik, hiszen a dolgok egyszerre, párhuzamosan történnek. A Holle anyó mesében nem tudni, mi történik a lánykával, amikor a kútba zuhan. Elnyeli a sötétség, és áthatol a víz tükrén. Nem tudni, ki és hova kerül ekkor. A lány esik-e az alvilágba, vagy az alvilági tükörkép emelkedik ebbe, az ismert világba... Beavatás ez? Egy alámerítkezés, megszentelődés, hogy a magasabb szférákba jusson? Melyik világból jut melyikbe? Pokolból menyországba, avagy pont fordítva? Melyik a mi világunk? A fehér, a vörös, vagy a fekete? Avagy mind, egyszerre? Ez esetben mi a tükör másik oldala? Ugyanez, ugyanitt, ugyanakkor?</p>
+
+        <div className="ui embed" data-source="youtube" data-id="Kg79EPTiVNE">
+          <iframe title="A megvilágosodás három istennője - Fekete Istennő" width="560" height="315" src="https://www.youtube.com/watch?v=Kg79EPTiVNE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+        </div>
       </div>
     </ScrollSection>
     <ScrollSection {...props} id="story.fairytales.third-eye">
@@ -148,7 +153,7 @@ const Section = props => (
           <img src="/images/holle/shiva/f8276258bf51517e0df39aa903f6ed5c.jpg" />
         </p>
 
-        <p>Talán beugrik az a népmese, hogy Az Egyszemű, a Kétszemű és a Háromszemű... Biztos vagyok benne, hogy a magyar mesék közt is sok utalást találnánk. De ami még érdekesebb, az a nyugati pontosabban a skandináv mitológia főistene: Odin. Odinnak egy szeme van. Oroszul amúgy 1: ágyin. A wikin ezt írják róla:</p>
+        <p>Talán beugrik az a népmese, hogy Az Egyszemű, a Kétszemű és a Háromszemű... Biztos vagyok benne, hogy a magyar mesék közt is sok utalást találnánk. De ami még érdekesebb, az a nyugati, pontosabban a skandináv mitológia főistene: Odin. Odinnak egy szeme van. Oroszul amúgy 1: ágyin. A wikin ezt írják róla:</p>
 
         <blockquote>
           <p>A legidősebb, legnagyobb és legbölcsebb isten a skandináv mitológiában. Ő a háború, a költészet és a halottak istene, valamint a legfőbb gyakorlója a mágiának (sámán)... Állandóan járja a világot, hogy mindent megismerjen és megtanuljon. Tud alakot váltani, ismeri a jövendőt és a babonákat. De Odin a tudásért nagy árat fizetett. Amikor ivott a Bölcsesség Forrásából, elveszítette a fél szemét.</p>
@@ -156,14 +161,14 @@ const Section = props => (
 
         <p><img src="/images/holle/800px-Manuscript_Odinn.jpg" /></p>
 
-        <p>Nem tudom, ugyanazt érzitek-e mint én, de mintha itt kisiklott volna a történet szála. Judit a kétkedésem helyett egy sokka érdekesebb elmélettel állt elő: Ez valóban egy beavatás, ez a nyugatias beavatás egy ellenmegvilágosodás, éppen ezért én a mesék értelmezését ne az anyagi világban keressem. És valóban, a világ azért tart ott ahhol tart, mert ilyen eredetmondákra épül. A keletnek eggyel több szeme lesz, a nyugatnak eggyel kevesebb, a magyar pedig mindhárom lehetőséggel számol. A nyugatias beavatás, a térlátás elveszítése egy fókuszált, anyagelvű, nem pedig kitárulkozó, spirituális látásmódhoz vezet. A Hegylakó gondolkodásmódja ez: csak egyetlenegy maradhat.</p>
+        <p>Nem tudom, ugyanazt érzitek-e mint én, de mintha itt kisiklott volna a történet szála. Judit a kétkedésem helyett egy sokkal érdekesebb elmélettel állt elő: Ez valóban egy beavatás, ez a nyugatias beavatás, egy ellenmegvilágosodás, éppen ezért én a mesék értelmezését ne az anyagi világban keressem. És valóban, a világ azért tart ott ahhol tart, mert ilyen eredetmondákra épül. A keletnek eggyel több szeme lesz, a nyugatnak eggyel kevesebb, a magyar pedig mindhárom lehetőséggel számol. A nyugatias beavatás, a térlátás elveszítése egy fókuszált, anyagelvű, nem pedig kitárulkozó, spirituális látásmódhoz vezet. A Hegylakó gondolkodásmódja ez: csak egyetlenegy maradhat.</p>
       </div>
     </ScrollSection>
 
     <ScrollSection {...props} id="story.fairytales.holle">
       <h3>Egyéb Holle</h3>
       <div>
-        <p>Saját gondolataim lejegyzése után nagy örömmel bukkantam az <a href="http://www.berkano.hu/holle.html">alábbi szövegre</a></p>
+        <p>Saját gondolataim lejegyzése után nagy örömmel bukkantam az <a href="http://www.berkano.hu/holle.html" target="_blank" rel="noopener noreferrer">alábbi szövegre</a></p>
 
         <blockquote>
           <p>Holle anyó legendája a mai ember számára legfőképp a Grimm mesékből ismert, pedig az emberek eredetileg számos hegyvidéken tisztelték. Sok monda maradt fenn a Hessen északi részén található Hoher Meißner hegység vidékéről is. A Holle anyó-tó (Frau-Holle-Teich) állítólag végtelenül mély, és a néphit szerint ez lehet a bejárat a föld alatti világba, amelyet a Grimm testvérek is leírtak meséjükben.</p>
@@ -171,6 +176,30 @@ const Section = props => (
           <p>...Arról is szól a fáma, hogy Holle anyó süteményt, virágot, gyümölcsöt ajándékoz, és különösen nőknek és lányoknak segít, jó évet kíván nekik, valamint egészségessé és termékennyé teszi őket. Emellett a fonónők és a takácsok védelmezője is, emiatt részben a nornákkal és a párkákkal állítják párhuzamba. ...</p>
           <p>...A bodza olyan növény, amelyet különösen kedves Holle anyónak, valószínűleg a nevét is róla kapta (németül: Holunder vagy Holler). Úgy is tartják, hogy a hópelyhek igazából a bodzacserjének a fehér virágai. Holle anyóhoz való kötődése még egy szempontból magyarázható: Holle anyó élet és halál úrnője, ugyanígy e növénynek is „két arca“ van: fehér virágai és fekete bogyói; jótékony hatású gyógynövény, ugyanakkor egyik fajtája mérgező is. ...</p>
         </blockquote>
+      </div>
+    </ScrollSection>
+
+    <ScrollSection {...props} id="story.fairytales.thezeus">
+      <h3>Thezeus</h3>
+      <div>
+        <p>Érdemesnek tartom megemlíteni Thezeus történetét, ami Grimm gyűjtés formájában is fennmaradt. Thezeus megkűzd a félig bika, félig ember testű Minotaurusszal a Labyrinthusban. Több formában is, több alkalommal hallottam már a történetet, de az összefüggés a keresztényi kultúrával nem esett le. Pedig igen nyilvánvaló. A keresztényi kultúra ördögképe egy szőrös emberforma szörny akinek patái és szarvai vannak. Persze lehetne szatír is, csakhogy az ördög a föld alatt, a pokolban lakik. És mi is tulajdonképpen a Labyrinthus? <cite>Egymásba mesterileg bonyolult tévutakból áll az egész. A ki belépett, úgy eltéved ösvényeinek kanyarulatos tömkelegében, hogy csak is csoda által menekülhet.</cite></p>
+        <p>Véleményem szerint Thezeus története egyértelműen összekapcsolható Holle anyó történetével, mégpedig Ariadne fonalával. Bevallom, ilyen részre nem emlékeztem, mintha sohasem hallottam volna.</p>
+
+        <blockquote>
+          <p>Midőn a falhoz ért, fenn az erkélyről egy fának sűrű lombozatán keresztül ugyanazon szűznek bájos arcza mosolygott ki, a kit már egyszer látott, midőn a gyászhajón a koszorú fejére szállt. Ariadne volt.</p>
+          <p>— Nemes ifjú ! — szólitá meg őt gyöngéd hangon — midőn hajótokat jobban látni kívánván, kiebb hajoltam, a koszorú leesett fejemről s a szél nemtője úgy akarta, hogy az a te fejedre szálljon: ugyanazon perczben hallám bizalomtelt felkiáltásodat is s azonnal fogadást tettem magam­ ban, hogy meg foglak menteni. íme, vedd e czérnagombolyagot, szegezd le egyik végét a Labyrinth bejáratánál s a mint aztán beljebb hatolsz, a szerint ereszd folyvást magad után a czérnaszálat. Visszajövet ez leend majd útmutatód, ha ismét lépésről lépésre a leeregetett czérna­ szálat felgombolyítod.</p>
+        </blockquote>
+
+        <p>A sötétségbe való leereszkedést tehát ez úttal is egy fonal segíti. Az alvilág alapvetően eltér a két történetben, viszont ugyanúgy próbát kell kiállni, majd visszatérni.</p>
+
+        <blockquote>
+          <p>így haladt folyosókon, alagutakon, ösvényeken, csar­nokokon, szobákon keresztül; majd fel nehány lépcsőn, majd ismét le. Majd úgy rémlett előtte, mintha oly földalatti barlangban volna, melyet maga a természet alkotott; majd olyanban, melyben az emberi kéz nyomára akadt, s mely­ ben a magasabb művészet csínjára ismert. Sötétség azonban sehol sem uralkodott; hanem mindenütt bizonyos alkony­szerű világosság derengett, melynél a tárgyakat egymástól megkülönböztetheté. Azt észrevette ugyan, hogy a napfény felülről lövel alá, de semmikép sem tudta fölfedezni a nyílást, melyen a sugarak behatottak. Hosszú tévelygés után csakugyan meggyőződött, hogy nehéz s csaknem megold­hatatlan feladat: ezen oly csodásán össze-vissza bonyolult menetek, szobák, folyosók útvesztőjéből kibontakozni, mert mindezek épen megfoghatatlan hasonlóságuk által hozták a bennök járót tévedésbe s útját, úgyszólván, mindinkább megnehezíték.</p>
+        </blockquote>
+
+        <p>A próbatétel ezúttal a szörny, az Őr-Dög, a Minota-Úr legyőzése. Férfiaknak való feladat, így a Holle anyó a női, mígy Thezeus ugyanannak a belső utazásnak a férfi alternatíváját mutatja be.</p>
+        <p>Minotaurus egy dologban mégis jelentősen eltér az európai ördög-ideáltól: abban hogy legyőzhető, sőt, legyőzésének mikéntje is bemutatásra kerül. A középkori európai ördög sokkal inkább ijesztegetés eszköze, mintsem egy fejlődési út mérföldköve.</p>
+
+        <p>A szál, mely összeköti az alsó és felső világot, lehet egy orsó fonala, egy cérnagombolyag, vagy egy hegymászókötél, melynek segítségével a barlangba ereszkedünk, vagy égig érő paszuly. De egyben lehet köldökzsinór, mely egyik világból másikba vezet, vagy ezüstszál ami az asztráltest finom fizikai lényét köti össze e durva fizikaival, de lehet ez a végső tudás vezérfonalának aktuális szakasza is.</p>
       </div>
     </ScrollSection>
   </React.Fragment>
