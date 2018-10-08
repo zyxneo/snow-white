@@ -178,30 +178,6 @@ const Section = props => (
         </blockquote>
       </div>
     </ScrollSection>
-
-    <ScrollSection {...props} id="story.fairytales.thezeus">
-      <h3>Thezeus</h3>
-      <div>
-        <p>Érdemesnek tartom megemlíteni Thezeus történetét, ami Grimm gyűjtés formájában is fennmaradt. Thezeus megkűzd a félig bika, félig ember testű Minotaurusszal a Labyrinthusban. Több formában is, több alkalommal hallottam már a történetet, de az összefüggés a keresztényi kultúrával nem esett le. Pedig igen nyilvánvaló. A keresztényi kultúra ördögképe egy szőrös emberforma szörny akinek patái és szarvai vannak. Persze lehetne szatír is, csakhogy az ördög a föld alatt, a pokolban lakik. És mi is tulajdonképpen a Labyrinthus? <cite>Egymásba mesterileg bonyolult tévutakból áll az egész. A ki belépett, úgy eltéved ösvényeinek kanyarulatos tömkelegében, hogy csak is csoda által menekülhet.</cite></p>
-        <p>Véleményem szerint Thezeus története egyértelműen összekapcsolható Holle anyó történetével, mégpedig Ariadne fonalával. Bevallom, ilyen részre nem emlékeztem, mintha sohasem hallottam volna.</p>
-
-        <blockquote>
-          <p>Midőn a falhoz ért, fenn az erkélyről egy fának sűrű lombozatán keresztül ugyanazon szűznek bájos arcza mosolygott ki, a kit már egyszer látott, midőn a gyászhajón a koszorú fejére szállt. Ariadne volt.</p>
-          <p>— Nemes ifjú ! — szólitá meg őt gyöngéd hangon — midőn hajótokat jobban látni kívánván, kiebb hajoltam, a koszorú leesett fejemről s a szél nemtője úgy akarta, hogy az a te fejedre szálljon: ugyanazon perczben hallám bizalomtelt felkiáltásodat is s azonnal fogadást tettem magam­ ban, hogy meg foglak menteni. íme, vedd e czérnagombolyagot, szegezd le egyik végét a Labyrinth bejáratánál s a mint aztán beljebb hatolsz, a szerint ereszd folyvást magad után a czérnaszálat. Visszajövet ez leend majd útmutatód, ha ismét lépésről lépésre a leeregetett czérna­ szálat felgombolyítod.</p>
-        </blockquote>
-
-        <p>A sötétségbe való leereszkedést tehát ez úttal is egy fonal segíti. Az alvilág alapvetően eltér a két történetben, viszont ugyanúgy próbát kell kiállni, majd visszatérni.</p>
-
-        <blockquote>
-          <p>így haladt folyosókon, alagutakon, ösvényeken, csar­nokokon, szobákon keresztül; majd fel nehány lépcsőn, majd ismét le. Majd úgy rémlett előtte, mintha oly földalatti barlangban volna, melyet maga a természet alkotott; majd olyanban, melyben az emberi kéz nyomára akadt, s mely­ ben a magasabb művészet csínjára ismert. Sötétség azonban sehol sem uralkodott; hanem mindenütt bizonyos alkony­szerű világosság derengett, melynél a tárgyakat egymástól megkülönböztetheté. Azt észrevette ugyan, hogy a napfény felülről lövel alá, de semmikép sem tudta fölfedezni a nyílást, melyen a sugarak behatottak. Hosszú tévelygés után csakugyan meggyőződött, hogy nehéz s csaknem megold­hatatlan feladat: ezen oly csodásán össze-vissza bonyolult menetek, szobák, folyosók útvesztőjéből kibontakozni, mert mindezek épen megfoghatatlan hasonlóságuk által hozták a bennök járót tévedésbe s útját, úgyszólván, mindinkább megnehezíték.</p>
-        </blockquote>
-
-        <p>A próbatétel ezúttal a szörny, az Őr-Dög, a Minota-Úr legyőzése. Férfiaknak való feladat, így a Holle anyó a női, mígy Thezeus ugyanannak a belső utazásnak a férfi alternatíváját mutatja be.</p>
-        <p>Minotaurus egy dologban mégis jelentősen eltér az európai ördög-ideáltól: abban hogy legyőzhető, sőt, legyőzésének mikéntje is bemutatásra kerül. A középkori európai ördög sokkal inkább ijesztegetés eszköze, mintsem egy fejlődési út mérföldköve.</p>
-
-        <p>A szál, mely összeköti az alsó és felső világot, lehet egy orsó fonala, egy cérnagombolyag, vagy egy hegymászókötél, melynek segítségével a barlangba ereszkedünk, vagy égig érő paszuly. De egyben lehet köldökzsinór, mely egyik világból másikba vezet, vagy ezüstszál ami az asztráltest finom fizikai lényét köti össze e durva fizikaival, de lehet ez a végső tudás vezérfonalának aktuális szakasza is.</p>
-      </div>
-    </ScrollSection>
   </React.Fragment>
 )
 

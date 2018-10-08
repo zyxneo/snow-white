@@ -8,6 +8,7 @@ import Textil from '../sections/Textil'
 import Symbols from '../sections/Symbols'
 import Terminal from '../sections/Terminal'
 import Holle from '../sections/Holle'
+import Theseus from '../sections/Theseus'
 import SleepingBeauty from '../sections/SleepingBeauty'
 
 class IndexPage extends React.Component {
@@ -45,6 +46,7 @@ class IndexPage extends React.Component {
             <Symbols onEnter={this.onEnterViewport} />
             <Terminal onEnter={this.onEnterViewport} />
             <Holle onEnter={this.onEnterViewport} />
+            <Theseus onEnter={this.onEnterViewport} />
             <SleepingBeauty onEnter={this.onEnterViewport} />
           </div>
         </div>

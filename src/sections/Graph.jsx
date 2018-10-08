@@ -129,7 +129,7 @@ scene6.characters.huntsman.scale = 0.3
 move(scene6.characters.huntsman, CooBottomRightMale)
 scene6.characters.prince.opacity = 1
 scene6.characters.prince.scale = 0.75
-move(scene6.characters.prince, { cx: 95, cy: 25 })
+move(scene6.characters.prince, { cx: 95, cy: 35 })
 scene6.arrows.princeAndSnowwhite = {
   color: TEAL,
   fromCharacter: 'prince',
@@ -146,7 +146,7 @@ const scene8 = lodash.cloneDeep(scene7)
 scene8.characters.witch2.scale = 0.3
 scene8.characters.witch2.opacity = 1
 move(scene8.characters.witch2, CooBottomRightFemale)
-scene8.arrows.queenAndWitch = {
+scene8.arrows.snowwhiteAndWitch = {
   color: PURPLE,
   fromCharacter: 'snowwhite',
   fromSide: 'bottom',
@@ -156,6 +156,7 @@ scene8.arrows.queenAndWitch = {
 
 const scene9 = lodash.cloneDeep(scene8)
 scene9.characters.witch.opacity = 0
+scene9.arrows.queenAndWitch.opacity = 0
 scene9.arrows.witch2AndHuntsman = {
   color: TEAL,
   fromCharacter: 'witch2',
@@ -174,14 +175,12 @@ scene9.arrows.witch2AndSnowwhite = {
 }
 
 const scene10 = lodash.cloneDeep(scene9)
-scene10.arrows.queenAndWitch.opacity = 0
+scene10.arrows.witch2AndHuntsman.dashArray = '1'
+scene10.arrows.witch2AndHuntsman.width = 0.5
+scene10.arrows.snowwhiteAndWitch.opacity = 0
 
 const scene11 = lodash.cloneDeep(scene10)
-scene11.arrows.witch2AndHuntsman.dashArray = '1'
-scene11.arrows.witch2AndHuntsman.width = 0.5
-
-const scene12 = lodash.cloneDeep(scene11)
-scene12.arrows.princeAndHuntsman = {
+scene11.arrows.princeAndHuntsman = {
   color: PURPLE,
   fromCharacter: 'prince',
   fromSide: 'right',
@@ -189,11 +188,8 @@ scene12.arrows.princeAndHuntsman = {
   toSide: 'top',
 }
 
-const scene13 = lodash.cloneDeep(scene12)
-scene13.arrows.huntsmanAndSnowwhite.toCharacter = 'center'
-scene13.arrows.huntsmanAndSnowwhite.fromSide = 'top'
-scene13.arrows.witch2AndSnowwhite.toCharacter = 'center'
-scene13.arrows.kingAndPrince = {
+const scene12 = lodash.cloneDeep(scene11)
+scene12.arrows.kingAndPrince = {
   color: GREEN,
   fromCharacter: 'king',
   fromSide: 'bottom',
@@ -202,7 +198,7 @@ scene13.arrows.kingAndPrince = {
   dashArray: '1',
   width: 0.5,
 }
-scene13.arrows.queenAndPrince = {
+scene12.arrows.queenAndPrince = {
   color: GREEN,
   fromCharacter: 'queen',
   fromSide: 'right',
@@ -211,21 +207,39 @@ scene13.arrows.queenAndPrince = {
   dashArray: '1',
   width: 0.5,
 }
-// scene7.characters.prince.scaprincele = 0.3
-// move(scene7.characters.prince, CooCenterTop)
+scene12.arrows.huntsmanAndSnowwhite.toCharacter = 'center'
+scene12.arrows.huntsmanAndSnowwhite.fromSide = 'top'
+scene12.arrows.witch2AndSnowwhite.toCharacter = 'center'
 
-// scene3.characters.queen.scale = 0.3
-// move(scene3.characters.queen, CooTopLeftFemale)
-// scene3.characters.snowwhite.opacity = 1
-// move(scene3.characters.snowwhite, CooCenterTop)
-// scene3.characters.witch.opacity = 1
-// move(scene3.characters.witch, CooBottomLeftFemale)
-// move(scene3.characters.king, CooTopLeftMale)
-// scene3.characters.prince.opacity = 1
-// move(scene3.characters.prince, CooCenterBottom)
-// scene3.characters.huntsman.opacity = 1
-// move(scene3.characters.huntsman, CooTopRightMale)
+const scene13 = lodash.cloneDeep(scene12)
+scene13.arrows.queen2AndSnowwhite = {
+  color: PURPLE,
+  fromCharacter: 'snowwhite',
+  fromSide: 'right',
+  toCharacter: 'queen2',
+  toSide: 'left',
+}
+scene13.arrows.queenAndPrince.opacity = 0
+scene13.arrows.kingAndPrince.opacity = 0
+scene13.arrows.queenAndSnowwhite.opacity = 0
+scene13.arrows.kingAndSnowwhite.opacity = 0
+scene13.arrows.kingAndPrince.opacity = 0
+scene13.arrows.witch2AndSnowwhite.opacity = 0
+scene13.arrows.huntsmanAndSnowwhite.opacity = 0
+scene13.arrows.princeAndHuntsman.opacity = 0
 
+scene13.characters.queen2.scale = 0.3
+scene13.characters.queen2.opacity = 1
+move(scene13.characters.queen2, CooTopRightFemale)
+
+const scene14 = lodash.cloneDeep(scene13)
+scene14.characters.witch.opacity = 1
+scene14.arrows.queenAndWitch.opacity = 1
+
+const scene15 = lodash.cloneDeep(scene14)
+scene14.arrows.queenAndWitch.opacity = 0
+
+scene15.arrows.princeAndHuntsman.opacity = 1
 
 class Graph extends React.Component {
   constructor(props) {
@@ -382,7 +396,7 @@ class Graph extends React.Component {
             onEnter={() => {
               onEnterViewport('story.scene.sequel6')
               this.setState({
-                graphData: scene11,
+                graphData: scene10,
               })
             }}
             onExit={this.onExitEnd}
@@ -392,7 +406,7 @@ class Graph extends React.Component {
             onEnter={() => {
               onEnterViewport('story.scene.sequel7')
               this.setState({
-                graphData: scene12,
+                graphData: scene11,
               })
             }}
             onExit={this.onExitEnd}
@@ -402,7 +416,7 @@ class Graph extends React.Component {
             onEnter={() => {
               onEnterViewport('story.scene.sequel8')
               this.setState({
-                graphData: scene13,
+                graphData: scene11,
               })
             }}
             onExit={this.onExitEnd}
@@ -412,7 +426,77 @@ class Graph extends React.Component {
             onEnter={() => {
               onEnterViewport('story.scene.sequel9')
               this.setState({
+                graphData: scene12,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel10"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel10')
+              this.setState({
+                graphData: scene12,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel11"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel11')
+              this.setState({
                 graphData: scene13,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel12"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel12')
+              this.setState({
+                graphData: scene14,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel13"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel13')
+              this.setState({
+                graphData: scene14,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel14"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel14')
+              this.setState({
+                graphData: scene14,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel15"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel15')
+              this.setState({
+                graphData: scene14,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel16"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel16')
+              this.setState({
+                graphData: scene15,
               })
             }}
             onExit={this.onExitEnd}
