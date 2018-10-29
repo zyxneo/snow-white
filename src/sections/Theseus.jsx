@@ -23,7 +23,7 @@ const Section = props => (
           <img src="/images/theseus/labyrinth/5880e5d393838778a8453ef82fbef7fb.jpg" />
         </p>
 
-        <p>Véleményem szerint Thezeus története egyértelműen összekapcsolható Holle anyó történetével, mégpedig Ariadne fonalával. Bevallom, ilyen részre nem emlékeztem, mintha sohasem hallottam volna.</p>
+        <p>Véleményem szerint Thezeus története egyértelműen összekapcsolható Holle anyó történetével, mégpedig <b>Ariadne fonalával</b>. Bevallom, ilyen részre nem emlékeztem, mintha sohasem hallottam volna.</p>
 
 
         <blockquote>
@@ -54,7 +54,7 @@ const Section = props => (
 
         <p>Minotaurus egy dologban mégis jelentősen eltér az európai ördög-ideáltól: abban hogy legyőzhető, sőt, legyőzésének mikéntje is bemutatásra kerül. A középkori európai ördög sokkal inkább ijesztegetés eszköze, mintsem egy fejlődési út mérföldköve.</p>
 
-        <p>A szál, mely összeköti az alsó és felső világot, lehet egy orsó fonala, egy cérnagombolyag, vagy egy hegymászókötél, melynek segítségével a barlangba ereszkedünk, vagy égig érő paszuly. De egyben lehet köldökzsinór, mely egyik világból másikba vezet, vagy ezüstszál ami az asztráltest finom fizikai lényét köti össze e durva fizikaival, de lehet ez a végső tudás vezérfonalának aktuális szakasza is.</p>
+        <p>A szál, mely összeköti az alsó és felső világot, lehet egy orsó fonala, egy cérnagombolyag, vagy egy hegymászókötél, melynek segítségével a barlangba ereszkedünk, de akár égig érő paszuly is. De egyben lehet köldökzsinór, mely egyik világból másikba vezet, vagy ezüstszál ami az asztráltest finom fizikai lényét köti össze e durva fizikaival, de lehet ez a végső tudás vezérfonalának aktuális szakasza is.</p>
 
         <p>Míg a Holle anyó történetében a leány a saját orsóra tekert fonalával indul el, addig Thezeus Ariadnétól kapja a fonalat. Úgy tűnik, a férfi útjához szükség van erre a külső segítségre. Egyes történetekben a fonál magától gurul végig a labyrinthuson, megmutatva Minotaurus hollétét, másokban Thezeusnak magának kell megtalálni ellenfelét, és a fonal az Ariadnéhoz vezető utat mutatja meg. Az viszont biztos, hogy a fonal két végpontján a nő és a bikatestű férfi állnak, Thezeus mozgástere erre a vonalra korlátozódik. De mi is ez a labyrinthus?</p>
         <p className="masonry">
@@ -77,6 +77,14 @@ const Section = props => (
         </blockquote>
 
         <p>Amíg ez a lény el van zárva a komplex mélységben, addig biztonságban van mindenki. Csakhogy időről-időre feltámad étvágya, és ilyenkor ifjakat kebelezbe, egyes források szerint szűzeket.</p>
+
+        <p><img src="/images/theseus/6253576fb2a004a8f012a1bb2d912e19.jpg" className="ui fluid image" /></p>
+
+        <p>A legenda értelmezése minden férfire éppúgy érvényes, de persze mindenkire személyre szabva. Vannak akik rettegnek ettől a mélységtől, próbálják létezését is eltitkolni, és nem mernek szembesülni a Minutaurusszal, még akkor sem, ha kiderülne, nincs is más ott a sötét mélységben, csak egy kis fehér gyáva nyuszi. Vannak akik kűzdenek a mérhetetlen erejű szörnnyel, reggelre legyőzik, de estére a szörny ismét feltámad, és kezdődik a kilátástalan kűzdelem újra meg újra. Vannak akik kalandos kedvükben elindultak felfedezni a Labyrinthust, és összetalálkoztak a hatalmas, szőrös állattal, de kiderült, hogy simán össze lehet haverkodni vele egy cigiért cserébe, nála meg történetesen sör van, és nem fukarkodik vele, így bekucorodva az útvesztő egy zugába egy egész életet is ki lehet bekkelni kártyázgatva, elvégre minek az a nagy felhajtás. Az ilyen tipusú Minotaurusszal rendelkező férfiakra aztán várhatnak az Ariadnék...</p>
+
+        <p>Bizonyára rengeteg eltérő változat létezik, de az ideális esetet a történet szépen bemutatja. Nagyon érdekes, hogy a történet folytatásában a két leánytestvér közül Ariadné elvész. Szerintem ez azt is mutathatja, hogy Minotaurusz legyőzését követően a férfinek nincs többé szüksége a nő azon felére aki eligazítja őt a sötét mélységeiről.</p>
+
+        <p><img src="/images/theseus/622cfd87eeccc58aace5767cdcdb8ee1.jpg" className="ui fluid image" /></p>
       </div>
     </ScrollSection>
   </React.Fragment>

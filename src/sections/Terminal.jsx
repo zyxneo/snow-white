@@ -14,19 +14,18 @@ const Section = props => (
     <ScrollSection {...props} id=".story.terminal.spindle">
       <h3>Fonás</h3>
       <div>
-        <p>Az orsó (die Spindel), mint a fonás szimbóluma, avagy a fonás maga (spinnen) számtalan Grimm mesében megjelenik. Ezek a mesék további értelmezést adhatnak, miért is fontos szimbólum pl. az ujj megszúrása. Hogy kitegyem az i-re a pontot, és visszhelyezzem a kidobott rokkákat és orsókat a helyükre, itt egy lista ugyanazon Grimm kötetből, melyben orsó és/vagy fonás szerepel:</p>
+        <p>Az orsó (die Spindel), mint a fonás szimbóluma, avagy a fonás maga (spinnen) számos Grimm mesében megjelenik. Ezek a mesék további értelmezést adhatnak, miért is fontos szimbólum pl. az ujj megszúrása. Hogy kitegyem az i-re a pontot, és visszhelyezzem a kidobott rokkákat és orsókat a helyükre, itt egy lista ugyanazon Grimm kötetből, melyben orsó és/vagy fonás szerepel:</p>
         <ul>
-          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/csipkerozsika" target="_blank" rel="noopener noreferrer">Csipkerózsikát</a> elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/csipkerozsika" target="_blank" rel="noopener noreferrer">Csipkerózsikát</a> (Dornröschen) elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
           <li>Lumpenstikli (Rumpelstilzchen) a szalmából is aranyat tud fonni. A magyar megfelelője ennek a mesének a kaponyányi manó. A rumpelstilz - mángorrúd mintájakét eredeti neve a „kapanyélnyi monyú“ etikai okokból nem kerül be a gyermek-mesekönyvekbe.</li>
           <li>A <a href="https://www.grimmstories.com/hu/grimm_mesek/holle_anyo" target="_blank" rel="noopener noreferrer">Holle anyó</a>hoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... Inkább kifejtem külön fejezetben.</li>
-          <li>A lusta fonó (Die faule Spinnerin) - az egész mese alaptémája</li>
-          <li>A három fonó (Die drei Spinnerinnen) - az egész mese alaptémája</li>
-          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/az_orso_a_vetelo_meg_a_tu" target="_blank" rel="noopener noreferrer">Az orsó, a vetélő meg a tű</a>(Spindel, Weberschiffchen und Nadel) - az egész mese alaptémája</li>
-          <li>Csipkerózsika (Dornröschen)</li>
-          <li>Die Wassernixe</li>
-          <li>Die Schlickerlinge</li>
-          <li>Der Sperling und seine vier Kinder</li>
-          <li>Die Gänsehirtin am Brunnen</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/a_lusta_fonoasszony" target="_blank" rel="noopener noreferrer">A lusta fonóasszony</a> (Die faule Spinnerin) - az egész mese alaptémája</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/a_harom_fonoasszony" target="_blank" rel="noopener noreferrer">A három fonóasszony</a> (Die drei Spinnerinnen) - az egész mese alaptémája</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/az_orso_a_vetelo_meg_a_tu" target="_blank" rel="noopener noreferrer">Az orsó, a vetélő meg a tű</a> (Spindel, Weberschiffchen und Nadel) - az egész mese alaptémája</li>
+          <li><a href="https://www.grimmstories.com/hu/grimm_mesek/a_libapasztorlany_a_kutnal" target="_blank" rel="noopener noreferrer">A libapásztorlány a kútnál (Die Gänsehirtin am Brunnen) </a></li>
+          <li>A vízitündér (<a href="https://www.grimmstories.com/de/grimm_maerchen/die_wassernixe" target="_blank" rel="noopener noreferrer">Die Wassernixe</a>)</li>
+          <li>A csiszladékok (<a href="https://www.grimmstories.com/de/grimm_maerchen/die_schlickerlinge" target="_blank" rel="noopener noreferrer">Die Schlickerlinge</a>)</li>
+          <li>A veréb és az ő négy fia (<a href="https://www.grimmstories.com/de/grimm_maerchen/der_sperling_und_seine_vier_kinder" target="_blank" rel="noopener noreferrer">Der Sperling und seine vier Kinder</a>)</li>
         </ul>
 
         <div className="masonry">

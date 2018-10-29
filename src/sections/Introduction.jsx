@@ -5,12 +5,10 @@ const Section = props => (
   <ScrollSection {...props} id="story.introduction">
     <img className="ui fluid image" src="/images/snowwhite/ec604b93f922dbb736628b8d5cdacfc9.jpg" />
     <h1>Hófehérke és a ...</h1>
-    <h2>Egész estés meseelemzés felnőtteknek</h2>
-    <small>avagy</small>
-    <h2>Hófehérke - ami kimaradt</h2>
     <small>avagy</small>
     <h2>Hófehérke - újratöltve</h2>
-    <p>avagy Hófehérke Csipkerózsika orsójával Holle anyónál... Szóvan nem csak hófehérke...</p>
+    <h3>Egész estés meseelemzés felnőtteknek</h3>
+    <p>avagy Csipkerózsika orsója Holle anyónál... Szóvan nem csak hófehérke...</p>
     <p>Sok képpel, hogy ne unjátok halálra magatokat... (jobb egérgomb, kép megjelenítése a kinagyításhoz)</p>
     <h3>Tudtad?</h3>
     <div>

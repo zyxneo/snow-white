@@ -188,6 +188,7 @@ scene11.arrows.princeAndHuntsman = {
   toSide: 'top',
 }
 
+// A látomás, vagy dezsavű?
 const scene12 = lodash.cloneDeep(scene11)
 scene12.arrows.kingAndPrince = {
   color: GREEN,
@@ -211,14 +212,12 @@ scene12.arrows.huntsmanAndSnowwhite.toCharacter = 'center'
 scene12.arrows.huntsmanAndSnowwhite.fromSide = 'top'
 scene12.arrows.witch2AndSnowwhite.toCharacter = 'center'
 
+// Nem várt fordulat, mindenki a Hóferkéből alakult ki
 const scene13 = lodash.cloneDeep(scene12)
-scene13.arrows.queen2AndSnowwhite = {
-  color: PURPLE,
-  fromCharacter: 'snowwhite',
-  fromSide: 'right',
-  toCharacter: 'queen2',
-  toSide: 'left',
-}
+scene13.characters.queen2.scale = 0.3
+scene13.characters.queen2.opacity = 1
+move(scene13.characters.queen2, CooTopRightFemale)
+
 scene13.arrows.queenAndPrince.opacity = 0
 scene13.arrows.kingAndPrince.opacity = 0
 scene13.arrows.queenAndSnowwhite.opacity = 0
@@ -227,19 +226,54 @@ scene13.arrows.kingAndPrince.opacity = 0
 scene13.arrows.witch2AndSnowwhite.opacity = 0
 scene13.arrows.huntsmanAndSnowwhite.opacity = 0
 scene13.arrows.princeAndHuntsman.opacity = 0
+scene13.arrows.snowwhiteAndQueen2 = {
+  color: PURPLE,
+  fromCharacter: 'snowwhite',
+  fromSide: 'right',
+  toCharacter: 'queen2',
+  toSide: 'left',
+}
 
-scene13.characters.queen2.scale = 0.3
-scene13.characters.queen2.opacity = 1
-move(scene13.characters.queen2, CooTopRightFemale)
-
+// De a banyáról is ezt mondtuk, ez hogy lehet?
 const scene14 = lodash.cloneDeep(scene13)
 scene14.characters.witch.opacity = 1
 scene14.arrows.queenAndWitch.opacity = 1
+scene14.arrows.snowwhiteAndWitch.opacity = 1
+scene14.arrows.queen2AndWitch2 = {
+  color: ORANGE,
+  fromCharacter: 'queen2',
+  fromSide: 'bottom',
+  toCharacter: 'witch2',
+  toSide: 'top',
+}
 
+// Nos, itt belépünk a tudatalatti világába, elérkeztünk az archetípusokhoz
 const scene15 = lodash.cloneDeep(scene14)
-scene14.arrows.queenAndWitch.opacity = 0
+scene15.characters.king2.scale = 0.3
+scene15.characters.king2.opacity = 1
+move(scene15.characters.king2, CooBottomLeftMale)
+scene15.characters.huntsman2.scale = 0.3
+scene15.characters.huntsman2.opacity = 1
+move(scene15.characters.huntsman2, CooTopRightMale)
 
+scene15.arrows.queen2AndWitch2.opacity = 0
+scene15.arrows.snowwhiteAndWitch.opacity = 0
+scene15.arrows.snowwhiteAndQueen2.opacity = 0
 scene15.arrows.princeAndHuntsman.opacity = 1
+scene15.arrows.princeAndKing2 = {
+  color: PURPLE,
+  fromCharacter: 'prince',
+  fromSide: 'left',
+  toCharacter: 'king2',
+  toSide: 'top',
+}
+scene15.arrows.kingAndHuntsman2 = {
+  color: ORANGE,
+  fromCharacter: 'king',
+  fromSide: 'right',
+  toCharacter: 'huntsman2',
+  toSide: 'left',
+}
 
 class Graph extends React.Component {
   constructor(props) {
@@ -486,7 +520,7 @@ class Graph extends React.Component {
             onEnter={() => {
               onEnterViewport('story.scene.sequel15')
               this.setState({
-                graphData: scene14,
+                graphData: scene15,
               })
             }}
             onExit={this.onExitEnd}
@@ -495,6 +529,16 @@ class Graph extends React.Component {
             id="story.scene.sequel16"
             onEnter={() => {
               onEnterViewport('story.scene.sequel16')
+              this.setState({
+                graphData: scene15,
+              })
+            }}
+            onExit={this.onExitEnd}
+          />
+          <StorySection
+            id="story.scene.sequel17"
+            onEnter={() => {
+              onEnterViewport('story.scene.sequel17')
               this.setState({
                 graphData: scene15,
               })

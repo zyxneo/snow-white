@@ -9,6 +9,7 @@ import Symbols from '../sections/Symbols'
 import Terminal from '../sections/Terminal'
 import Holle from '../sections/Holle'
 import Theseus from '../sections/Theseus'
+import Transformations from '../sections/Transformations'
 import SleepingBeauty from '../sections/SleepingBeauty'
 
 class IndexPage extends React.Component {
@@ -47,7 +48,7 @@ class IndexPage extends React.Component {
             <Terminal onEnter={this.onEnterViewport} />
             <Holle onEnter={this.onEnterViewport} />
             <Theseus onEnter={this.onEnterViewport} />
-            <SleepingBeauty onEnter={this.onEnterViewport} />
+            <Transformations onEnter={this.onEnterViewport} />
           </div>
         </div>
 

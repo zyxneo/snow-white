@@ -7,7 +7,7 @@ const Section = props => (
       <h3>A textilipar fejlődése</h3>
       <div>
         <img src="/images/queen/window/bafab403a16de2beb62be5c9badce849.jpg" className="ui medium left floated image" />
-        <p>####Szögezzük le, nem biztos, hogy mit is csinál a királynő az ablakban, varr, fon, (köt), de nyilván kézműves tevékenységet végez, miközben megszúrja az ujját. Ma azt is hihetnénk, varrógéppel dolgozott. Jelenleg műanyag ipari termékekben járunk, és nem ismerjük az eredetét az eleve rongyosra szaggatottan kapható göncöknek. Így nagy hátránnyal indulunk a megértéshez. Nem volt ez mindig így, az elmúlt 80 évben sorsdöntő fordulat zajlott le. A legidősebbek még emlékeznek a len, kender feldolgozására, fonásra, szövésre, hímzésre.</p>
+        <p>A Hófehérke mese szerint a királynő az ablakban ül és hímez. Szögezzük le, nem biztos, hogy mit is csinál a királynő az ablakban, varr, fon, (köt), de nyilván kézműves tevékenységet végez, miközben megszúrja az ujját. Egy ilyen részlet könnyen átalakulhat a mese történelmi átalakulásának folyamán. Ma azt is hihetnénk, varrógéppel dolgozott. Jelenleg műanyag ipari termékekben járunk, és nem ismerjük az eredetét az eleve rongyosra szaggatottan kapható göncöknek. Így nagy hátránnyal indulunk a megértéshez. Nem volt ez mindig így, az elmúlt 80 évben sorsdöntő fordulat zajlott le. A legidősebbek még emlékeznek a len, kender feldolgozására, fonásra, szövésre, hímzésre.</p>
         <div className="clearfix" />
       </div>
 
@@ -67,7 +67,7 @@ const Section = props => (
       <div>
         <p>A látható biológiai szál, mely fizikailag összeköti anyát gyermekével. Az anyának is van köldöke, a lánygyermeknek méhe, mutatva a végtelen láncolatot – mint a Matrjoska baba.</p>
         <p>A fonás során a szál a guzsalyra akasztott szöszből sodródik. A szösz szimbólikusan egy nagy adag formátlan, laza kóc, valami, ami magában még szinte <b>semmi</b> Bár tapintható, de szétesik az ember keze között, egyfajta szilárd köd. Ebből a kuszaságból formálja meg a szálat a fonó egy finom sodrattal.</p>
-        <p>(Ha szaporosásbiológiailag vizsgáljuk meg a mese mondanivalóját, ismét érdekes dolgot találunk: A királynő, aki egy nőstény, épp az ablaknál „hímez“. A hímpor, a hímzés díszítő jellege a hím állatok díszességére utal, igy jogos a feltételezés, miszerint az élet folyamának fenntartása zajlik épp).</p>
+        <p>(Ha szaporosásbiológiailag vizsgáljuk meg a mese mondanivalóját, ismét érdekes dolgot találunk: A királynő, aki egy nőstény, épp az ablaknál „hímez“. A hímpor, a hímzés díszítő jellege a hím állatok díszességére utal, igy is jogos a feltételezés, miszerint az élet folyamának fenntartása zajlik épp).</p>
         <p className="masonry">
           <img src="/images/dns/matrjoska/019652849fd22db5f0088af040962781.jpg" />
           <img src="/images/dns/matrjoska/3880be7de644038d7cfb468b6a747d00.jpg" />
@@ -78,7 +78,7 @@ const Section = props => (
           <img src="/images/dns/matrjoska/1e1cf6035e3249360c99559e50ef6a0a.jpg" />
           <img src="/images/dns/matrjoska/927fb907e09d87f9a6bd0900e42c9180.jpg" />
         </p>
-        <p>A minket körülvevő tremészeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női útat írja le. Több elemzés összpontosít a felcseperedő leánygyermek asszonnyá válásának folyamatára, és ezek az elemzések sokszor kimerülnek a menstruációra utaló szombólumok elemzésével, a „7“köznapok szolgai munkájval, melyek során hófehérke főz, mos, takarít, illetve a#### mostoha leánygyermeke nőisségének megnyomorításával. Kétségtelenül igazak az említett párhuzamok is, véleményem szerint azonban itt többről van szó. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
+        <p>A minket körülvevő teremészeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női útat írja le. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
 
         <p>Ideális esetben a női és férfi út egymással párhuzamosan halad, mint egy felívelő spirál, a nemek egymást kiegészítik, egymást segítik a kiteljesedésben. A fonás során az elkészült finom fonalakból cérnát lehet készíteni, mégpedig két szál összesodrásával. A rokkához ezért jellemzően három orsó dukál, mikor két orsó elkészült, át lehet fonni a cérnát a harmadikra. Egyfajta szentháromság motívum, a férfi és női szál összefonódásából keletkező sodrat, a köldökzsinór szimbóluma is lehet ez.</p>
 
@@ -89,7 +89,7 @@ const Section = props => (
 
       <h3>A vércsepp, a vérvonal</h3>
       <div>
-        <p>A rokkán lévő orsóval nem lehet megszúrni magát az embernek. Az ősi orsók, amely időből a történet is származik, nem rokkán voltak, hanem önmagukban használták őket. Ez egy hosszúkás szerszám, egy 15-20 cm-es „rudacska“ egyik végén egy „bumszlival“, ami elhegyesedik. Phallikus szimbólumnak is nevezhetnénk. Nagyon szép példa a feljebb megtekinthető képen az ablak mellett fonó királynő kezében van, most tételezzük fel, hogy a királynő valóban font. 1-3 csepp vér hull az orsó nyomán, és ez az alábbiakra enged következtetni: 1., Nem ért vénát, 2., röviddel az orsó behatolása után <i>elmaradt a vérzése</i>, 3., esetlegesen <i>először</i> szúrta meg orsó, és ez kevés vér elfolyásával járt.</p>
+        <p>A rokkán lévő orsóval nem lehet megszúrni magát az embernek. Az ősi orsók, amely időből a történet is származik, nem rokkán voltak, hanem önmagukban használták őket. Ez egy hosszúkás szerszám, egy 15-20 cm-es „rudacska“ egyik végén egy „bumszlival“, ami elhegyesedik. Phallikus szimbólumnak is nevezhetnénk. Nagyon szép példa a feljebb megtekinthető képen az ablak mellett fonó királynő kezében van, most tételezzük fel, hogy a királynő valóban font. 1-3 csepp vér hull az orsó nyomán, és ez az alábbiakra enged következtetni: 1., <s>Nem ért vénát</s>, 2., röviddel az orsó behatolása után <i>elmaradt a vérzése</i>, 3., esetlegesen <i>először</i> szúrta meg orsó, és ez kevés vér elfolyásával járt.</p>
         <p>A fonás és a vér együttes szimbóluma az élet fonalára utalhat, amelyet gyakran ábrázolnak piros fonallal.</p>
 
         <div className="masonry">
@@ -117,7 +117,8 @@ const Section = props => (
           <li>Hímzés: a textília díszítése tűvel, cérnával. A hímzés során szép minták kerülnek a ruha színére, míg a fonáka általában elhanyagoltabb marad, az elkötések miatt. A szín-fonák páros mutatja, hogy a magyar nyelv a fel<i>színt</i> eleve színesnek fogja fel.</li>
           <li>Foltvarrás: a kopott ruhákat rendszerint megpróbálták javítani, mivel ez sokkal egyszerűbb volt, mint újat készíteni. (Később, a textilipar fejlődésével egyre olcsóbb ruhákat gyártottak, így jobban megérte újat venni, mint a régit javítani. Ma már olyan fejlett a textilipar, hogy eleve foltos, kopott, szakadt ruhát is képes előállítani, és ez lett az etalon is.) A foltozás egy rekonstrukciós munka. A foltozó varrással helyre lehet állítani a szöveteket.</li>
         </ol>
-        <p>A varrás folyamata így hasonlóvá tehető, beilleszthető a fonás, szövés alkotói folyamatába, amely elvont értelemben az élőlény szöveteit hozza létre és élteti. A varrás így jobban köthető a már meglévő, kibontakozott élethez, míg a fonás ennél is elvontabb, mélyebb, tágasabb értelmű szimbólum. Ahogy a szervezet felépítésének szintjeit tagolva eljutunk a szerveken, szöveteken, sejteken át az örökítő anyag egyedi információjáig, úgy bonthatjuk az egyedi textil szövetét kézzel fogható ismeretektől a sejtésen át az általános létezés örök titkáig.</p>
+        <p>A varrás folyamata így hasonlóvá tehető, beilleszthető a fonás, szövés alkotói folyamatába, amely elvont értelemben az élőlény szöveteit hozza létre és élteti. A varrás így jobban köthető a már meglévő, kibontakozott élethez, míg a fonás ennél is elvontabb, mélyebb, tágabb értelmű szimbólum. </p>
+        <p>Ahogy a szervezet felépítésének szintjeit tagolva eljutunk a szerveken, <i>szöveteken</i>, sejteken át az örökítő anyag egyedi (titkos) információjáig, úgy bonthatjuk az egyedi textil szövetét kézzel fogható ismeretektől a sejtésen át az általános létezés örök titkáig.</p>
         <p>
           <img src="/images/dns/cb6b01d8a7e3fa5a827663e0b466da45.jpg" className="ui fluid image" />
         </p>
@@ -125,9 +126,9 @@ const Section = props => (
 
         <p>Judit hozzáfűzései:</p>
         <ol>
-          <li>Fonás: Lehetőséget ad a teremtésre. Megjegyzem, a 0 dimenzióból teremti az 1 dimenziót, az egyenest, a szálat.</li>
-          <li>Szövés: Maga a teremtés Alapanyag készítés. Megteremti a létezés alapját, az alapsíkot, egyről a kettőre jut, 1 dimenzióból a 2-be.</li>
-          <li>Varrással a harmadik dimenzióba lépünk. A hímzés: Minőseget ad a teremtménynek.</li>
+          <li>Fonás: Lehetőséget ad a teremtésre. A nulla dimenzióból teremti az 1 dimenziót, az egyenest, a szálat.</li>
+          <li>Szövés: Maga a teremtés. Alapanyag készítés. Megteremti a létezés alapját, az alapsíkot, egyről a kettőre jut, 1 dimenzióból a 2-be.</li>
+          <li>Varrással a harmadik dimenzióba lépünk. A díszítő hímzés: Minőseget ad a teremtménynek.</li>
         </ol>
         <p>A királynő hímzett, nem teremtett, hanem a minőséget adta meg, mert maga is egy minőség. A parasztasszonyok fontak-szőttek, az udvarhölgyek hímeztek. Megkapták a gyolcsot, a finom anyagokat és hímezgettek szépen.</p>
       </div>

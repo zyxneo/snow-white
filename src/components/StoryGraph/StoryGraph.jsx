@@ -76,7 +76,7 @@ class StoryGraph extends React.PureComponent {
       .attr('r', '30')
       .attr('fill', d => data.characters[d].color)
     character.append('circle')
-      .attr('class', 'none#######')
+      .attr('class', 'circle')
       .attr('cx', '50')
       .attr('cy', '50')
       .attr('r', '25')
