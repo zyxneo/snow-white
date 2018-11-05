@@ -145,6 +145,7 @@ move(scene7.characters.prince, CooCenterTop)
 const scene8 = lodash.cloneDeep(scene7)
 scene8.characters.witch2.scale = 0.3
 scene8.characters.witch2.opacity = 1
+scene8.characters.witch2.name = 'Ex-Hófehérke'
 move(scene8.characters.witch2, CooBottomRightFemale)
 scene8.arrows.snowwhiteAndWitch = {
   color: PURPLE,
@@ -547,7 +548,6 @@ class Graph extends React.Component {
           />
         </div>
         <ScrollTrigger onEnter={this.onEnterEnd} onExit={this.onExitEnd}>&nbsp;</ScrollTrigger>
-
       </section>
     )
   }

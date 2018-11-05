@@ -72,7 +72,7 @@ const Section = props => (
           <img src="/images/witch/witchcraft/438e226c1915d88de4077f8837f701ed.jpg" />
           <img src="/images/witch/cartoon/9bb02902fd00772a957f1c21edbc15c9.jpg" />
           <img src="/images/witch/painture/e3e1235c9ef78449696b5e9c7fc10f2e.jpg" />
-          <img src="/images/witch/force/f096053799528f1560760830a147e888.jpg" />
+          <img src="/images/witch/force/chao-huang-qq-20180131153402.jpg" />
           <img src="/images/witch/witchcraft/76c323ecf766d66b631f7e96d2a8d4ed.jpg" />
           <img src="/images/witch/fbe480768790ed12e4e550f3ae475fb0.jpg" />
           <img src="/images/witch/witchcraft/32f5f6e8966fdeff50784a7f374736d7.jpg" />
@@ -346,8 +346,8 @@ const Section = props => (
 
         <p className="masonry">
           <img src="/images/forest/0a0fd2679dca146b529f13db27adc77a.jpg" />
-          <img src="/images/forest/12d582b3d4cc28200190c1c9d438ea94.jpg" />
           <img src="/images/forest/94315e83086d6123ff289d6431067b22.jpg" />
+          <img src="/images/forest/12d582b3d4cc28200190c1c9d438ea94.jpg" />
         </p>
 
         <blockquote>
@@ -531,8 +531,8 @@ const Section = props => (
     <ScrollSection {...props} id="symbol.symbol.mine">
       <h3>A hét</h3>
       <div>
-        <p>Szándékosan nem törpe. Utálom őket. Hogy olyan kis... izék...</p>
-        <p>Hogyan hívták őket? </p>
+        <p>Szándékosan nem törpe.</p>
+        <p>Hogyan hívták a hét törpét? </p>
         <img src="/images/7/6136290580b43221a4d2066e04fd36bd.jpg" className="ui medium right floated image" />
         <ol>
           <li>Dó</li>
@@ -545,6 +545,7 @@ const Section = props => (
         </ol>
         <div className="clearfix" />
         vagy
+        <img src="/images/7/8d2ff95e58f0e33f6c0e870f4ec47a3e.jpg" className="ui medium right floated image" />
         <ol>
           <li>Vörös</li>
           <li>Narancs</li>
@@ -554,6 +555,7 @@ const Section = props => (
           <li>Indigó</li>
           <li>Ibolya?</li>
         </ol>
+        <div className="clearfix" />
         vagy netán
         <img src="/images/7/e267397e1f04035edfa97f980874d2be.jpg" className="ui medium right floated image" />
         <ol>
@@ -576,7 +578,7 @@ const Section = props => (
           <li>Jóra való restség?</li>
         </ol>
         <div className="clearfix" />
-        <p>Nem. Úgy hívták őket, hogy Csipa, Harák, Mitteszer... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, hat irányba, előre-hátra, jobbra-balra és fel-le, ez a mi három dimeniós világunk. Ennek a meghaladásáról lenne szó? Hét lépcsőfokról, ami egy másik világbavezet? Egy másik planétára, a Hetedhét országba? A magyar eredetmonda 7 vezérrel számol. Lehetséges, hogy Álmos, Előd, Ond és a többiek számossága csak egy véletlen egybeesés azzal a hét dologgal, ami a magyarokat már annakeőtte is vezérelte? A juhász furulyáján is 7 lyuk van, a zene, ami előadható rajta, 1 oktávot ölel fel. Egy oktávval távolabb egy újabb oktáv kezdődik, mely ugyanolyan elvek szerint rendeződik, mint az előző, csak egy szinttel alacsonyabban ill. magasabban van.</p>
+        <p>Nem. Úgy hívták őket, hogy Csipa, Harák, Mitteszer... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, előre-hátra, jobbra-balra és fel-le, a mi három dimeniós világunk hat irányába. Ennek a meghaladásáról lenne szó? Hét lépcsőfokról, ami egy másik világba vezet? Egy másik planétára, a Hetedhét országba? A magyar eredetmonda 7 vezérrel számol. Lehetséges, hogy Álmos, Előd, Ond és a többiek számossága csak egy véletlen egybeesés azzal a hét dologgal, ami a magyarokat már annakeőtte is vezérelte? A juhász furulyáján is 7 lyuk van, a zene, ami előadható rajta, 1 oktávot ölel fel. Egy oktávval távolabb egy újabb oktáv kezdődik, mely ugyanolyan elvek szerint rendeződik, mint az előző, csak egy szinttel alacsonyabban ill. magasabban van.</p>
         <p>A wikipédia így ír a hetes számról: „A 7 (hét) (római számmal: VII) a 6 és 8 között található természetes szám, s egyben számjegy is. A számjegy ASCII kódja: 55 vagy 0x0037.“ - Azt hiszem ez mindent megmagyaráz...</p>
       </div>
     </ScrollSection>

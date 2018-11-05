@@ -4,6 +4,11 @@ import ScrollSection from '../components/ScrollSection'
 const Section = props => (
   <React.Fragment>
     <ScrollSection {...props} id="story.textil">
+      <h2>Textil</h2>
+      <div>
+        <p>Tegyük félre kicsit a Hófehérke történetét, és vizsgáljuk meg a mesék egyik általános összekötő szimbólumát.</p>
+      </div>
+
       <h3>A textilipar fejlődése</h3>
       <div>
         <img src="/images/queen/window/bafab403a16de2beb62be5c9badce849.jpg" className="ui medium left floated image" />

@@ -63,7 +63,7 @@ const Section = props => (
           <img src="/images/theseus/labyrinth/7ba15119b982edded5c8e6a0a4dea745.jpg" />
         </p>
 
-        <p>Természetesen önnön belső kiismerhetetlen mélységeink, jellemünk sötétsége, a tudat és a tudatalatti, a kontrollált jellemünk és ösztöneink összessége, az útvesztő, melynek legmélyén ott lakik ő, a sötét felebarátunk, alantas ösztönlényünk, az állat-ember, az őshüllő. Ott mélyen lakik az a megtestesületlen személy, aki ha megtestesülne, mi magunk lennénk az. Ott a sötétben él az a lény, aki a legnagyobb ellenségünk, akit ember le nem győzhet, mert nem emberi lény ő, hanem egy felsőbb akarat teremtménye.</p>
+        <p>Természetesen önnön belső kiismerhetetlen mélységeink, jellemünk sötétsége, a tudat és a tudatalatti, a kontrollált jellemünk és ösztöneink összessége, az útvesztő, melynek legmélyén ott lakik ő, a sötét felebarátunk, alantas ösztönlényünk, az állat-ember, az őshüllő. Ott mélyen lakik az a megtestesületlen személy, aki ha megtestesülne, mi magunk lennénk az. Ott a sötétben él az a lény, aki a legnagyobb ellenségünk, akit ember le nem győzhet, mert nem emberi lény ő, hanem egy felsőbb (avagy alsóbb) akarat teremtménye.</p>
 
         <p className="masonry">
           <img src="/images/theseus/f5717ae9a97e4d6e556102505c96b1e2.jpg" />
@@ -76,7 +76,7 @@ const Section = props => (
           <p>— Hogy pedig a sorsot is tudjátok — folytatá — mely Krétában a hét ifjúra vár, elmondom. Szigetemen egy ret­tentő szörny van, melynek egyedüli tápláléka emberhús, mivel én látom el. A szörny neve: Minotaurus. Én őt azon földalatti épületben tartom elzárva, melyet a halhatatlan építész, Daedalus alkotott országomban. Bizonyosan hal­lottátok ez épületnek hírét, melyet Labyrinthnak neveznek. Egymásba mesterileg bonyolult tévutakból áll az egész. A ki belépett, úgy eltéved ösvényeinek kanyarulatos tömkelegében, hogy csak is csoda által menekülhet. Minden második ujholdkor egy ifjút vitetek a Labyrinthba, táplálékul Minotaurusnak, mert tovább nem tűri e szörny az éhséget s ha az ujholdra következő első napon nem kapja meg táplálékát: székvárosomra s a környékre, sőt gyakran egész Krétára is azonnal valami vészt zúdit.</p>
         </blockquote>
 
-        <p>Amíg ez a lény el van zárva a komplex mélységben, addig biztonságban van mindenki. Csakhogy időről-időre feltámad étvágya, és ilyenkor ifjakat kebelezbe, egyes források szerint szűzeket.</p>
+        <p>Amíg ez a lény el van zárva a komplex mélységben, addig biztonságban van mindenki. Csakhogy időről-időre feltámad étvágya, és ilyenkor ifjakat kebelez be, egyes források szerint szűzeket.</p>
 
         <p><img src="/images/theseus/6253576fb2a004a8f012a1bb2d912e19.jpg" className="ui fluid image" /></p>
 
@@ -85,6 +85,10 @@ const Section = props => (
         <p>Bizonyára rengeteg eltérő változat létezik, de az ideális esetet a történet szépen bemutatja. Nagyon érdekes, hogy a történet folytatásában a két leánytestvér közül Ariadné elvész. Szerintem ez azt is mutathatja, hogy Minotaurusz legyőzését követően a férfinek nincs többé szüksége a nő azon felére aki eligazítja őt a sötét mélységeiről.</p>
 
         <p><img src="/images/theseus/622cfd87eeccc58aace5767cdcdb8ee1.jpg" className="ui fluid image" /></p>
+
+        <p>A Minotaurusz mítosz feldolgozása a Kontroll című film is. Nem Minoszban, hanem a Metró területén játszódik, de a filmben gyakorta megjelenő M betű összeköti a két történetet. Minotaurusz megfelelője a  lökdösődő, aki szintén a föld alatti járatokban él, Bulcsúhoz hasonlóan, akinek épp meg kell vele küzdenie. Ebben egy lányka lesz segítségére, aki álmában megmutatja neki a szörny rejtekhelyét.</p>
+
+        <p>A Minotaurusz és Csipkerózsika különleges egyvelege a Hercegnő és a kobold történet. Thezeus itt Kóficként jelenik meg, ellenfele pedig Takonypóc, a kobold, aki a bányák alatt a mélységben él. Csipkerózsikára hasonlít Angelika hercegnő, a mese másik főszereplője. A padlásszobában ő is egy fonónőt talál, csakhogy ez a fonó tulajdon öse, jóindulatú, és nem elaltatja, hanem pont hogy felébreszti a lányt. A misztikus nagymama különleges tudásba avatja be Angelikát, és egy fonalat ajándékoz neki. Ennek segítségével a lány szabadítja ki a sötét mélységben, árnyékszemélyisége fogságában ragadt fiút. Érdekes, hogy a fiú bukásának egyik oka, hogy a szüleitől szerzett fonal nem bizonyul használhatónak akciója során, mikor egymaga indul neki a sötét mélység felderítésének. A Kófic és Angelika kapcsolata akkor rendeződik, mikor a fiú megismeri a leány nagymamáját, a misztikus női ősképet.</p>
       </div>
     </ScrollSection>
   </React.Fragment>
