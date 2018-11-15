@@ -44,7 +44,7 @@ const Section = props => (
 
         <p className="padded">A három ősi boszorka tehát az élet fonalát sodorja. Az egyik a szöszt adja, a másik sodorja, a harmadik a fonalat elvágja</p>
         <img src="/images/fates/thread-of-life/e060710ee49c97f5e15f0107682903b3.jpg" className="ui fluid image" />
-        <p className="padded">Gubanc, tekervény, sodrat, fonal, szövet, textil...  Az ablaknál kézműves tevékenységet végző királynő előrevetíti a jövő történéseit: hófehérke „gubancba“ keveredik, az élet messzire „sodorja“. Ebben a kon„textus“ban a királynő egy párka, ábrándokat „sző“. A mostoha „fon“dorlatos, a történet „fonala“ „tekervényes“.</p>
+        <p className="padded">Gubanc, tekervény, sodrat, fonal, szövet, textil...  Az ablaknál kézműves tevékenységet végző királynő előrevetíti a jövő történéseit: Hófehérke „gubancba“ keveredik, az élet messzire „sodorja“. Ebben a kon„textus“ban a királynő egy párka, ábrándokat „sző“. A mostoha „fon“dorlatos, a történet „fonala“ „tekervényes“.</p>
 
         <p>
           <img src="/images/fates/three-witches/507b2de3fd7820d7635379419b461e44.jpg" className="ui fluid image" />

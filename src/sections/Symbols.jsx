@@ -21,7 +21,7 @@ const Section = props => (
       <h3>Karakterek</h3>
       <div>
         <p>A mesében feltünő különböző karakterek felfoghatók szimbólumokként. Elemzésem célja, hogy bizonyítsam, hat fő karakterre épít a mese, 3 női, 3 férfi karakterre. A 3-3 karakter azonban egyugyanazon ember különböző állapotát hivatott szimbolizálni, a nőét és a férfiét. Mivel az eltérő nemi karakterek egymással párhuzamba állíthatók, egymásnak megfeleltethetők, így végső soron egy általános <i>emberi</i> jellem-átalakulást is ki lehet domborítani a részletek felhasználásával.</p>
-        <p>Az amerikai tipusú filmektől megszokhattuk, hogy a karaktereik u.n. <i>egydimenziós</i> karakterek, azaz vagy nagyon jók, vagy nagyon rosszak. Ezek a történetek már nem adják meg annak a lehetőségét, hogy az ember elgondolkodjon a közöttük lévő kapcsolaton, és tanulságokat vonjon le saját jellemi fejlődését illetően. A hollywoodi történetek megkönnyítik az állásfoglalást, mindenki a jó karakterrel azonosul, a rossz pedig mindig a másik ember. A hófehérke mese karakterei ezzel szemben ugyanazon személy fejlődésének állapotait mutatják be. A mese célja, hogy a gyermeket erre felkészítse, ezért rejtett szálakkak összeköti őket, rámutat hogyan formálódik egyik jellemből a másik. Az ilyen ősi jellemkaraktereket Jung <i>archetipusnak</i> nevezte.</p>
+        <p>Az amerikai tipusú filmektől megszokhattuk, hogy a karaktereik u.n. <i>egydimenziós</i> karakterek, azaz vagy nagyon jók, vagy nagyon rosszak. Ezek a történetek már nem adják meg annak a lehetőségét, hogy az ember elgondolkodjon a közöttük lévő kapcsolaton, és tanulságokat vonjon le saját jellemi fejlődését illetően. A hollywoodi történetek megkönnyítik az állásfoglalást, mindenki a jó karakterrel azonosul, a rossz pedig mindig a másik ember. A Hófehérke mese karakterei ezzel szemben ugyanazon személy fejlődésének állapotait mutatják be. A mese célja, hogy a gyermeket erre felkészítse, ezért rejtett szálakkak összeköti őket, rámutat hogyan formálódik egyik jellemből a másik. Az ilyen ősi jellemkaraktereket Jung <i>archetipusnak</i> nevezte.</p>
       </div>
     </ScrollSection>
 
@@ -137,7 +137,7 @@ const Section = props => (
         </p>
         <p>Férfi út lárvaállapota</p>
         <p>A mese említést sem tesz róla, mintha nem is létezne. Csak a mese végén az erdőben bukkan fel, abban az erdőben ahol a vadász hófehérkét helyben hagyta. Felmerülhet a gyanú, hogy mit keresett a herceg az erdőben. Nyilván egy hófehérkét, de akkor mi különbözteti meg a vadásztól?</p>
-        <p>Úgy is mondhatnám, hófehérke a vadásszal megy be az erdőbe, de a herceggel jön ki. Persze közben sokminden történik...</p>
+        <p>Úgy is mondhatnám, Hófehérke a vadásszal megy be az erdőbe, de a herceggel jön ki. Persze közben sokminden történik...</p>
 
         <p>Judit megjegyzései:</p>
         <p>Nem egy megjavult kékszakáll hozza ki hercegként. Nem lárva, csak a királyi lét előzménye, a herceg a fiú archetípus, a király pedig az atya, az Isten archetípus. Azért tudja kimenteni hófehérkét, mert maga nem rabja az erdőnek, eleve nem fél benne, ismeri az erdőt, és uralja azt, azokat a folyamatokat amik a sötétben, a háttérben zajlanak.</p>
@@ -299,7 +299,7 @@ const Section = props => (
     <ScrollSection {...props} id="symbol.symbol.paths">
       <h3>Utak</h3>
       <div>
-        <p>Lárvaállapot: hófehérke, herceg. Női út, férfi út – egyedi út, de megfeleltethető. Felisút-leisút – minden állapotból el lehet mozdulni, mindegyiknek vannak jellemzői. A mese kisarkítja a karakterek megítélését, de egyben rávilágít, nincs abszolút jó és rossz, ez nézőpont, “viszony” kérdése. A viszonylatok határozzák meg a lehetleges elmozdulási irányokat. Horizontális, vertikális utak, személyiségfejlődés. Minden mesében vannak utak, melyeket a hősnek be kell járnia, és ezek az utak mindíg a jellemfejlődés belső útjait szimbolizálják.</p>
+        <p>Lárvaállapot: Hófehérke, herceg. Női út, férfi út – egyedi út, de megfeleltethető. Felisút-leisút – minden állapotból el lehet mozdulni, mindegyiknek vannak jellemzői. A mese kisarkítja a karakterek megítélését, de egyben rávilágít, nincs abszolút jó és rossz, ez nézőpont, “viszony” kérdése. A viszonylatok határozzák meg a lehetleges elmozdulási irányokat. Horizontális, vertikális utak, személyiségfejlődés. Minden mesében vannak utak, melyeket a hősnek be kell járnia, és ezek az utak mindíg a jellemfejlődés belső útjait szimbolizálják.</p>
         <p className="masonry">
           <img src="/images/path/2fb5970360fb6b43402180c4b13595d2.jpg" />
           <img src="/images/path/3de36d298df9ce8e65ce86440ee9ab77.jpg" />
@@ -518,7 +518,7 @@ const Section = props => (
 
         <p><img src="/images/snowwhite/biancaneve/Biancaneve-281629.jpg" className="ui fluid image" /></p>
 
-        <p>A mérgerett alma megakadása a torokban egységes a meseváltozatok között is, de az, hogy hogyan lesz eltávolítva nem. Egyesekben herceg csókja segít, másokban a balfék törpék elejtik a koporsót, s így az alma végül nem zárja el többé a légutakat, és ezzel begejezte szerepét. Hmm... Hol itt a tanulság kérem? Hát nem sokkal szebb lenne ha a földre eső alma magja kihajtana? Ráadásul úgy, hogy a két fél közösen növesztene hajtást? Mindenképp elgondolkodtatóbb... „Az ember lényegi sajátosságait fölösleges, sőt káros egymást kizáró tényezőkként feltüntetni.“</p>
+        <p>Hát nem sokkal szebb lenne ha a földre eső alma magja kihajtana? Ráadásul úgy, hogy a két fél közösen növesztene hajtást? Mindenképp elgondolkodtatóbb... „Az ember lényegi sajátosságait fölösleges, sőt káros egymást kizáró tényezőkként feltüntetni.“</p>
         <p>Az alma preparálása sem tiszta. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészszéges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
 
         <p className="ui embed" data-source="youtube" data-id="5RKUUis-R78">
