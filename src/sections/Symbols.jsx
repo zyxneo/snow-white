@@ -7,7 +7,7 @@ const Section = props => (
       <h2>Szimbólumok</h2>
       <div>
         <img src="/images/sybmol/Yin_yang.svg" className="ui medium left floated image" />
-        <p>Bármi lehet szimbólum, magyar kifejezéssel jelkép, amit jelképként értelmezünk. Vannak közismert szimbólumok, mint pl. a Jin-jang. Sokan ismerik, sokan használják. Nehéz lenne egy ilyen jelképet másra használni, mint jelképnek, így egyértelmű a szerepe, noha jelentése kinik-kinek más-más szempontrendszer szerint érvényesül. Ezek a jelképek népszerűségüket valószínűleg annak köszönhetik, hogy nagyon szemléletesen sűritik egybe azokat a mondanivalókat amik az embereket mindig is érdekelték, a sötétség és fény körforgása, a harmónia, a belül rejtező ellentét, stb.</p>
+        <p>Bármi lehet szimbólum, magyar kifejezéssel jelkép, amit jelképként értelmezünk. Vannak közismert szimbólumok, mint pl. a Jin-jang. Sokan ismerik, sokan használják. Nehéz lenne egy ilyen jelképet másra használni, mint jelképnek, így egyértelmű a szerepe, noha jelentése kinek-kinek más-más szempontrendszer szerint érvényesül. Ezek a jelképek népszerűségüket valószínűleg annak köszönhetik, hogy nagyon szemléletesen sűrítik egybe azokat a mondanivalókat amik az embereket mindig is érdekelték, a sötétség és fény körforgása, a harmónia, a belül rejtező ellentét, stb.</p>
 
         <div className="clearfix" />
         <img src="/images/color/7a29711708570837273ccb1b41402bca.jpg" className="ui medium right floated image" />
@@ -28,7 +28,7 @@ const Section = props => (
     <ScrollSection {...props} id="symbol.characters.queen">
       <h3>A királynő</h3>
       <div>
-        <p>Milyennek képzeljük el? Ezt a kérdést sokszor fel fogom tenni, hogy lehetőséget adjak az elgondolkodásra, hogy saját magunkba mélyedve feltárjuk személyes érzelmeinket, előítéleteinket a témával kapcsolatban. Fontosnak tartom az egy perces néma csendet, gondolatindítónak, hangulatkeltés gyanánt pedig pár képet is mutatok, amivel egyet lehet érteni, vagy el lehet utasítani. Aztán mondom az én verziómat.####</p>
+        <p>Milyennek képzeljük el? Ezt a kérdést sokszor fel fogom tenni, hogy lehetőséget adjak az elgondolkodásra, hogy saját magunkba mélyedve feltárjuk személyes érzelmeinket, előítéleteinket a témával kapcsolatban. Fontosnak tartom az egy perces néma csendet, gondolatindítónak, hangulatkeltés gyanánt pedig pár képet is mutatok, amivel egyet lehet érteni, vagy el lehet utasítani. Aztán mondok én is egy verziót.</p>
         <p className="masonry">
           <img src="/images/queen/idea/1e6e6779f973504102f61969aedadb18.jpg" />
           <img src="/images/queen/idea/a7262d8d41f7de8ca9fb4fb82f0226c2.jpg" />
@@ -56,7 +56,7 @@ const Section = props => (
           <img src="/images/snowwhite/cartoon/80b503566551de0552417081d25a2181.jpg" />
         </p>
         <p>A női út lárvaállapota.</p>
-        <p>Naív de tiszta.</p>
+        <p>Naiv de tiszta.</p>
         <p>Oktondi: újonc a világban, mit sem sejt a mostoha és a vadász ármánykodásáról. Világnézetileg felkészületlen, sok tanulás vár még rá.</p>
         <p>Gyönge: Az útjáról, sorsáról nem ő, hanem nagyobb erők és érdekek döntenek. Létének beteljesedése a Királynő karakter, ennek eléréséhez meg kell találnia a herceget. De oda a sötét erdőn keresztül vezet az út. Az egy dolog, hogy sikerülhet felnőnie, de ha elbukik az élet kihívásai során, mint látni fogjuk, maga is mostohává válhat.</p>
       </div>
@@ -87,7 +87,7 @@ const Section = props => (
         <p>A mese kimondja, hogy szép, ő a legszebb. Ezt idővel elveszíti.</p>
         <p>Okos, a tudományokban (“boszorkányságban”) jártas. Ezt a tudását gonosz célokra használja.</p>
         <p>Hatalmi pozícióban van (ő lesz a királynő).</p>
-        <p>Nyilván való, hogy már nem naív, teljesen tisztában van az igazsággal (igazmondó tükre van). De amikor változnak a tények, nem néz szembe velük, (összetöri tükrét), illúziókba ringatja magát (a vadász átveri) vagy szembemegy a valósággal (hófehérkét mérgezi) Vannak boldog pillanatai, de összességében nem lehet boldognak nevezni.</p>
+        <p>Nyilván való, hogy már nem naiv, teljesen tisztában van az igazsággal (igazmondó tükre van). De amikor változnak a tények, nem néz szembe velük, (összetöri tükrét), illúziókba ringatja magát (a vadász átveri) vagy szembemegy a valósággal (hófehérkét mérgezi) Vannak boldog pillanatai, de összességében nem lehet boldognak nevezni.</p>
         <p>Fő hibája, hogy gonosz, önző, magával törődő, minden mással “mostoha”.</p>
       </div>
     </ScrollSection>
@@ -137,12 +137,12 @@ const Section = props => (
         </p>
         <p>Férfi út lárvaállapota</p>
         <p>A mese említést sem tesz róla, mintha nem is létezne. Csak a mese végén az erdőben bukkan fel, abban az erdőben ahol a vadász hófehérkét helyben hagyta. Felmerülhet a gyanú, hogy mit keresett a herceg az erdőben. Nyilván egy hófehérkét, de akkor mi különbözteti meg a vadásztól?</p>
-        <p>Úgy is mondhatnám, Hófehérke a vadásszal megy be az erdőbe, de a herceggel jön ki. Persze közben sokminden történik...</p>
+        <p>Úgy is mondhatnám, Hófehérke a vadásszal megy be az erdőbe, de a herceggel jön ki. Persze közben sok minden történik...</p>
 
         <p>Judit megjegyzései:</p>
         <p>Nem egy megjavult kékszakáll hozza ki hercegként. Nem lárva, csak a királyi lét előzménye, a herceg a fiú archetípus, a király pedig az atya, az Isten archetípus. Azért tudja kimenteni hófehérkét, mert maga nem rabja az erdőnek, eleve nem fél benne, ismeri az erdőt, és uralja azt, azokat a folyamatokat amik a sötétben, a háttérben zajlanak.</p>
         <p>A földi királyság a radzsasz, de átvitt értelemben a szattva.</p>
-        <p>Ez nagyon jól megmutatja a férfi útját, ahogy saját magát uralnia kell, és amikor felékesíti magát az önuralommal akkor kézenfogja a nőt és kivezeti a sötétségből és utat mutat neki. Ö ébreszti fel az üvegkoporsóból, az illúzió világából. Ő tölti be azt a szerepet, amit a lány apja nem tudott, és ő foglalja majd el a legmagasabb szintjét a létezésnek.</p>
+        <p>Ez nagyon jól megmutatja a férfi útját, ahogy saját magát uralnia kell, és amikor felékesíti magát az önuralommal akkor kézen fogja a nőt és kivezeti a sötétségből és utat mutat neki. Ö ébreszti fel az üvegkoporsóból, az illúzió világából. Ő tölti be azt a szerepet, amit a lány apja nem tudott, és ő foglalja majd el a legmagasabb szintjét a létezésnek.</p>
       </div>
     </ScrollSection>
 
@@ -165,17 +165,17 @@ const Section = props => (
         </p>
         <p>A férfi sötét oldala. Szintén “mostoha”.</p>
         <p>Tapasztalt, úttalan utakon jár, eligazodik a sötét erdőben, az alvilágban. Mégis, egy nő zárja végül börtönbe. Ott is marad, a sötétség rabja lesz.</p>
-        <p>Férfias: vadakkal kűzd meg, fegyvere van (phallikus szimbólumként) Sajnos ezúttal nem méltó ellenfelet választ, védtelen gyermeket is majdnem megsebesít, mert nem áll azonnal ellen a gonosz felkérésnek.</p>
-        <p>Amor nyila: szerelemben járatos, mégis úgy tűnik, egyedül van, senkinek sem hiányzik se felbukkanása előtt, se utána. Csak egy “disznó” szívét tudja megszerezni.</p>
+        <p>Férfias: vadakkal küzd meg, fegyvere van (phallikus szimbólumként) Sajnos ezúttal nem méltó ellenfelet választ, védtelen gyermeket is majdnem megsebesít, mert nem áll azonnal ellen a gonosz felkérésnek.</p>
+        <p>Ámor nyila: szerelemben járatos, mégis úgy tűnik, egyedül van, senkinek sem hiányzik se felbukkanása előtt, se utána. Csak egy “disznó” szívét tudja megszerezni.</p>
         <p>Boldogtalan fantom, kósza kísértet.</p>
       </div>
     </ScrollSection>
 
     <ScrollSection {...props} id="symbol.symbol.color">
-      <h2>Szín-szimbólika</h2>
+      <h2>Szín-szimbolika</h2>
       <div>
         <img src="/images/color/f45122644bfb6b126e0035c22375a506.jpg" className="ui medium right floated image" />
-        <p>Külön kiemelném a mesében elhangzó színeket, mivel szerintem kulcsfontosságuak. A német Grimm változat nem is asszociál úgy mint a magyar, pusztán így fogalmaz: „Hófehérke fehér volt és vörös és fekete“. Ez a megfogalmazás külön nyomatékot ad a színeknek, és annak elhallgatása, hogy mi volt fehér vörös és fekete, misztikusabbá is teszi ezeket a színeket. Az értelmezésben a történet fonala lehet segítségünkre, fontos hogy az egyes szereplőit (<i>szín</i>észeit) és a hely<i>szín</i>eket megfelelő színben lássuk.</p>
+        <p>Külön kiemelném a mesében elhangzó színeket, mivel szerintem kulcsfontosságúak. A német Grimm változat nem is asszociál úgy mint a magyar, pusztán így fogalmaz: „Hófehérke fehér volt és vörös és fekete“. Ez a megfogalmazás külön nyomatékot ad a színeknek, és annak elhallgatása, hogy mi volt fehér vörös és fekete, misztikusabbá is teszi ezeket a színeket. Az értelmezésben a történet fonala lehet segítségünkre, fontos hogy az egyes szereplőit (<i>szín</i>észeit) és a hely<i>szín</i>eket megfelelő színben lássuk.</p>
         <div className="clearfix" />
 
         <p>Ez a három szín (<a href="https://en.wikipedia.org/wiki/Albedo_(alchemy)">albedo</a>, <a href="https://en.wikipedia.org/wiki/Rubedo">rubedo</a>, <a href="https://en.wikipedia.org/wiki/Nigredo">nigredo</a>) képezi az u.n. <i>alkímia</i> tudományának alappillérét is, Jung a jellem fejlődésének stádiumaival felelteti meg őket. Nem túlzás, ha a teljes mesét e három kulcsfontosságú színnel színezzük ki, ha a színészeket, helyszíneket lecseréljük pusztán az őket szimbolizáló színekre, pontosabban azoknak ősi, természeti jelentésére.</p>
@@ -205,7 +205,7 @@ const Section = props => (
         </p>
 
         <p>Hó, hófedte téli táj, fehér márvány kastély, ősz haj, szakáll. Hidegség, higgadtság, fagyott idő. Fény, világosság, tudatosság. Tisztaság. Tej, fehér bőr. Élet a halálon túl - mennyország.</p>
-        <p>szattva, az örök ragyogás, a lélek birodalma, „az egyensúly, kiegyenlítés, a rend, tisztaság, világosság, nyugalom, könnyűség, jóság sajátossága“.</p>
+        <p>Szattva, az örök ragyogás, a lélek birodalma, „az egyensúly, kiegyenlítés, a rend, tisztaság, világosság, nyugalom, könnyűség, jóság sajátossága“.</p>
         <p>A király és a királyné színe, a lakhelyük színe, az évszak (időszak, idő) színe.</p>
       </div>
     </ScrollSection>
@@ -223,7 +223,7 @@ const Section = props => (
           <img src="/images/huntsman/d55dfc2284013fb3d7821236e032febf.jpg" />
         </p>
 
-        <p>Sötét, gonosz, alattomos, rejtőzködő, rejtett. Kiismerhetetlen mélységek. Sötét látásmód, tudatlanság, elmezavar. Tiszátalanság. A test halála, a feketére alvadt vér, hullafolt.</p>
+        <p>Sötét, gonosz, alattomos, rejtőzködő, rejtett. Kiismerhetetlen mélységek. Sötét látásmód, tudatlanság, elmezavar. Tisztátalanság. A test halála, a feketére alvadt vér, hullafolt.</p>
         <p>Tamasz, a rossz karma, a tehetetlenség létállapota. Rossz annak aki benne van, annak aki csinálja, annak aki látja...</p>
         <p>A mostoha és a vadász színe, a mostoha egykori (özvegyi) várának színe, az éjszaka (éj időszaka, idő) színe amikor operálnak, a szándékaik színe, a sorsuk színe. A börtön sötétjének színe. Valamint az erdő mélyének, a bánya kiismerhetetlen mélységének színe.</p>
 
@@ -247,8 +247,8 @@ const Section = props => (
 
         <p>Tűz: fűt, feltüzel, belső energia. Forróság, forrongás, hőség, hős. A lüktető, oxigéndús vér színe, életerő, vágy az életben maradásra, az Élet maga. Vér-vonal, test-vér-, háború.</p>
         <p>Radzsasz, az érzékiség világa. (noha a szó „királyit“ jelent, a mesében a király és királynő szimbolikusan a szattva létszintjéhez tatozik) „a mozgás, erőkifejtés, lendület, nyughatatlanság, szenvedélyesség sajátossága“.</p>
-        <p>A szerelmespár színe, a szív színe, mely egymásért dobog, és mely veszélyben van. A vágy színe, „a vágy hozza létre a menyországot és a poklot“ (Bakos Attila - A Duna evangéliuma). </p>
-        <p>A napfelkelte és a naplemente színe, vagyis a napkorong azon színe, amely félúton közötte áll a delelő, vakító fehér fénynek és az éjszaka fekete sötétjének. A párkák által font élet fonalának a színe, mely születés és halál között húzódik. A vörös áll a fekete és a fehér között, a jellem alakulása innen két irányba törénhet.</p>
+        <p>A szerelmespár színe, a szív színe, mely egymásért dobog, és mely veszélyben van. A vágy színe, „a vágy hozza létre a mennyországot és a poklot“ (Bakos Attila - A Duna evangéliuma). </p>
+        <p>A napfelkelte és a naplemente színe, vagyis a napkorong azon színe, amely félúton közötte áll a delelő, vakító fehér fénynek és az éjszaka fekete sötétjének. A párkák által font élet fonalának a színe, mely születés és halál között húzódik. A vörös áll a fekete és a fehér között, a jellem alakulása innen két irányba történhet.</p>
       </div>
     </ScrollSection>
 
@@ -299,7 +299,7 @@ const Section = props => (
     <ScrollSection {...props} id="symbol.symbol.paths">
       <h3>Utak</h3>
       <div>
-        <p>Lárvaállapot: Hófehérke, herceg. Női út, férfi út – egyedi út, de megfeleltethető. Felisút-leisút – minden állapotból el lehet mozdulni, mindegyiknek vannak jellemzői. A mese kisarkítja a karakterek megítélését, de egyben rávilágít, nincs abszolút jó és rossz, ez nézőpont, “viszony” kérdése. A viszonylatok határozzák meg a lehetleges elmozdulási irányokat. Horizontális, vertikális utak, személyiségfejlődés. Minden mesében vannak utak, melyeket a hősnek be kell járnia, és ezek az utak mindíg a jellemfejlődés belső útjait szimbolizálják.</p>
+        <p>Lárvaállapot: Hófehérke, herceg. Női út, férfi út – egyedi út, de megfeleltethető. Felisút-leisút – minden állapotból el lehet mozdulni, mindegyiknek vannak jellemzői. A mese kisarkítja a karakterek megítélését, de egyben rávilágít, nincs abszolút jó és rossz, ez nézőpont, “viszony” kérdése. A viszonylatok határozzák meg a lehetséges elmozdulási irányokat. Horizontális, vertikális utak, személyiségfejlődés. Minden mesében vannak utak, melyeket a hősnek be kell járnia, és ezek az utak mindig a jellemfejlődés belső útjait szimbolizálják.</p>
         <p className="masonry">
           <img src="/images/path/2fb5970360fb6b43402180c4b13595d2.jpg" />
           <img src="/images/path/3de36d298df9ce8e65ce86440ee9ab77.jpg" />
@@ -308,7 +308,7 @@ const Section = props => (
           <img src="/images/path/5bd7cadfbb2b35b8cdbc233c414b3421.jpg" />
           <img src="/images/forest/trees/5f7e4c9c180f0d1c08d2e8daf33792b2.jpg" />
         </p>
-        <p>Hófehérke fizikai útja a szülői házból az erdőn át a szülői házba vezet. szimbolikusan a fehér királyi kastélyból a vérvörös merényletkísérlet miatt a fekete sötétségbe jut, ott próbákat áll ki, avagy bukik el. Végső, legnagyobb tragédiája a piros alma, mely egyben lehetővé teszi számára, hogy a hős karakter kiemelje, s elvigye a fehér mennyegzőre.</p>
+        <p>Hófehérke fizikai útja a szülői házból az erdőn át a szülői házba vezet. szimbolikusan a fehér királyi kastélyból a vérvörös merényletkísérlet miatt a fekete sötétségbe jut, ott próbákat áll ki, avagy bukik el. Végső, legnagyobb tragédiája a piros alma, mely egyben lehetővé teszi számára, hogy a hős karakter kiemelje, s elvigye a fehér menyegzőre.</p>
         <p>A mesében fizikai útként megjelenő út a mese hallgatójának egy szimbolikus út, mely az ő jellemének fejlődését szimbolizálja. Nagyon érdekes, hogy ezen út mellett a mesén belül van egy rejtett út, Hófehérke jellemfejlődésének útja, mely kevésbé nyilvánvaló. A mese során megtett horizontális útjához képest ez egy vertikális út, melyre csak a hét törpénél eltelt időszak szimbólumai mutatnak rá.</p>
       </div>
     </ScrollSection>
@@ -331,7 +331,7 @@ const Section = props => (
 
         <p>Vizsgáljuk meg az erdőt alkotó egységet: a fát. A fa csodálatosan szép szimbólum: 3 alapvetően elkülönülő része van:</p>
         <ol>
-          <li>Koronája: akár csak a királyoknak. Szétterül az égban, a fénybe kívánkozik</li>
+          <li>Koronája: akár csak a királyoknak. Szétterül az égben, a fénybe kívánkozik</li>
           <li>Törzse: tartást ad, összeköti a fentet a lenttel, az ágakat, a gyökereket. Egységesít és elválaszt.</li>
           <li>Gyökerek: ez így kerek. Lenyúlnak a sötét mélységbe és felszívják az anyagait a fényre, ahol átalakítják őket.</li>
         </ol>
@@ -342,7 +342,7 @@ const Section = props => (
           <cite>Kámoni Arborétum információs táblája</cite>
         </blockquote>
 
-        <p>Az erdő sokdimenziós. A fák törzsének évgyűrűi az ídő mútását szemléltetik, körkörös diagrammon.</p>
+        <p>Az erdő sokdimenziós. A fák törzsének évgyűrűi az idő múlását szemléltetik, körkörös diagramon.</p>
 
         <p className="masonry">
           <img src="/images/forest/0a0fd2679dca146b529f13db27adc77a.jpg" />
@@ -352,12 +352,12 @@ const Section = props => (
 
         <blockquote>
           <h3>Életfa - időfa</h3>
-          <p><b>A fa évgyűrűi őrzik az elmúlt idők emlékét, sugallva ezzel annak visszafordíthatatlanságát. Ugyanakkor minfen egyes új év a megújulás lehetőségét hozza el.</b> Megszelidíti az elmúlást, a pusztulásba beleviszi az újjászületés ígéretét. Kétféle időképzet találkozik: a természeti ritmus által meghatározott, állandó visszatérésen alapuló ciklikus és a valahonnan valahova tartó, véggel terhes lineáris.</p>
+          <p><b>A fa évgyűrűi őrzik az elmúlt idők emlékét, sugallva ezzel annak visszafordíthatatlanságát. Ugyanakkor minden egyes új év a megújulás lehetőségét hozza el.</b> Megszelídíti az elmúlást, a pusztulásba beleviszi az újjászületés ígéretét. Kétféle időképzet találkozik: a természeti ritmus által meghatározott, állandó visszatérésen alapuló ciklikus és a valahonnan valahova tartó, véggel terhes lineáris.</p>
           <h3>„Kerekerdő“</h3>
           <p>Az erdő is a népi líra egyik erős szerelmi jelképe. Jelképiségének erotikus vonatkozása két forrásból is táplálkozik: egyfelől <b>zárt hely</b>, és mint ilyen, intimitás és <b>boldogságszimbólum</b>, másfelől, a fához hasonlóan, <b>élet- és termékenységjelkép</b>. Helyzettől függően hordozhat pozitív vagy negatív jelentéseket, például a magas erdő az akadályokat, <b>elérhetetlen szerelmet</b>.</p>
-          <p>Az erdő, mint az érintetlen természet szentélye, a megnyugvás, a béke, csönd szigete. Ide Isten jelenlétébe vonulnak a <b>kereszténység remetéi</b> a világ zaja elől. <b>Szent gellért</b> a Bakonyban élt elvonulva, s az egyetlen magyar alapítású szerzetesrend, a <b>pálosok</b>é a pilisi erdők remetéiből szerveződött.</p>
-          <p>Az erdő megzabolázatlansága, ahol a természet törvényei uralkodnak a civilizációval szemben, a szabadság képzetét is magában hordozza. Ide menekül háborúban, veszedelemben a falu népe, itt keres <b>menedéket</b> a társadalmi szabályokkal összeütközésba került zsivány, betyár, katonaszökevény, lázadó.</p>
-          <p>Az erdőbe mint zárt térbe való belépés egy határ átlépését is jelenti ember és állat, civilizáció és vadon, tudat és tudatalatti, a <b>lét különböző állapotai</b> között. A benne baraangoló lélek, míg belemerítkezik, valójában egy belső utat jár be, az út során titkokat tár fel, próbákat áll ki, feladatokat hajt végre, s végül az akadályok elhárításával <b>önmagát is legyőzi</b>. A népmesék veszedelmek árán férfivé érő hőseinek is rendre át kell küzdeniük magukat a <b>réz-, ezüst-, aranyerdő</b>n ahhoz, hogy beavatást nyerjenek.</p>
+          <p>Az erdő, mint az érintetlen természet szentélye, a megnyugvás, a béke, csönd szigete. Ide Isten jelenlétébe vonulnak a <b>kereszténység remetéi</b> a világ zaja elől. <b>Szent Gellért</b> a Bakonyban élt elvonulva, s az egyetlen magyar alapítású szerzetesrend, a <b>pálosok</b>é a pilisi erdők remetéiből szerveződött.</p>
+          <p>Az erdő megzabolázatlansága, ahol a természet törvényei uralkodnak a civilizációval szemben, a szabadság képzetét is magában hordozza. Ide menekül háborúban, veszedelemben a falu népe, itt keres <b>menedéket</b> a társadalmi szabályokkal összeütközésbe került zsivány, betyár, katonaszökevény, lázadó.</p>
+          <p>Az erdőbe mint zárt térbe való belépés egy határ átlépését is jelenti ember és állat, civilizáció és vadon, tudat és tudatalatti, a <b>lét különböző állapotai</b> között. A benne barangoló lélek, míg belemerítkezik, valójában egy belső utat jár be, az út során titkokat tár fel, próbákat áll ki, feladatokat hajt végre, s végül az akadályok elhárításával <b>önmagát is legyőzi</b>. A népmesék veszedelmek árán férfivé érő hőseinek is rendre át kell küzdeniük magukat a <b>réz-, ezüst-, aranyerdő</b>n ahhoz, hogy beavatást nyerjenek.</p>
           <cite>Kámoni Arborétum információs táblája</cite>
         </blockquote>
 
@@ -427,7 +427,7 @@ const Section = props => (
 
         <p>Ez a képzet keletkezik bennem, ez illik a télhez, az említett fehér színhez és a karakterekhez. Van egy hasonló helyszín, amiről egyik változat sem tesz említést. Nevezetesen az otthon ahonnan a mostoha származik. Neki is jönnie kellett valahonnan, egy megözvegyült férfihez megy hozzá, feltételezhető, hogy maga is özvegy. Mindenesetre kell, hogy legyen múltja, hiszen egyik meseváltozat sem tesz említést arról, hogy fiatal lenne, ellenben „járatosságát“ megemlítik, akár nevezetesen az okkult tudományok valamely ágát. A karaktert ismerve adódik, hogy a hely ahonnan jön egy fekete vár. Ha ez így elfogadható, van két helyszínünk: Fehérvár – Feketevár.</p>
 
-        <p>Az biztos, hogy a színük ellentétes. De csak közös bennük a „vár“, az épület, mint helyszín. Ez a helyszín az otthon, ahol ezek a karakterek laknak, pontosabban, amelyet teremtenek maguknak. A nő hagyományosan az otthon megteremtője, az ő lelkisége alakítja ki az egyébként rideg épület hangulatát. Az ő állapotától függ tehát az otthon állapota. Gyermekrajzok elemzésekor a házikó tudtom szerint a gyermeket magát jelenti. A ház belső tere maga a nő, a befogadó, s hogy jobban érthető legyen, az egyész házat, (kívülről is) szélsőségesen megfestettem fehérre és feketére, hogy lássuk az analógiát a karakterekkel. A épület ettől függetlenül továbbra is csak egy rideg tárgy, egy eszköz, egy szeparált, zárt környezet. A minőségét a jellem formálja, amint a belső világ megjelenik a külső világban. Ha a házba új lakók költöznek, elkezdődik egy átalakítási folyamat. Ha a lakók megváltoznak, átalakul a lakás. Ha megváltozunk, átalakul a környezetünk. A változás belül kezdődik. Hogy a várkastély fekete vagy fehér, az nem a köveken múlik amiből építették. (A kastély márványból van, ami egy „átalakult“ kőzet, van belőle fehér is, fekete is.) A vár ugyanaz, ahogy a mese karakterei is egyugyanazon személy különböző létállapotai. A zord fekete elhagyott özvegyi vár is életteli fehér kastély volt egykor, de lakóinak alakulása (torzulása) felismerhetetlenné tette. Hogy a vadásszá és mostohává lett karakterek melyike hagyta el először és milyen okokból, arra nem térnék ki, számtalan lehetséges változat van erre, de annyi biztos, denevérekket, varjakat, pókhálót és átkokat hagytak maguk után. A mese zárójelenete is a ragyogó királyi kastély, de ha felülvizsgáljuk a történetet, könnyen észrevehetjük, hogy a mostoha, majd a vadász feltűnésekor megfakul fénye, ha meg nem szürkül, vagy egyenesen megfeketedik ez a helyszín. Rajtunk, a mese ismerőin áll, hogy felismerjük, mik ezeknek a változásoknak a mozgatórugói, hogy észre vegyük a jeleket, és a megfelelő irányba változzunk, hogy a mese ismét a fényes palotába kerüljön. Nagy a felelősségünk, a fekete karakterek mutatnak rá a változás szükségességére, a hely ahonnan jönnek fekete, a fehéret is feketévé teszik, és a jutalmul is csak ezt kapják. Példák ők a hibás választásra.</p>
+        <p>Az biztos, hogy a színük ellentétes. De csak közös bennük a „vár“, az épület, mint helyszín. Ez a helyszín az otthon, ahol ezek a karakterek laknak, pontosabban, amelyet teremtenek maguknak. A nő hagyományosan az otthon megteremtője, az ő lelkisége alakítja ki az egyébként rideg épület hangulatát. Az ő állapotától függ tehát az otthon állapota. Gyermekrajzok elemzésekor a házikó tudtom szerint a gyermeket magát jelenti. A ház belső tere maga a nő, a befogadó, s hogy jobban érthető legyen, az egész házat, (kívülről is) szélsőségesen megfestettem fehérre és feketére, hogy lássuk az analógiát a karakterekkel. A épület ettől függetlenül továbbra is csak egy rideg tárgy, egy eszköz, egy szeparált, zárt környezet. A minőségét a jellem formálja, amint a belső világ megjelenik a külső világban. Ha a házba új lakók költöznek, elkezdődik egy átalakítási folyamat. Ha a lakók megváltoznak, átalakul a lakás. Ha megváltozunk, átalakul a környezetünk. A változás belül kezdődik. Hogy a várkastély fekete vagy fehér, az nem a köveken múlik amiből építették. (A kastély márványból van, ami egy „átalakult“ kőzet, van belőle fehér is, fekete is.) A vár ugyanaz, ahogy a mese karakterei is egyugyanazon személy különböző létállapotai. A zord fekete elhagyott özvegyi vár is életteli fehér kastély volt egykor, de lakóinak alakulása (torzulása) felismerhetetlenné tette. Hogy a vadásszá és mostohává lett karakterek melyike hagyta el először és milyen okokból, arra nem térnék ki, számtalan lehetséges változat van erre, de annyi biztos, denevéreket, varjakat, pókhálót és átkokat hagytak maguk után. A mese zárójelenete is a ragyogó királyi kastély, de ha felülvizsgáljuk a történetet, könnyen észrevehetjük, hogy a mostoha, majd a vadász feltűnésekor megfakul fénye, ha meg nem szürkül, vagy egyenesen megfeketedik ez a helyszín. Rajtunk, a mese ismerőin áll, hogy felismerjük, mik ezeknek a változásoknak a mozgatórugói, hogy észre vegyük a jeleket, és a megfelelő irányba változzunk, hogy a mese ismét a fényes palotába kerüljön. Nagy a felelősségünk, a fekete karakterek mutatnak rá a változás szükségességére, a hely ahonnan jönnek fekete, a fehéret is feketévé teszik, és a jutalmul is csak ezt kapják. Példák ők a hibás választásra.</p>
         <p className="masonry">
           <img src="/images/witch/black-hall/88be4e4a5a47fcb96aaef06c70c5ec2d.jpg" />
           <img src="/images/witch/black-hall/73ce14a471bdac1836a0fcd3583fed68.jpg" />
@@ -446,7 +446,7 @@ const Section = props => (
         <img src="/images/mirror/57edc054c5ed28b0a7b1787ea8bdb779.jpg" className="ui fluid image" /><blockquote><p>A tükör csak a képet adja vissza; de fogalmat nem ád. Rút csak az, a mi rossz.</p><cite>Jókai Mór - A Kráó</cite></blockquote><img src="/images/mirror/1ebb156387fc41227d6dc8ca59f4afb4.jpg" className="ui medium left floated image" /><p>A mesében a boszorkányságban jártas mostoha a tükrét kérdezi, hogy megbizonyosodjon a felől: szépsége felülmúlhatatlan. A tükör igaz válaszokat ad. Egy varázslatos, igazmondó tükörről van szó. Néhány feldolgozásban a mese végén, mikor a mostoha tehetetlenné válik hófehérkével szemben, bosszúsan töri össze tükrét.</p>
         <div className="clearfix" />
         <img src="/images/mirror/06df78e5b544119aee1ff5932368eb03.jpg" className="ui medium left floated image" />
-        <p>A tükör, ahogyan most ismerjük, üvegből készül, bevonattal. Ez a mese korához képest egy igen új technológia. Korábban a tükröket készítették fémlapokból is, egy felpolírozott ezüstlap tökéletes erre a célra. (ezt azonban nem lehet összetörni) Természeti népeknél, technológia nélkül is elérhető a víztükör... De számomra a legérdekesebb változat az, amiben a mostoha éjjel a holnak teszi fel kérdéseit, és az válaszol neki. Mindenek előtt ezt a változatot szeretném előnyben részesíteni, mert koroktól, kultúráktól és fölsrajzi elhelyezkeséstől függetlenül azonos a szimbólum.</p>
+        <p>A tükör, ahogyan most ismerjük, üvegből készül, bevonattal. Ez a mese korához képest egy igen új technológia. Korábban a tükröket készítették fémlapokból is, egy felpolírozott ezüstlap tökéletes erre a célra. (ezt azonban nem lehet összetörni) Természeti népeknél, technológia nélkül is elérhető a víztükör... De számomra a legérdekesebb változat az, amiben a mostoha éjjel a holdnak teszi fel kérdéseit, és az válaszol neki. Mindenek előtt ezt a változatot szeretném előnyben részesíteni, mert koroktól, kultúráktól és földrajzi elhelyezkedéstől függetlenül azonos a szimbólum.</p>
         <div className="clearfix" />
 
         <p className="masonry">
@@ -455,7 +455,7 @@ const Section = props => (
           <img src="/images/mirror/6c302f9e40d0cf66ecc714a98b4424e5.jpg" />
         </p>
 
-        <p>A hold nem rendelkezik saját fénnyel, a nap fényét tükrözi vissza. A nap és hold szimbolikája igen gazdag, így csak a „kibocsájt - befogad“, „megvilágít - visszatükröz“ értelmezésre szorítkoznék. A nap fényét „világosságnak“ mondjuk. Világ egyben jelenti az ismert, minket körülvevő univerzumot, és a fényt. A fény világítja meg a tárgyakat, ez segít hozzá a megismeréshez, e nélkül csak sötétben tapogatózunk. A világ világossága maga a megértés folyamata, ami világos, az érthető. Ami tehát érthető, az világos a magyar nyelvben. De hasonlóképp gyullad villanykörte a rajzocska felett, ha azt ábrázolják, hogy rájött valamire. A fény az elme világossága is. Sokszor volt már, hogy a sötét fejekben akartak világosságot gyújtani. Az elme azonban nem a szív, a lélek világa. A felvilágosodás kora mutatja be, mire képes a szívtelen, lélektelen elme. A magukat megvilágosodottnak tartó illuminatitagokat sem gyakran látni jézusi példabeszédeket prédikálva. És ha már Jézus, a lucifer szó jelentése: „fényhozó“ (a fény mértékegysége máig is lux). Maga a mese világa int óvva ettől az elmétől, szép példa erre a „csodalámpás“, melyből nem pislángoló lángocska, de egy hatalmas „szellem“ búvik elő. Ismét meg kell jegyezni a magyar nyelv szellem - értelem szavainak egyezését. A világító lámpást tehát csak kérni kell, és az előáll az ötletekkel, melyek valósággá válnak. (conception - definition - implementation sorrendben). A palackból kiszabadult szellem önjáróvá válása pedig rendszerint katasztrófába torkoll.</p><img src="/images/mirror/3da93911869c280edbf029351063d1e9.jpg" className="ui medium left floated image" /><p>Ezen kis kitekintő után talán jobban érthetővé válik, mi is az ami tükröződik. Nem hagyományos tükörről beszélünk, hanem egy varázslatos, igazmondó tükörről, amely a gondolatokat is képes visszatükrözni. A külvilág megítélének, a környezet válaszainak tükrén túl ez a tökür egy sokkal kifinomultabb, nem optikán alapuló „elmetükör“, egy belső visszhang, egy tudatrétegi reflexió, a „hang a fejben“, a lelkiismeret suttogásához hasonló „elmeismeret“, a bizonyoság, a belső meghasadtság ikerpárjai között rebegő hártlya, amely igazolja, hogy a belső kényszerképzet maga a valóság.</p>
+        <p>A hold nem rendelkezik saját fénnyel, a nap fényét tükrözi vissza. A nap és hold szimbolikája igen gazdag, így csak a „kibocsájt - befogad“, „megvilágít - visszatükröz“ értelmezésre szorítkoznék. A nap fényét „világosságnak“ mondjuk. Világ egyben jelenti az ismert, minket körülvevő univerzumot, és a fényt. A fény világítja meg a tárgyakat, ez segít hozzá a megismeréshez, e nélkül csak sötétben tapogatózunk. A világ világossága maga a megértés folyamata, ami világos, az érthető. Ami tehát érthető, az világos a magyar nyelvben. De hasonlóképp gyullad villanykörte a rajzocska felett, ha azt ábrázolják, hogy rájött valamire. A fény az elme világossága is. Sokszor volt már, hogy a sötét fejekben akartak világosságot gyújtani. Az elme azonban nem a szív, a lélek világa. A felvilágosodás kora mutatja be, mire képes a szívtelen, lélektelen elme. A magukat megvilágosodottnak tartó illuminatitagokat sem gyakran látni jézusi példabeszédeket prédikálva. És ha már Jézus, a lucifer szó jelentése: „fényhozó“ (a fény mértékegysége máig is lux). Maga a mese világa int óvva ettől az elmétől, szép példa erre a „csodalámpás“, melyből nem pislákoló lángocska, de egy hatalmas „szellem“ búvik elő. Ismét meg kell jegyezni a magyar nyelv szellem - értelem szavainak egyezését. A világító lámpást tehát csak kérni kell, és az előáll az ötletekkel, melyek valósággá válnak. (conception - definition - implementation sorrendben). A palackból kiszabadult szellem önjáróvá válása pedig rendszerint katasztrófába torkollik.</p><img src="/images/mirror/3da93911869c280edbf029351063d1e9.jpg" className="ui medium left floated image" /><p>Ezen kis kitekintő után talán jobban érthetővé válik, mi is az ami tükröződik. Nem hagyományos tükörről beszélünk, hanem egy varázslatos, igazmondó tükörről, amely a gondolatokat is képes visszatükrözni. A külvilág megítélésének, a környezet válaszainak tükrén túl ez a tükör egy sokkal kifinomultabb, nem optikán alapuló „elmetükör“, egy belső visszhang, egy tudatrétegi reflexió, a „hang a fejben“, a lelkiismeret suttogásához hasonló „elmeismeret“, a bizonyosság, a belső meghasadtság ikerpárjai között rebegő hártya, amely igazolja, hogy a belső kényszerképzet maga a valóság.</p>
         <div className="clearfix" />
         <img src="/images/mirror/18874d28b67091e5b90857b99c10f4ba.jpg" className="ui medium left floated image" /><p>Mi is tehát ez a tükör? Képes-e a hold a nap fényét tükrözni? Igen, <b>ezüstösen ragyog a hold az éjszaka fekete sötétjében, de a nap a fényben ragyog</b>. Az elme belső önmegigazolódása önmagával éppilyen ragyogó, gyönyörködtető a koponya sötétjében. A mostoha a holdra tekint, megkérdezi, s az igazat felel neki. A külső szemlélő pedig beleborzong a boszorkányság félelmetes szeánszába. A megigazult, tiszta, háborodott elme párbeszédje ez a monológ. Mire vezetik ezek a válaszok a mostohát? Öntelt, „beképzelt“ magatartáshoz, féltékenységhez, cselszövéshez. Igazat mond a tükör? Igen, ez mindig beigazolódik. Igazat adunk a mostohának? ... </p>
         <div className="clearfix" />
@@ -503,7 +503,7 @@ const Section = props => (
     <ScrollSection {...props} id="symbol.symbol.apple">
       <h3>Alma</h3>
       <div>
-        <p>Az alma egy termés, szigorú értelmezésben az alma nevű növény termése, tágabban az almafélék termése. Még tágabb értelemben a rózsafélék termése is hasonlít az almára, pélrául gránátalma. De ha a csipkerózsa termésére gondolunk, egy másik mese is ide köthető, amiben az orsó is nagy szerepet kap. Népművészeti ábrázolások közt gyakori szimbólum, női jelkép. A kerekre, vérpirosga érett alma a méh (uterus) szimbóluma is lehet.</p>
+        <p>Az alma egy termés, szigorú értelmezésben az alma nevű növény termése, tágabban az almafélék termése. Még tágabb értelemben a rózsafélék termése is hasonlít az almára, például gránátalma. De ha a csipkerózsa termésére gondolunk, egy másik mese is ide köthető, amiben az orsó is nagy szerepet kap. Népművészeti ábrázolások közt gyakori szimbólum, női jelkép. A kerekre, vérpirosra érett alma a méh (uterus) szimbóluma is lehet.</p>
 
         <p className="masonry">
           <img src="/images/snowwhite/apple/135659bce47f4fe335816315bd361b09.jpg" />
@@ -519,7 +519,7 @@ const Section = props => (
         <p><img src="/images/snowwhite/biancaneve/Biancaneve-281629.jpg" className="ui fluid image" /></p>
 
         <p>Hát nem sokkal szebb lenne ha a földre eső alma magja kihajtana? Ráadásul úgy, hogy a két fél közösen növesztene hajtást? Mindenképp elgondolkodtatóbb... „Az ember lényegi sajátosságait fölösleges, sőt káros egymást kizáró tényezőkként feltüntetni.“</p>
-        <p>Az alma preparálása sem tiszta. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészszéges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
+        <p>Az alma preparálása sem tiszta. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészséges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
 
         <p className="ui embed" data-source="youtube" data-id="5RKUUis-R78">
           <iframe title="?" width="560" height="315" src="https://www.youtube.com/embed/5RKUUis-R78?start=4137&end=4191" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
@@ -578,7 +578,7 @@ const Section = props => (
           <li>Jóra való restség?</li>
         </ol>
         <div className="clearfix" />
-        <p>Nem. Úgy hívták őket, hogy Csipa, Harák, Mitteszer... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, előre-hátra, jobbra-balra és fel-le, a mi három dimeniós világunk hat irányába. Ennek a meghaladásáról lenne szó? Hét lépcsőfokról, ami egy másik világba vezet? Egy másik planétára, a Hetedhét országba? A magyar eredetmonda 7 vezérrel számol. Lehetséges, hogy Álmos, Előd, Ond és a többiek számossága csak egy véletlen egybeesés azzal a hét dologgal, ami a magyarokat már annakeőtte is vezérelte? A juhász furulyáján is 7 lyuk van, a zene, ami előadható rajta, 1 oktávot ölel fel. Egy oktávval távolabb egy újabb oktáv kezdődik, mely ugyanolyan elvek szerint rendeződik, mint az előző, csak egy szinttel alacsonyabban ill. magasabban van.</p>
+        <p>Nem. Úgy hívták őket, hogy Csipa, Harák, Mitesszer... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, előre-hátra, jobbra-balra és fel-le, a mi három dimenziós világunk hat irányába. Ennek a meghaladásáról lenne szó? Hét lépcsőfokról, ami egy másik világba vezet? Egy másik planétára, a Hetedhét országba? A magyar eredetmonda 7 vezérrel számol. Lehetséges, hogy Álmos, Előd, Ond és a többiek számossága csak egy véletlen egybeesés azzal a hét dologgal, ami a magyarokat már annak előtte is vezérelte? A juhász furulyáján is 7 lyuk van, a zene, ami előadható rajta, 1 oktávot ölel fel. Egy oktávval távolabb egy újabb oktáv kezdődik, mely ugyanolyan elvek szerint rendeződik, mint az előző, csak egy szinttel alacsonyabban ill. magasabban van.</p>
         <p>A wikipédia így ír a hetes számról: „A 7 (hét) (római számmal: VII) a 6 és 8 között található természetes szám, s egyben számjegy is. A számjegy ASCII kódja: 55 vagy 0x0037.“ - Azt hiszem ez mindent megmagyaráz...</p>
       </div>
     </ScrollSection>

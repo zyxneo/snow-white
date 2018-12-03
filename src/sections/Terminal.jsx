@@ -6,7 +6,7 @@ const Section = props => (
     <ScrollSection {...props} id="story.terminal">
       <h2>Terminal</h2>
       <div>
-        <p>Említettem, hogy a Hófehérke mese a “mesenaprendszer központi csillaga”. Ez enyhe túlzás, de egy adott nézőpontból bármely mese lehet az. Az általam éppen vizsgált téma szempontjából ez a mese egy olyan központi metrómegálló, amin az össszes vonal keresztülmegy, s ezeken a vonalakon a többi mese egy-egy állomás. Azért van ez így, mert ebben a sorrendben jöttem rá. Amerika is megvolt már, mielőtt Kolombusz felfedezte volna, csak erről a sok millió helyi őslakos nem tudott előtte. Kell valaki aki megmutatja. Kolombusz megmutatta, azóta híres az ő tojása.</p>
+        <p>Említettem, hogy a Hófehérke mese a “mesenaprendszer központi csillaga”. Ez enyhe túlzás, de egy adott nézőpontból bármely mese lehet az. Az általam éppen vizsgált téma szempontjából ez a mese egy olyan központi metrómegálló, amin az összes vonal keresztülmegy, s ezeken a vonalakon a többi mese egy-egy állomás. Azért van ez így, mert ebben a sorrendben jöttem rá. Amerika is megvolt már, mielőtt Kolumbusz felfedezte volna, csak erről a sok millió helyi őslakos nem tudott előtte. Kell valaki aki megmutatja. Kolumbusz megmutatta, azóta híres az ő tojása.</p>
 
         <p className="masonry">
           <img src="/images/cpu/44ddd83ba52d9ec99ce470e7f03f272b.jpg" />
@@ -14,17 +14,17 @@ const Section = props => (
           <img src="/images/cpu/cc1c0869ec80fa17ab57410c763e8108.jpg" />
         </p>
 
-        <p>A mesék vilászerte megtalálhatóak. A Grimm mesék is változatai ugyanígy fellelhetőek. De van valami nagyon különleges a Grimm mesékben, az hogy egymáshoz tartoznak. Össze vannak csiszolódva, nem csak azért mert egy kötetbe írták őket ugyanazok a szerzők, de mert egy nagy kirakósjáték darabjai ők. Nem mesesorozatról van szó, hanem egy mágikus szerkezet alkatrészeiről. Ha helyesen tudjuk ősszeilleszteni az egyébként is érdekes tüneteket mutató részeket, valami nagy egység kel életre általuk...</p>
+        <p>A mesék világszerte megtalálhatóak. A Grimm mesék is változatai ugyanígy fellelhetőek. De van valami nagyon különleges a Grimm mesékben, az hogy egymáshoz tartoznak. Össze vannak csiszolódva, nem csak azért mert egy kötetbe írták őket ugyanazok a szerzők, de mert egy nagy kirakós játék darabjai ők. Nem mesesorozatról van szó, hanem egy mágikus szerkezet alkatrészeiről. Ha helyesen tudjuk összeilleszteni az egyébként is érdekes tüneteket mutató részeket, valami nagy egység kel életre általuk...</p>
       </div>
     </ScrollSection>
 
     <ScrollSection {...props} id=".story.terminal.spindle">
       <h3>Fonás</h3>
       <div>
-        <p>Az orsó (die Spindel), mint a fonás szimbóluma, avagy a fonás maga (spinnen) számos Grimm mesében megjelenik. Ezek a mesék további értelmezést adhatnak, miért is fontos szimbólum pl. az ujj megszúrása. Hogy kitegyem az i-re a pontot, és visszhelyezzem a kidobott rokkákat és orsókat a helyükre, itt egy lista ugyanazon Grimm kötetből, melyben orsó és/vagy fonás szerepel:</p>
+        <p>Az orsó (die Spindel), mint a fonás szimbóluma, avagy a fonás maga (spinnen) számos Grimm mesében megjelenik. Ezek a mesék további értelmezést adhatnak, miért is fontos szimbólum pl. az ujj megszúrása. Hogy kitegyem az i-re a pontot, és visszahelyezzem a kidobott rokkákat és orsókat a helyükre, itt egy lista ugyanazon Grimm kötetből, melyben orsó és/vagy fonás szerepel:</p>
         <ul>
           <li><a href="https://www.grimmstories.com/hu/grimm_mesek/csipkerozsika" target="_blank" rel="noopener noreferrer">Csipkerózsikát</a> (Dornröschen) elátkozza a boszorkány, miszerint amikor ivaréretté válik, meg fogja szúrni egy orsó, és ettől kábultan fog feküdni. Az apja rögtön óvintézkedéseket tesz, eltünteti az összes orsót közel s távolról. Nem is tudnak bejutni a hercegek hozzá.</li>
-          <li>Lumpenstikli (Rumpelstilzchen) a szalmából is aranyat tud fonni. A magyar megfelelője ennek a mesének a kaponyányi manó. A rumpelstilz - mángorrúd mintájakét eredeti neve a „kapanyélnyi monyú“ etikai okokból nem kerül be a gyermek-mesekönyvekbe.</li>
+          <li>Lumpenstikli (Rumpelstilzchen) a szalmából is aranyat tud fonni. A magyar megfelelője ennek a mesének a kaponyányi manó. A rumpelstilz - mángorrúd mintájaként eredeti neve a „kapanyélnyi monyú“ etikai okokból nem kerül be a gyermek-mesekönyvekbe.</li>
           <li>A <a href="https://www.grimmstories.com/hu/grimm_mesek/holle_anyo" target="_blank" rel="noopener noreferrer">Holle anyó</a>hoz vezető út a kútba ejtett orsó nyomán halad. Ebbe a szimbólumba már bele sem merek gondolni ezek után... Inkább kifejtem külön fejezetben.</li>
           <li><a href="https://www.grimmstories.com/hu/grimm_mesek/a_lusta_fonoasszony" target="_blank" rel="noopener noreferrer">A lusta fonóasszony</a> (Die faule Spinnerin) - az egész mese alaptémája</li>
           <li><a href="https://www.grimmstories.com/hu/grimm_mesek/a_harom_fonoasszony" target="_blank" rel="noopener noreferrer">A három fonóasszony</a> (Die drei Spinnerinnen) - az egész mese alaptémája</li>

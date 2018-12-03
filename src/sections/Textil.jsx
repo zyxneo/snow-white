@@ -20,7 +20,7 @@ const Section = props => (
       <div>
         <img src="/images/queen/window/a65f177970483dd5ef1a461c114e91ad.jpg" className="ui medium left floated image" />
         <p>A királynő nem luxust űz, hanem egy olyan tevékenységet, amely pár száz éve még hétköznapi női elfoglaltság volt. A nyáron megtermelt anyagokat ősszel betakarították és télen nekiláttak a feldolgozásnak. Hideg téli napokon a kinti munkák megfogyatkoznak, a királynő ekkor benn – véleményem szerint – fon. Feltételezésem okai: a következő szimbólumok: fonal, orsó.</p>
-        <p>S, hogy miért merek olyat feltételezni, hogy az eredeti történetben fonásról és nem másról van szó? Most kérném, hogy tekerjetek vissza a grimm képekhez, és nézzétek meg a festményt, és a róla készült metszetet. Ugye milyen könnyen eltúnt az a rokka a mesemondónő mögül? De ott volt, ugye az is látszik...</p>
+        <p>S, hogy miért merek olyat feltételezni, hogy az eredeti történetben fonásról és nem másról van szó? Most kérném, hogy tekerjetek vissza a Grimm képekhez, és nézzétek meg a festményt, és a róla készült metszetet. Ugye milyen könnyen eltűnt az a rokka a mesemondónő mögül? De ott volt, ugye az is látszik...</p>
         <div className="clearfix" />
       </div>
     </ScrollSection>
@@ -71,8 +71,8 @@ const Section = props => (
       <h3>Köldökzsinór</h3>
       <div>
         <p>A látható biológiai szál, mely fizikailag összeköti anyát gyermekével. Az anyának is van köldöke, a lánygyermeknek méhe, mutatva a végtelen láncolatot – mint a Matrjoska baba.</p>
-        <p>A fonás során a szál a guzsalyra akasztott szöszből sodródik. A szösz szimbólikusan egy nagy adag formátlan, laza kóc, valami, ami magában még szinte <b>semmi</b> Bár tapintható, de szétesik az ember keze között, egyfajta szilárd köd. Ebből a kuszaságból formálja meg a szálat a fonó egy finom sodrattal.</p>
-        <p>(Ha szaporosásbiológiailag vizsgáljuk meg a mese mondanivalóját, ismét érdekes dolgot találunk: A királynő, aki egy nőstény, épp az ablaknál „hímez“. A hímpor, a hímzés díszítő jellege a hím állatok díszességére utal, igy is jogos a feltételezés, miszerint az élet folyamának fenntartása zajlik épp).</p>
+        <p>A fonás során a szál a guzsalyra akasztott szöszből sodródik. A szösz szimbolikusan egy nagy adag formátlan, laza kóc, valami, ami magában még szinte <b>semmi</b> Bár tapintható, de szétesik az ember keze között, egyfajta szilárd köd. Ebből a kuszaságból formálja meg a szálat a fonó egy finom sodrattal.</p>
+        <p>(Ha szaporodásbiológiailag vizsgáljuk meg a mese mondanivalóját, ismét érdekes dolgot találunk: A királynő, aki egy nőstény, épp az ablaknál „hímez“. A hímpor, a hímzés díszítő jellege a hím állatok díszességére utal, így is jogos a feltételezés, miszerint az élet folyamának fenntartása zajlik épp).</p>
         <p className="masonry">
           <img src="/images/dns/matrjoska/019652849fd22db5f0088af040962781.jpg" />
           <img src="/images/dns/matrjoska/3880be7de644038d7cfb468b6a747d00.jpg" />
@@ -83,7 +83,7 @@ const Section = props => (
           <img src="/images/dns/matrjoska/1e1cf6035e3249360c99559e50ef6a0a.jpg" />
           <img src="/images/dns/matrjoska/927fb907e09d87f9a6bd0900e42c9180.jpg" />
         </p>
-        <p>A minket körülvevő teremészeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női útat írja le. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
+        <p>A minket körülvevő természeti világ „nőelvű“, anyagi (anya - anyag, mater - materia), a mese központi karakterének története pedig a női utat írja le. Nem csak a női psziché viszontagságairól, és a nő magára találásáról, hanem a „teremtésről“, annak biológiai, szellemi, lelki értelemben. Ennek megértése nem csak a nők számára fontos, az elhanyagoltan említett férfi karakterek nem csak a nők számára jelentenek útjelző táblákat, de egyértelmű példákat adnak a férfi útra is.</p>
 
         <p>Ideális esetben a női és férfi út egymással párhuzamosan halad, mint egy felívelő spirál, a nemek egymást kiegészítik, egymást segítik a kiteljesedésben. A fonás során az elkészült finom fonalakból cérnát lehet készíteni, mégpedig két szál összesodrásával. A rokkához ezért jellemzően három orsó dukál, mikor két orsó elkészült, át lehet fonni a cérnát a harmadikra. Egyfajta szentháromság motívum, a férfi és női szál összefonódásából keletkező sodrat, a köldökzsinór szimbóluma is lehet ez.</p>
 
@@ -133,7 +133,7 @@ const Section = props => (
         <ol>
           <li>Fonás: Lehetőséget ad a teremtésre. A nulla dimenzióból teremti az 1 dimenziót, az egyenest, a szálat.</li>
           <li>Szövés: Maga a teremtés. Alapanyag készítés. Megteremti a létezés alapját, az alapsíkot, egyről a kettőre jut, 1 dimenzióból a 2-be.</li>
-          <li>Varrással a harmadik dimenzióba lépünk. A díszítő hímzés: Minőseget ad a teremtménynek.</li>
+          <li>Varrással a harmadik dimenzióba lépünk. A díszítő hímzés: Minőséget ad a teremtménynek.</li>
         </ol>
         <p>A királynő hímzett, nem teremtett, hanem a minőséget adta meg, mert maga is egy minőség. A parasztasszonyok fontak-szőttek, az udvarhölgyek hímeztek. Megkapták a gyolcsot, a finom anyagokat és hímezgettek szépen.</p>
       </div>
