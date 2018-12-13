@@ -8,7 +8,6 @@ const Section = props => (
       <div>
         <img src="/images/story/storytelling3.jpg" className="ui medium left floated image" />
         <p>Hogy megtudjuk, honnan ered ez a mese, egy kis bevezetőként tekintsük át a meséket úgy nagy általánosságban. A mesét az idősebb generáció – szülők, nagyszülők – mondják el a legfiatalabb generációnak, a kisgyerekeknek. A gyermekek érdekes módon nagyon nyitottak ezekre a történetekre, saját maguk kérik, akár újra és újra ugyanazt a történetet, mint egyfajta szellemi táplálékot, a madárfiókához hasonlóan nyaggatva a szülőket. Élvezik a történeteket, legyenek azok bármennyire borzasztóan félelmetesek vagy bizarrak.</p>
-        <s>A szeretet és a félelem egymással ellentétes fogalmak akár csak a háború és a béke. Aki fél, retteg, az nincs abban a helyzetben, hogy higgadtan, nyugodtan, átérzéssel szeressen. Ahhoz hogy a félelem elmúljon, a dolgokat a nevükön kell nevezni. Csak ez vezethet a megismeréshez, a felismeréshez a megnyugváshoz</s>
       </div>
 
       <h3>A hagyaték</h3>
