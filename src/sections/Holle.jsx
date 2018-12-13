@@ -9,11 +9,11 @@ const Section = props => (
         <p>A mesét <a href="https://www.grimmstories.com/hu/grimm_mesek/holle_anyo" target="_blank" rel="noopener noreferrer">itt</a> elolvashatjátok</p>
         <p>Holle anyó neve egy nagyon érdekes szó, amely rámutat a nyugati nyelvek és a magyar nyelv ideológiája közt tátongó szakadékra. Holle anyó dunyhájából rázza a havat le a földre, így egy kis manipulációval - plusz egy ékezet, mínusz egy l - a <b>Hó le anyó</b> nevet kapjuk. Kicsit olyan ez, mint a felhők fehér világa, egyfajta <i>mennyország</i>.</p>
         <p>
-          <img src="/images/fairytales/holle/45c8f2a3946446926597f94c06cb9768.jpg" className="ui fluid image" />
+          <img src="images/fairytales/holle/45c8f2a3946446926597f94c06cb9768.jpg" className="ui fluid image" />
         </p>
         <p>Másként is manipulálhatjuk a nevet, ha egy umlauttal megtoldjuk az o betűt, a <b>Hölle</b> szót kapjuk, mely német nyelven direktbe <i>poklot</i> jelent.</p>
         <p>
-          <img src="/images/fairytales/holle/5d722d0c267aa17011f38e956c93bab0.jpg" className="ui fluid image" />
+          <img src="images/fairytales/holle/5d722d0c267aa17011f38e956c93bab0.jpg" className="ui fluid image" />
         </p>
         <p>Ha tovább manipulálom a nevet, még a hivatalos levezetés is kijön: Heilig, Holy, azaz szent. A különbség ellenére szeretném nyomatékosítani, a téma és a kontextus azonos. Egy közös európai történetről van szó, ha nem egy világiról.</p>
 
@@ -27,16 +27,16 @@ const Section = props => (
           <p>Szegény lány visszament a kúthoz, nem tudta, mitévő legyen; félelmében végül is az orsó után ugrott. Elvesztette az eszméletét, s mikor aztán magához tért, egy szép, napfényes, virágos mezőn találta magát. ...</p>
         </blockquote>
         <p>
-          <img src="/images/fairytales/holle/e2dfd64e2d17bdb900cf55cd31ededdd.jpg" className="ui fluid image" />
+          <img src="images/fairytales/holle/e2dfd64e2d17bdb900cf55cd31ededdd.jpg" className="ui fluid image" />
         </p>
         <p>A mese elején a leány - aki Hófehérkéhez hasonlóan mostoha sorsú - annyit fon, hogy véres lesz az ujja, és összevérzi az orsót. Így áll elő az a furcsa helyzet, hogy az orsó a kútba esik. Mint azt már említettem, az orsó fallikus, s most kitérek rá, hogy a kút vaginális szimbólum. Erős túlzás, mindig csak a szex meg a szipu, de így van. A kút egy sötét nedves alagút, egyetlen hibája csak, hogy hideg, de a többi passzol. Az orsó véres, így az orsó és a vér ismét közösen szerepelnek.</p>
         <p>De ez nem elég. Mivel a lányka igen nagy hibát vét, az anyja azt javasolja neki, hogy ugorjon utána, amit ő meg is tesz, bánatában. Nos itt érdemes megállni. Két okból is. Az egyik, hogy az adott korban feltehetően az öngyilkos statisztikában a fára akasztást közvetlenül követte a kútba ugrás. Úgy értem nem szokás csak úgy kútba ugrani a nélkül, hogy az ember ne akarna meghalni. A kút hordozza az <b>élet vizét</b> de egyben a <b>halált</b> is. A másik érdekes dolog, hogy a mese innen kezd izgalmas lenni, a lányka egy ismeretlen, új világban ébred.</p>
         <p>Mi is ez a kút. Ha jobban megvizsgáljuk és belenézünk, érdekes dolgot fogunk látni. Emlékszünk a mostohára aki a holdat figyelte éjjel, mint varázstükröt? Egy ugyanilyen varázstükröt láthatunk a kútban is. Az éj sötétjében világító holdkoronghoz hasonlóan csillan meg a kerek víztükör a kút sötét mélyében. És mit látunk még? Természetesen magunkat. Magunkat látjuk amint az alvilágból egy csőbe nézünk, és rácsodálkozunk felvilági tükörképünkre, valós önmagunkra. A kút így egy sötét cső, ami összeköt két világot. (lásd: Utas és holdvilág)</p>
 
         <p className="masonry">
-          <img src="/images/witch/moon/229012e1941a24801c615341013c236b.jpg" />
-          <img src="/images/holle/well/a331e7ccb1b68357c30ab30ecb64bc53.jpg" />
-          <img src="/images/witch/moon/5481afcbf9e3ea35168bba674ed43817.jpg" />
+          <img src="images/witch/moon/229012e1941a24801c615341013c236b.jpg" />
+          <img src="images/holle/well/a331e7ccb1b68357c30ab30ecb64bc53.jpg" />
+          <img src="images/witch/moon/5481afcbf9e3ea35168bba674ed43817.jpg" />
         </p>
 
         <p>A véres orsó a kútba esik... A véres orsón a fonal is véres, a vérpiros szál pedig a már részletezett <b>élet fonala</b>. Ismét egyfajta köldökzsinór, mely az egyik világból pottyan a másik világba. A lányka meg követi. Mi történik a lánnyal? Meghal? Megszületik? Mindkettő egyszerre?</p>
@@ -70,8 +70,8 @@ const Section = props => (
 
         <p>Mit is csinált a lány Holle anyónál? Ott élt nála. Tehát nem volt halott... Végül is halálról szó sincs a mesében, miért erőltetem ezt a témát... Szerintem a mese azt mutatja, nincs halál, nincs elképzelhetetlen túlvilág, csak kapuk egyik életből a másikba. Zavarosnak tűnhet ez, főleg egy meglévő túlvilág-elképzeléssel. De nem sokan emlékeznek előző életükre, és a halálközeli beszámolók sem a halálról, hanem az oda vezető útról számolnak be. De egyöntetűen azt állítják: szép, boldog világ, és egy olyan fényben úsznak, amely nem fogható a földi fényhez. De hogy utána mi következik... A tibeti halottas könyv szerint a kivételesen megvilágosodottaknak, ha nagyon akarják, akkor a nirvána. Az összes többinek meg a szamszára, vagyis újra kell járni az élet iskoláját. A keleti filozófiáknak ez közhelyes, csak nekünk nyugatiaknak nagy szám, hogy képtelenség meghalni, mert jön a következő élet, újra és újra. A következő képek eredetileg a köldökzsinór fejezetnél voltak, de ide jobban illenek. A „puniverzum“ avagy „G.alaxis“ kép találó hasonlat, akár csak a születés-halál alagút.</p>
         <p style={{ columnCount: 2, columnGap: '10px' }}>
-          <img src="/images/dns/127bbdae390c17a90692f3c66deb6de8.jpg" className="ui fluid image" />
-          <img src="/images/dns/9a89fd44784303216a1ab156c7e37c14.jpg" className="ui fluid image" />
+          <img src="images/dns/127bbdae390c17a90692f3c66deb6de8.jpg" className="ui fluid image" />
+          <img src="images/dns/9a89fd44784303216a1ab156c7e37c14.jpg" className="ui fluid image" />
         </p>
         <p>Persze az élet nem könnyű, szegény lánykának is rengeteg munkája volt. Méltatlanul bántak vele, mostoha sorsa volt. Nem úgy a másik, akinek arany élete volt, pedig nem szolgált rá. Ilyen a sors, mondhatnánk, de a mese rámutat: jó tett helyébe jót várj. A leány a kútba esik, meghal, de egyben kútból esik, átpottyan a vaginális szimbólumon és megszületik. Előző életében szerzett megrögzött kényszerességgel takarít, teszi a sok jót. És mi lesz a jutalma?</p>
         <blockquote>
@@ -82,7 +82,7 @@ const Section = props => (
           <p>A két kapuszárny dördülve becsukódott, s lám a lány, amint körülnézett, ott találta magát a falujuk határában, nem messze az anyja házától.</p>
         </blockquote>
         <p>
-          <img src="/images/fairytales/holle/9cffeb65375d276329471a9fbc76019c.jpg" className="ui fluid image" />
+          <img src="images/fairytales/holle/9cffeb65375d276329471a9fbc76019c.jpg" className="ui fluid image" />
         </p>
         <p>Kapu és kút, a két elválasztó és összekötő szimbólum. Míg a kút egy sötét nedves cső, addig a kapunak lifegő szárnyai vannak... A lány ismét átkelhet, és ugyanott találja magát, ahol már volt, az életben. De ezúttal már nem a kis koszvadt, mostoha hamupipőke, hanem vagyonában él, jutalmul kapott aranyának köszönhetően. Ismerünk olyan városrészeket, ahol a Gazdagok és szépek élnek? Olyan helyeket a világban amire azt mondják: oda születni kell? A lányka egy ilyen születésen van túl, vagyona nem e-világi, hanem túlvilági erők jutalma, előző életek munkája.</p>
         <p>Ezek után szomorú, hogy vannak olyanok is, akik lusták. Akiknek arany élete van, és nem veszik észre mások szenvedését. Ilyen volt a lusta lány, aki nem mostoha, hanem édes gyermek volt. Mármint az anyjának az édes gyermeke, nem Holle anyónak. Mert a másik lányka, a szorgos majdhogynem az volt, Holle anyó legkedvesebb gyermeke. Nagyon ellentétesek voltak ők ketten, de mégis van valami fura hasonlóság. A szorgos leány a lustával helyet cserél a mese végén. A lusta lesz a koszos, a szorgos az aranyéletű... De vajon mire fogja őket ez a környezet motiválni? Tán csak nem ugyanarra? Elkezdődik egy újabb mese, hogy volt egy szegény szurkos leány, akinek dolgozni kellett, és utálta az életét, és volt egy akinek arany élete volt, mert tetőtől talpig arany borította?...</p>
@@ -95,7 +95,7 @@ const Section = props => (
         </blockquote>
 
         <p>Miután a leány átkerül a túlvilágra, és találkozik annak úrnőjével, megijed a nagy fogaitól. Ismét a tibeti halottas könyv halottaknak szóló tanácsai jutnak eszembe: Ne ijedjünk meg a vérivó és csontrágó szörnyektől. A kútba zuhant lányka meghal és teste épp elenyész, a fekete istennő befogadja, testébe veszi. A fekete földbe kerül, alvadt fekete vérét, fekete bogarak, fekete gyökerek emésztik a fekete sötétségben. Azt is gondolhatnánk, ennél már nem is lehetne rosszabb. És valóban, kellemetlen helyzet ez, jogos az ijedelem. De maga az anyó kéri, ne féljen. Ez a fontos tanítás a keresztény kultúrában is megjelenik: Ne féljetek. És valóban az ijedtség csak az első benyomás, a lány nem menekül, az anyó magához veszi.</p>
-        <p><img src="/images/dns/0_f548d_11f26d1c_orig.jpg" /></p>
+        <p><img src="images/dns/0_f548d_11f26d1c_orig.jpg" /></p>
 
         <blockquote>
           <p>...Most, a nyolcadik napon a Vérivó Haragvó Istenségek világítanak majd. Igyekezz őket szórakozottságot mellőzve felismerni....</p>
@@ -105,12 +105,12 @@ const Section = props => (
         </blockquote>
 
         <p className="masonry">
-          <img src="/images/holle/black/0d8d2240416eda198833109269465623.jpg" />
-          <img src="/images/holle/black/6e938f21445fbf6af940c6c66bfca945.jpg" />
-          <img src="/images/holle/black/46a59aaf88eb52f94173737cd4ca219a.jpg" />
-          <img src="/images/holle/black/2849456002759d35f8a845a20d05ce6b.jpg" />
-          <img src="/images/holle/black/d48fdc05f4ee275b18f0e07bb731ac5a.jpg" />
-          <img src="/images/holle/black/d1352e2e856bf9a34b93c88aaa528f37.jpg" />
+          <img src="images/holle/black/0d8d2240416eda198833109269465623.jpg" />
+          <img src="images/holle/black/6e938f21445fbf6af940c6c66bfca945.jpg" />
+          <img src="images/holle/black/46a59aaf88eb52f94173737cd4ca219a.jpg" />
+          <img src="images/holle/black/2849456002759d35f8a845a20d05ce6b.jpg" />
+          <img src="images/holle/black/d48fdc05f4ee275b18f0e07bb731ac5a.jpg" />
+          <img src="images/holle/black/d1352e2e856bf9a34b93c88aaa528f37.jpg" />
         </p>
 
         <p>Az anyag nem vész el, csak átalakul. Az egyik test meghal, a másik megszületik. Az orsó pereg, készül a szál, szerveződnek a szövetek. Az univerzum lassú forgásában a porszemnyi test tehetetlen az őt irányító erőkkel szemben. Ha lejár az ideje, a párkák elvágják élete fonalát, a fonalból mint érből kifolyik az éltető tűz, mint amikor a szorgos lány a kútban mossa a véres szálat, kifeslik belőle a piros. Az élet szálát fonó orsó végleg elkopik, nincs már meg az <b>Orsó</b> jöhet a kop<b>orsó</b>. Egy élet véget ér. A gonosz istennő felzabálja a dögöt, undorító, félelmetes módon. Persze ez a folyamat csak nekünk szörnyű, itt és most. Piroskát eszi épp a fekete farkas, még szép, hogy félelmetes. De az istennőnek azért kell ennie, hogy szülni tudjon. És valóban, a kútba esett lánynak holle anyó mellett új élete kezdődik, mondhatni újjászületik.</p>
@@ -138,14 +138,14 @@ const Section = props => (
         <p>Shiva harmadik szemének kinyílása és a világ pusztulása közötti kapcsolat szerintem elég egyértelmű. A harmadik szem egy intuitív látás szimbóluma, ezzel lehet látni a láthatatlant. A megvilágosodottaknak nyílik meg a harmadik szemük, ez a szint szükséges ahhoz, hogy meghaladva a világunk ismereteit és érzékszerveinkkel befogadható részét valami másra nyíljon rá a szemünk, illetve mivel ez a szféra szemmel nem látható, a harmadik szemünk. Amint megnyílik a tudásnak ez a csatornája, abban a pillanatban törik össze korábbi, az új ismeretekkel már összeegyeztethetetlen világképünk. A világkép semmisül meg, de egy új kialakul. Mivel Shiva az egész világ istene, az ő világképének megdőlése nagyobb szegmenst ölel fel, ebbe a világba u.i. már maguk a Shiva hívő indiaiak is bele tartoznak. (Akik nem hisznek Shivában, azok biztonságban vannak.)</p>
 
         <p className="masonry">
-          <img src="/images/holle/shiva/7731fee8039ad8c38b3d7ecbcbfe4d92.jpg" />
-          <img src="/images/holle/shiva/1eb07241c9b3fb1294402dad6e88f352.jpg" />
-          <img src="/images/holle/shiva/b23ed708111076c19f84ece5d847ae37.jpg" />
-          <img src="/images/holle/shiva/dbfd0660490c986f7458ab23b36f4a4f.jpg" />
-          <img src="/images/holle/shiva/365a74efdb0c56047b688c8514192f38.jpg" />
-          <img src="/images/holle/shiva/samsara-movie-trailer.jpg" />
-          <img src="/images/holle/shiva/cd7af5f196c4e70bc99e38a431e2976f.jpg" />
-          <img src="/images/holle/shiva/f8276258bf51517e0df39aa903f6ed5c.jpg" />
+          <img src="images/holle/shiva/7731fee8039ad8c38b3d7ecbcbfe4d92.jpg" />
+          <img src="images/holle/shiva/1eb07241c9b3fb1294402dad6e88f352.jpg" />
+          <img src="images/holle/shiva/b23ed708111076c19f84ece5d847ae37.jpg" />
+          <img src="images/holle/shiva/dbfd0660490c986f7458ab23b36f4a4f.jpg" />
+          <img src="images/holle/shiva/365a74efdb0c56047b688c8514192f38.jpg" />
+          <img src="images/holle/shiva/samsara-movie-trailer.jpg" />
+          <img src="images/holle/shiva/cd7af5f196c4e70bc99e38a431e2976f.jpg" />
+          <img src="images/holle/shiva/f8276258bf51517e0df39aa903f6ed5c.jpg" />
         </p>
 
         <p>Talán beugrik az a népmese, hogy Az Egyszemű, a Kétszemű és a Háromszemű... Biztos vagyok benne, hogy a magyar mesék közt is sok utalást találnánk. De ami még érdekesebb, az a nyugati, pontosabban a skandináv mitológia főistene: Odin. Odinnak egy szeme van. Oroszul amúgy 1: ágyin. A wikin ezt írják róla:</p>
@@ -154,7 +154,7 @@ const Section = props => (
           <p>A legidősebb, legnagyobb és legbölcsebb isten a skandináv mitológiában. Ő a háború, a költészet és a halottak istene, valamint a legfőbb gyakorlója a mágiának (sámán)... Állandóan járja a világot, hogy mindent megismerjen és megtanuljon. Tud alakot váltani, ismeri a jövendőt és a babonákat. De Odin a tudásért nagy árat fizetett. Amikor ivott a Bölcsesség Forrásából, elveszítette a fél szemét.</p>
         </blockquote>
 
-        <p><img src="/images/holle/800px-Manuscript_Odinn.jpg" /></p>
+        <p><img src="images/holle/800px-Manuscript_Odinn.jpg" /></p>
 
         <p>Nem tudom, ugyanazt érzitek-e mint én, de mintha itt kisiklott volna a történet szála. Judit a kétkedésem helyett egy sokkal érdekesebb elmélettel állt elő: Ez valóban egy beavatás, ez a nyugatias beavatás, egy ellen-megvilágosodás, éppen ezért én a mesék értelmezését ne az anyagi világban keressem. És valóban, a világ azért tart ott ahol tart, mert ilyen eredetmondákra épül. A keletnek eggyel több szeme lesz, a nyugatnak eggyel kevesebb, a magyar pedig mindhárom lehetőséggel számol. A nyugatias beavatás, a térlátás elveszítése egy fókuszált, anyagelvű, nem pedig kitárulkozó, spirituális látásmódhoz vezet. A Hegylakó gondolkodásmódja ez: csak egyetlenegy maradhat. A nyugat eredetmondája a testvérgyilkos férfipár, Káin és Ábel, Romulusz és Rémusz. A magyar Hunor Magor eredetmonda nem ezt a mintázatot követi. A magvető példabeszéd Jézustól könnyebben beilleszthető ebbe a képbe. Érdekes szimbólum a keresztényi kultúrkörben a háromszögben a szem. Nem szemháromság ez, hanem egyetlen szem a szentháromságban. Vajon a mi szemünk hogyan nyílik rá az új világokra? Mit jelent a megvilágosodás számunkra? Ha nekünk nyílna ki egy szemünk más módon, vajon mi lenne az a világ ami megsemmisül?</p>
       </div>

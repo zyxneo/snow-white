@@ -53,7 +53,7 @@ const Avatar = (props) => {
       <circle className="gender" cx="50" cy="50" r="30" fill={color} />
       <circle cx="50" cy="50" r="25" fill="none" stroke="black" strokeWidth=".5" />
       <g clipPath="url(#circleMask)">
-        <image x={imageX} y={imageY} href={`/avatars/${id}.jpg`} width={imageWidth} height={imageHeight} />
+        <image x={imageX} y={imageY} href={`avatars/${id}.jpg`} width={imageWidth} height={imageHeight} />
       </g>
       <text textAnchor="middle" className="avatar-title">
         <textPath href="#avatarCircle" startOffset="75%">

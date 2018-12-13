@@ -9,18 +9,18 @@ const Section = props => (
         <p>Érdemesnek tartom megemlíteni Thészeusz történetét, ami Grimm gyűjtés formájában is fennmaradt. Thészeusz megküzd a félig bika, félig ember testű Minótaurosszal a Labirintusban. Több alkalommal, több formában is hallottam már a történetet, de az összefüggés a keresztényi kultúrával nem esett le. Pedig igen nyilvánvaló</p>
 
         <p className="masonry">
-          <img src="/images/theseus/minotaurus/dd201a52ca0536a3717a025c80f047ba.jpg" />
-          <img src="/images/theseus/minotaurus/26e310406d1bb2d4db4cd35b5f93e9b1.jpg" />
-          <img src="/images/theseus/minotaurus/14e313495ece917426f99fff7f6ecaa8.jpg" />
+          <img src="images/theseus/minotaurus/dd201a52ca0536a3717a025c80f047ba.jpg" />
+          <img src="images/theseus/minotaurus/26e310406d1bb2d4db4cd35b5f93e9b1.jpg" />
+          <img src="images/theseus/minotaurus/14e313495ece917426f99fff7f6ecaa8.jpg" />
         </p>
 
         <p>A keresztényi kultúra ördögképe egy szőrös emberforma szörny akinek patái és szarvai vannak. Persze lehetne szatír is, csakhogy az ördög a föld alatt, a pokolban lakik. És mi is tulajdonképpen a Labirintus? <cite>Egymásba mesterileg bonyolult tévutakból áll az egész. A ki belépett, úgy eltéved ösvényeinek kanyarulatos tömkelegében, hogy csak is csoda által menekülhet.</cite></p>
 
         <p className="masonry">
-          <img src="/images/theseus/labyrinth/347a4ec8622d6f7369041162d307d04b.jpg" />
-          <img src="/images/theseus/labyrinth/e4ed1bdd56fed47b9350751dea147b02.jpg" />
-          <img src="/images/theseus/labyrinth/201120712127bf0af40e998401764a5a.jpg" />
-          <img src="/images/theseus/labyrinth/5880e5d393838778a8453ef82fbef7fb.jpg" />
+          <img src="images/theseus/labyrinth/347a4ec8622d6f7369041162d307d04b.jpg" />
+          <img src="images/theseus/labyrinth/e4ed1bdd56fed47b9350751dea147b02.jpg" />
+          <img src="images/theseus/labyrinth/201120712127bf0af40e998401764a5a.jpg" />
+          <img src="images/theseus/labyrinth/5880e5d393838778a8453ef82fbef7fb.jpg" />
         </p>
 
         <p>Véleményem szerint Thészeusz története egyértelműen összekapcsolható Holle anyó történetével, mégpedig <b>Ariadné fonalával</b>. Bevallom, ilyen részre nem emlékeztem, mintha sohasem hallottam volna.</p>
@@ -32,9 +32,9 @@ const Section = props => (
         </blockquote>
 
         <p className="masonry">
-          <img src="/images/theseus/61ef46db660d2f84a5c306756cca6722.jpg" />
-          <img src="/images/theseus/76a8fa9aae928810bf0a20fb6128a924.jpg" />
-          <img src="/images/theseus/7c4ca8a5d69f31e3f11850fc4ca3eafe.jpg" />
+          <img src="images/theseus/61ef46db660d2f84a5c306756cca6722.jpg" />
+          <img src="images/theseus/76a8fa9aae928810bf0a20fb6128a924.jpg" />
+          <img src="images/theseus/7c4ca8a5d69f31e3f11850fc4ca3eafe.jpg" />
         </p>
 
         <p>A sötétségbe való leereszkedést tehát ez úttal is egy fonal segíti. Az alvilág alapvetően eltér a két történetben, viszont ugyanúgy próbát kell kiállni, majd visszatérni.</p>
@@ -44,9 +44,9 @@ const Section = props => (
         </blockquote>
 
         <p className="masonry">
-          <img src="/images/theseus/labyrinth/6fc13841c50f4ad3f26ee7f25f008864.jpg" />
-          <img src="/images/theseus/labyrinth/7bf4b1fac670b13b1cfd4b2d48c3a46e.jpg" />
-          <img src="/images/theseus/labyrinth/7518878b7a2f764406479354947395b2.jpg" />
+          <img src="images/theseus/labyrinth/6fc13841c50f4ad3f26ee7f25f008864.jpg" />
+          <img src="images/theseus/labyrinth/7bf4b1fac670b13b1cfd4b2d48c3a46e.jpg" />
+          <img src="images/theseus/labyrinth/7518878b7a2f764406479354947395b2.jpg" />
         </p>
 
         <p>A próbatétel ezúttal a szörny, az Őr-Dög, a Minota-Úr legyőzése. Férfiaknak való feladat, így a Holle anyó a női, míg Thészeusz <b>ugyanannak a belső utazásnak</b> a férfi alternatíváját mutatja be.</p>
@@ -58,18 +58,18 @@ const Section = props => (
 
         <p>Míg a Holle anyó történetében a leány a saját orsóra tekert fonalával indul el, addig Thészeusz Ariadnétól kapja a fonalat. Úgy tűnik, a férfi útjához szükség van erre a külső segítségre. Egyes történetekben a fonál magától gurul végig a Labirintuson, megmutatva Minótaurosz hollétét, másokban Thészeusznak magának kell megtalálni ellenfelét, és a fonal az Ariadnéhoz vezető utat mutatja meg. Az viszont biztos, hogy a fonal két végpontján a nő és a bikatestű férfi állnak, Thészeusz mozgástere erre a vonalra korlátozódik. De mi is ez a Labirintus?</p>
         <p className="masonry">
-          <img src="/images/theseus/labyrinth/5527207294aaaf570fc8d22d11ebff30.jpg" />
-          <img src="/images/theseus/labyrinth/6f5f78b19a70fb4ac1f64428176a0c23.jpg" />
-          <img src="/images/theseus/labyrinth/7ba15119b982edded5c8e6a0a4dea745.jpg" />
+          <img src="images/theseus/labyrinth/5527207294aaaf570fc8d22d11ebff30.jpg" />
+          <img src="images/theseus/labyrinth/6f5f78b19a70fb4ac1f64428176a0c23.jpg" />
+          <img src="images/theseus/labyrinth/7ba15119b982edded5c8e6a0a4dea745.jpg" />
         </p>
 
         <p>Természetesen önnön belső kiismerhetetlen mélységeink, jellemünk sötétsége, a tudat és a tudatalatti, a kontrollált jellemünk és ösztöneink összessége, az útvesztő, melynek legmélyén ott lakik ő, a sötét felebarátunk, alantas ösztönlényünk, az állat-ember, az őshüllő. Ott mélyen lakik az a megtestesületlen személy, aki ha megtestesülne, mi magunk lennénk az. Ott a sötétben él az a lény, aki a legnagyobb ellenségünk, akit ember le nem győzhet, mert nem emberi lény ő, hanem egy felsőbb (avagy alsóbb) akarat teremtménye.</p>
 
         <p className="masonry">
-          <img src="/images/theseus/f5717ae9a97e4d6e556102505c96b1e2.jpg" />
-          <img src="/images/theseus/minotaurus/085145d34c731261b80291ede7aa0d66.jpg" />
-          <img src="/images/theseus/3dfe21fdbeca8b7d3b17d37b9904ca71.jpg" />
-          <img src="/images/theseus/843e6523dd44c5e28d395ddb244d7d23.jpg" />
+          <img src="images/theseus/f5717ae9a97e4d6e556102505c96b1e2.jpg" />
+          <img src="images/theseus/minotaurus/085145d34c731261b80291ede7aa0d66.jpg" />
+          <img src="images/theseus/3dfe21fdbeca8b7d3b17d37b9904ca71.jpg" />
+          <img src="images/theseus/843e6523dd44c5e28d395ddb244d7d23.jpg" />
         </p>
 
         <blockquote>
@@ -78,13 +78,13 @@ const Section = props => (
 
         <p>Amíg ez a lény el van zárva a komplex mélységben, addig biztonságban van mindenki. Csakhogy időről-időre feltámad étvágya, és ilyenkor ifjakat kebelez be, egyes források szerint szűzeket.</p>
 
-        <p><img src="/images/theseus/6253576fb2a004a8f012a1bb2d912e19.jpg" className="ui fluid image" /></p>
+        <p><img src="images/theseus/6253576fb2a004a8f012a1bb2d912e19.jpg" className="ui fluid image" /></p>
 
         <p>A legenda értelmezése minden férfire éppúgy érvényes, de persze mindenkire személyre szabva. Vannak akik rettegnek ettől a mélységtől, próbálják létezését is eltitkolni, és nem mernek szembesülni a Minutaurusszal, még akkor sem, ha kiderülne, nincs is más ott a sötét mélységben, csak egy kis fehér gyáva nyuszi. Vannak akik küzdenek a mérhetetlen erejű szörnnyel, reggelre legyőzik, de estére a szörny ismét feltámad, és kezdődik a kilátástalan küzdelem újra meg újra. Vannak akik kalandos kedvükben elindultak felfedezni a Labirintust, és összetalálkoztak a hatalmas, szőrös állattal, de kiderült, hogy simán össze lehet haverkodni vele egy cigiért cserébe, nála meg történetesen sör van, és nem fukarkodik vele, így bekucorodva az útvesztő egy zugába egy egész életet is ki lehet bekkelni kártyázgatva, elvégre minek az a nagy felhajtás. Az ilyen tipusu Minótaurosszal rendelkező férfiakra aztán várhatnak az Ariadnék...</p>
 
         <p>Bizonyára rengeteg eltérő változat létezik, de az ideális esetet a történet szépen bemutatja. Nagyon érdekes, hogy a történet folytatásában a két leánytestvér közül Ariadné elvész. Szerintem ez azt is mutathatja, hogy Minótauroszt legyőzését követően a férfinek nincs többé szüksége a nő azon felére aki eligazítja őt a sötét mélységeiről.</p>
 
-        <p><img src="/images/theseus/622cfd87eeccc58aace5767cdcdb8ee1.jpg" className="ui fluid image" /></p>
+        <p><img src="images/theseus/622cfd87eeccc58aace5767cdcdb8ee1.jpg" className="ui fluid image" /></p>
 
         <p>A Minótauroszt mítosz feldolgozása a Kontroll című film is. Nem Minoszban, hanem a Metró területén játszódik, de a filmben gyakorta megjelenő M betű összeköti a két történetet. Minótauroszt megfelelője a  lökdösődő, aki szintén a föld alatti járatokban él, Bulcsúhoz hasonlóan, akinek épp meg kell vele küzdenie. Ebben egy lányka lesz segítségére, aki álmában megmutatja neki a szörny rejtekhelyét.</p>
 

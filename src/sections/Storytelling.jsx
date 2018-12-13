@@ -6,13 +6,13 @@ const Section = props => (
     <ScrollSection {...props} id="story.storytelling">
       <h2>Egyszer volt, hol nem volt, ...a mesemondás</h2>
       <div>
-        <img src="/images/story/storytelling3.jpg" className="ui medium left floated image" />
+        <img src="images/story/storytelling3.jpg" className="ui medium left floated image" />
         <p>Hogy megtudjuk, honnan ered ez a mese, egy kis bevezetőként tekintsük át a meséket úgy nagy általánosságban. A mesét az idősebb generáció – szülők, nagyszülők – mondják el a legfiatalabb generációnak, a kisgyerekeknek. A gyermekek érdekes módon nagyon nyitottak ezekre a történetekre, saját maguk kérik, akár újra és újra ugyanazt a történetet, mint egyfajta szellemi táplálékot, a madárfiókához hasonlóan nyaggatva a szülőket. Élvezik a történeteket, legyenek azok bármennyire borzasztóan félelmetesek vagy bizarrak.</p>
       </div>
 
       <h3>A hagyaték</h3>
       <div>
-        <img src="/images/story/storytelling.jpg" className="ui medium left floated image" />
+        <img src="images/story/storytelling.jpg" className="ui medium left floated image" />
         <p>A felnőttek tapasztaltak, az idősek még inkább. Túl vannak szerelmen, háborún, életen és halálon, szinte már mindent megtapasztaltak, amit csak lehet… Felnőttként, ha visszagondolunk, pár dologtól szívesen megkíméltük volna magunkat, az elszalasztott lehetőségekkel pedig szívesen élnénk – utólag már könnyen okos az ember. Szívesen elmondanánk a kicsiknek, hogy ezt így, azt meg amúgy… De hogyan?</p>
       </div>
 
@@ -62,7 +62,7 @@ const Section = props => (
 
       <h3>A Grimm fivérek</h3>
       <div>
-        <img src="/images/grimm/dorothea_viehmann.jpg" className="ui medium left floated image" />
+        <img src="images/grimm/dorothea_viehmann.jpg" className="ui medium left floated image" />
         <p>Lássuk, mit tudunk a meséről. Azt szinte mindenki tudja, hogy a mesét „grimm fivér“ írta. Szerintem ez az általánosan ismert legrégebbi eredet, ameddig a mesét vissza lehet vezetni. Ide van egy-két érdekes további részletem. A mesét természetesen nem a Grimm testvérek írták, ők „csak“ <a href="https://de.wikisource.org/wiki/Kinder-_und_Hausm%C3%A4rchen" target="_blank" rel="noopener noreferrer">összegyűjtötték</a>, akár csak a német nyelv szavait, szólásmondásait, nyelvtanát is.</p><p>Amikor azon ábrándoztam, hogy hogyan lehet „mesét gyűjteni“ valami nagyon misztikus dolgot képzeltem el. Nyilván ki kell menni az erdőbe érte, az a minimum, és ott mindenféle erdei manót megvesztegetni, hogy valami használhatóhoz jussunk. Nos egy német nyelvű <a href="https://www.youtube.com/watch?v=gaSE-g9wsww" target="_blank" rel="noopener noreferrer">dokumentumfilm</a> szerint a valóság ennél prózaibb volt. Az összegyűjtött dokumentumok azt bizonyítják, hogy a mesék jóval egyszerűbben és olcsóbban voltak hozzáférhetők a házuk közelében lévő piacon. Ott ismerték meg az egyik legismertebbé vált, legfontosabb és legmegbízhatóbb forrásukat, a képen látható Kathatina Dorothea Wiehman geb. Piersont, aki egy teáért cserébe betért Grimmékhez, és elmesélte amit ismert. Az egyik Grimm írta amit mond, a másik lerajzolta. Egy másik <a href="https://www.youtube.com/watch?v=yi8fD_WBnhM" target="_blank" rel="noopener noreferrer">riport</a> szerint Dorothea személye idővel meg lett szépítve, miszerint nem parasztasszony volt, hanem egy képzett nő, aki vendéglőt vezetett, és pusztán az apjától örökölt birtokán leszedett gyümölcsöket adta el a piacon. A „parasztasszony“ megnevezésre pusztán marketinges okokból volt szükség, a nép gyermeke jobban beleillet a kor ideáljába.</p><p>De lássuk inkább mit írnak maguk Grimmék Dorotheáról:</p>
 
         <blockquote>
@@ -74,12 +74,12 @@ const Section = props => (
 
         <p>Az első kép L. Katzenstein festménye, Grimmék a mesemondónőnél címmel, a második egy erről készült metszet. Ezeknek a képeknek később még szeretnék külön jelentőséget tulajdonítani...</p>
         <p style={{ columnCount: 2, columnGap: '10px' }}>
-          <img className="ui fluid image" src="/images/grimm/viehmann-1.jpg" />
-          <img className="ui fluid image" src="/images/grimm/viehmann-2.jpg" />
+          <img className="ui fluid image" src="images/grimm/viehmann-1.jpg" />
+          <img className="ui fluid image" src="images/grimm/viehmann-2.jpg" />
         </p>
 
         <p>Hófehérke a Grimm Kinder- und Hausmerchen első, 1812-es eredeti gótbetűs kiadásában: (Amúgy ha valakinek megvan ez a könyv engem nagyon érdekelne, szívesem meg is venném, de nem 42.000.000 Ft-ért, amennyiért legutóbb láttam...)</p>
-        <img className="ui fluid image" src="/images/grimm/schneewittchen.jpg" />
+        <img className="ui fluid image" src="images/grimm/schneewittchen.jpg" />
 
       </div>
 

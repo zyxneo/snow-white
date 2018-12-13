@@ -101,7 +101,7 @@ class StoryGraph extends React.PureComponent {
         .attr('y', d => data.characters[d].imageY)
         .attr('width', d => data.characters[d].imageWidth)
         .attr('height', d => data.characters[d].imageHeight)
-        .attr('href', d => `/avatars/${data.characters[d].id}.jpg`)
+        .attr('href', d => `avatars/${data.characters[d].id}.jpg`)
       character.append('text')
         .attr('text-anchor', 'middle')
         .attr('class', 'avatar-title')

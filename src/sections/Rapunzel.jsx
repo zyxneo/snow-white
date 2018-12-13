@@ -10,12 +10,12 @@ const Section = props => (
 
         <p>Aranyhaj történetében az anya (mostoha) egy toronyba zárja engedetlen lányát. A torony börtönként tartja fogva a lányt, nincs kiút, így a lány rá van szorulva a mostoha segítségére. A mostoha úgy tartja a kapcsolatot a lánnyal, hogy annak hosszú haján kapaszkodik fel. Mikor kiderül, hogy a lány felnőtt életet szeretne élni, a mostoha megcsonkítja, levágja a lány szép haját, mondván, ha az övé nem lehet, ne legyen senkié.</p>
 
-        <p><img src="/images/fairytales/3e8343cd3c2ff5b1ea9920de29ca62cd.jpg" className="ui fluid image" /></p>
+        <p><img src="images/fairytales/3e8343cd3c2ff5b1ea9920de29ca62cd.jpg" className="ui fluid image" /></p>
 
         <p>A kapcsolat a két mese között az a pont lehet, amikor Hófehérkét a mostohája fésűvel, majd fűzővel próbálja meg eltenni láb alól első két próbálkozása során.</p>
         <p style={{ columnCount: 2, columnGap: '10px' }}>
-          <img src="/images/snowwhite/witch/36c8dba30d772552a1eecaab1943a3d2.jpg" className="ui fluid image" />
-          <img src="/images/fairytales/7475ed243b80dc09733efd27341b8bf7.jpg" className="ui fluid image" />
+          <img src="images/snowwhite/witch/36c8dba30d772552a1eecaab1943a3d2.jpg" className="ui fluid image" />
+          <img src="images/fairytales/7475ed243b80dc09733efd27341b8bf7.jpg" className="ui fluid image" />
         </p>
 
         <p>A meséket összekötő kapocs a leánygyermek és anyja közt fennálló beteges viszony. Míg Hófehérkét anyja elűzi otthonról, addig Aranyhajat pont hogy fogva tartja a sajátja, de ez ne tévesszen meg minket. Hófehérke mostohája utána megy a szökött lánynak, Aranyhajé pedig magára hagyja a lányt, egyedül a börtönében. Ugyanazon viszály különböző megjelenési formái ezek, nevezetesen az anya lánygyermekét csak gyermeki, és mint olyan, csak alárendelt szerepben képes elfogadni. Valójában fél a kibontakozó nőtől, így megpróbálja megfékezni azt, ha kell megnyomorítja, mérgezi, elfolytja annak kifejlődését. Ez teszi mostohává a mostohát, hogy akár édes gyermekével is mostohán bánik, nem a konkrét vérségi viszony számít itt, hanem a szándék, a mód.</p>
@@ -28,7 +28,7 @@ const Section = props => (
 
         <p>De vannak súlyosabb esetek is. Aranyhaj mostohája valósággal megmételyezi a lányt, hogy lám, ő az egyetlen, aki igazán szereti, az anya szeretete felülmúlhatatlan, csak mellette lehet biztonságban. </p>
 
-        <p><img src="/images/fairytales/9bf6eec12c0887c119cd9b5be6d0c0c3.jpg" className="ui fluid image" /></p>
+        <p><img src="images/fairytales/9bf6eec12c0887c119cd9b5be6d0c0c3.jpg" className="ui fluid image" /></p>
       </div>
     </ScrollSection>
   </React.Fragment>
