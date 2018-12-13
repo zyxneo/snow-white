@@ -1,6 +1,5 @@
 import React from 'react'
 import classNames from 'classnames'
-import { FormattedMessage } from 'react-intl'
 import lodash from 'lodash'
 import StorySection from '../components/StorySection'
 import { StoryGraph } from '../components/StoryGraph'
@@ -286,14 +285,14 @@ class Graph extends React.Component {
   }
 
   componentDidMount() {
-    if(!this.state.mounted) {
+    if (!this.state.mounted) {
       try {
         this.ScrollTrigger = require("react-scroll-trigger").default;
         this.setState({
-          mounted: true
+          mounted: true,
         })
       } catch (e) {
-        console.error(e);
+        console.error(e)
       }
     }
   }
@@ -325,7 +324,7 @@ class Graph extends React.Component {
       return (
         <section key="story.asWeKnowIt" id="story.asWeKnowIt" className="item">
           <div className="ui hidden divider" />
-          <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
+          <h3>Ahogy ismerjük</h3>
           <div className={classNames('scrollable', { fixed: inViewport.lastIndexOf('story.scene') !== -1 }, { 'scroll-below': end })}>
 
             <ScrollTrigger onEnter={() => onEnterViewport('')}>

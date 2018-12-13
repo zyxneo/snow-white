@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout'
-import { withIntl } from '../i18n'
 import Graph from '../sections/Graph'
 import Introduction from '../sections/Introduction'
 import Storytelling from '../sections/Storytelling'
@@ -59,4 +58,4 @@ class IndexPage extends React.Component {
   }
 }
 
-export default withIntl(IndexPage)
+export default IndexPage

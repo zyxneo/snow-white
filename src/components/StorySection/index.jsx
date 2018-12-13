@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedHTMLMessage } from 'react-intl'
+import hu from './hu'
 
 const emptyFn = () => {}
 
@@ -37,9 +37,7 @@ class StorySection extends React.Component {
       return (
         <ScrollTrigger onEnter={() => onEnter(id)} onExit={() => onExit(id)}>
           <section key={id} id={id} className="story item">
-            <div className="story-desc">
-              <FormattedHTMLMessage id={id} />
-            </div>
+            <div className="story-desc" dangerouslySetInnerHTML={{__html: hu[id]}} />
           </section>
         </ScrollTrigger>
       )

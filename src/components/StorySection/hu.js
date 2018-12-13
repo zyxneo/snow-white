@@ -1,4 +1,4 @@
-module.exports = {
+const hu = {
   'site.title': 'Hófehérke és a ...',
   'site.subtitle': 'Egész estés meseelemzés felnőtteknek',
   'site.description': ' ',
@@ -56,3 +56,4 @@ module.exports = {
   'story.scene.sequel17': '<h3>Gonosz mostoha – Öreg király pár</h3><p>Az ábra egyik sarkába az “özvegyen maradt” király új kapcsolata került. Nehezen lehetne jó kapcsolatnak nevezni, de a történet határozott említést tesz a pár tagjainak összetartozásáról.</p><p>Amint a mostoha megjelenik, beköszönt a konfliktusos rész, a sötét időszak semmilyen szempontból nem termékeny. A királyné halott.</p><p>A király jelenléte irreleváns, sakkba szorul.</p><p>Hófehérke száműzve, a herceg még sehol.</p><p>A vadász pedig börönbe zárva...</p><p>De erre majd visszatérünk.</p>',
 
 }
+export default hu
