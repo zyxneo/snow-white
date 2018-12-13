@@ -7,9 +7,7 @@ notifications:
     on_failure: always
 node_js:
   - "stable"
-cache:
-  directories:
-  - node_modules
+cache: npm
 deploy:
   provider: pages
   skip-cleanup: true

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/snow-white',
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
