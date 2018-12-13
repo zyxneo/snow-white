@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react'
-import * as d3 from 'd3'
 import classNames from 'classnames'
 import Avatar from './Avatar'
 import {
@@ -22,21 +21,27 @@ import {
 import './StoryGraph.scss'
 
 
-const t = d3.transition().duration(750).ease(d3.easeLinear)
 
 class StoryGraph extends React.PureComponent {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      mounted: false
+    }
   }
 
   componentDidMount() {
-    // if (!this.state.queen) {
-    //   this.setState({
-    //     queen: d3.select('#queen'),
-    //     king: d3.select('#king'),
-    //   })
-    // }
+    if(!this.state.mounted) {
+      try {
+        this.d3 = require("d3");
+        this.setState({
+          mounted: true
+        })
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
     this.updateGraph()
   }
 
@@ -45,84 +50,90 @@ class StoryGraph extends React.PureComponent {
   }
 
   updateGraph = () => {
-    // console.log(this.props.graphData.characters)
-    const data = this.props.graphData
-    const characters = d3.select('.storyGraph #characters')
-      .selectAll('g.character')
-      .data(d3.keys(data.characters) || [], d => d)
 
-    characters.transition()
-      .duration(1000)
-      .ease(d3.easeExpInOut)
-      .attr('opacity', d => data.characters[d].opacity)
-      .style('transform', d => scaleAvatar(data.characters[d].cx, data.characters[d].cy, data.characters[d].scale))
+    if (this.state.mounted) {
+      const d3 = this.d3
 
-    // Enter…
-    const character = characters.enter()
-      .append('g')
-      .attr('id', d => d)
-      .attr('class', 'character')
+      const t = d3.transition().duration(750).ease(d3.easeLinear)
+      // console.log(this.props.graphData.characters)
+      const data = this.props.graphData
+      const characters = d3.select('.storyGraph #characters')
+        .selectAll('g.character')
+        .data(d3.keys(data.characters) || [], d => d)
 
-    character.append('circle')
-      .attr('id', 'avatarCircle')
-      .attr('cx', '50')
-      .attr('cy', '50')
-      .attr('r', '32')
-      .attr('fill', 'none')
-    character.append('circle')
-      .attr('class', 'gender')
-      .attr('cx', '50')
-      .attr('cy', '50')
-      .attr('r', '30')
-      .attr('fill', d => data.characters[d].color)
-    character.append('circle')
-      .attr('class', 'circle')
-      .attr('cx', '50')
-      .attr('cy', '50')
-      .attr('r', '25')
-      .attr('fill', 'none')
-      .attr('stroke', 'black')
-      .attr('stroke-width', '.5')
-    character.append('g')
-    character.append('g')
-      .attr('clip-path', 'url(#circleMask)')
-      .append('image')
-      .attr('x', d => data.characters[d].imageX)
-      .attr('y', d => data.characters[d].imageY)
-      .attr('width', d => data.characters[d].imageWidth)
-      .attr('height', d => data.characters[d].imageHeight)
-      .attr('href', d => `/avatars/${data.characters[d].id}.jpg`)
-    character.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('class', 'avatar-title')
-      .append('textPath')
-      .attr('href', '#avatarCircle')
-      .attr('startOffset', '75%')
-      .text(d => data.characters[d].name)
+      characters.transition()
+        .duration(1000)
+        .ease(d3.easeExpInOut)
+        .attr('opacity', d => data.characters[d].opacity)
+        .style('transform', d => scaleAvatar(data.characters[d].cx, data.characters[d].cy, data.characters[d].scale))
 
-    // Exit…
-    characters.exit().remove()
+      // Enter…
+      const character = characters.enter()
+        .append('g')
+        .attr('id', d => d)
+        .attr('class', 'character')
 
-    const arrows = d3.select('.storyGraph #arrows')
-      .selectAll('path.arrow')
-      .data(d3.keys(data.arrows) || [], d => d)
+      character.append('circle')
+        .attr('id', 'avatarCircle')
+        .attr('cx', '50')
+        .attr('cy', '50')
+        .attr('r', '32')
+        .attr('fill', 'none')
+      character.append('circle')
+        .attr('class', 'gender')
+        .attr('cx', '50')
+        .attr('cy', '50')
+        .attr('r', '30')
+        .attr('fill', d => data.characters[d].color)
+      character.append('circle')
+        .attr('class', 'circle')
+        .attr('cx', '50')
+        .attr('cy', '50')
+        .attr('r', '25')
+        .attr('fill', 'none')
+        .attr('stroke', 'black')
+        .attr('stroke-width', '.5')
+      character.append('g')
+      character.append('g')
+        .attr('clip-path', 'url(#circleMask)')
+        .append('image')
+        .attr('x', d => data.characters[d].imageX)
+        .attr('y', d => data.characters[d].imageY)
+        .attr('width', d => data.characters[d].imageWidth)
+        .attr('height', d => data.characters[d].imageHeight)
+        .attr('href', d => `/avatars/${data.characters[d].id}.jpg`)
+      character.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('class', 'avatar-title')
+        .append('textPath')
+        .attr('href', '#avatarCircle')
+        .attr('startOffset', '75%')
+        .text(d => data.characters[d].name)
 
-    arrows.transition()
-      .duration(1000)
-      .ease(d3.easeElastic)
-      .attr('d', d => drawCharacterBezier(data.characters[data.arrows[d].fromCharacter], data.arrows[d].fromSide, data.characters[data.arrows[d].toCharacter], data.arrows[d].toSide))
-      .attr('stroke', d => data.arrows[d].color)
-      .attr('stroke-width', d => data.arrows[d].width || '1')
-      .attr('stroke-dasharray', d => data.arrows[d].dashArray || '')
-      .attr('opacity', d => data.arrows[d].opacity)
+      // Exit…
+      characters.exit().remove()
 
-    arrows.enter()
-      .append('path')
-      .attr('id', d => d)
-      .attr('class', 'arrow')
-      .attr('fill', 'none')
+      const arrows = d3.select('.storyGraph #arrows')
+        .selectAll('path.arrow')
+        .data(d3.keys(data.arrows) || [], d => d)
 
-    arrows.exit().remove()
+      arrows.transition()
+        .duration(1000)
+        .ease(d3.easeElastic)
+        .attr('d', d => drawCharacterBezier(data.characters[data.arrows[d].fromCharacter], data.arrows[d].fromSide, data.characters[data.arrows[d].toCharacter], data.arrows[d].toSide))
+        .attr('stroke', d => data.arrows[d].color)
+        .attr('stroke-width', d => data.arrows[d].width || '1')
+        .attr('stroke-dasharray', d => data.arrows[d].dashArray || '')
+        .attr('opacity', d => data.arrows[d].opacity)
+
+      arrows.enter()
+        .append('path')
+        .attr('id', d => d)
+        .attr('class', 'arrow')
+        .attr('fill', 'none')
+
+      arrows.exit().remove()
+    }
   }
 
   render() {
