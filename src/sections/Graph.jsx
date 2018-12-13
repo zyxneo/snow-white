@@ -2,7 +2,6 @@ import React from 'react'
 import classNames from 'classnames'
 import { FormattedMessage } from 'react-intl'
 import lodash from 'lodash'
-import ScrollTrigger from 'react-scroll-trigger'
 import StorySection from '../components/StorySection'
 import { StoryGraph } from '../components/StoryGraph'
 import {
@@ -282,6 +281,20 @@ class Graph extends React.Component {
     this.state = {
       end: false,
       graphData: scene1,
+      mounted: false,
+    }
+  }
+
+  componentDidMount() {
+    if(!this.state.mounted) {
+      try {
+        this.ScrollTrigger = require("react-scroll-trigger").default;
+        this.setState({
+          mounted: true
+        })
+      } catch (e) {
+        console.error(e);
+      }
     }
   }
 
@@ -307,249 +320,253 @@ class Graph extends React.Component {
       onEnterViewport,
     } = this.props
 
-    return (
-      <section key="story.asWeKnowIt" id="story.asWeKnowIt" className="item">
-        <div className="ui hidden divider" />
-        <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
-        <div className={classNames('scrollable', { fixed: inViewport.lastIndexOf('story.scene') !== -1 }, { 'scroll-below': end })}>
+    if (this.state.mounted) {
+      const ScrollTrigger = this.ScrollTrigger
+      return (
+        <section key="story.asWeKnowIt" id="story.asWeKnowIt" className="item">
+          <div className="ui hidden divider" />
+          <h3><FormattedMessage id="story.asWeKnowIt.title" /></h3>
+          <div className={classNames('scrollable', { fixed: inViewport.lastIndexOf('story.scene') !== -1 }, { 'scroll-below': end })}>
 
-          <ScrollTrigger onEnter={() => onEnterViewport('')}>
-            <br />
-          </ScrollTrigger>
-          <StoryGraph graphData={graphData} inViewport={inViewport} />
-          <div className="spacer" />
-          <StorySection
-            id="story.scene.beginning.king"
-            onEnter={() => {
-              onEnterViewport('story.scene.beginning.king')
-              this.setState({
-                graphData: scene1,
-              })
-            }}
-          />
-          <StorySection
-            id="story.scene.beginning.queen"
-            onEnter={() => {
-              onEnterViewport('story.scene.beginning.queen')
-              this.setState({
-                graphData: scene2,
-              })
-            }}
-          />
-          <StorySection
-            id="story.scene.beginning.snowwhite"
-            onEnter={() => {
-              onEnterViewport('story.scene.beginning.snowwhite')
-              this.setState({
-                graphData: scene3,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.beginning.witch"
-            onEnter={() => {
-              onEnterViewport('story.scene.beginning.witch')
-              this.setState({
-                graphData: scene4,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.beginning.huntsman"
-            onEnter={() => {
-              onEnterViewport('story.scene.beginning.huntsman')
-              this.setState({
-                graphData: scene5,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.beginning.prince"
-            onEnter={() => {
-              onEnterViewport('story.scene.beginning.prince')
-              this.setState({
-                graphData: scene6,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel1"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel1')
-              this.setState({
-                graphData: scene7,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel2"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel2')
-              this.setState({
-                graphData: scene8,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel3"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel3')
-              this.setState({
-                graphData: scene9,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel4"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel4')
-              this.setState({
-                graphData: scene9,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel5"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel5')
-              this.setState({
-                graphData: scene10,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel6"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel6')
-              this.setState({
-                graphData: scene10,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel7"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel7')
-              this.setState({
-                graphData: scene11,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel8"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel8')
-              this.setState({
-                graphData: scene11,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel9"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel9')
-              this.setState({
-                graphData: scene12,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel10"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel10')
-              this.setState({
-                graphData: scene12,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel11"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel11')
-              this.setState({
-                graphData: scene13,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel12"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel12')
-              this.setState({
-                graphData: scene14,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel13"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel13')
-              this.setState({
-                graphData: scene14,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel14"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel14')
-              this.setState({
-                graphData: scene14,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel15"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel15')
-              this.setState({
-                graphData: scene15,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel16"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel16')
-              this.setState({
-                graphData: scene15,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-          <StorySection
-            id="story.scene.sequel17"
-            onEnter={() => {
-              onEnterViewport('story.scene.sequel17')
-              this.setState({
-                graphData: scene15,
-              })
-            }}
-            onExit={this.onExitEnd}
-          />
-        </div>
-        <ScrollTrigger onEnter={this.onEnterEnd} onExit={this.onExitEnd}>&nbsp;</ScrollTrigger>
-      </section>
-    )
+            <ScrollTrigger onEnter={() => onEnterViewport('')}>
+              <br />
+            </ScrollTrigger>
+            <StoryGraph graphData={graphData} inViewport={inViewport} />
+            <div className="spacer" />
+            <StorySection
+              id="story.scene.beginning.king"
+              onEnter={() => {
+                onEnterViewport('story.scene.beginning.king')
+                this.setState({
+                  graphData: scene1,
+                })
+              }}
+            />
+            <StorySection
+              id="story.scene.beginning.queen"
+              onEnter={() => {
+                onEnterViewport('story.scene.beginning.queen')
+                this.setState({
+                  graphData: scene2,
+                })
+              }}
+            />
+            <StorySection
+              id="story.scene.beginning.snowwhite"
+              onEnter={() => {
+                onEnterViewport('story.scene.beginning.snowwhite')
+                this.setState({
+                  graphData: scene3,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.beginning.witch"
+              onEnter={() => {
+                onEnterViewport('story.scene.beginning.witch')
+                this.setState({
+                  graphData: scene4,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.beginning.huntsman"
+              onEnter={() => {
+                onEnterViewport('story.scene.beginning.huntsman')
+                this.setState({
+                  graphData: scene5,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.beginning.prince"
+              onEnter={() => {
+                onEnterViewport('story.scene.beginning.prince')
+                this.setState({
+                  graphData: scene6,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel1"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel1')
+                this.setState({
+                  graphData: scene7,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel2"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel2')
+                this.setState({
+                  graphData: scene8,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel3"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel3')
+                this.setState({
+                  graphData: scene9,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel4"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel4')
+                this.setState({
+                  graphData: scene9,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel5"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel5')
+                this.setState({
+                  graphData: scene10,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel6"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel6')
+                this.setState({
+                  graphData: scene10,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel7"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel7')
+                this.setState({
+                  graphData: scene11,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel8"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel8')
+                this.setState({
+                  graphData: scene11,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel9"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel9')
+                this.setState({
+                  graphData: scene12,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel10"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel10')
+                this.setState({
+                  graphData: scene12,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel11"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel11')
+                this.setState({
+                  graphData: scene13,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel12"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel12')
+                this.setState({
+                  graphData: scene14,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel13"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel13')
+                this.setState({
+                  graphData: scene14,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel14"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel14')
+                this.setState({
+                  graphData: scene14,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel15"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel15')
+                this.setState({
+                  graphData: scene15,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel16"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel16')
+                this.setState({
+                  graphData: scene15,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+            <StorySection
+              id="story.scene.sequel17"
+              onEnter={() => {
+                onEnterViewport('story.scene.sequel17')
+                this.setState({
+                  graphData: scene15,
+                })
+              }}
+              onExit={this.onExitEnd}
+            />
+          </div>
+          <ScrollTrigger onEnter={this.onEnterEnd} onExit={this.onExitEnd}>&nbsp;</ScrollTrigger>
+        </section>
+      )
+    }
+    return null
   }
 }
 

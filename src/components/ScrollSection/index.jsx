@@ -1,23 +1,51 @@
 import React, { Children } from 'react'
-import ScrollTrigger from 'react-scroll-trigger'
 
 const emptyFn = () => {}
 
-const ScrollSection = (props) => {
-  const {
-    id,
-  } = props
+class ScrollSection extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      mounted: false
+    }
+  }
+  componentDidMount() {
+    if(!this.state.mounted) {
+      try {
+        this.ScrollTrigger = require("react-scroll-trigger").default;
+        this.setState({
+          mounted: true
+        })
+      } catch (e) {
+        console.error(e);
+      }
+    }
+  }
 
-  const onEnter = props.onEnter || emptyFn
-  const onExit = props.onExit || emptyFn
+  render() {
+    const {
+      id,
+    } = this.props
 
-  return (
-    <ScrollTrigger onEnter={() => onEnter(id)} onExit={() => onExit(id)}>
+    const onEnter = this.props.onEnter || emptyFn
+    const onExit = this.props.onExit || emptyFn
+
+    if (this.state.mounted) {
+      const ScrollTrigger = this.ScrollTrigger
+      return (
+        <ScrollTrigger onEnter={() => onEnter(id)} onExit={() => onExit(id)}>
+          <section key={id} id={id} className="item">
+            {this.props.children}
+          </section>
+        </ScrollTrigger>
+      )
+    }
+    return (
       <section key={id} id={id} className="item">
-        {props.children}
+        {this.props.children}
       </section>
-    </ScrollTrigger>
-  )
+    )
+  }
 }
 
 export default ScrollSection
