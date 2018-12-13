@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Helmet from 'react-helmet'
-import { BrowserRouter } from 'react-router-dom';
 import { injectIntl } from 'react-intl'
 import '../../node_modules/sanitize.css/sanitize.css'
 // $FlowIgnore
@@ -12,7 +11,6 @@ import './layout.scss'
 const Layout = ({
   children, data, intl, bodyClass,
 }) => (
-  <BrowserRouter>
     <div>
       <Helmet
         title={intl.formatMessage({ id: 'site.title' })}
@@ -35,7 +33,6 @@ const Layout = ({
         {children}
       </div>
     </div>
-  </BrowserRouter>
 )
 
 export default injectIntl(Layout)
