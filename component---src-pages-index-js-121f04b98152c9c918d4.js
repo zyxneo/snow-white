@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{223:function(n,t,e){"use strict";e.r(t);var r=e(34),o=e.n(r),a=e(1),i=e.n(a),c=function(n){function t(t){var e;return(e=n.call(this,t)||this).state={inViewport:""},e}return o()(t,n),t.prototype.render=function(){return i.a.createElement("div",{className:"content"},"ASFD")},t}(i.a.Component);t.default=c}}]);
-//# sourceMappingURL=component---src-pages-index-js-121f04b98152c9c918d4.js.map
