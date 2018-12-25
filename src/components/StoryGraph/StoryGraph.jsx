@@ -1,26 +1,18 @@
 // @flow
 
 import React from 'react'
+import { withPrefix } from 'gatsby-link'
 import classNames from 'classnames'
-import Avatar from './Avatar'
 import {
   AvatarWidth,
   AvatarHeight,
   SvgWidth,
   SvgHeight,
-  AvatarCenterD,
-  trw,
-  trh,
-  translateCenterString,
-  scaleString,
   scaleAvatar,
-  drawBezier,
   drawCharacterBezier,
 } from './shared'
 
 import './StoryGraph.scss'
-
-
 
 class StoryGraph extends React.PureComponent {
   constructor(props) {
@@ -75,20 +67,20 @@ class StoryGraph extends React.PureComponent {
 
       character.append('circle')
         .attr('id', 'avatarCircle')
-        .attr('cx', '50')
-        .attr('cy', '50')
+        .attr('cx', AvatarWidth / 2)
+        .attr('cy', AvatarHeight / 2)
         .attr('r', '32')
         .attr('fill', 'none')
       character.append('circle')
         .attr('class', 'gender')
-        .attr('cx', '50')
-        .attr('cy', '50')
+        .attr('cx', AvatarWidth / 2)
+        .attr('cy', AvatarHeight / 2)
         .attr('r', '30')
         .attr('fill', d => data.characters[d].color)
       character.append('circle')
         .attr('class', 'circle')
-        .attr('cx', '50')
-        .attr('cy', '50')
+        .attr('cx', AvatarWidth / 2)
+        .attr('cy', AvatarHeight / 2)
         .attr('r', '25')
         .attr('fill', 'none')
         .attr('stroke', 'black')
@@ -101,7 +93,7 @@ class StoryGraph extends React.PureComponent {
         .attr('y', d => data.characters[d].imageY)
         .attr('width', d => data.characters[d].imageWidth)
         .attr('height', d => data.characters[d].imageHeight)
-        .attr('href', d => `avatars/${data.characters[d].id}.jpg`)
+        .attr('href', d => withPrefix(`avatars/${data.characters[d].id}.jpg`))
       character.append('text')
         .attr('text-anchor', 'middle')
         .attr('class', 'avatar-title')
@@ -157,7 +149,7 @@ class StoryGraph extends React.PureComponent {
 
 
         <g id="arrows" />
-        <g id="characters"/>
+        <g id="characters" />
 
         {/*
 
