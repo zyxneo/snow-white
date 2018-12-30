@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.fairytales.theseus">
-              <h3>Thészeusz</h3>
+              <h1>Thészeusz</h1>
               <div>
                 <p>Érdemesnek tartom megemlíteni Thészeusz történetét, ami Grimm gyűjtés formájában is fennmaradt. Thészeusz megküzd a félig bika, félig ember testű Minótaurosszal a Labirintusban. Több alkalommal, több formában is hallottam már a történetet, de az összefüggés a keresztényi kultúrával nem esett le. Pedig igen nyilvánvaló</p>
 
@@ -117,6 +118,17 @@ class IndexPage extends React.Component {
                 <p>A Minótauroszt és Csipkerózsika különleges egyvelege a Hercegnő és a kobold történet. Thészeusz itt Kóficként jelenik meg, ellenfele pedig Takonypóc, a kobold, aki a bányák alatt a mélységben él. Csipkerózsikára hasonlít Angelika hercegnő, a mese másik főszereplője. A padlásszobában ő is egy fonónőt talál, csakhogy ez a fonó tulajdon őse, jóindulatú, és nem elaltatja, hanem pont hogy felébreszti a lányt. A misztikus nagymama különleges tudásba avatja be Angelikát, és egy fonalat ajándékoz neki. Ennek segítségével a lány szabadítja ki a sötét mélységben, árnyékszemélyisége fogságában ragadt fiút. Érdekes, hogy a fiú bukásának egyik oka, hogy a szüleitől szerzett fonal nem bizonyul használhatónak akciója során, mikor egymaga indul neki a sötét mélység felderítésének. Kófic és Angelika kapcsolata akkor rendeződik, mikor a fiú megismeri a leány nagymamáját, a misztikus női ősképet.</p>
               </div>
             </ScrollSection>
+
+            <Footer>
+              <PreviousButton
+                to="/holle/"
+                content="Holle anyó"
+              />
+              <NextButton
+                to="/transformations/"
+                content="Átalakulások"
+              />
+            </Footer>
           </div>
         </div>
 

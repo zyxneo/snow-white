@@ -5,7 +5,9 @@ import { withPrefix } from 'gatsby-link'
 import classNames from 'classnames'
 import lodash from 'lodash'
 import Layout from '../components/layout'
+import ScrollSection from '../components/ScrollSection'
 import StorySection from '../components/StorySection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 import { StoryGraph } from '../components/StoryGraph'
@@ -330,9 +332,18 @@ class Graph extends React.Component {
             <div className="ui text container list">
               <section key="story.asWeKnowIt" id="story.asWeKnowIt" className="item">
                 <div className="ui hidden divider" />
-                <h3>Ahogy ismerjük</h3>
                 <div className={classNames('scrollable', { fixed: inViewport.lastIndexOf('story.scene') !== -1 }, { 'scroll-below': end })}>
+                  <ScrollSection onEnter={this.onEnterViewport} id="story.storytelling.autopsie">
+                    <h1>A grafikon</h1>
+                    <div>
+                      <p>A mese elemzése során a boncasztalra kívánom fektetni a hófehérkét, hogy minden rétegét alaposan megismerhessük. Ez az elemzés ennyiben egyedülálló lesz, ebben eltér minden más értelmezéstől. Hozzávalók: Hófehérke, boncasztal, szike, <s>vödör a vérnek, vödör a hányáshoz</s>. Az egyetlen probléma ezzel a megközelítéssel, hogy nem <i>in vivo</i> azaz nem természetes élőhelyén figyeljük meg a Hófehérkét, ahogy éjszaka szaladgál az erdőben, hanem kimerevítve, élettől mentesen.</p>
 
+                      <p>Az alábbi eleven grafikonon azt a gondolatmenetet szeretném felvázolni, ami elsőként pattant ki fejemből. Akkoriban nagyon érdekesnek találtam, most már látom, hogy sántít és ezer sebből vérzik, de mégis, ez volt a kapu, mely a hétköznapokból átvezetett engem a mesék varázslatos birodalmába, avagy, amin keresztül a mese szörnyei kiszabadultak ebbe a világba, attól függ merről nézzük.</p>
+
+                      <p>Ahogy munkába menet a vonatot várom reggelente, a szemközti peronon összegyűlnek az iskolások. Kilence éve járok már ezen a vonalon, minden reggel látom őket. De volt egy lányka, aki igen nagy változáson ment keresztül. Kezdetben nagyon szolid volt, mind megjelenésében, mind öltözködésében. De - valószínűleg a környezet vélt elvárásainak megfelelően - egyre vagányabb külsőre váltott. Szép hosszú haját bedauerolta, majd rövidebbre, majd igen rövidre vágta, néhol felkopaszítva. Öltözéke is fekete bőrdzsekire váltott, melyen ezüstös szegecsek csillogtak. Kicsit sajnáltam, hiszen tucatjával hallani történeteket azokról a felnőtt nőkről, akik hasonlóan vagány megjelenésűek, de a kemény külső megtört, megkeseredett szívet rejt, a válások, és az élet egyéb kudarcait. Nem okszerűen jár a kettő együtt, de abban a pillanatban úgy véltem, hogy a lányka a szemem láttára alakult át Hófehérkéből gonosz mostohává. Ez megdöbbentett, hiszen eltűnt a határ a karakterek között. Teljesen nyilvánvalóvá vált, hogy ez nem egy egyedi átalakulás, hanem egy mindenkit érintő, általános (még ha nem is járunk mind szegecses bőrdzsekiben). Minden kislány Hófehérke volt. Minden nő volt kislány, tehát Hófehérke is. Kortól, megjelenéstől, bőrdzsekitől teljesen függetlenül. A púpos, a lapos, a szőrös, a külleme miatt a társadalom peremére vetett gnóm is ugyanolyan joggal érezte gyermekkorában, hogy ez a mese róla szól, hogy ő a főszereplője, a Hófehérke, aki a legszebb a világon.</p>
+                      <p>Halvány emlékeim a meséről új értelmezést nyertek, mivel a mesében lévő férfi karakterek is megelevenedtek, és innentől egy olyan világban jártam, ahol mindenki ennek a mesének volt valamely szereplője.</p>
+                    </div>
+                  </ScrollSection>
                   <ScrollTrigger onEnter={() => onEnterViewport('')}>
                     <br />
                   </ScrollTrigger>
@@ -710,6 +721,16 @@ class Graph extends React.Component {
                 <ScrollTrigger onEnter={this.onEnterEnd} onExit={this.onExitEnd}>&nbsp;</ScrollTrigger>
               </section>
 
+              <Footer>
+                <PreviousButton
+                  to="/hofejirke/"
+                  content="Hófejírke"
+                />
+                <NextButton
+                  to="/textil/"
+                  content="Textil"
+                />
+              </Footer>
             </div>
           </div>
 

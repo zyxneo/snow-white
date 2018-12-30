@@ -1,6 +1,7 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
+import Footer from '../components/Footer'
 import ScrollSection from '../components/ScrollSection'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.fairytales.holle">
-              <h3>Holle anyó</h3>
+              <h1>Holle anyó</h1>
               <div>
                 <p>A mesét <a href="https://www.grimmstories.com/hu/grimm_mesek/holle_anyo" target="_blank" rel="noopener noreferrer">itt</a> elolvashatjátok</p>
                 <p>Holle anyó neve egy nagyon érdekes szó, amely rámutat a nyugati nyelvek és a magyar nyelv ideológiája közt tátongó szakadékra. Holle anyó dunyhájából rázza a havat le a földre, így egy kis manipulációval - plusz egy ékezet, mínusz egy l - a <b>Hó le anyó</b> nevet kapjuk. Kicsit olyan ez, mint a felhők fehér világa, egyfajta <i>mennyország</i>.</p>
@@ -202,6 +203,16 @@ class IndexPage extends React.Component {
               </div>
             </ScrollSection>
 
+            <Footer>
+              <PreviousButton
+                to="/terminal/"
+                content="Terminal"
+              />
+              <NextButton
+                to="/theseus/"
+                content="Thészeusz"
+              />
+            </Footer>
           </div>
         </div>
 

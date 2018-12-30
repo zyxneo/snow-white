@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.textil">
-              <h2>Textil</h2>
+              <h1>Textil</h1>
               <div>
                 <p>Tegyük félre kicsit a Hófehérke történetét, és vizsgáljuk meg a mesék egyik általános összekötő szimbólumát.</p>
               </div>
@@ -165,6 +166,16 @@ class IndexPage extends React.Component {
               </div>
             </ScrollSection>
 
+            <Footer>
+              <PreviousButton
+                to="/graph/"
+                content="Grafikon"
+              />
+              <NextButton
+                to="/symbols/"
+                content="Szimbólumok"
+              />
+            </Footer>
           </div>
         </div>
 

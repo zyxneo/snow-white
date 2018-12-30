@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="symbol.symbols">
-              <h2>Szimbólumok</h2>
+              <h1>Szimbólumok</h1>
               <div>
                 <img src={withPrefix('images/sybmol/Yin_yang.svg')} className="ui medium left floated image" />
                 <p>Bármi lehet szimbólum, magyar kifejezéssel jelkép, amit jelképként értelmezünk. Vannak közismert szimbólumok, mint pl. a Jin-jang. Sokan ismerik, sokan használják. Nehéz lenne egy ilyen jelképet másra használni, mint jelképnek, így egyértelmű a szerepe, noha jelentése kinek-kinek más-más szempontrendszer szerint érvényesül. Ezek a jelképek népszerűségüket valószínűleg annak köszönhetik, hogy nagyon szemléletesen sűrítik egybe azokat a mondanivalókat amik az embereket mindig is érdekelték, a sötétség és fény körforgása, a harmónia, a belül rejtező ellentét, stb.</p>
@@ -207,8 +208,8 @@ class IndexPage extends React.Component {
                 <p>Ez a három szín (<a href="https://en.wikipedia.org/wiki/Albedo_(alchemy)">albedo</a>, <a href="https://en.wikipedia.org/wiki/Rubedo">rubedo</a>, <a href="https://en.wikipedia.org/wiki/Nigredo">nigredo</a>) képezi az u.n. <i>alkímia</i> tudományának alappillérét is, Jung a jellem fejlődésének stádiumaival felelteti meg őket. Nem túlzás, ha a teljes mesét e három kulcsfontosságú színnel színezzük ki, ha a színészeket, helyszíneket lecseréljük pusztán az őket szimbolizáló színekre, pontosabban azoknak ősi, természeti jelentésére.</p>
 
                 <p style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', columnGap: '10px' }}>
-                  <img className="ui fluid image" src="images/alchemy/c3e58e02a541466fe04c3fe1f33c3155.jpg" />
-                  <img className="ui fluid image" src="images/alchemy/fdbc382d7be3eb09544e3111373c278c.jpg" />
+                  <img className="ui fluid image" src={withPrefix('images/alchemy/c3e58e02a541466fe04c3fe1f33c3155.jpg')} />
+                  <img className="ui fluid image" src={withPrefix('images/alchemy/fdbc382d7be3eb09544e3111373c278c.jpg')} />
                 </p>
 
                 <img src={withPrefix('images/sybmol/triguna.gif')} className="ui small left floated image" />
@@ -616,6 +617,16 @@ class IndexPage extends React.Component {
               </div>
             </ScrollSection>
 
+            <Footer>
+              <PreviousButton
+                to="/textil/"
+                content="Textil"
+              />
+              <NextButton
+                to="/terminal/"
+                content="Terminal"
+              />
+            </Footer>
           </div>
         </div>
 

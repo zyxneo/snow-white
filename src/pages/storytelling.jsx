@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.storytelling">
-              <h2>Egyszer volt, hol nem volt, ...a mesemondás</h2>
+              <h1>Egyszer volt, hol nem volt,<br /> ...a mesemondás</h1>
               <div>
                 <img src={withPrefix('images/story/storytelling3.jpg')} className="ui medium left floated image" />
                 <p>Hogy megtudjuk, honnan ered ez a mese, egy kis bevezetőként tekintsük át a meséket úgy nagy általánosságban. A mesét az idősebb generáció – szülők, nagyszülők – mondják el a legfiatalabb generációnak, a kisgyerekeknek. A gyermekek érdekes módon nagyon nyitottak ezekre a történetekre, saját maguk kérik, akár újra és újra ugyanazt a történetet, mint egyfajta szellemi táplálékot, a madárfiókához hasonlóan nyaggatva a szülőket. Élvezik a történeteket, legyenek azok bármennyire borzasztóan félelmetesek vagy bizarrak.</p>
@@ -112,29 +113,21 @@ class IndexPage extends React.Component {
               <h3>A mese magyar vonatkozásai</h3>
               <div>
                 <p>Az elemzés során - remélhetőleg - a magyar nyelv sajátos egyezéseire is kitérnék. Nem valamiféle nacionalizmus vezérel, pusztán úgy „magyarázom“ ahogy tudom, így ha magyar nyelvi hasonlatokkal élek, tudjátok be annak, hogy csak a megértést próbálom segíteni. Nem Dorothea írja most ezt az elemzést. Neki francia felmenői voltak, így az ő meséi szimbólumainak gyökereit is a francia kultúrában keresik, a fennmaradó rész pedig a Grimmek révén a germanisztika tárgykörét képezi. Szerintem a mesék egyetemes tudást képviselnek. Állítólag a mese alapszerkezete <a href="http://starling.rinet.ru/kozmin/tales/?index=types&searchnumber=709&numtype=" target="_blank" rel="noopener noreferrer">világszerte fellelhető</a>...</p>
-              </div>
-            </ScrollSection>
-            <ScrollSection onEnter={this.onEnterViewport} id="story.storytelling.autopsie">
-              <h3>A grafikon</h3>
-              <div>
-                <p>A mese elemzése során a boncasztalra kívánom fektetni a hófehérkét, hogy minden rétegét alaposan megismerhessük. Ez az elemzés ennyiben egyedülálló lesz, ebben eltér minden más értelmezéstől. Hozzávalók: Hófehérke, boncasztal, szike, <s>vödör a vérnek, vödör a hányáshoz</s>. Az egyetlen probléma ezzel a megközelítéssel, hogy nem <i>in vivo</i> azaz nem természetes élőhelyén figyeljük meg a Hófehérkét, ahogy éjszaka szaladgál az erdőben, hanem kimerevítve, élettől mentesen.</p>
 
-                <p>Az alábbi eleven grafikonon azt a gondolatmenetet szeretném felvázolni, ami elsőként pattant ki fejemből. Akkoriban nagyon érdekesnek találtam, most már látom, hogy sántít és ezer sebből vérzik, de mégis, ez volt a kapu, mely a hétköznapokból átvezetett engem a mesék varázslatos birodalmába, avagy, amin keresztül a mese szörnyei kiszabadultak ebbe a világba, attól függ merről nézzük.</p>
-
-                <p>Ahogy munkába menet a vonatot várom reggelente, a szemközti peronon összegyűlnek az iskolások. Kilence éve járok már ezen a vonalon, minden reggel látom őket. De volt egy lányka, aki igen nagy változáson ment keresztül. Kezdetben nagyon szolid volt, mind megjelenésében, mind öltözködésében. De - valószínűleg a környezet vélt elvárásainak megfelelően - egyre vagányabb külsőre váltott. Szép hosszú haját bedauerolta, majd rövidebbre, majd igen rövidre vágta, néhol felkopaszítva. Öltözéke is fekete bőrdzsekire váltott, melyen ezüstös szegecsek csillogtak. Kicsit sajnáltam, hiszen tucatjával hallani történeteket azokról a felnőtt nőkről, akik hasonlóan vagány megjelenésűek, de a kemény külső megtört, megkeseredett szívet rejt, a válások, és az élet egyéb kudarcait. Nem okszerűen jár a kettő együtt, de abban a pillanatban úgy véltem, hogy a lányka a szemem láttára alakult át Hófehérkéből gonosz mostohává. Ez megdöbbentett, hiszen eltűnt a határ a karakterek között. Teljesen nyilvánvalóvá vált, hogy ez nem egy egyedi átalakulás, hanem egy mindenkit érintő, általános (még ha nem is járunk mind szegecses bőrdzsekiben). Minden kislány Hófehérke volt. Minden nő volt kislány, tehát Hófehérke is. Kortól, megjelenéstől, bőrdzsekitől teljesen függetlenül. A púpos, a lapos, a szőrös, a külleme miatt a társadalom peremére vetett gnóm is ugyanolyan joggal érezte gyermekkorában, hogy ez a mese róla szól, hogy ő a főszereplője, a Hófehérke, aki a legszebb a világon.</p>
-                <p>Halvány emlékeim a meséről új értelmezést nyertek, mivel a mesében lévő férfi karakterek is megelevenedtek, és innentől egy olyan világban jártam, ahol mindenki ennek a mesének volt valamely szereplője.</p>
                 <p>Mielőtt kitérnék a mese történetére, javaslom annak elolvasását, mert mint kiderült, mindenkinek más-más emlékei vannak róla, és lényeges részletek hiányoznak ebből az emlékképből. Nagyon szomorú, hogy egyes óvónők sem tudják a mesét. Nem nevezem meg itt külön őket, úgyis tudják, hogy róluk van szó, elég baj az nekik, hogy szóvá kellett tegyem...</p>
               </div>
             </ScrollSection>
 
-            <PreviousButton
-              to="/"
-              content="Bevezető"
-            />
-            <NextButton
-              to="/graph/"
-              content="Ahogy ismerjük"
-            />
+            <Footer>
+              <PreviousButton
+                to="/"
+                content="Bevezető"
+              />
+              <NextButton
+                to="/hofejirke/"
+                content="Hófejírke"
+              />
+            </Footer>
           </div>
         </div>
 

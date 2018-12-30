@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.terminal">
-              <h2>Terminal</h2>
+              <h1>Terminal</h1>
               <div>
                 <p>Említettem, hogy a Hófehérke mese a “mesenaprendszer központi csillaga”. Ez enyhe túlzás, de egy adott nézőpontból bármely mese lehet az. Az általam éppen vizsgált téma szempontjából ez a mese egy olyan központi metrómegálló, amin az összes vonal keresztülmegy, s ezeken a vonalakon a többi mese egy-egy állomás. Azért van ez így, mert ebben a sorrendben jöttem rá. Amerika is megvolt már, mielőtt Kolumbusz felfedezte volna, csak erről a sok millió helyi őslakos nem tudott előtte. Kell valaki aki megmutatja. Kolumbusz megmutatta, azóta híres az ő tojása.</p>
 
@@ -71,6 +72,17 @@ class IndexPage extends React.Component {
                 </p>
               </div>
             </ScrollSection>
+
+            <Footer>
+              <PreviousButton
+                to="/symbols/"
+                content="Szimbólumok"
+              />
+              <NextButton
+                to="/holle/"
+                content="Holle annyó"
+              />
+            </Footer>
           </div>
         </div>
 

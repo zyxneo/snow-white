@@ -5,6 +5,7 @@ import { withPrefix } from 'gatsby-link'
 import NextButton from '../components/NextButton'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -58,10 +59,12 @@ class IndexPage extends React.Component {
               </div>
             </ScrollSection>
 
-            <NextButton
-              to="/storytelling/"
-              content="Egyszer volt, hol nem volt..."
-            />
+            <Footer>
+              <NextButton
+                to="/storytelling/"
+                content="Egyszer volt, hol nem volt..."
+              />
+            </Footer>
           </div>
         </div>
 

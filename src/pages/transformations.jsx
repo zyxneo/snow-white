@@ -2,6 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
+import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
 
@@ -30,7 +31,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.transformations">
-              <h2>Átalakulások</h2>
+              <h1>Átalakulások</h1>
               <div>
                 <p>Az elemzés lezárásaként pár szabadon értelmezhető következtetést osztanék meg. Minden folyamatosan változik, így mi magunk is, de vajon tisztában vagyunk-e egyáltalán ezekkel a változásokkal, és ha igen, tudjuk-e befolyásolni, irányítani önnön átalakulásunkat? A mesék segítséget nyújtanak az önmenedzseléshez, mivel tartalmazzák az emberi lét fontos fordulópontjainak forgatókönyvét, kulcsot adnak az ősi tudás nyitjához, szépen megrajzolt képekben mutatják be rejtett tudatalattink megfogalmazhatatlan kuszaságát, világokat ívelnek át, és örök érvényű útjelző táblát képeznek életünkben, járjunk bármerre is. Egyszerre szólnak a kisgyermekhez, a gyermekét nevelő szülőhöz és a másik világba készülő öreghez. Ki-ki annyit vesz a meséből amennyit tud, ahol éppen tart az egyén, ott mutat utat.</p>
                 <p>A következő részben a felnőttek világára jellemző részeket próbálom meg egyértelműbbé tenni, reményeim szerint a nélkül, hogy közönségessé tenném a szép történeteket.</p>
@@ -413,6 +414,17 @@ class IndexPage extends React.Component {
                 </p>
               </div>
             </ScrollSection>
+
+            <Footer>
+              <PreviousButton
+                to="/theseus/"
+                content="Thészeusz"
+              />
+              <NextButton
+                to="/cosmic/"
+                content="Kozmikus Hófehérhe"
+              />
+            </Footer>
           </div>
         </div>
 
