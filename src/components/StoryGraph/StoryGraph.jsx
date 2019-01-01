@@ -66,12 +66,6 @@ class StoryGraph extends React.PureComponent {
         .attr('class', 'character')
 
       character.append('circle')
-        .attr('id', 'avatarCircle')
-        .attr('cx', AvatarWidth / 2)
-        .attr('cy', AvatarHeight / 2)
-        .attr('r', '32')
-        .attr('fill', 'none')
-      character.append('circle')
         .attr('class', 'gender')
         .attr('cx', AvatarWidth / 2)
         .attr('cy', AvatarHeight / 2)
@@ -94,12 +88,17 @@ class StoryGraph extends React.PureComponent {
         .attr('width', d => data.characters[d].imageWidth)
         .attr('height', d => data.characters[d].imageHeight)
         .attr('href', d => withPrefix(`avatars/${data.characters[d].id}.jpg`))
+
+      character.append('path')
+        .attr('id', 'avatarCircle')
+        .attr('fill', 'none')
+        .attr('d', `M ${AvatarWidth / 2 - 32}, ${AvatarHeight / 2} a 32,32 0 1,1 ${32 * 2},0`)
       character.append('text')
         .attr('text-anchor', 'middle')
         .attr('class', 'avatar-title')
         .append('textPath')
         .attr('href', '#avatarCircle')
-        .attr('startOffset', '75%')
+        .attr('startOffset', '50%')
         .text(d => data.characters[d].name)
 
       // Exit…
