@@ -32,7 +32,7 @@ class IndexPage extends React.Component {
         <div className="content">
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.introduction">
-              <img className="ui fluid image" src="images/snowwhite/ec604b93f922dbb736628b8d5cdacfc9.jpg" />
+              <img className="ui fluid image" src="images/snowwhite/62a696d7acdd0997a10658a42666ff5f2.jpg" />
               <h1>Hófehérke, avagy első találkozásom a Mesével</h1>
               <small>avagy</small>
               <h2>Hófehérke - újratöltve</h2>
