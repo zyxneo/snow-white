@@ -319,14 +319,14 @@ class IndexPage extends React.Component {
               <h3>Fehér a feketében</h3>
               <div>
                 <h4>Mi jut eszünkbe róla?</h4>
-                <p></p>
+                <p>...</p>
               </div>
             </ScrollSection>
 
             <ScrollSection onEnter={this.onEnterViewport} id="symbol.symbol.paths">
               <h3>Utak</h3>
               <div>
-                <p>Lárvaállapot: Hófehérke, herceg. Női út, férfi út – egyedi út, de megfeleltethető. Felisút-leisút – minden állapotból el lehet mozdulni, mindegyiknek vannak jellemzői. A mese kisarkítja a karakterek megítélését, de egyben rávilágít, nincs abszolút jó és rossz, ez nézőpont, “viszony” kérdése. A viszonylatok határozzák meg a lehetséges elmozdulási irányokat. Horizontális, vertikális utak, személyiségfejlődés. Minden mesében vannak utak, melyeket a hősnek be kell járnia, és ezek az utak mindig a jellemfejlődés belső útjait szimbolizálják.</p>
+                <p>Lárvaállapot: Hófehérke, herceg. Női út, férfi út – nemenként egyedi út, de egymásnak megfeleltethető. Felisút-leisút – minden állapotból el lehet mozdulni, mindegyiknek vannak jellemzői. A mese kisarkítja a karakterek megítélését, de egyben rávilágít, nincs abszolút jó és rossz, ez nézőpont, “viszony” kérdése. A viszonylatok határozzák meg a lehetséges elmozdulási irányokat. Horizontális, vertikális utak, személyiségfejlődés. Minden mesében vannak utak, melyeket a hősnek be kell járnia, és ezek az utak általáben a jellemfejlődés belső útjait szimbolizálják.</p>
                 <p className="masonry">
                   <img src={withPrefix('images/path/2fb5970360fb6b43402180c4b13595d2.jpg')} />
                   <img src={withPrefix('images/path/3de36d298df9ce8e65ce86440ee9ab77.jpg')} />
@@ -335,7 +335,7 @@ class IndexPage extends React.Component {
                   <img src={withPrefix('images/path/5bd7cadfbb2b35b8cdbc233c414b3421.jpg')} />
                   <img src={withPrefix('images/forest/trees/5f7e4c9c180f0d1c08d2e8daf33792b2.jpg')} />
                 </p>
-                <p>Hófehérke fizikai útja a szülői házból az erdőn át a szülői házba vezet. szimbolikusan a fehér királyi kastélyból a vérvörös merényletkísérlet miatt a fekete sötétségbe jut, ott próbákat áll ki, avagy bukik el. Végső, legnagyobb tragédiája a piros alma, mely egyben lehetővé teszi számára, hogy a hős karakter kiemelje, s elvigye a fehér menyegzőre.</p>
+                <p>Hófehérke fizikai útja a szülői házból az erdőn át a szülői házba vezet. Szimbolikusan a fehér királyi kastélyból a vérvörös merényletkísérlet miatt a fekete sötétségbe jut, ott próbákat áll ki, avagy bukik el. Végső, legnagyobb tragédiája a piros alma, mely egyben lehetővé teszi számára, hogy a hős karakter kiemelje, s elvigye a fehér menyegzőre.</p>
                 <p>A mesében fizikai útként megjelenő út a mese hallgatójának egy szimbolikus út, mely az ő jellemének fejlődését szimbolizálja. Nagyon érdekes, hogy ezen út mellett a mesén belül van egy rejtett út, Hófehérke jellemfejlődésének útja, mely kevésbé nyilvánvaló. A mese során megtett horizontális útjához képest ez egy vertikális út, melyre csak a hét törpénél eltelt időszak szimbólumai mutatnak rá.</p>
               </div>
             </ScrollSection>
@@ -358,7 +358,7 @@ class IndexPage extends React.Component {
 
                 <p>Vizsgáljuk meg az erdőt alkotó egységet: a fát. A fa csodálatosan szép szimbólum: 3 alapvetően elkülönülő része van:</p>
                 <ol>
-                  <li>Koronája: akár csak a királyoknak. Szétterül az égben, a fénybe kívánkozik</li>
+                  <li>Koronája: akár csak a királyoknak. Szétterül az égben, a fénybe kívánkozik.</li>
                   <li>Törzse: tartást ad, összeköti a fentet a lenttel, az ágakat, a gyökereket. Egységesít és elválaszt.</li>
                   <li>Gyökerek: ez így kerek. Lenyúlnak a sötét mélységbe és felszívják az anyagait a fényre, ahol átalakítják őket.</li>
                 </ol>
@@ -546,10 +546,10 @@ class IndexPage extends React.Component {
                 <p><img src={withPrefix('images/snowwhite/biancaneve/Biancaneve-281629.jpg')} className="ui fluid image" /></p>
 
                 <p>Hát nem sokkal szebb lenne ha a földre eső alma magja kihajtana? Ráadásul úgy, hogy a két fél közösen növesztene hajtást? Mindenképp elgondolkodtatóbb... „Az ember lényegi sajátosságait fölösleges, sőt káros egymást kizáró tényezőkként feltüntetni.“</p>
-                <p>Az alma preparálása sem tiszta. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészséges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
+                <p>Az alma preparálása nem tiszta számomra. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészséges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
 
                 <p className="ui embed" data-source="youtube" data-id="5RKUUis-R78">
-                  <iframe title="?" width="560" height="315" src="https://www.youtube.com/embed/5RKUUis-R78?start=4137&end=4191" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe title="?" width="560" height="315" src="https://www.youtube.com/embed/6n_xCI-peq0?start=73" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
                 </p>
                 <p>Mint kiderült, az egyes mesék eltérnek az alma leírását illetően. Mivel az „I Pet Goat II“ animációt többségében francia nevű alkotók készítették, megkérdeztem a kollégámat, ismer-e valamit a maggal kapcsolatban. Azt ugyan nem, de elmondása szerint náluk az alma egyik fele piros, a másik fehér volt. Megjegyezte, ennek nem sok értelmét látja. Nekem viszont ez olaj volt a tűzre, hiszen az olasz Biancaneve illusztrációiban is pont ezt látni. (A magyar változat fakó felet említ)</p><img src={withPrefix('images/snowwhite/biancaneve/Biancaneve-28329.jpg')} className="ui fluid image" />
               </div>

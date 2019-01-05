@@ -46,7 +46,7 @@ class IndexPage extends React.Component {
                 <p>A tamasz fekete sötétjében csak kérdés van, de válasz nincs.</p>
                 <p>A radzsasz vörös zónájában a kérdésre választ lelhetünk. A <b>válasz</b> a válaszút elágazásának egyik ága, egy választás, az eldöntendő kérdés igen-nem válasza. A <b>felelet</b> egy olyan speciális válasz, amely a kérdésnek fele-lett, azaz a másik fele, a kérdés és felelet így alkotnak egy egészet.</p>
                 <p>A szattva fehér fénytengerében nincs kérdés.</p>
-                <p>A Nap fénye délben teljes, az egy igazság fehér fénye ragyogja be világunkat. Egyértelmű, hogy egy nap van az égen. A vörös szín megosztó, egyben a hajnal pírja, a születés reménysugara, és egyben az elmúlás, a kivérzés vörös színe. A kettősség egyértelmű, hiszen egy nap kétszer látható ez a jelenség. Éjjel, mikor a mi Napunk épp nem látható, az éj sötétjében milliónyi csillag ragyog az égen. Ezek a csillagok távoli naprendszerek napjai, önálló fénnyel rendelkező égitestek. Csakhogy ezek a napok nem a mi naprendszerünknek a napjai, hiába a milliónyi csillag, a Földre sötét, hideg éjszaka borul. Egyértelmű, hogy ezek a fények nem mérhetőek össze a Nap ragyogásával.</p>
+                <p>A Nap fénye délben teljes, az egy igazság fehér fénye ragyogja be világunkat. Egyértelmű, hogy egy nap van az égen. A vörös szín megosztó, egyben a hajnal pírja, a születés reménysugara, és egyben az elmúlás, a kivérzés vörös színe. A kettősség egyértelmű, hiszen egy nap kétszer látható ez a jelenség. Éjjel, mikor a mi Napunk épp nem látható, az éj sötétjében milliónyi csillag ragyog az égen. Ezek a csillagok távoli naprendszerek napjai, önálló fénnyel rendelkező égitestek. Csakhogy ezek a napok nem a mi naprendszerünknek a napjai, hiába a milliónyi csillag, a Földre sötét, hideg éjszaka borul. Egyértelmű, hogy ezek a fények nem mérhetőek össze a Nap ragyogásával. (a sötét téli napokon a hópihék hasonlóképp ragyognak, mint a csillagok)</p>
 
 
                 <p className="masonry">
@@ -109,6 +109,10 @@ class IndexPage extends React.Component {
               <PreviousButton
                 to="/transformations/"
                 content="Átalakulások"
+              />
+              <NextButton
+                to="/summary/"
+                content="Összefoglaló"
               />
             </Footer>
           </div>

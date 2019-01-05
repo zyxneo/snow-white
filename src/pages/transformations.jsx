@@ -103,7 +103,12 @@ class IndexPage extends React.Component {
                 <img src={withPrefix('images/snowwhite/biancaneve/Biancaneve-281529.jpg')} className="ui small left floated image" />
                 <p>Hófehérke utolsó meghalása végzetesnek tűnik, bekerül az üvegkoporsóba, a hegytetőre viszik. Egy különleges dolog történik ekkor: eljönnek az erdei állatok megsiratni, először egy gerle, aztán egy holló, végül egy bagoly. A trikolór madarak az elszállt, elveszített tulajdonságok szimbólumai, melyek siratják egykori, immár kiüresedett gazdájukat. Most már kívül vannak, és jobb esetben onnan várják, hogy visszatérhessenek, visszaszálljanak a testbe.</p>
                 <div className="clearfix" />
-                <p>Az üvegkoporsó az illúzió. Hófehérke halott, de olyan, mintha élne. Avagy olyan mintha halott lenne, de él.</p>
+                <p>Az üvegkoporsó az illúzió. Hófehérke olyan, mintha élne de halott. Avagy olyan mintha halott lenne, de él. Különösen érdekes Michelangelo Rossato illusztrációja, ahol az üvegkoporsó ugyanúgy néz ki, mint az anyaméh, jelezve, hogy az anya felnövő gyermekét tulajdonképpen visszagyömöszölte magzati állapotába, egy olyan függő viszonyba, ahol a gyerek az anya segítsége nélkül életképtelen. A szimbólum másik értelmezése szerint a tetszhalott állapot valójában egy új születés kezdete.</p>
+
+                <p style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', columnGap: '10px' }}>
+                  <img className="ui fluid image" src={withPrefix('images/snowwhite/biancaneve/Biancaneve-28429.jpg')} />
+                  <img className="ui fluid image" src={withPrefix('images/snowwhite/biancaneve/Biancaneve-281429.jpg')} />
+                </p>
               </div>
             </ScrollSection>
 
@@ -149,7 +154,7 @@ class IndexPage extends React.Component {
                   <img src={withPrefix('images/witch/witchcraft/dd736127c4a3a22645cf37fbf26ee00a.jpg')} />
                   <img src={withPrefix('images/witch/witchcraft/4b7068d87fb279a30ec32523d19f1d54.jpg')} />
                 </p>
-                <p>A seprűnyelet lábai közé fogó boszorka ironikus példaképe az önkielégítő nőnek, akinek nincsen szüksége a férfire ahhoz, hogy vágyai kielégüljenek, avagy valamilyen okból kifolyólag nem tudta felépíteni kapcsolatát a férfivel, így maradt a pótlék. A boszorkány sztereotip jellemzői, hogy öreg, csúf és gonosz, csupa olyan tulajdonságok, amik eleve nem teszik szimpatikussá a férfiak számára. A boszorkány legfőbb hibája, hogy a sötét oldalhoz fordul, vélt vagy valós sérelmei avagy hátrányos tulajdonságai miatt meg sem próbálja a fény útját követni, hanem enged az éjszaka elhívásának, és karakterét sötét anyagból építi.</p>
+                <p>A seprűnyelet lábai közé fogó boszorka ironikus példaképe az önkielégítő nőnek, akinek nincsen szüksége a férfire ahhoz, hogy vágyai kielégüljenek, avagy valamilyen okból kifolyólag nem tudta felépíteni kapcsolatát a férfivel, így maradt a pótlék. A boszorkány sztereotip jellemzői, hogy öreg, csúf és gonosz, csupa olyan tulajdonságok, amik eleve nem teszik szimpatikussá a férfiak számára. A boszorkány legfőbb hibája, hogy a sötét oldalhoz fordul, vélt vagy valós sérelmei avagy hátrányos tulajdonságai miatt meg sem próbálja a fény útját követni, hanem enged az éjszaka elhívásának, és karakterét sötét anyagból építi (pontosabban szólva bomlasztja).</p>
               </div>
             </ScrollSection>
 
@@ -163,6 +168,7 @@ class IndexPage extends React.Component {
                   <img src={withPrefix('images/witch/force/3f1f7fc8962c90074d1dc3eabe28f6aa.jpg')} />
                   <img src={withPrefix('images/witch/force/9d29be85323d94386a3a375f386262ea.jpg')} />
                 </p>
+                <p>Előre bocsájtanám, hogy a vörös szín, mint szimbólum megosztó és-vagy összekötő jellegű, és a fekete és fehér színek között áll. Egészen pontosan a tamasz a legalsó szint, majd a radzsasz, lefgelül a szattva. A sötét oldalról felnézve a vörös szín a fénybe vezet, és pozitív változások elozója lehet. Aki viszont a fényben él, arra már veszélyt jelent ez a változásokat erőszakoló alacsonyabb zóna, és a sötétség felé vezető utat jelzi.</p>
               </div>
             </ScrollSection>
 
@@ -170,7 +176,7 @@ class IndexPage extends React.Component {
               <h3>A belső bölcsesség</h3>
               <div>
                 <p>A nők veleszületett tehetsége a megérzés, egyfajta belső bölcsesség, amolyan érzelmi intelligencia, egy fogékonyság a túlvilági sugallatokra, kapcsolat az ősiséggel, magukkal az ősökkel. Ez egy olyan képesség, amit jobb titokban tartani, mivel a tudomány jelenlegi állása szerint ilyesmi nem létezik. Korunk legelelvetemültebb dogmája - és akár minden időké - a tudomány, olyannyira dogmatikus, hogy annak lehetőségét is elveti, hogy valaki megkérdőjelezze igazságát. Nem valamiféle hitre épül, hanem - szerinte - az igazságra. Számtalan ezt megelőző dogmatikus hitrendszer is ezt állította magáról, de a tudomány letagadja, hogy maga hitrendszer lenne. De ki látott már mitokondriális DNS-t? Nos senki. A mitokondriális DNS nagyon kicsi, túl kicsi ahhoz, hogy saját szemünkkel lássuk, és meggyőződjünk az igazságról. Elméletek vannak róla, meg vegyészeti eljárások, meg gépek képezte képalkotások. És a tudósok ezeknek hisznek, mi meg a tudósoknak. Ebből a szempontból a tudomány semmivel sem másabb az általa kritizált babonás dogmáktól, délibábos elképzelésektől.</p>
-                <p>Álljon még itt egy szomorú példa, az ősrobbanás elmélete. Aki látott már robbanást, az tudja, hogy romokat és pusztítást hagy maga után. Az elmélet viszont azt állítja, hogy az egész ismert és ismeretlen világ egy, a semmiben történt robbanásból alakult ki, méghozzá x milliárd évvel ezelőtt. Maga az időtávlat is olyanná teszi a következtetéseket, mintha egy villámcsapás felvillanó fénye próbálna az adott időpillanatban látott képből történelmi következtetéseket levonni. De a robbanás is szép szimbólum, gondolhatjuk, kiknek a fejéből pattant ki. Mindenesetre kipattant, és az ilyen óriási felfedezésekért Nobel-díj jár, egy olyan díj, ami a dinamitra épül, ami maga is egy robbanószer. Az ilyen gondolatok láncreakció szerűen futnak végig a tudományos életen, és a láncreakció gyakorlati felhasználása például az atombomba. Csakis Amerika vetett be atombombát civil lakosság ellen, és ő az aki terrorveszélytől rettegve büntet minden olyan országot, ahol felmerül az atom gyanúja. Ezzel a hosszúra nyúlt példával szeretném bizonyítani, hogy attól hogy valami tudományos, még lehet iszonyú baromság, és az erkölcs nem képezi részét a tudománynak, de az érdek igen. Az említett tudományos gondolatok az amerikai filmre hasonlítanak, ami robbanással kezdődik, azzal végződik, és nem mellesleg tele van robbantásokkal. Ennél bármilyen más gondolat csak jobb lehet. Merjünk gondolkodni, merjünk az intuíciókra, az álmainkra hallgatni, és legfőképp a szívünkre.</p>
+                <p>Álljon még itt egy szomorú példa, az ősrobbanás elmélete. Aki látott már robbanást, az tudja, hogy romokat és pusztítást hagy maga után. Az elmélet viszont azt állítja, hogy az egész ismert és ismeretlen világ egy, a semmiben történt robbanásból alakult ki, méghozzá x milliárd évvel ezelőtt. Maga az időtávlat is olyanná teszi a következtetéseket, mintha egy villámcsapás felvillanó fénye próbálna az adott időpillanatban látott képből történelmi következtetéseket levonni. De a robbanás is szép szimbólum, gondolhatjuk, kiknek a fejéből pattant ki. Mindenesetre kipattant, és az ilyen óriási felfedezésekért Nobel-díj jár, egy olyan díj, amit a dinamit feltalálójáról kapta nevét, és a dinamitból befolyt összegekből indult ki, ami maga is egy robbanószer. Az ilyen gondolatok láncreakció szerűen futnak végig a tudományos életen, és a láncreakció gyakorlati felhasználása például az atombomba. Csakis Amerika vetett be atombombát civil lakosság ellen, és ő az aki terrorveszélytől rettegve büntet minden olyan országot, ahol felmerül az atom gyanúja. Ezzel a hosszúra nyúlt példával szeretném bizonyítani, hogy attól hogy valami tudományos, még lehet iszonyú baromság, és az erkölcs nem képezi részét a tudománynak, de az érdek igen. Az említett tudományos gondolatok az amerikai filmre hasonlítanak, ami robbanással kezdődik, azzal végződik, és nem mellesleg tele van robbantásokkal. Ennél bármilyen más gondolat csak jobb lehet. Merjünk gondolkodni, merjünk az intuíciókra, az álmainkra hallgatni, és legfőképp a szívünkre. Merjünk egy szép, boldog, békés, szeretetteljes világot elképzelni, merjük elhinni a megérzéseket arról hogy honnan származunk és merre kell haladnunk.</p>
                 <p>Ha egy nő szembemegy a tudományos tételekkel - amiket többségében mindmáig férfiak alkotnak és minősítenek - vagy olyan egyedi dolgokkal áll elő ami kívül esik a tudomány határain, akkor ma is ugyanazt a kirekesztést kapja, mint a középkorban, csak ma már nem égetik meg.</p>
                 <p className="masonry">
                   <img src={withPrefix('images/witch/witchcraft/9a0e74737279a3c4dfc9c39d99b7ec54.jpg')} />
@@ -180,7 +186,7 @@ class IndexPage extends React.Component {
                   <img src={withPrefix('images/witch/witchcraft/065b8a71b2c1c9c43abcf1075bd188ba.jpg')} />
                   <img src={withPrefix('images/witch/force/5ff62575b1fb9de0738cc5f12e55d661.jpg')} />
                 </p>
-                <p>A nő egyik feladata, hogy belső bölcsességét kibontakoztassa, és logikusan, szeretettel, tisztességgel, de megfellebbezhetetlenül tudjon érvelni a boszorkányégetők vádjai ellen. Ehhez a tükör segítségére lehet, csak helyes kérdéseket kell feltenni neki.</p>
+                <p>A nő egyik feladata, hogy belső bölcsességét kibontakoztassa, és logikusan, szeretettel, tisztességgel, de megfellebbezhetetlenül tudjon érvelni a boszorkányégetők vádjai ellen. Ehhez a tükör nagy segítségére lehet, csak helyes kérdéseket kell feltenni neki.</p>
               </div>
             </ScrollSection>
 
@@ -214,7 +220,7 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="story.transformations.fate">
               <h3>A párka</h3>
               <div>
-                <p></p>
+                <p>A mesebeli királynő valójában egy párka, vagyis egy ősanya karakter. Hófehérkét úgy hozza létre, akár egy szép textíliát, a semmiből fonja valamivé, az élet szálából szövi élő emberi szövetté. Meghalása szimbolikus lehet, jelezve hogy ő egy égi anyácska.</p>
                 <p className="masonry">
                   <img src={withPrefix('images/queen/fates/87bbd392139ab439c63de878b70cb585.jpg')} />
                   <img src={withPrefix('images/queen/fates/473e392b5465e101a98a7396c2e99e35.jpg')} />
@@ -229,7 +235,7 @@ class IndexPage extends React.Component {
                 <p><img src={withPrefix('images/huntsman/transform/fa2a04d970a14491556259db4ab84051.jpg')} className="ui fluid image" /></p>
                 <p>Azt is gondolhatnánk, hogy a férfi jelleméről, karakterének alakulásáról helyesebb képet adok majd, lévén én is az vagyok. De nem. Bevallom, a férfi mibenlétéről még annyi fogalmam sincs, mint a nőről. Csak szeretek írni róla, mint a Csernus doktor, mert elszórakoztat. De nem tudom, mit is írjak, nyilván mást kellene, mint a nőről... De miben más egy férfi, úgy értem mi olyat tud egy férfi, amit egy nő nem?</p>
                 <p>Az az igazság, hogy a modern férfi puding. Lehet, hogy kigyúrt, de belül mégis puding és gyerek. Mit tud egy férfi ma, amit egy nő ne tudna? Ma már a nők a tökösek, büszkék az erejükre, a szellemi termékeikre, a karrierjükre, hogy önálló dzsungelharcosok a betondzsungelben. Mije van egy férfinek, ami a nőnek nincs? Nos, persze van egy szerve, fityeg rajta a bőr, és vannak nők akiket ez elszórakoztat, de mi mást tud nyújtani egy férfi a genetikai változékonyságon kívül, ami csak tőle kapható meg?</p>
-                <p>Ez a téma nehéznek bizonyul, hisz a többi férfi gondolat és vágyvilágáról éppen úgy nincsen tudomásom, mint a nőkéről, illetve még kevesebb van. Ráadásul akasztják a hóhért, ha leszólom a férfiakat, magamat is leminősítem. És egyáltalán, mi köze a Hófehérke mesének ehhez?</p>
+                <p>Ez a téma nehéznek bizonyul, hisz a többi férfi gondolat és vágyvilágáról éppen úgy nincsen tudomásom, mint a nőkéről, illetve még kevesebb van (mivel ez nem érdekelt). Ráadásul akasztják a hóhért, ha leszólom a férfiakat, magamat is leminősítem. És egyáltalán, mi köze a Hófehérke mesének ehhez?</p>
               </div>
             </ScrollSection>
 
@@ -316,7 +322,7 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="story.transformations.huntsman">
               <h3>A vadász</h3>
               <div>
-                <p>A vadász karakter nem lárva, ő nem puding, legalábbis a küzdelmét tekintve nem. A vadász nem első körútján van a palotából frissen kisétálva, naivan, tejbajusszal. Nem. A mesében épp Hófehérkét viszi ki az erdő sötétjébe, hogy kivéreztesse, és épp csak annyira esik meg a szíve, hogy nem vágja ki a Hófehérkéét, inkább ott hagyja a sötét éjszakában, had zabálják fel az erdei vadak. Ez rutinra vall. A vadász megfeleltethető a gonosz mostohának, hiszen azt teszi, amit a gonosz parancsol. Másfelől a vadász a mesékben állítólag segítő karakter, lásd Piroska és a farkas, ahol segítőként jelenik meg. (Mármint Piroska segítőjeként) A Hófehérke mesében érdekes szerepet kap, nehéz megítélni, mi is történik vele, mert engedelmeskedik is a parancsnak, meg nem is, a királynő kegyeltje is meg nem is, szabadon kolbászol a sötét erdőben, aztán meg rabként sínylődik a sötét börtönben...</p>
+                <p>A vadász karakter nem lárva, ő nem puding, legalábbis a küzdelmét tekintve nem. A vadász nem első körútján van a palotából frissen kisétálva, naivan, tejbajusszal. Nem. A mesében épp Hófehérkét viszi ki az erdő sötétjébe, mint fehér nyuszit a vágóhídra, hogy kivéreztesse, és épp csak annyira esik meg a szíve, hogy nem vágja ki a Hófehérkéét, inkább ott hagyja a sötét éjszakában, had zabálják fel az erdei vadak. Ez rutinra vall. A vadász megfeleltethető a gonosz mostohának, hiszen azt teszi, amit a gonosz parancsol. Másfelől a vadász a mesékben állítólag segítő karakter, lásd Piroska és a farkas, ahol segítőként jelenik meg. (Mármint Piroska segítőjeként.) A Hófehérke mesében érdekes szerepet kap, nehéz megítélni, mi is történik vele, mert engedelmeskedik is a parancsnak, meg nem is, a királynő kegyeltje is meg nem is, szabadon kolbászol a sötét erdőben, aztán meg rabként sínylődik a sötét börtönben...</p>
                 <p className="masonry">
                   <img src={withPrefix('images/huntsman/b3a9fe2484194a4707ff955f7df30587.jpg')} />
                   <img src={withPrefix('images/huntsman/caff303f7d903719630909f238ea8899.jpg')} />

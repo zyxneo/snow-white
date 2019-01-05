@@ -87,7 +87,7 @@ scene3.arrows.queenAndSnowwhite = {
 }
 
 const scene4 = lodash.cloneDeep(scene3)
-scene4.characters.queen.opacity = 0.5
+scene4.characters.queen.opacity = 0.2
 scene4.characters.snowwhite.scale = 0.3
 move(scene4.characters.snowwhite, CooCenterBottom)
 scene4.characters.witch.opacity = 1
@@ -245,6 +245,7 @@ scene14.arrows.queen2AndWitch2 = {
 const scene15 = lodash.cloneDeep(scene14)
 scene15.characters.king2.scale = 0.3
 scene15.characters.king2.opacity = 1
+scene15.characters.queen.opacity = 1
 move(scene15.characters.king2, CooBottomLeftMale)
 scene15.characters.huntsman2.scale = 0.3
 scene15.characters.huntsman2.opacity = 1
@@ -268,6 +269,48 @@ scene15.arrows.kingAndHuntsman2 = {
   toCharacter: 'huntsman2',
   toSide: 'left',
 }
+
+const scene16 = lodash.cloneDeep(scene15)
+
+scene16.characters.king2.opacity = 0
+scene16.characters.witch.opacity = 0
+scene16.characters.huntsman2.opacity = 0
+scene16.characters.queen2.opacity = 0
+
+move(scene16.characters.queen, { cx: 30, cy: 20 })
+move(scene16.characters.king, { cx: 90, cy: 20 })
+scene16.arrows.queenAndKing = {
+  color: TEAL,
+  fromCharacter: 'queen',
+  fromSide: 'left',
+  toCharacter: 'king',
+  toSide: 'right',
+}
+
+move(scene16.characters.snowwhite, { cx: 30, cy: 50 })
+move(scene16.characters.prince, { cx: 90, cy: 50 })
+scene16.arrows.princeAndSnowwhite = {
+  color: TEAL,
+  fromCharacter: 'snowwhite',
+  fromSide: 'left',
+  toCharacter: 'prince',
+  toSide: 'right',
+}
+
+move(scene16.characters.witch2, { cx: 30, cy: 80 })
+move(scene16.characters.huntsman, { cx: 90, cy: 80 })
+scene16.arrows.witch2AndHuntsman = {
+  color: TEAL,
+  fromCharacter: 'witch2',
+  fromSide: 'left',
+  toCharacter: 'huntsman',
+  toSide: 'right',
+}
+
+scene16.arrows.kingAndHuntsman2.opacity = 0
+scene16.arrows.queenAndWitch.opacity = 0
+scene16.arrows.princeAndHuntsman.opacity = 0
+scene16.arrows.princeAndKing2.opacity = 0
 
 class Graph extends React.Component {
   constructor(props) {
@@ -338,7 +381,7 @@ class Graph extends React.Component {
                     <div>
                       <p>A mese elemzése során a boncasztalra kívánom fektetni a hófehérkét, hogy minden rétegét alaposan megismerhessük. Ez az elemzés ennyiben egyedülálló lesz, ebben eltér minden más értelmezéstől. Hozzávalók: Hófehérke, boncasztal, szike, <s>vödör a vérnek, vödör a hányáshoz</s>. Az egyetlen probléma ezzel a megközelítéssel, hogy nem <i>in vivo</i> azaz nem természetes élőhelyén figyeljük meg a Hófehérkét, ahogy éjszaka szaladgál az erdőben, hanem kimerevítve, élettől mentesen.</p>
 
-                      <p>Az alábbi eleven grafikonon azt a gondolatmenetet szeretném felvázolni, ami elsőként pattant ki fejemből. Akkoriban nagyon érdekesnek találtam, most már látom, hogy sántít és ezer sebből vérzik, de mégis, ez volt a kapu, mely a hétköznapokból átvezetett engem a mesék varázslatos birodalmába, avagy, amin keresztül a mese szörnyei kiszabadultak ebbe a világba, attól függ merről nézzük.</p>
+                      <p>A mesét több, különböző szinten kívánom értelmezni. Az alábbi eleven grafikonon azt a gondolatmenetet szeretném felvázolni, ami elsőként pattant ki fejemből. Akkoriban nagyon érdekesnek találtam, most már látom, hogy sántít és ezer sebből vérzik, de mégis, ez volt a kapu, mely a hétköznapokból átvezetett engem a mesék varázslatos birodalmába, avagy, amin keresztül a mese szörnyei kiszabadultak ebbe a világba, attól függ merről nézzük. Valószínűleg zagyvának fog tűnni, ahogy most így visszanézve már nekem is az, de remélem később kicsit tisztázódik.</p>
 
                       <p>Ahogy munkába menet a vonatot várom reggelente, a szemközti peronon összegyűlnek az iskolások. Kilence éve járok már ezen a vonalon, minden reggel látom őket. De volt egy lányka, aki igen nagy változáson ment keresztül. Kezdetben nagyon szolid volt, mind megjelenésében, mind öltözködésében. De - valószínűleg a környezet vélt elvárásainak megfelelően - egyre vagányabb külsőre váltott. Szép hosszú haját bedauerolta, majd rövidebbre, majd igen rövidre vágta, néhol felkopaszítva. Öltözéke is fekete bőrdzsekire váltott, melyen ezüstös szegecsek csillogtak. Kicsit sajnáltam, hiszen tucatjával hallani történeteket azokról a felnőtt nőkről, akik hasonlóan vagány megjelenésűek, de a kemény külső megtört, megkeseredett szívet rejt, a válások, és az élet egyéb kudarcait. Nem okszerűen jár a kettő együtt, de abban a pillanatban úgy véltem, hogy a lányka a szemem láttára alakult át Hófehérkéből gonosz mostohává. Ez megdöbbentett, hiszen eltűnt a határ a karakterek között. Teljesen nyilvánvalóvá vált, hogy ez nem egy egyedi átalakulás, hanem egy mindenkit érintő, általános (még ha nem is járunk mind szegecses bőrdzsekiben). Minden kislány Hófehérke volt. Minden nő volt kislány, tehát Hófehérke is. Kortól, megjelenéstől, bőrdzsekitől teljesen függetlenül. A púpos, a lapos, a szőrös, a külleme miatt a társadalom peremére vetett gnóm is ugyanolyan joggal érezte gyermekkorában, hogy ez a mese róla szól, hogy ő a főszereplője, a Hófehérke, aki a legszebb a világon.</p>
                       <p>Halvány emlékeim a meséről új értelmezést nyertek, mivel a mesében lévő férfi karakterek is megelevenedtek, és innentől egy olyan világban jártam, ahol mindenki ennek a mesének volt valamely szereplője.</p>
@@ -360,7 +403,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                        Egyszer volt, holnem volt, volt egyszer egy király...
+                        Egyszer volt, holnem volt, volt egyszer egy király... [a babakék keret a férfi karaktert jelöli]
                       </div>
                     </section>
                   </StorySection>
@@ -375,7 +418,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                      ...és egy  királyné..
+                      ...és egy  királyné... [pink keretben a női karakterek láthatóak]
                       </div>
                     </section>
                   </StorySection>
@@ -391,7 +434,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                      ...És született egy gyermekük, Hófehérke.
+                      ...És született egy gyermekük, Hófehérke. [A kék összekötő vonal az összetartozást jelöli]
                       </div>
                     </section>
                   </StorySection>
@@ -407,7 +450,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                      A királyné meghalt, helyét a gonosz mostoha vette át. Ez a nő pont az ellentéte volt a királynőnek, ezért nemigen szeretjük.
+                      A királyné meghalt, helyét a gonosz mostoha vette át. Ez a nő pont az ellentéte volt a királynőnek, ezért nemigen szeretjük. [a zöld szaggatott vonal a lérehozást, a piros az elpusztítást jelzi]
                       </div>
                     </section>
                   </StorySection>
@@ -473,7 +516,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                        <p>Az elemzés egy kritikus törésponthoz jutott. Mostantól nem egy de több mese vázlatát látjuk egyazon ábrán. Az Ex-Hófehérke kisodródik az eredeti mese fókuszából, és másik karakterként, u.n. Mostohaként tűnik fel újból. És a kör bezárul. És hogy mit történik ezután a mostohával – úgy értem ex-hófehérkével? Ugyanaz amit a mesében már hallottunk. De hogyan történhetett ez?</p>
+                        <p>Az elemzés egy kritikus törésponthoz jutott. Mostantól nem egy de több mese vázlatát látjuk egyazon ábrán. Az Ex-Hófehérke kisodródik az eredeti mese fókuszából, és másik karakterként, u.n. Mostohaként tűnik fel újból. És a kör bezárul. És hogy mit történik ezután a mostohával – úgy értem ex-hófehérkével? Ugyanaz amit a mesében már hallottunk. De hogyan történhetett ez? [a lila vonal az átalakulást jelzi]</p>
                       </div>
                     </section>
                   </StorySection>
@@ -489,7 +532,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                        <h3>A kör, A tükör</h3><img src={withPrefix('images/mirror/4588eeda48a4fb1310f23aca6cec6696.jpg')} className="ui small left floated image" /><p>A tükör, amely az előző tulajdonosát oly hűségesen szolgálta – és oly kegyetletlen dolgokra vette rá – Karsainé tulajdonában maradt, mivel apja élettársi viszonyban élt a banyával – mármint az ex-... mindegy. Egyszóval Hófehérke megörökölte a tükröt a gonosz mostohától. A tükör, amely a banyát őrületbe kergette, a fürdőszobában kapott helyet, sok örömet szerezve Hófehérkének. Legalábbis eleinte. Amikor a másik Hófehérke megszületett, a tükör detektálta a változást - mivel erre programozták, s mondta az igazat. Az egyetlen tökéletes Hófehérke illúziója ezzel végleg megszűnt létezni, kiderült, hogy csak mese volt az egész...</p><img src={withPrefix('images/mirror/e2821a1da5469f09320aadcbd3c73e06.jpg')} className="ui small right floated image" /><p>Senkinek nem esik jól, ha kiesik a kényelmes központi szerepből, hogy ő a világ közepe, a történet főhőse, a szeretett, a megbecsült, a jó karakter, akire csak csodálatos dolgok várhatnak. De megesik, és ha így adódik az fájó. A reakció általános: Csalódottság, féltékenység, düh, egyfajta gonoszság. És már kész is a banya. Hát még ha a tükör – a külvilágból érkező folyamatos megítélés is megerősíti... ördögi kör. A csapdába rekedt “gonosz királynő” úgy ítéli meg, hogy az “új jövevény” a bajok forrása, hisz amíg az nem volt, minden rendben volt. Úgy próbálja feloldani a konfliktust, hogy elpusztítaná azt a lényt, aki mit sem sejt arról, hogy ő bárkit bármiben akadályozna... Tudatán kívül egykori önmagát pusztítja el ezzel, ezáltal is egyre jobban eltávolodva a “Hófehérkétől” és közeledve a “banyához”</p>
+                        <h3>A kör, A tükör</h3><img src={withPrefix('images/mirror/4588eeda48a4fb1310f23aca6cec6696.jpg')} className="ui small left floated image" /><p>A tükör, amely az előző tulajdonosát oly hűségesen szolgálta – és oly kegyetletlen dolgokra vette rá – Karsainé tulajdonában maradt, mivel apja élettársi viszonyban élt a banyával – mármint az ex-... mindegy. Egyszóval Hófehérke megörökölte a tükröt a gonosz mostohától. A tükör, amely a banyát őrületbe kergette, a fürdőszobában kapott helyet, sok örömet szerezve Hófehérkének. Legalábbis eleinte. Amikor a másik Hófehérke megszületett, a tükör detektálta a változást - mivel erre programozták, s mondta az igazat. Az egyetlen tökéletes Hófehérke illúziója ezzel végleg megszűnt létezni, kiderült, hogy csak mese volt az egész...</p><img src={withPrefix('images/mirror/e2821a1da5469f09320aadcbd3c73e06.jpg')} className="ui small right floated image" /><p>Senkinek nem esik jól, ha kiesik a kényelmes központi szerepből, hogy ő a világ közepe, a történet főhőse, a szeretett, a megbecsült, a jó karakter, akire csak csodálatos dolgok várhatnak. De megesik, és ha így adódik az fájó. A reakció általános: Csalódottság, féltékenység, düh, egyfajta gonoszság. És már kész is a banya. Hát még ha a tükör – a külvilágból érkező folyamatos megítélés is megerősíti... ördögi kör. A csapdába rekedt “gonosz királynő” úgy ítéli meg, hogy az “új jövevény” a bajok forrása, hisz amíg az nem volt, minden rendben volt. Úgy próbálja feloldani a konfliktust, hogy elpusztítaná azt a lényt, aki mit sem sejt arról, hogy ő bárkit bármiben akadályozna... Tudatán kívül egykori önmagát pusztítja el ezzel, ezáltal is egyre jobban eltávolodva a “Hófehérkétől” és közeledve a “banyához”.</p>
                       </div>
                     </section>
                   </StorySection>
@@ -537,7 +580,9 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                        <h3>A válás</h3><p>Tiszta sor, Hófehérke és a herceg elváltak. Így még érthetőbb miért olyan gonosz a mostoha. Hogy ő akart-e válni, vagy a herceg, azt nem tudni. Mindkettőjüknek volt oka rá bőven.</p><p>A herceg nem volt egy egyszerű eset... Eleinte odaadó volt, a csillagokat is odaígérte, de végül maradt egy lakótelepi lakás. A hétvégéket eleinte együtt töltötték, majd a herceg szívesebben sörözött a barátaival, és néha sokáig elmaradt... Már nem volt aki dícsérje Hófehérke csodás jellemvonásait, melyeket mind jól ismerünk, mert amikor együtt vacsoráztak, a herceg csak bámult maga elé a tányérba, és ha Hófehérke kérdezte valamiről, a válasz általában az volt, “most szeretnék nyugodtan enni, ha nem probléma”. Aztán volt, hogy több pénzt vitt, mint amennyit hozott, iszákosság, szerencsejáték, további kimaradások...</p>
+                        <h3>A válás</h3>
+                        <img src={withPrefix('images/snowwhite/problems/8752394c5dd922383cf9e39cfc52e67b.jpg')} className="ui medium left floated image" />
+                        <p>Tiszta sor, Hófehérke és a herceg elváltak. Így még érthetőbb miért olyan gonosz a mostoha. Hogy ő akart-e válni, vagy a herceg, azt nem tudni. Mindkettőjüknek volt oka rá bőven.</p><p>A herceg nem volt egy egyszerű eset... Eleinte odaadó volt, a csillagokat is odaígérte, de végül maradt egy lakótelepi lakás. A hétvégéket eleinte együtt töltötték, majd a herceg szívesebben sörözött a barátaival, és néha sokáig elmaradt... Már nem volt aki dícsérje Hófehérke csodás jellemvonásait, melyeket mind jól ismerünk, mert amikor együtt vacsoráztak, a herceg csak bámult maga elé a tányérba, és ha Hófehérke kérdezte valamiről, a válasz általában az volt, “most szeretnék nyugodtan enni, ha nem probléma”. Aztán volt, hogy több pénzt vitt, mint amennyit hozott, iszákosság, szerencsejáték, további kimaradások...</p>
                       </div>
                     </section>
                   </StorySection>
@@ -553,7 +598,9 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                        <h3>A herceg transzformációja</h3><img src={withPrefix('images/snowwhite/girlfriends/8fb991217a3562df7e0750a697eae6d5.jpg')} className="ui medium left floated image" /><p>De Hófehérke sem volt egy egyszerű eset... Az csak természetes, hogy neki kellet lenni a középpontban, és a fő téma ezzel kellett hogy kapcsolatos legyen: ruhák, pipere, udvarhölgyek, csupa olyan téma ami a herceget hidegen hagyta.</p><p>Amikor a herceg a barátaival szeretett volna találkozni, Hófehérke nem repesett az örömtől, és ez a hercegben lelkifurdalást ébressztett. Bánatossá tette, hogy ő nem tudja úgy elszórakoztatni aráját, mint pl. a többi herceg a legutóbbi zenés estén, akik bezzeg felsorolták Hófehérke minden báját... Enyhe depresziójában, mikor egy keményen végigdolgozott nap után kedvese a vacsoránál kérdőre vonta, már azon merengett, hogy valóban ez-e az a Hófehérke, akit neki a mesében megírt módon feleségül kellett vennie. Mivel nem sikerült meggyőznie magát, és ebben Hófehérke sem volt segítségére, bánatában, hogy mekkora egy hülye, elvesztette a kontrollt életmódja felett, italba folytotta bánatát, Hófehérke mérhetetlen költekezését szerencsejátékból próbálta fedezni, és...</p>
+                        <h3>A herceg transzformációja</h3>
+                        <img src={withPrefix('images/snowwhite/girlfriends/8fb991217a3562df7e0750a697eae6d5.jpg')} className="ui medium left floated image" />
+                        <p>De Hófehérke sem volt egy egyszerű eset... Az csak természetes, hogy neki kellet lenni a középpontban, és a fő téma ezzel kellett hogy kapcsolatos legyen: ruhák, pipere, udvarhölgyek, csupa olyan téma ami a herceget hidegen hagyta.</p><p>Amikor a herceg a barátaival szeretett volna találkozni, Hófehérke nem repesett az örömtől, és ez a hercegben lelkifurdalást ébressztett. Bánatossá tette, hogy ő nem tudja úgy elszórakoztatni aráját, mint pl. a többi herceg a legutóbbi zenés estén, akik bezzeg felsorolták Hófehérke minden báját... Enyhe depresziójában, mikor egy keményen végigdolgozott nap után kedvese a vacsoránál kérdőre vonta, már azon merengett, hogy valóban ez-e az a Hófehérke, akit neki a mesében megírt módon feleségül kellett vennie. Mivel nem sikerült meggyőznie magát, és ebben Hófehérke sem volt segítségére, bánatában, hogy mekkora egy hülye, elvesztette a kontrollt életmódja felett, italba folytotta bánatát, Hófehérke mérhetetlen költekezését szerencsejátékból próbálta fedezni, és...</p>
                       </div>
                     </section>
                   </StorySection>
@@ -649,7 +696,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                      Nos, itt belépünk a tudatalatti világába, elérkeztünk az archetípusokhoz, meg az ezotériához. A két ellentétes személyiség skizoid módon parallel evolvál, olykor transzlokálódik, vagy expressziója szuszpendálódik. (világos, nem?)
+                      Nos, itt belépünk a tudatalatti világába, elérkeztünk az archetípusokhoz, meg az ezotériához. A két ellentétes személyiség skizoid módon parallel evolvál, olykor transzlokálódik, vagy expressziója szuszpendálódik. (világos, nem?) [narancssárga vonal jelöli az alternatívákat, vagyis a követendő pozitív karaktereket, és azok ellenlábasait, más szóval sötét felebarátait, amolyan árnyékszemélyiségeket]
                       </div>
                     </section>
                   </StorySection>
@@ -712,9 +759,23 @@ class Graph extends React.Component {
                     onExit={this.onExitEnd}
                   >
                     <section className="story item">
-                      <div className="story-desc">
+                      <div className="story-desc" style={{ marginBottom: '100vh' }}>
                         <h3>Gonosz mostoha – Öreg király pár</h3><p>Az ábra egyik sarkába az “özvegyen maradt” király új kapcsolata került. Nehezen lehetne jó kapcsolatnak nevezni, de a történet határozott említést tesz a pár tagjainak összetartozásáról.</p><p>Amint a mostoha megjelenik, beköszönt a konfliktusos rész, a sötét időszak semmilyen szempontból nem termékeny. A királyné halott.</p><p>A király jelenléte irreleváns, sakkba szorul.</p><p>Hófehérke száműzve, a herceg még sehol.</p><p>A vadász pedig börönbe zárva...</p><p>De erre majd visszatérünk.</p>
                       </div>
+                    </section>
+                  </StorySection>
+                  <StorySection
+                    id="story.scene.sequel18"
+                    onEnter={() => {
+                      onEnterViewport('story.scene.sequel18')
+                      this.setState({
+                        graphData: scene16,
+                      })
+                    }}
+                    onExit={this.onExitEnd}
+                  >
+                    <section className="story item">
+                      <div className="story-desc" style={{ marginBottom: '100vh', padding: 0 }} />
                     </section>
                   </StorySection>
                 </div>

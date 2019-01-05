@@ -25,11 +25,15 @@ const Layout = ({ children, bodyClass }: Props): Node => (
       meta={[
         {
           name: 'description',
-          content: '...',
+          content: 'Hófehérke mese elemzése',
         },
         {
           name: 'keywords',
-          content: '...',
+          content: 'Hófehérke, mese, elemzés',
+        },
+        {
+          name: 'og:image',
+          content: '/snow-white/images/snowwhite/heartless/24020e0d4a4d1f87b9c0cda731c19251.jpg',
         },
       ]}
       bodyAttributes={{

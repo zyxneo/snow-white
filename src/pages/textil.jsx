@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
               <h3>A textilipar fejlődése</h3>
               <div>
                 <img src={withPrefix('images/queen/window/bafab403a16de2beb62be5c9badce849.jpg')} className="ui medium left floated image" />
-                <p>A Hófehérke mese szerint a királynő az ablakban ül és hímez. Szögezzük le, nem biztos, hogy mit is csinál a királynő az ablakban, varr, fon, (köt), de nyilván kézműves tevékenységet végez, miközben megszúrja az ujját. Egy ilyen részlet könnyen átalakulhat a mese történelmi átalakulásának folyamán. Ma azt is hihetnénk, varrógéppel dolgozott. Jelenleg műanyag ipari termékekben járunk, és nem ismerjük az eredetét az eleve rongyosra szaggatottan kapható göncöknek. Így nagy hátránnyal indulunk a megértéshez. Nem volt ez mindig így, az elmúlt 80 évben sorsdöntő fordulat zajlott le. A legidősebbek még emlékeznek a len, kender feldolgozására, fonásra, szövésre, hímzésre.</p>
+                <p>A Hófehérke mese szerint a királynő az ablakban ül és varr (néhol hímez). Szögezzük le, nem biztos, hogy mit is csinál a királynő az ablakban, varr, fon, (köt), de nyilván kézműves tevékenységet végez, miközben megszúrja az ujját. Egy ilyen részlet könnyen kicserélődhet a mese történelmi átalakulásának folyamán. Ma azt is hihetnénk, varrógéppel dolgozott. Jelenleg műanyag ipari termékekben járunk, és nem ismerjük az eredetét az eleve rongyosra szaggatottan kapható göncöknek. Így nagy hátránnyal indulunk a megértéshez. Nem volt ez mindig így, az elmúlt 80 évben sorsdöntő fordulat zajlott le. A legidősebbek még emlékeznek a len, kender feldolgozására, fonásra, szövésre, hímzésre.</p>
                 <div className="clearfix" />
               </div>
 
