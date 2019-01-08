@@ -160,3 +160,46 @@ hr {
   }
 }
 
+.summTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.summRow {
+  display: flex;
+  border-bottom: 1px solid $grey;
+}
+
+.summCell {
+  position: relative;
+  flex: 1;
+  padding: 5px 10px 5px 20px;
+
+  &:nth-child(1n) {
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 10px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background: #000;
+      float: left;
+      margin-right: 10px
+    }
+  }
+
+  &:nth-child(2n) {
+    &::before {
+      background: $red;
+    }
+  }
+
+  &:nth-child(3n) {
+    &::before {
+      background: #fff;
+      border: 1px solid #000;
+    }
+  }
+}
