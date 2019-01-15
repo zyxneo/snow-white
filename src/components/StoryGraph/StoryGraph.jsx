@@ -12,8 +12,17 @@ import {
   drawCharacterBezier,
 } from './shared'
 
+export const RED = 'red'
+export const GREEN = 'green'
+export const PURPLE = 'purple'
+export const ORANGE = 'orange'
+export const TEAL = '#00ddff'
+export const PINK = 'pink'
+export const SKYBLUE = 'skyblue'
+
 import './StoryGraph.scss'
 
+const ARROW_COLORS = [RED, GREEN, PURPLE]
 class StoryGraph extends React.PureComponent {
   constructor(props) {
     super(props)
@@ -46,16 +55,14 @@ class StoryGraph extends React.PureComponent {
     if (this.state.mounted) {
       const d3 = this.d3
 
-      const t = d3.transition().duration(750).ease(d3.easeLinear)
+      const t = d3.transition().duration(1000).ease(d3.easeExpInOut)
       // console.log(this.props.graphData.characters)
       const data = this.props.graphData
       const characters = d3.select('.storyGraph #characters')
         .selectAll('g.character')
         .data(d3.keys(data.characters) || [], d => d)
 
-      characters.transition()
-        .duration(1000)
-        .ease(d3.easeExpInOut)
+      characters.transition(t)
         .attr('opacity', d => data.characters[d].opacity)
         .style('transform', d => scaleAvatar(data.characters[d].cx, data.characters[d].cy, data.characters[d].scale))
 
@@ -70,7 +77,12 @@ class StoryGraph extends React.PureComponent {
         .attr('cx', AvatarWidth / 2)
         .attr('cy', AvatarHeight / 2)
         .attr('r', '30')
-        .attr('fill', d => data.characters[d].color)
+        .attr('fill', (d) => {
+          if (data.characters[d].gender === 'male') {
+            return SKYBLUE
+          }
+          return PINK
+        })
       character.append('circle')
         .attr('class', 'circle')
         .attr('cx', AvatarWidth / 2)
@@ -108,14 +120,19 @@ class StoryGraph extends React.PureComponent {
         .selectAll('path.arrow')
         .data(d3.keys(data.arrows) || [], d => d)
 
-      arrows.transition()
-        .duration(1000)
-        .ease(d3.easeElastic)
-        .attr('d', d => drawCharacterBezier(data.characters[data.arrows[d].fromCharacter], data.arrows[d].fromSide, data.characters[data.arrows[d].toCharacter], data.arrows[d].toSide))
+      arrows.transition(t)
+        .attr('d', (d) => {
+          let padding = 0
+          if (ARROW_COLORS.includes(data.arrows[d].color)) {
+            padding = 2
+          }
+          return drawCharacterBezier(data.characters[data.arrows[d].fromCharacter], data.arrows[d].fromSide, data.characters[data.arrows[d].toCharacter], data.arrows[d].toSide, padding)
+        })
         .attr('stroke', d => data.arrows[d].color)
         .attr('stroke-width', d => data.arrows[d].width || '1')
         .attr('stroke-dasharray', d => data.arrows[d].dashArray || '')
         .attr('opacity', d => data.arrows[d].opacity)
+        .attr('marker-end', d => `url(#arrow-${data.arrows[d].color})`)
 
       arrows.enter()
         .append('path')
@@ -144,34 +161,28 @@ class StoryGraph extends React.PureComponent {
           <clipPath id="circleMask">
             <circle cx="50" cy="50" r="25" />
           </clipPath>
+          {
+            // ORANGE and TEAL has no direction
+            ARROW_COLORS.map(color => (
+              <marker
+                key={color}
+                id={`arrow-${color}`}
+                markerWidth="4"
+                markerHeight="3"
+                refX="1"
+                refY="1.5"
+                orient="auto"
+                markerUnits="strokeWidth"
+              >
+                <path d="M0,0 L0,3 L4,1.5 z" fill={color} />
+              </marker>
+            ))
+          }
         </defs>
-
 
         <g id="arrows" />
         <g id="characters" />
 
-        {/*
-
-        <rect x="0" y="0" width={SvgWidth} height={SvgHeight} fill="none" stroke="black" strokeWidth="1" />
-
-        {
-          graphData.characters.map(character => <Avatar key={character.id} character={character} />)
-        }
-
-        <path d="M 30,37.5 a 25,25,0,0,1,22.5,22.5" stroke="red" strokeWidth="1" fill="none" />
-
-        <path id="huntsman-snowwhite" d="M 90,82.5 c -10,0, -20,-15, -30,-15" stroke="red" strokeWidth="1" fill="none" />
-        <path id="witch-snowwhite" d="M 75,97.5 c -10,0, -5,-30, -15,-30" stroke="red" strokeWidth="1" fill="none" />
-
-        <circle cx="24" cy="32" r="3" fill="orange" />
-        <circle cx="91" cy="54" r="3" fill="orange" />
-        <path d={drawBezier(24, 32, 91, 54)} stroke="red" strokeWidth="1" fill="none" />
-        <path d={drawBezier(24, 32, 91, 54, true)} stroke="red" strokeWidth="1" fill="none" />
-
-        <path d={drawBezier(graphData.characters[0].cx, graphData.characters[0].cy, graphData.characters[1].cx, graphData.characters[1].cy, true)} stroke="red" strokeWidth="1" fill="none" />
-
-        <line x1="60" y1="60" x2={60 + trw / 2} y2={60 - trh} stroke="#000" strokeWidth="1" />
-        */}
       </svg>
     )
   }

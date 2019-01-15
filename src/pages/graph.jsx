@@ -10,9 +10,23 @@ import StorySection from '../components/StorySection'
 import Footer from '../components/Footer'
 import PreviousButton from '../components/PreviousButton'
 import NextButton from '../components/NextButton'
-import { StoryGraph } from '../components/StoryGraph'
+import {
+  StoryGraph,
+  RED,
+  GREEN,
+  PURPLE,
+  ORANGE,
+  TEAL,
+  PINK,
+  SKYBLUE,
+} from '../components/StoryGraph'
 import scene1 from '../components/StoryGraph/scene1'
 
+// import RED from '../components/StoryGraph/StoryGraph'
+// import GREEN from '../components/StoryGraph/StoryGraph'
+// import PURPLE from '../components/StoryGraph/StoryGraph'
+// import ORANGE from '../components/StoryGraph/StoryGraph'
+// import TEAL from '../components/StoryGraph/StoryGraph'
 const move = (char, coordinate) => {
   char.cx = coordinate.cx
   char.cy = coordinate.cy
@@ -41,11 +55,6 @@ const CooBottomLeftFemale = { cx: GridA, cy: GridE }
 const CooBottomRightMale = { cx: GridE, cy: GridF }
 const CooBottomRightFemale = { cx: GridF, cy: GridE }
 
-const RED = 'red'
-const GREEN = 'green'
-const PURPLE = 'purple'
-const ORANGE = 'orange'
-const TEAL = '#00ddff'
 
 const scene2 = lodash.cloneDeep(scene1)
 scene2.characters.king.scale = 0.3
@@ -56,7 +65,7 @@ move(scene2.characters.queen, CooCenter)
 scene2.arrows.queenAndKing = {
   color: TEAL,
   fromCharacter: 'king',
-  fromSide: 'right',
+  fromSide: 'left',
   toCharacter: 'queen',
   toSide: 'top',
 }
@@ -156,7 +165,7 @@ scene9.arrows.witch2AndHuntsman = {
   fromCharacter: 'witch2',
   fromSide: 'bottom',
   toCharacter: 'huntsman',
-  toSide: 'left',
+  toSide: 'right',
 }
 scene9.arrows.witch2AndSnowwhite = {
   color: RED,
@@ -282,9 +291,9 @@ move(scene16.characters.king, { cx: 90, cy: 20 })
 scene16.arrows.queenAndKing = {
   color: TEAL,
   fromCharacter: 'queen',
-  fromSide: 'left',
+  fromSide: 'right',
   toCharacter: 'king',
-  toSide: 'right',
+  toSide: 'left',
 }
 
 move(scene16.characters.snowwhite, { cx: 30, cy: 50 })
@@ -292,9 +301,9 @@ move(scene16.characters.prince, { cx: 90, cy: 50 })
 scene16.arrows.princeAndSnowwhite = {
   color: TEAL,
   fromCharacter: 'snowwhite',
-  fromSide: 'left',
+  fromSide: 'right',
   toCharacter: 'prince',
-  toSide: 'right',
+  toSide: 'left',
 }
 
 move(scene16.characters.witch2, { cx: 30, cy: 80 })
@@ -302,9 +311,9 @@ move(scene16.characters.huntsman, { cx: 90, cy: 80 })
 scene16.arrows.witch2AndHuntsman = {
   color: TEAL,
   fromCharacter: 'witch2',
-  fromSide: 'left',
+  fromSide: 'right',
   toCharacter: 'huntsman',
-  toSide: 'right',
+  toSide: 'left',
 }
 
 scene16.arrows.kingAndHuntsman2.opacity = 0
@@ -450,7 +459,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                      A királyné meghalt, helyét a gonosz mostoha vette át. Ez a nő pont az ellentéte volt a királynőnek, ezért nemigen szeretjük. [a zöld szaggatott vonal a lérehozást, a piros az elpusztítást jelzi]
+                      A királyné meghalt, helyét a gonosz mostoha vette át. Ez a nő pont az ellentéte volt a királynőnek, ezért nemigen szeretjük. [a zöld szaggatott vonal a lérehozást, a piros az elpusztítást jelzi, a narancssárga pedig az ellentétet]
                       </div>
                     </section>
                   </StorySection>
@@ -548,7 +557,7 @@ class Graph extends React.Component {
                   >
                     <section className="story item">
                       <div className="story-desc">
-                        <h3>A vadász</h3><p>A vadászról nem sokat mond a mese. Egyetlen feladata, hogy a “Gonosz királyné” parancsára ölje meg hófehérkét és hozza el annak kivágott szívét bizonyítékul. Nos egy szívről nehéz bárkit is azonosítani, így ez is szimbólikus: “törje össze a szívét”. Vegye el szépsége forrását, a naív, romlatlan szeretetet, lelke belső fényét, amely a szépségének valódi forrása.</p><p>Hogyan törje össze a szívét? Éjjel vigye ki az erdőbe, és ott... vegye elő a fegyverét, és döfje le, avagy célozzon és lőjön. Aztán vegye el a szívét, és tegye a gonosz elé bizonyítékul.</p><p>A vadász tehát nem afféle vadgazdálkodó szerepben jelenik meg, hanem inkább olyanban aki másra vadászik, úgy is mondhatnánk, p!#@vadász, hogyha nagyon egyértelműen be akarjuk sorolni... Így mindjárt jobban összeáll a kép:</p>
+                        <h3>A vadász</h3><p>A vadászról nem sokat mond a mese. Egyetlen feladata, hogy a “Gonosz királyné” parancsára ölje meg hófehérkét és hozza el annak tüdejét és máját bizonyítékul. A legtöbb magyar meseváltozatban kivágott szív szerepel, így én is ezt tekintem alapfeltevésnek. Nos belső szervekről nehéz bárkit is azonosítani, így ez is szimbólikus, a kulcs pedig a szív: “törje össze a szívét”. Vegye el szépsége forrását, a naív, romlatlan szeretetet, lelke belső fényét, amely a szépségének valódi forrása.</p><p>Hogyan törje össze a szívét? Éjjel vigye ki az erdőbe, és ott... vegye elő a fegyverét, és döfje le, avagy célozzon és lőjön. Aztán vegye el a szívét, és tegye a gonosz elé bizonyítékul.</p><p>A vadász tehát nem afféle vadgazdálkodó szerepben jelenik meg, hanem inkább olyanban aki másra vadászik, úgy is mondhatnánk, p!#@vadász, hogyha nagyon egyértelműen be akarjuk sorolni... Így mindjárt jobban összeáll a kép:</p>
                       </div>
                     </section>
                   </StorySection>

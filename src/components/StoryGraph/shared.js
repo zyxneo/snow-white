@@ -33,7 +33,7 @@ export const drawBezier = (x1, y1, x2, y2, vertical, strength = 0.5) => {
 }
 
 /* eslint-disable complexity */
-export const drawCharacterBezier = (char1, fromSide, char2, toSide, strength = 0.5) => {
+export const drawCharacterBezier = (char1, fromSide, char2, toSide, padding = 0, strength = 0.5) => {
   // beginning
   let x1 = 1
   let y1 = 1
@@ -57,13 +57,13 @@ export const drawCharacterBezier = (char1, fromSide, char2, toSide, strength = 0
   x2 = char2.cx
   y2 = char2.cy
   if (toSide === 'left') {
-    x2 -= (char2.scale * AvatarcircleR)
+    x2 -= (char2.scale * AvatarcircleR) + padding
   } else if (toSide === 'right') {
-    x2 += (char2.scale * AvatarcircleR)
+    x2 += (char2.scale * AvatarcircleR) + padding
   } else if (toSide === 'top') {
-    y2 -= (char2.scale * (AvatarcircleR + AvatarTitleHeight))
+    y2 -= (char2.scale * (AvatarcircleR + AvatarTitleHeight)) + padding
   } else {
-    y2 += (char2.scale * AvatarcircleR)
+    y2 += (char2.scale * AvatarcircleR) + padding
   }
 
 

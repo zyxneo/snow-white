@@ -549,7 +549,7 @@ class IndexPage extends React.Component {
                 <p>Az alma preparálása nem tiszta számomra. Én még egy olyan mesére emlékszem amelyben a „boszorka“ ketté vágott egy almát, a szép, egészséges, piros felét megmérgezte, majd visszahelyezte azt a zöld, kukacos félre. Amikor azt bizonyította, hogy az alma ehető, akkor emezt a kevésbé étvágygerjesztő részt választotta. Itt rögtön megjegyezném, hogy a modern nyugatias társadalomban valamennyi választásunk alternatíváit ilyennek látom, legyen az oktatás, egészségügy, vagy akár maga az alma.</p>
 
                 <p className="ui embed" data-source="youtube" data-id="5RKUUis-R78">
-                  <iframe title="?" width="560" height="315" src="https://www.youtube.com/embed/6n_xCI-peq0?start=73" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe title="?" width="560" height="315" src="https://www.youtube.com/embed/6n_xCI-peq0?start=73&end=98" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
                 </p>
                 <p>Mint kiderült, az egyes mesék eltérnek az alma leírását illetően. Mivel az „I Pet Goat II“ animációt többségében francia nevű alkotók készítették, megkérdeztem a kollégámat, ismer-e valamit a maggal kapcsolatban. Azt ugyan nem, de elmondása szerint náluk az alma egyik fele piros, a másik fehér volt. Megjegyezte, ennek nem sok értelmét látja. Nekem viszont ez olaj volt a tűzre, hiszen az olasz Biancaneve illusztrációiban is pont ezt látni. (A magyar változat fakó felet említ)</p><img src={withPrefix('images/snowwhite/biancaneve/Biancaneve-28329.jpg')} className="ui fluid image" />
               </div>
@@ -614,7 +614,13 @@ class IndexPage extends React.Component {
               <h3>Bánya</h3>
               <div>
                 <p>A bánya feltételezi, hogy elfogadjuk a törpés részt olyannak, amilyen. Más változatokban nem biztos hogy van bánya, pl. a hét huszár nem valószínű, hogy a bányában dolgozik. Mégis, szerintem ide illik a szimbólum: a sötét erdő mélyén egy sötét föld alatti üreg. Nem kerül bemutatásra. Feltehetően kincset rejt. De úgy tűnik, megéri kockáztatni, megéri mélyre ásni, mert a kincsek ott rejtőznek...</p>
+
+                <p>Ezen a videón a fiúk a bányában dolgoznak:</p>
+                <p className="ui embed" data-source="youtube" data-id="StZcUAPRRac">
+                  <iframe title="Rammstein - Sonne" width="560" height="315" src="https://www.youtube.com/embed/StZcUAPRRac" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                </p>
               </div>
+
             </ScrollSection>
 
             <Footer>
