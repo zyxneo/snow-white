@@ -33,7 +33,7 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="story.fairytales.theseus">
               <h1>Thészeusz</h1>
               <div>
-                <p>Érdemesnek tartom megemlíteni Thészeusz történetét, ami Grimm gyűjtés formájában is fennmaradt. Thészeusz megküzd a félig bika, félig ember testű Minótaurosszal a Labirintusban. Több alkalommal, több formában is hallottam már a történetet, de az összefüggés a keresztényi kultúrával nem esett le. Pedig igen nyilvánvaló</p>
+                <p>Érdemesnek tartom megemlíteni Thészeusz történetét, ami Grimm gyűjtés formájában is fennmaradt. Thészeusz megküzd a félig bika, félig ember testű Minótaurosszal a Labirintusban. Több alkalommal, több formában is hallottam már a történetet, de az összefüggés a keresztényi kultúrával nem esett le. Pedig igen nyilvánvaló.</p>
 
                 <p className="masonry">
                   <img src={withPrefix('images/theseus/minotaurus/dd201a52ca0536a3717a025c80f047ba.jpg')} />
@@ -109,13 +109,21 @@ class IndexPage extends React.Component {
 
                 <p>A legenda értelmezése minden férfire éppúgy érvényes, de persze mindenkire személyre szabva. Vannak akik rettegnek ettől a mélységtől, próbálják létezését is eltitkolni, és nem mernek szembesülni a Minutaurusszal, még akkor sem, ha kiderülne, nincs is más ott a sötét mélységben, csak egy kis fehér gyáva nyuszi. Vannak akik küzdenek a mérhetetlen erejű szörnnyel, reggelre legyőzik, de estére a szörny ismét feltámad, és kezdődik a kilátástalan küzdelem újra meg újra. Vannak akik kalandos kedvükben elindultak felfedezni a Labirintust, és összetalálkoztak a hatalmas, szőrös állattal, de kiderült, hogy simán össze lehet haverkodni vele egy cigiért cserébe, nála meg történetesen sör van, és nem fukarkodik vele, így bekucorodva az útvesztő egy zugába egy egész életet is ki lehet bekkelni kártyázgatva, elvégre minek az a nagy felhajtás. Az ilyen tipusu Minótaurosszal rendelkező férfiakra aztán várhatnak az Ariadnék...</p>
 
-                <p>Bizonyára rengeteg eltérő változat létezik, de az ideális esetet a történet szépen bemutatja. Nagyon érdekes, hogy a történet folytatásában a két leánytestvér közül Ariadné elvész. Szerintem ez azt is mutathatja, hogy Minótauroszt legyőzését követően a férfinek nincs többé szüksége a nő azon felére aki eligazítja őt a sötét mélységeiről.</p>
+                <p>Bizonyára rengeteg eltérő változat létezik, de az ideális esetet a történet szépen bemutatja. Nagyon érdekes, hogy a történet folytatásában a két leánytestvér közül Ariadné elvész. Szerintem ez azt is mutathatja, hogy Minótaurosz legyőzését követően a férfinek nincs többé szüksége a nő azon felére aki eligazítja őt a sötét mélységeiről.</p>
 
                 <p><img src={withPrefix('images/theseus/622cfd87eeccc58aace5767cdcdb8ee1.jpg')} className="ui fluid image" /></p>
 
-                <p>A Minótauroszt mítosz feldolgozása a Kontroll című film is. Nem Minoszban, hanem a Metró területén játszódik, de a filmben gyakorta megjelenő M betű összeköti a két történetet. Minótauroszt megfelelője a  lökdösődő, aki szintén a föld alatti járatokban él, Bulcsúhoz hasonlóan, akinek épp meg kell vele küzdenie. Ebben egy lányka lesz segítségére, aki álmában megmutatja neki a szörny rejtekhelyét.</p>
+                <p>A Thészeusz mítosz feldolgozása a Kontroll című film is. Nem Minoszban, hanem a Metró területén játszódik, de a filmben gyakorta megjelenő M betű összeköti a két történetet. Minótaurosz megfelelője a  lökdösődő, aki szintén a föld alatti járatokban él, Bulcsúhoz hasonlóan, akinek épp meg kell vele küzdenie. Ebben egy lányka lesz segítségére, aki álmában megmutatja neki a szörny rejtekhelyét (vörös füstcsíkot húzva 46:00-nál).</p>
 
-                <p>A Minótauroszt és Csipkerózsika különleges egyvelege a Hercegnő és a kobold történet. Thészeusz itt Kóficként jelenik meg, ellenfele pedig Takonypóc, a kobold, aki a bányák alatt a mélységben él. Csipkerózsikára hasonlít Angelika hercegnő, a mese másik főszereplője. A padlásszobában ő is egy fonónőt talál, csakhogy ez a fonó tulajdon őse, jóindulatú, és nem elaltatja, hanem pont hogy felébreszti a lányt. A misztikus nagymama különleges tudásba avatja be Angelikát, és egy fonalat ajándékoz neki. Ennek segítségével a lány szabadítja ki a sötét mélységben, árnyékszemélyisége fogságában ragadt fiút. Érdekes, hogy a fiú bukásának egyik oka, hogy a szüleitől szerzett fonal nem bizonyul használhatónak akciója során, mikor egymaga indul neki a sötét mélység felderítésének. Kófic és Angelika kapcsolata akkor rendeződik, mikor a fiú megismeri a leány nagymamáját, a misztikus női ősképet.</p>
+                <p className="ui embed">
+                  <iframe title="Kontroll" width="640" height="360" src="//videa.hu/player?v=rtyfcXqc0eu4Jx77" allowFullScreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" frameBorder="0" />
+                </p>
+
+                <p>A Minótaurosz és Csipkerózsika különleges egyvelege a Hercegnő és a kobold történet. Thészeusz itt Kóficként jelenik meg, ellenfele pedig Takonypóc, a kobold, aki a bányák alatt a mélységben él. Csipkerózsikára hasonlít Angelika hercegnő, a mese másik főszereplője. A padlásszobában ő is egy fonónőt talál, csakhogy ez a fonó tulajdon őse, jóindulatú, és nem elaltatja, hanem pont hogy felébreszti a lányt. A misztikus nagymama különleges tudásba avatja be Angelikát, és egy fonalat ajándékoz neki. Ennek segítségével a lány szabadítja ki a sötét mélységben, árnyékszemélyisége fogságában ragadt fiút. Érdekes, hogy a fiú bukásának egyik oka, hogy a szüleitől szerzett fonal nem bizonyul használhatónak akciója során, mikor egymaga indul neki a sötét mélység felderítésének. Kófic és Angelika kapcsolata akkor rendeződik, mikor a fiú megismeri a leány nagymamáját, a misztikus női ősképet.</p>
+
+                <p className="ui embed" data-source="youtube" data-id="ez192UDPNms">
+                  <iframe title="A hercegnő és a kobold" width="560" height="315" src="https://www.youtube.com/embed/ez192UDPNms" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                </p>
               </div>
             </ScrollSection>
 

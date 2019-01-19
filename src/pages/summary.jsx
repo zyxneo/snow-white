@@ -85,18 +85,62 @@ const data = [
     <span>a fa törzse</span>,
     <span>a fa koronája</span>,
   ],
+  [
+    <span>
+      Hangja az <b>M</b><br />
+      A tömbösség, tömeg vagy belső üreg hangja<br />
+      <ul>
+        <li>tömegvonzás</li>
+        <li>minosz - mínusz</li>
+        <li>Masonry, 3M, xMas</li>
+      </ul>
+    </span>,
+    <span>
+      Hangja a <b>V</b><br />
+      <ul>
+        <li>vág, (el)válik, (ketté)válik, (össze)vegyít</li>
+        <li>V for Vandetta (V mint vérbosszú)</li>
+        <li>változás</li>
+        <li>verés, vádlás, védekezés (pír, per)</li>
+        <li>vélemény (megosztó) tév(edés) (TV - tév[é])</li>
+        <li>világ világossága, vak, (való világ)</li>
+        <li>(meg)világít, visszaverődik</li>
+        <li>vírus - város</li>
+        <li>virul, virágzik</li>
+        <li>vörös, véres</li>
+        <li>vég</li>
+        <li>vad(ász) veszély</li>
+        <li>víg</li>
+      </ul>
+    </span>,
+    <span>
+      <ul>
+        <li></li>
+      </ul>
+    </span>,
+  ],
 ]
 
 const mese = [
   [
-    <span>a kiály és a királyné</span>,
-    <span>Hófehérke és a herceg</span>,
     <span>a mostoha és a vadász</span>,
+    <span>Hófehérke és a herceg</span>,
+    <span>a kiály és a királyné</span>,
+  ],
+  [
+    <span>a fésű</span>,
+    <span>az alma</span>,
+    <span>az öv</span>,
   ],
   [
     <span>a holló</span>,
     <span>a bagoly</span>,
     <span>a galamb</span>,
+  ],
+  [
+    <span>Farkas</span>,
+    <span>Piroska</span>,
+    <span>Nagymama</span>,
   ],
 ]
 const Row = ({ row }) => (
