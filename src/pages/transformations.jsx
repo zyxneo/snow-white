@@ -227,7 +227,7 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="story.transformations.fate">
               <h3>A párka</h3>
               <div>
-                <p>A mesebeli királynő valójában egy párka, vagyis egy ősanya karakter. Hófehérkét úgy hozza létre, akár egy szép textíliát, a semmiből fonja valamivé, az élet szálából szövi élő emberi szövetté. Meghalása szimbolikus lehet, jelezve hogy ő egy égi anyácska.</p>
+                <p>A mesebeli királynő valójában egy párka, vagyis egy ősanya karakter. Hófehérkét úgy hozza létre, akár egy szép textíliát, a semmiből fonja valamivé, az élet szálából szövi élő emberi szövetté. Meghalása szimbolikus lehet, jelezve hogy ő egy égi anyácska. Még tágabb értelemben ő maga a teremtő, aki az embert teremti, és midőn teremti, megadja annak tulajdonságait: legyen fehér, vörös és fekete. Fehér mint a lenfonal, fekete mint a rokka kereke, vagy a szövőszék kerete.</p>
                 <p className="masonry">
                   <img src={withPrefix('images/queen/fates/87bbd392139ab439c63de878b70cb585.jpg')} />
                   <img src={withPrefix('images/queen/fates/473e392b5465e101a98a7396c2e99e35.jpg')} />

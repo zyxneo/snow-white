@@ -87,36 +87,12 @@ const data = [
   ],
   [
     <span>
-      Hangja az <b>M</b><br />
-      A tömbösség, tömeg vagy belső üreg hangja<br />
-      <ul>
-        <li>tömegvonzás</li>
-        <li>minosz - mínusz</li>
-        <li>Masonry, 3M, xMas</li>
-      </ul>
+      Hangja az <b>M</b>
     </span>,
     <span>
-      Hangja a <b>V</b><br />
-      <ul>
-        <li>vág, (el)válik, (ketté)válik, (össze)vegyít</li>
-        <li>V for Vandetta (V mint vérbosszú)</li>
-        <li>változás</li>
-        <li>verés, vádlás, védekezés (pír, per)</li>
-        <li>vélemény (megosztó) tév(edés) (TV - tév[é])</li>
-        <li>világ világossága, vak, (való világ)</li>
-        <li>(meg)világít, visszaverődik</li>
-        <li>vírus - város</li>
-        <li>virul, virágzik</li>
-        <li>vörös, véres</li>
-        <li>vég</li>
-        <li>vad(ász) veszély</li>
-        <li>víg</li>
-      </ul>
+      Hangja a <b>V</b>
     </span>,
-    <span>
-      <ul>
-        <li></li>
-      </ul>
+    <span>...
     </span>,
   ],
 ]
