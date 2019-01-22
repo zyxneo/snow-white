@@ -161,19 +161,19 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="symbol.color.phonetics">
               <h3>Fonetika</h3>
               <div>
-                <p>...</p>
+                <p>Alább az egyes színekhez tartozó beszédhangokat kísérelem meg megadni. A feltevésemet Dr. Balla Zoltán - A szemléletes gondolkozás logikája (természetes a-b-c) című művére alapozom, melyet zseniálisnak tartok. A V hang teljes egészében, és nyilvánvaló tisztasággal írja le a vörös zóna fogalomkörét - tehát nem magát a színt, hanem annak jelentéstartalmát a mese és életünk kontextusában - így a hang leírása többet mond, mint bármi más amit a színről mondhatnék.</p>
               </div>
 
-              <h4>A fekete hangja az M</h4>
+              <h4>A fekete hangja az <b><a href="http://www.osnyelv.hu/osny0/zzz/bz_szgl.web.html#m" target="_blank" rel="noopener noreferrer">M</a></b></h4>
               <p>A tömbösség, tömeg vagy belső üreg hangja</p>
               <ul>
                 <li>Kérdéseink M hangja az adott téma nem értését jelzi, azt, hogy az adott fogalmommal kapcsolatban kérdésünk van: ért(em|elem) - Miért?, (ek|ak)kor - Mikor, erre - Merre? Valamint az elgondolkodás, kétkedés általános hmmm... indulathangja.</li>
                 <li>tömeg, tömegvonzás, gravitáció</li>
                 <li>minosz - mínusz (negatív létmód)</li>
-                <li>Masonry, 3M, xMas</li>
+                <li>Masonry, 3M, xMas, Matrix</li>
               </ul>
 
-              <h4>A vörös Hangja a <b>V</b></h4>
+              <h4>A vörös Hangja a <b><a href="http://www.osnyelv.hu/osny0/zzz/bz_szgl.web.html#v" target="_blank" rel="noopener noreferrer">M</a></b></h4>
               <ul>
                 <li>vág, (el)válik, (ketté)válik, (össze)vegyít</li>
                 <li>V for Vandetta (V mint vérbosszú)</li>
