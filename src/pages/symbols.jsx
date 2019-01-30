@@ -341,7 +341,7 @@ class IndexPage extends React.Component {
 
                 <p>Ezen a videón a fiúk a bányában dolgoznak:</p>
                 <p className="ui embed" data-source="youtube" data-id="StZcUAPRRac">
-                  <iframe title="Rammstein - Sonne" width="560" height="315" src="https://www.youtube.com/embed/StZcUAPRRac" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+                  <iframe title="Rammstein - Sonne" width="560" height="315" src="https://www.youtube.com/embed/StZcUAPRRac" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen />
                 </p>
               </div>
 

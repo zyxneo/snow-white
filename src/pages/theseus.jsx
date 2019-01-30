@@ -133,8 +133,8 @@ class IndexPage extends React.Component {
                 content="Holle anyó"
               />
               <NextButton
-                to="/transformations/"
-                content="Átalakulások"
+                to="/bluebarb/"
+                content="Kékszakáll"
               />
             </Footer>
           </div>

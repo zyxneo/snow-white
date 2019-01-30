@@ -7,12 +7,13 @@ body {
   transition: background ease-in-out .5s, color ease-in-out .5s;
 
   &.story\.textil\.fates,
-  &.symbol\.color\.white {
+  &.symbol\.color\.white,
+  &.story\.bluebarb\.key {
     background: black;
     color: white;
   }
 
-  &.symbol\.color\.redInWhite, {
+  &.symbol\.color\.redInWhite {
     background: $red;
     color: white;
 
