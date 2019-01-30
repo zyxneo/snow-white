@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
               <h3>Egész estés meseelemzés felnőtteknek</h3>
               <p>avagy Csipkerózsika orsója Holle anyónál... Szóval nem csak Hófehérke...</p>
               <p>Sok képpel, hogy ne unjátok halálra magatokat... (jobb egérgomb, kép megjelenítése a kinagyításhoz, minden kép lopott) Firefox böngésző használata ajánlott.</p>
-              <p>Bármilyen visszajelzésnek örülök, kérlek továbbá, hogy jelezzétek a hejesirási hibákat.</p>
+              <p>Bármilyen visszajelzésnek örülök, kérlek továbbá, hogy jelezzétek a hejesirási hibákat. (zyxneo@gmail.com)</p>
 
               <h3>Tudtad?</h3>
               <div>
