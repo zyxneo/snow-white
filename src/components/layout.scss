@@ -6,9 +6,7 @@ body {
   color: black;
   transition: background ease-in-out .5s, color ease-in-out .5s;
 
-  &.story\.textil\.fates,
-  &.symbol\.color\.white,
-  &.story\.bluebarb\.key {
+  &.inverted {
     background: black;
     color: white;
   }
@@ -21,6 +19,15 @@ body {
       color: white !important;
     }
   }
+}
+
+.ui.list .list > .item > i.icon,
+.ui.list > .item > i.icon {
+  transition: color ease-in-out .5s !important;
+}
+
+.ui.inverted.selection.list > .item:hover {
+  background: rgba(255,255,255,.2) !important;
 }
 
 h1,
@@ -111,7 +118,7 @@ hr {
 }
 
 .layout {
-
+  overflow: hidden;
 }
 
 .content {
@@ -202,5 +209,19 @@ hr {
       background: #fff;
       border: 1px solid #000;
     }
+  }
+}
+
+.mainMenu {
+  position: fixed;
+  z-index: 9999;
+  top: 60px;
+  left: 20px;
+
+  &__toggler {
+    position: fixed;
+    z-index: 9999;
+    top: 20px;
+    left: 20px;
   }
 }

@@ -108,8 +108,8 @@ class IndexPage extends React.Component {
                 </p>
                 <p>Nagyon érdekes, hogy az egymást kiegészítő ellentétpárok itt is megjelennek. Férfi és nő között a vonzódás kölcsönös, szinte minden stimmel, az egyetlen pathológikus részlet a végkifejlet, de ez a történet így kerek. Még szerencse, hogy a nő kíváncsi természetű volt, a férfinek meg történetesen volt titka, ami kiderülhetett. Szóval jól egymásra találtak. Ha a nő megfogadta volna férjeura tanácsát és nem kutakodik, az nagyon unalmas lett volna. Egy idő után valószínűleg a Kékszakáll is megunja az ilyen nőt, kiszeret belőle és elhagyja, mondván, hogy nem tud elég izgalmat vinni a kapcsolatukba. Mert igenis izgibizgi amikor az állatias férfi áldozatául ragadja a naív, ártatlan nőt, magával rántja az alvilágba és és életveszélyes beavatásban részesíti. Nemhiába keresgél a nő a férfi sötét rejtekeben, viszont a naív nő azt reméli, hogy a kíméletlen vadállat vele majd kíméletes és érzéki lesz.</p>
 
-                <p className="ui embed" data-source="youtube" data-id="">
-                  <iframe title="Rammstein - Sonne" width="560" height="315" src="https://www.youtube.com/embed/" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen />
+                <p className="ui embed" data-source="youtube" data-id="X92BQM2HD40">
+                  <iframe title="Kékszakáll" width="560" height="315" src="https://www.youtube.com/embed/X92BQM2HD40" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen />
                 </p>
 
                 <p>A történet végén a nő megszabadul, a férfi pedig belehal sérüléseibe. És mi a tanulság?...</p>

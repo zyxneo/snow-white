@@ -43,7 +43,7 @@ class IndexPage extends React.Component {
 
               <h3>Tudtad?</h3>
               <div>
-                <p>Hogy a Hófehérke a legősibb mese, a mesék Alfája és Ómegája, a mesenaprendszer központi csillaga, hogy innen kezdődik és ide tér vissza minden mese? Hogy a Hófehérke mese valójában az egyik legősibb kulturális emlékünk, amelynek fő témája a párkapcsolaton és a szexualitáson keresztül bemutatni az élet misztikus körforgásának alapszerkezét?</p>
+                <p>Hogy a Hófehérke a legősibb mese, a mesék Alfája és Ómegája, a mesenaprendszer központi csillaga, hogy innen kezdődik és ide tér vissza minden mese? Hogy a Hófehérke mese valójában az egyik legősibb kulturális emlékünk, amelynek fő témája a párkapcsolaton és a szexualitáson keresztül bemutatni az élet misztikus körforgásának alapszerkezetét?</p>
                 <div className="masonry">
                   <img src={withPrefix('images/queen/window/2e8e4615e12a06154b3bca33921cb40e.jpg')} />
                   <img src={withPrefix('images/witch/cartoon/1a90eb023c350a5a4fa67d6532c3bbbb.jpg')} />
