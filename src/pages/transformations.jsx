@@ -74,7 +74,7 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="story.transformations.coffin">
               <h3>A koporsó</h3>
               <div>
-                <p></p>
+                <p />
                 <p className="masonry">
                   <Image src={withPrefix('images/snowwhite/coffin/0f38ed0ae8ad39b83e59543d3f9cf182.jpg')} />
                   <Image src={withPrefix('images/snowwhite/coffin/209a14383420f1fe2c40169046d3ebc0.jpg')} />
@@ -419,6 +419,7 @@ class IndexPage extends React.Component {
                   <Image src={withPrefix('images/king/transformation/a85250af52f7c0f029d938b864150517.jpg')} />
                 </p>
                 <p>Ha a herceg elbukik, az belefér, hiszen próbaidős. De ha valaki odáig viszi, hogy a sötétség királyává válik, az már veszélyes. Az ilyen férfi nem indul a labirintusban lévő szörny legyőzésére, hanem kibontakoztatja azt, és másokat próbál legyőzni vele.</p>
+                <p>Corruptio optimi pessima – a legjobbak romlása a legrosszabb.</p>
               </div>
             </ScrollSection>
 

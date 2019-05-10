@@ -250,7 +250,9 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="symbol.symbol.apple">
               <h3>Alma</h3>
               <div>
-                <p>Az alma egy termés, szigorú értelmezésben az alma nevű növény termése, tágabban az almafélék termése. Még tágabb értelemben a rózsafélék termése is hasonlít az almára, például gránátalma. De ha a csipkerózsa termésére gondolunk, egy másik mese is ide köthető, amiben az orsó is nagy szerepet kap. Népművészeti ábrázolások közt gyakori szimbólum, női jelkép. A kerekre, vérpirosra érett alma a méh (uterus) szimbóluma is lehet.</p>
+                <p>Az alma egy termés, szigorú értelmezésben az alma nevű növény termése, tágabban az almafélék termése. Még tágabb értelemben a rózsafélék termése is hasonlít az almára, például gránátalma. De ha a csipkerózsa termésére gondolunk, egy másik mese is ide köthető, amiben az orsó is nagy szerepet kap. Népművészeti ábrázolások közt gyakori szimbólum, női jelkép. A kerekre, vérpirosra érett alma (elsősorban gránátalma) a méh (uterus) szimbóluma is lehet.</p>
+                <p>Az ószövetségi teremtésmítosz tudás fája is almafa képében jelenik meg művészeti ábrázolásokon, így nagyon érdekes a magyar <i>alma</i> és <i>elme</i> szavak összecsengése, s ideerőltetném a török <i>elma</i> szót ennek igazolásásra.</p>
+                <p>Az almatermés geometriai formája tórusz.</p>
 
                 <p className="masonry">
                   <img src={withPrefix('images/snowwhite/apple/135659bce47f4fe335816315bd361b09.jpg')} />
@@ -271,7 +273,9 @@ class IndexPage extends React.Component {
                 <p className="ui embed" data-source="youtube" data-id="5RKUUis-R78">
                   <iframe title="?" width="560" height="315" src="https://www.youtube.com/embed/6n_xCI-peq0?start=73&end=98" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
                 </p>
-                <p>Mint kiderült, az egyes mesék eltérnek az alma leírását illetően. Mivel az „I Pet Goat II“ animációt többségében francia nevű alkotók készítették, megkérdeztem a kollégámat, ismer-e valamit a maggal kapcsolatban. Azt ugyan nem, de elmondása szerint náluk az alma egyik fele piros, a másik fehér volt. Megjegyezte, ennek nem sok értelmét látja. Nekem viszont ez olaj volt a tűzre, hiszen az olasz Biancaneve illusztrációiban is pont ezt látni. (A magyar változat fakó felet említ)</p><img src={withPrefix('images/snowwhite/biancaneve/Biancaneve-28329.jpg')} className="ui fluid image" />
+                <p>Mint kiderült, az egyes mesék eltérnek az alma leírását illetően. Mivel az „I Pet Goat II“ animációt többségében francia nevű alkotók készítették, megkérdeztem a kollégámat, ismer-e valamit a maggal kapcsolatban. Azt ugyan nem, de elmondása szerint náluk az alma egyik fele piros, a másik fehér volt. Megjegyezte, ennek nem sok értelmét látja. Nekem viszont ez olaj volt a tűzre, hiszen az olasz Biancaneve illusztrációiban is pont ezt látni. (A magyar változat fakó felet említ)</p>
+
+                <p><img src={withPrefix('images/snowwhite/biancaneve/Biancaneve-28329.jpg')} className="ui fluid image" /></p>
               </div>
             </ScrollSection>
 
@@ -324,8 +328,25 @@ class IndexPage extends React.Component {
                   <li>Harag</li>
                   <li>Jóra való restség?</li>
                 </ol>
+                de folytathatnám...
+                <ol>
+                  <li>Ólom - Szaturnusz - ♄</li>
+                  <li>Ón - Jupiter - ♃</li>
+                  <li>Vas - Mars - ♂</li>
+                  <li>Arany - Nap - ☉</li>
+                  <li>Réz - Vénusz - ♀</li>
+                  <li>Higany - Merkúr - ☿</li>
+                  <li>Ezüst - Hold - ☽</li>
+                </ol>
+
                 <div className="clearfix" />
-                <p>Nem. Úgy hívták őket, hogy Csipa, Harák, Mitesszer... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, előre-hátra, jobbra-balra és fel-le, a mi három dimenziós világunk hat irányába. Ennek a meghaladásáról lenne szó? Hét lépcsőfokról, ami egy másik világba vezet? Egy másik planétára, a Hetedhét országba? A magyar eredetmonda 7 vezérrel számol. Lehetséges, hogy Álmos, Előd, Ond és a többiek számossága csak egy véletlen egybeesés azzal a hét dologgal, ami a magyarokat már annak előtte is vezérelte? A juhász furulyáján is 7 lyuk van, a zene, ami előadható rajta, 1 oktávot ölel fel. Egy oktávval távolabb egy újabb oktáv kezdődik, mely ugyanolyan elvek szerint rendeződik, mint az előző, csak egy szinttel alacsonyabban ill. magasabban van. (latin octava = nyolcadik, vagyis a 7-es egység újabb ismétlődésének első eleme)</p>
+                <p>Nem. Úgy hívták őket, hogy Csipa, Harák, Mitesszer... A hétszentségit neki! Miért pont törpe? Egyről a kettőre jutunk, majd ötről a hatra. Akinek pedig van hat-alma az tud hatni, előre-hátra, jobbra-balra és fel-le, a mi három dimenziós világunk hat irányába. Ennek a meghaladásáról lenne szó? Hét lépcsőfokról, ami egy másik világba vezet? Egy másik planétára, a Hetedhét országba? A magyar eredetmonda 7 vezérrel számol. Lehetséges, hogy Álmos, Előd, Ond és a többiek számossága csak egy véletlen egybeesés azzal a hét dologgal, ami a magyarokat már annak előtte is vezérelte? De a menórának is hét ága van. A juhász furulyáján is 7 lyuk van, a zene, ami előadható rajta, 1 oktávot ölel fel. Egy oktávval távolabb egy újabb oktáv kezdődik, mely ugyanolyan elvek szerint rendeződik, mint az előző, csak egy szinttel alacsonyabban ill. magasabban van. (latin octava = nyolcadik, vagyis a 7-es egység újabb ismétlődésének első eleme)</p>
+
+                <blockquote>
+                  <p>7. Doxa: Az analógia nem egyéb, mint az egyes hierarchiák között levő megfelelés. A Tabula Smaragdina ezt a következőképpen mondja: ami fent van, az megfelel annak, ami lent van, s ami lent van, az megfelel annak, ami fent van. A hierarchiák, vagyis a létezési színvonalak (valóságnívók) egymásnak megfelelnek. A legközönségesebb példa erre a 7-es szám analógia sora. A naprendszer hét bolygójának a szivárvány hét színe a diatonikus hangsor hét hangja, a hét hét napja, a hét emberi alapjelleg, hét fém, hét drágakő, hét növény, hét állatfaj, a hét magánhangzó, stb. felel meg. E sor elemei egymásnak nagyobbára úgy felelnek meg, mint pl. valamely egész alapszám a 10-es, húszas, harmincas, stb. számsorban.</p>
+                  <cite> Hamvas Béla: Tabula Smaragdina</cite>
+                </blockquote>
+
                 <p>Hófehérke a mesén belül megtett horizontális útja során eljut a 7-hez, és itt megkezdi vertikális fejlődési útját a 7 segítségével. Nehéz ezt bizonyítanom, főleg hogy minden gyerek tudja, hogy a banya egyfolytában szivatja a Hófehérkét, míg az a törpéknél van, de mégis, van egy ilyen érzésem. Meg kell mondjam, ismét csodálatos megerősítés volt az alábbi illusztráció:</p>
 
                 <p><img src={withPrefix('images/snowwhite/biancaneve/23755330_869583669874190_1326789909525721786_n.jpg')} className="ui fluid image" /></p>

@@ -86,6 +86,7 @@ class Layout extends React.PureComponent<Props, State> {
           icon
           onClick={this.showMenu}
           className="mainMenu__toggler"
+          inverted={inverted}
         >
           <Icon name="bars" />
         </Button>
