@@ -18,7 +18,7 @@ deploy:
   on:
     branch: master
 script:
-  - "npm i -g gatsby"
-  - "npm i"
+  - "npm ci -g gatsby"
+  - "npm ci"
 after_success:
   - "npm run deploy"
