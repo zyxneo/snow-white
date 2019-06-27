@@ -78,7 +78,7 @@ class IndexPage extends React.Component {
                 <h3>Piroska és a farkas (és a Piroska nagymamája)</h3>
                 <p>A fekete-vörös-fehér színhármas más mesékben is megjelenik, noha kimondatlanul. Piroska színe egyértelmű, és a farkas színét is könnyű kitalálni. A nagymamáról az elképzelést önhatalmúlag pontosítanám: ősz, fehér hajú asszonyka frissen mosott fehér ágyneművel. Így már biztos előttünk van a kép, és remélem nem túlzok, ha egyenlőségjelet teszek a két mese színei közé.</p>
 
-                <p>A fekete, vörös és fehér színek jelentéseit már említettem, és a Piroska és a Farkas mese segít ennek további árnyalásában. Piroska, a hús-vér emberi lényke elindul, hogy eljusson az ősanya karakterhez, a fény világába. Az ősanya it bármi olyat jelképezhet ami ősi, vagy a fehér fényhez köthető, magukat az ősöket, azok szellemiségét, vagy csak magát az ős-szellemiséget, valamiféle fénytudatot...</p>
+                <p>A fekete, vörös és fehér színek jelentéseit már említettem, és a Piroska és a Farkas mese segít ennek további árnyalásában. Piroska, a hús-vér emberi lényke elindul, hogy eljusson az ősanya karakterhez, a fény világába. Az ősanya itt bármi olyat jelképezhet ami ősi, vagy a fehér fényhez köthető, magukat az ősöket, azok szellemiségét, vagy csak magát az ős-szellemiséget, valamiféle fénytudatot...</p>
 
                 <p>Útja során neki is át kell vergődni a mesékből kihagyhatatlan erdőn, ami azt a kusza külső világot jelképezi, amiben élünk, pontosabban azt a kusza belső világot, amit magunk teremtünk, és ami bennünk is él. Itt ismerkedik meg Piroska a másik főszereplővel, aki a veszedelmes sötétség maga. Nagyon érdekes, hogy a farkas simán megehetné piroskát az erdőben. Hazai pályán van, Piroska meg tök egyedül, miért nem eszi hát meg? Mert analizálja, leszkenneli, kiértékeli. Alaposan kifaggatja, és úgy rendezi majd a szálakat, hogy totális nyereséget arasson. Nem éri be a kislánnyal. A sötétség ezen a ponton elhatározza, hogy magát a fényt nyeli el, és megteszi önmagát a lényke céljának...</p>
 
@@ -110,7 +110,7 @@ class IndexPage extends React.Component {
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/13247737_592297310936162_8307970861860948396_o.jpg')} className="ui image" centered /></p>
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/23755330_869583669874190_1326789909525721786_n.jpg')} className="ui image" centered /></p>
 
-                <p>És legfőképp köszönöm kedvesemnek, Juditnak, hogy több mint egy évtizedes kitartó munkával és sok-sok türelemmel segítette utamat személyes céljaim és közös céljaink eléréséhez.</p>
+                <p>És legfőképp köszönöm kedvesemnek, Juditnak, hogy több mint egy évtizedes kitartó munkával és sok-sok türelemmel segítette utamat személyes és közös céljaink eléréséhez.</p>
               </div>
             </ScrollSection>
 

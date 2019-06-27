@@ -173,7 +173,7 @@ class IndexPage extends React.Component {
                 <li>Masonry, 3M, xMas, Matrix</li>
               </ul>
 
-              <h4>A vörös Hangja a <b><a href="http://www.osnyelv.hu/osny0/zzz/bz_szgl.web.html#v" target="_blank" rel="noopener noreferrer">M</a></b></h4>
+              <h4>A vörös Hangja a <b><a href="http://www.osnyelv.hu/osny0/zzz/bz_szgl.web.html#v" target="_blank" rel="noopener noreferrer">V</a></b></h4>
               <ul>
                 <li>vág, (el)válik, (ketté)válik, (össze)vegyít</li>
                 <li>V for Vandetta (V mint vérbosszú)</li>

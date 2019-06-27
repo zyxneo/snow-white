@@ -66,7 +66,8 @@ class IndexPage extends React.Component {
             <ScrollSection onEnter={this.onEnterViewport} id="symbol.symbol.forest">
               <h3>Helyszín – Erdő</h3>
               <div>
-                <h4>Mi jut eszünkbe róla? Ezt a kérdést sokszor fel fogom tenni, hogy lehetőséget adjak az elgondolkodásra, hogy saját magunkba mélyedve feltárjuk személyes érzelmeinket, előítéleteinket a témával kapcsolatban. Fontosnak tartom az egy perces néma csendet, gondolatindítónak, hangulatkeltés gyanánt pedig pár képet is mutatok, amivel egyet lehet érteni, vagy el lehet utasítani. Aztán mondok én is egy verziót.</h4>
+                <h4>Mi jut eszünkbe róla?</h4>
+                <p>Ezt a kérdést sokszor fel fogom tenni, hogy lehetőséget adjak az elgondolkodásra, hogy saját magunkba mélyedve feltárjuk személyes érzelmeinket, előítéleteinket a témával kapcsolatban. Fontosnak tartom az egy perces néma csendet, gondolatindítónak, hangulatkeltés gyanánt pedig pár képet is mutatok, amivel egyet lehet érteni, vagy el lehet utasítani. Aztán mondok én is egy verziót.</p>
                 <p className="masonry">
                   <img src={withPrefix('images/forest/trees/abfa8c6e29178ada753070ee3785f5ae.jpg')} />
                   <img src={withPrefix('images/forest/trees/da5d82501b3e154f05108e29f6d9801c.jpg')} />
