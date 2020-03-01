@@ -110,7 +110,7 @@ class IndexPage extends React.Component {
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/13247737_592297310936162_8307970861860948396_o.jpg')} className="ui image" centered /></p>
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/23755330_869583669874190_1326789909525721786_n.jpg')} className="ui image" centered /></p>
 
-                <p>Köszönet Bakos Attilának a védikus filozófia oktatásáért. Elnézést, ha az írásban a tanok eltorzítva jelennek meg. Köszönet Bakos Judit Eszternek a "relax jóga nidrák"-ért, látomásszerű felismeréseket ennek is köszönhetem. És annak, hogy nagyratötő szankalpám rendszeresen az, hogy "Lelkem gyémánt fénye világítsa meg elmémet".</p>
+                <p>Köszönet Bakos Attilának a védikus filozófia oktatásáért. Elnézést, ha az írásban a tanok eltorzítva jelennek meg. Köszönet Bakos Judit Eszternek a „relax jóga nidrák“-ért, látomásszerű felismeréseket ennek is köszönhetem. És annak, hogy nagyratötő szankalpám rendszeresen az, hogy „Lelkem gyémánt fénye világítsa meg elmémet“.</p>
 
                 <p>Köszönet a mesék ősi kincsét fenntartó neves és elfeledett nevű embereknek.</p>
 
