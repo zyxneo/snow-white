@@ -22,13 +22,13 @@ const data = [
   ],
   [
     <span>a fény abszolút hiánya</span>,
-    <span>felízzó, begyulladó fény vagy<br />pislákoló, kialvó láng</span>,
-    <span>a tiszta, teljes fény maga</span>,
+    <span>felízzó, begyulladó fény vagy<br />pislákoló, kialvó láng (650 – 750nm)</span>,
+    <span>a tiszta, teljes fény maga, mely valamennyi színt magába foglalja, törése során válik láthatóvá a szivárvány 7 színe</span>,
   ],
   [
     <span>a szilánkjaira törött Nap az éjszakában</span>,
     <span>a félbevágott Napkorong a horizonton</span>,
-    <span>a Nap a maga teljességében</span>,
+    <span>a Nap a maga teljességében az égbolt közepén (a zeniten)</span>,
   ],
   [
     <span>éjszaka</span>,
@@ -57,7 +57,7 @@ const data = [
   ],
   [
     <span>pokol</span>,
-    <span>kísértésbe esés (<i>kis-értés</i>) vagy <br />gyónás mint gyógyulás, jóvátétel javulás</span>,
+    <span>kísértésbe esés (<i>kis-értés</i>) vagy <br />gyónás mint gyógyulás, jóvátétel, javulás</span>,
     <span>mennyország</span>,
   ],
   [

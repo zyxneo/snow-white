@@ -76,7 +76,7 @@ class IndexPage extends React.Component {
                 <p>A feketéből a fehérbe a vörösön át vezet az út. A szerelem érzése minden embert felemel, de a legnagyobb csalatkozások is ebben a zónában történnek. A szerelem képes az embert a fekete kilátástalanságból a megnyugvással teli fehér fénybe emelni, ha csak pillanatokra is. Csakhogy a szerelem maga nem a fény, csak egy lehetséges útmutatás a fény felé. Már említettem, hogy a nap vörös színben kétszer látható, hasonlóképp a két-ségek világa a vörös tartomány.</p>
 
                 <h3>Piroska és a farkas (és a Piroska nagymamája)</h3>
-                <p>A fekete-vörös-fehér színhármas más mesékben is megjelenik, noha kimondatlanul. Piroska színe egyértelmű, és a farkas színét is könnyű kitalálni. A nagymamáról az elképzelést önhatalmúlag pontosítanám: ősz, fehér hajú asszonyka frissen mosott fehér ágyneművel. Így már biztos előttünk van a kép, és remélem nem túlzok, ha egyenlőségjelet teszek a két mese színei közé.</p>
+                <p>A fekete-vörös-fehér színhármas más mesékben is megjelenik, noha kimondatlanul. Piroska színe egyértelmű, és a farkas színét is könnyű kitalálni. A nagymamáról az elképzelést önhatalmúlag pontosítanám: ősz, fehér hajú asszonyka frissen mosott fehér ágyneművel. Így már biztos előttünk van a kép, és remélem nem túlzok, ha egyenlőségjelet teszek a két mese <b>színei</b> közé.</p>
 
                 <p>A fekete, vörös és fehér színek jelentéseit már említettem, és a Piroska és a Farkas mese segít ennek további árnyalásában. Piroska, a hús-vér emberi lényke elindul, hogy eljusson az ősanya karakterhez, a fény világába. Az ősanya itt bármi olyat jelképezhet ami ősi, vagy a fehér fényhez köthető, magukat az ősöket, azok szellemiségét, vagy csak magát az ős-szellemiséget, valamiféle fénytudatot...</p>
 
@@ -109,6 +109,10 @@ class IndexPage extends React.Component {
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/14915528_669838763182016_3436921408753087924_n.jpg')} className="ui image" /></p>
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/13247737_592297310936162_8307970861860948396_o.jpg')} className="ui image" centered /></p>
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/23755330_869583669874190_1326789909525721786_n.jpg')} className="ui image" centered /></p>
+
+                <p>Köszönet Bakos Attilának a védikus filozófia oktatásáért. Elnézést, ha az írásban a tanok eltorzítva jelennek meg. Köszönet Bakos Judit Eszternek a "relax jóga nidrák"-ért, látomásszerű felismeréseket ennek is köszönhetem. És annak, hogy nagyratötő szankalpám rendszeresen az, hogy "Lelkem gyémánt fénye világítsa meg elmémet".</p>
+
+                <p>Köszönet a mesék ősi kincsét fenntartó neves és elfeledett nevű embereknek.</p>
 
                 <p>És legfőképp köszönöm kedvesemnek, Juditnak, hogy több mint egy évtizedes kitartó munkával és sok-sok türelemmel segítette utamat személyes és közös céljaink eléréséhez.</p>
               </div>
