@@ -107,7 +107,7 @@ class IndexPage extends React.Component {
 
                 <p>Hófehérke a Grimm Kinder- und Hausmerchen első, 1812-es eredeti gótbetűs kiadásában: (Amúgy ha valakinek megvan ez a könyv engem nagyon érdekelne, szívesem meg is venném, de nem 42.000.000 Ft-ért, amennyiért legutóbb láttam...)</p>
                 <img src={withPrefix('images/grimm/schneewittchen.jpg')} className="ui fluid image" />
-                <p>Mint később megtudtamegyes részek téves információnak bizonyultak, így kihúztam őket. Nagyon részletes információkat a témával kapcsolatban „Nagy Ilona: A Grimm testvérek mesegyűjteményéről“ című tanulmányában lehet olvasni.</p>
+                <p>Mint később megtudtam, egyes részek téves információnak bizonyultak, így kihúztam őket. Nagyon részletes információkat a témával kapcsolatban „Nagy Ilona: A Grimm testvérek mesegyűjteményéről“ című tanulmányában lehet olvasni. (Meg kell jegyezzem, a tanulmány elolvasása után, majd összevetve annak tartalmát a Grimm fivérek mesekönyvének előszavával, arra a követheztetésre jutottam, hogy a szociológusoknak és néprajzkutatóknak olykor "savanyú a szőlő". Ezen két írás hatalmas kontrasztja győzőtt meg a Grimm testvérek munkájának nagyszerűségéről, és kötelezett el végleg a Grimm-ékhez hasonló lelkiségű emberek és azok munkái mellett.)</p>
               </div>
 
               <h3>A mese magyar vonatkozásai</h3>
