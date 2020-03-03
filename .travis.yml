@@ -6,7 +6,7 @@ notifications:
     on_success: always
     on_failure: always
 node_js:
-  - "stable"
+  - 'stable'
 cache: npm
 deploy:
   provider: pages
@@ -18,7 +18,7 @@ deploy:
   on:
     branch: master
 script:
-  - "npm ci -g gatsby"
-  - "npm ci"
+  - 'npm install -g gatsby'
+  - 'npm ci'
 after_success:
-  - "npm run deploy"
+  - 'npm run deploy'
