@@ -117,6 +117,20 @@ class IndexPage extends React.Component {
                 <p>És legfőképp köszönöm kedvesemnek, Juditnak, hogy több mint egy évtizedes kitartó munkával és sok-sok türelemmel segítette utamat személyes és közös céljaink eléréséhez.</p>
               </div>
             </ScrollSection>
+            <ScrollSection onEnter={this.onEnterViewport} id="links">
+              <h2>Ajánlott linkek</h2>
+
+              <div>
+                <ul>
+                  <li>
+                    Snow White and the Seven Dwarfs - Joseph Alexander <a href="http://mythicspiral.blogspot.com/2012/07/snow-white-and-seven-dwarfs.html" target="_blank" rel="noopener noreferrer">http://mythicspiral.blogspot.com</a>
+                  </li>
+                  <li>
+                    Snow White and the Seven Chakras - <a href="https://www.anne-marie.eu/en/snow-white-and-the-seven-chakras" target="_blank" rel="noopener noreferrer">www.anne-marie.eu</a>
+                  </li>
+                </ul>
+              </div>
+            </ScrollSection>
 
             <Footer>
               <PreviousButton
