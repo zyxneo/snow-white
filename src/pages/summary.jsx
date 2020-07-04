@@ -1,4 +1,6 @@
 import React from 'react'
+import { Image } from 'semantic-ui-react'
+import { withPrefix } from 'gatsby-link'
 import Layout from '../components/layout'
 import ScrollSection from '../components/ScrollSection'
 import Footer from '../components/Footer'
@@ -155,8 +157,10 @@ class IndexPage extends React.Component {
           <div className="ui text container list">
             <ScrollSection onEnter={this.onEnterViewport} id="story.summary">
               <h1>Összefoglaló</h1>
+
               <div>
-                <p>...</p>
+                <h3>A három szín</h3>
+                <p>Az alábbi táblázatban megpróbáltam összefoglalni az említett mesékre jellemző három szín egyéb előfordulásait, jellemzőit és az elemzésem során alkalmazott önkényes asszociációimat.</p>
                 <div className="summTable">
                   {
                     data.map(row => (
@@ -164,7 +168,8 @@ class IndexPage extends React.Component {
                     ))
                   }
                 </div>
-                <p>A mesében</p>
+
+                <h3>A mesében</h3>
                 <div className="summTable">
                   {
                     mese.map(row => (
@@ -175,10 +180,44 @@ class IndexPage extends React.Component {
               </div>
             </ScrollSection>
 
+            <ScrollSection onEnter={this.onEnterViewport} id="thanks">
+              <h2>Köszönetnyilvánítás</h2>
+
+              <div>
+
+                <p>Itt szeretném köszönetemet kinyilvánítani <a href="https://www.facebook.com/michelangelorossatoart" target="_blank" rel="noopener noreferrer">Michelangelo Rossato</a>-nak a csodásan illusztrált Biancaneve könyvéért, ami megmutatja, hogy a búvópatak időről időre a felszínre tör.</p>
+
+                <p><Image src={withPrefix('images/snowwhite/biancaneve/12052578_509115469254347_8081025106734679266_o.jpg')} className="ui image" centered /></p>
+                <p><Image src={withPrefix('images/snowwhite/biancaneve/14915528_669838763182016_3436921408753087924_n.jpg')} className="ui image" /></p>
+                <p><Image src={withPrefix('images/snowwhite/biancaneve/13247737_592297310936162_8307970861860948396_o.jpg')} className="ui image" centered /></p>
+                <p><Image src={withPrefix('images/snowwhite/biancaneve/23755330_869583669874190_1326789909525721786_n.jpg')} className="ui image" centered /></p>
+
+                <p>Köszönet <a href="https://www.danvantara.hu/" target="_blank" rel="noopener noreferrer">Bakos Attilának</a> a védikus filozófia oktatásáért. Elnézést, ha az írásban a tanok eltorzítva jelennek meg. Köszönet Bakos Judit Eszternek a „relax jóga nidrák“-ért, látomásszerű felismeréseket ennek is köszönhetem. És annak, hogy nagyratötő szankalpám rendszeresen az, hogy „Lelkem gyémánt fénye világítsa meg elmémet“.</p>
+
+                <p>Köszönet a mesék ősi kincsét fenntartó neves és elfeledett nevű embereknek.</p>
+
+                <p>És legfőképp köszönöm kedvesemnek, Juditnak, hogy több mint egy évtizedes kitartó munkával és sok-sok türelemmel segítette utamat személyes és közös céljaink eléréséhez.</p>
+              </div>
+            </ScrollSection>
+            <ScrollSection onEnter={this.onEnterViewport} id="links">
+              <h2>Ajánlott linkek</h2>
+
+              <div>
+                <ul>
+                  <li>
+                    Snow White and the Seven Dwarfs - Joseph Alexander <a href="http://mythicspiral.blogspot.com/2012/07/snow-white-and-seven-dwarfs.html" target="_blank" rel="noopener noreferrer">http://mythicspiral.blogspot.com</a>
+                  </li>
+                  <li>
+                    Snow White and the Seven Chakras - <a href="https://www.anne-marie.eu/en/snow-white-and-the-seven-chakras" target="_blank" rel="noopener noreferrer">www.anne-marie.eu</a>
+                  </li>
+                </ul>
+              </div>
+            </ScrollSection>
+
             <Footer>
               <PreviousButton
-                to="/cosmic/"
-                content="Kozmikus Hófehérhe"
+                to="/littlered/"
+                content="Piroska és a farkas"
               />
             </Footer>
           </div>
