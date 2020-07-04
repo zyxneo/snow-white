@@ -79,7 +79,26 @@ class Layout extends React.PureComponent<Props, State> {
           bodyAttributes={{
             class: bodyClass + (inverted ? ' inverted' : ''),
           }}
-        />
+        >
+          {
+            // Global site tag (gtag.js) - Google Analytics
+            process.env.NODE_ENV === 'production' && [
+              <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=UA-4516268-17"
+              />,
+              <script>
+                {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'UA-4516268-17');
+            `}
+              </script>,
+            ]
+          }
+        </Helmet>
         <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Fondamento|Pirata+One|Snowburst+One&amp;subset=latin-ext" rel="stylesheet" />
         <Button
           basic
@@ -197,6 +216,13 @@ class Layout extends React.PureComponent<Props, State> {
               to="/cosmic"
               icon="star outline"
               content="Kozmikus Hófehérhe"
+            />
+            <List.Item
+              as={Link}
+              activeClassName="active"
+              to="/littlered"
+              icon="shopping basket"
+              content="Piroska és a farkas"
             />
             <List.Item
               as={Link}
