@@ -48,7 +48,7 @@ class IndexPage extends React.Component {
                   <Image src={withPrefix('images/huntsman/bluebarb/c779abcae840a0b9b11d1667b7afda0f.jpg')} />
                 </p>
                 <p>Én közönségesebb okok miatt említeném meg ezt a történetet a Hófehérke mese kapcsán. Számomra elég nyilvánvaló, hogy igenis, vannak Kékszakáll jellegű férfiak, és a Hófehérke mese Vadász karakterét szeretném - önkényesen - összekötni Kékszakállal.</p>
-                <p>A hivatalos pszichoalazízis ezen a ponton joggal hördülhetne fel, mondván, hogy pont ellentkezőleg, a Vadász egy segítő karakter, aki a sötét erőket segít legyőzni, Kékszakáll pedig maga a sötét erő. Nos ezzel az általánosítással szeretnék szembemenni, és férfitársaimnak kiutat mutatni Kékszakáll - Vadász - (Herceg) - Király fejlődési út ezen pontjának bemutatásával. E szerint Kékszakáll igenis férfi karakter, méghozzá egy mészáros, egy kíméletlen nőfaló, aki csúful végzi. Hacsak nem tesz életében egy páfordulást, és a Vadászhoz hasonlóan meg nem könyörül egy szép napon.</p>
+                <p>A hivatalos pszichoalazízis ezen a ponton joggal hördülhetne fel, mondván, hogy pont ellentkezőleg, a Vadász egy segítő karakter, aki a sötét erőket segít legyőzni, Kékszakáll pedig maga a sötét erő. Nos ezzel az általánosítással szeretnék szembemenni, és férfitársaimnak kiutat mutatni Kékszakáll - Vadász - (Herceg) - Király fejlődési út ezen pontjának bemutatásával. E szerint Kékszakáll igenis férfi karakter, méghozzá egy mészáros, egy kíméletlen nőfaló, aki csúful végzi. Hacsak nem tesz életében egy pálfordulást, és a Vadászhoz hasonlóan meg nem könyörül egy szép napon.</p>
                 <p className="masonry">
                   <Image src={withPrefix('images/huntsman/bluebarb/5e7227c99c860c00d8b6944ef438a1f1.jpg')} />
                   <Image src={withPrefix('images/huntsman/bluebarb/b506692b7ae9d41a2c734e84daa0b563.jpg')} />
@@ -106,13 +106,13 @@ class IndexPage extends React.Component {
                   <Image src={withPrefix('images/huntsman/bluebarb/9cb703fb474ab9328c5c9debe2913494.jpg')} />
                   <Image src={withPrefix('images/huntsman/bluebarb/206008a33cf6a6cff18bc2cfc4516def.jpg')} />
                 </p>
-                <p>Nagyon érdekes, hogy az egymást kiegészítő ellentétpárok itt is megjelennek. Férfi és nő között a vonzódás kölcsönös, szinte minden stimmel, az egyetlen pathológikus részlet a végkifejlet, de ez a történet így kerek. Még szerencse, hogy a nő kíváncsi természetű volt, a férfinek meg történetesen volt titka, ami kiderülhetett. Szóval jól egymásra találtak. Ha a nő megfogadta volna férjeura tanácsát és nem kutakodik, az nagyon unalmas lett volna. Egy idő után valószínűleg a Kékszakáll is megunja az ilyen nőt, kiszeret belőle és elhagyja, mondván, hogy nem tud elég izgalmat vinni a kapcsolatukba. Mert igenis izgibizgi amikor az állatias férfi áldozatául ragadja a naív, ártatlan nőt, magával rántja az alvilágba és és életveszélyes beavatásban részesíti. Nemhiába keresgél a nő a férfi sötét rejtekeben, viszont a naív nő azt reméli, hogy a kíméletlen vadállat vele majd kíméletes és érzéki lesz.</p>
+                <p>Nagyon érdekes, hogy az egymást kiegészítő ellentétpárok itt is megjelennek. Férfi és nő között a vonzódás kölcsönös, szinte minden stimmel, az egyetlen pathológikus részlet a végkifejlet, de ez a történet így kerek. Még szerencse, hogy a nő kíváncsi természetű volt, a férfinek meg történetesen volt titka, ami kiderülhetett. Szóval jól egymásra találtak. Ha a nő megfogadta volna férjeura tanácsát és nem kutakodik, az nagyon unalmas lett volna. Egy idő után valószínűleg a Kékszakáll is megunja az ilyen nőt, kiszeret belőle és elhagyja, mondván, hogy nem tud elég izgalmat vinni a kapcsolatukba. Mert igenis izgibizgi amikor az állatias férfi áldozatául ragadja a naív, ártatlan nőt, magával rántja az alvilágba és és életveszélyes beavatásban részesíti. Nemhiába keresgél a nő a férfi sötét rejtekeben, viszont a naív nő azt reméli, hogy a kíméletlen vadállat vele majd kíméletes és érzéki lesz. ...hát nem.</p>
 
                 <p className="ui embed" data-source="youtube" data-id="X92BQM2HD40">
                   <iframe title="Kékszakáll" width="560" height="315" src="https://www.youtube.com/embed/X92BQM2HD40" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen />
                 </p>
 
-                <p>A történet végén a nő megszabadul, a férfi pedig belehal sérüléseibe. És mi a tanulság?...</p>
+                <p>A történet végén a nő megszabadul, Kékszakáll pedig belehal sérüléseibe. És mi a tanulság?...</p>
                 <p>
                   <Image src={withPrefix('images/huntsman/bluebarb/8147c44f0755a6adea3e78d0f94b64bf.jpg')} className="ui fluid image" />
                 </p>
