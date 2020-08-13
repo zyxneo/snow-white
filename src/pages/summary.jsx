@@ -38,6 +38,11 @@ const data = [
     <span>nappal</span>,
   ],
   [
+    <span>észak</span>,
+    <span>kelet, nyugat</span>,
+    <span>dél</span>,
+  ],
+  [
     <span>∞</span>,
     <span>2</span>,
     <span>1</span>,
@@ -87,7 +92,7 @@ const data = [
     <span>a fa törzse</span>,
     <span>a fa koronája</span>,
   ],
-  [
+  /* [
     <span>
       Hangja az <b>M</b>
     </span>,
@@ -96,7 +101,7 @@ const data = [
     </span>,
     <span>...
     </span>,
-  ],
+  ], */
 ]
 
 const mese = [

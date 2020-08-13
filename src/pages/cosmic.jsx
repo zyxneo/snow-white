@@ -54,7 +54,7 @@ class IndexPage extends React.Component {
                   <img src={withPrefix('images/snowwhite/cosmic/862996236b86c60d0056ac8e41877d18.jpg')} />
                   <img src={withPrefix('images/snowwhite/cosmic/159e4d518c04e409223e1beabd1e89e5.jpg')} />
                 </p>
-                <p><Image src={withPrefix('images/snowwhite/cosmic/16590b724333bf444253a94dfc640c86.jpg')} className="ui image" centered /></p>
+
                 <p>A mesében az anyakirályné maga az ősanya, aki az ablak mellett az említett módon valamilyen textilipari elfoglatságot művel. A fekete keret így jobban megfeleltethető a szövőkeretnek, ami kozmikus értelemben az univerzum éjfeketéje, a mindent körülvevő semmi, és a királynő ebbe a fekete semmibe fonja, szövi bele fehér fénnyel a szövetét. A piros vér a vágy, ösztönszerű vágy az életre. Ilyen értelemben a királyné szövetre cseppentett vére ad életet a szövetnek, innentől nem szellemi szinten zajlik az alkotás, hanem elérkezünk az emberek világába, és a nő a gyermek testi szöveteit szövi méhében.</p>
 
                 <p><Image src={withPrefix('images/snowwhite/biancaneve/Biancaneve-28429.jpg')} className="ui image" centered /></p>
@@ -71,6 +71,16 @@ class IndexPage extends React.Component {
                   <img src={withPrefix('images/snowwhite/cosmic/b1be0ab67247565e5a51ca14ba2a7241.jpg')} />
                   <img src={withPrefix('images/snowwhite/cosmic/96744822e8c0958ca19949478a6f98be.jpg')} />
                 </p>
+
+                <p>Nagyon érdekes, hogy a régmúltban 7 &quot;klasszikus&quot; bolygót különítettek el. Valószínűleg a naprendszerről alkotott kép is más volt, és egész a 17. századig formálódott. Az egyik bolygó a Hold volt, amit most önkényesen a Fölre korrigálok, megtartva a mesebeli 7-es számot, de alkalmazva a mai Heilocentrikus világképet. Csak képzeljük el egy kicsit, hogy a 7 bolygó a nap körül kering, épp csak annyira, hogy a mesét ide lehessen kapcsolni (Hófehérke körül a 7 törpe). Számok ide vagy oda, jelen ismeretünk szerint az univerzumban naprendszerek vannak, vagyis a miénkhez hasonlóan a csillagok egy-egy naprendszer napjai, és körülöttük bolygók keringenek. Nem tudok olyanról, hogy nap keringene bolygó körül, csak arról, hogy a nap mindig központi helyet foglal el. Szerintem érdekes kérdés, hogy miért. A bolygók mindíg napok köré állnak pályára, vagy az a dolog ami köré a bolygók pályára állnak, hogy-hogy nem mindig nap lesz? Ezt az elméletet nem olvastam még, csak felmerült bennem. Lehetséges-e, hogy a bolygók keringése, mint egyfajta indukció indítja be a nap begyulladását, lángolását? Ahogyan tüzet csiholni is lehetséges gyorsan forgó pálcával, mint az ősi emberek tehették... Tüzet gyújtottak, majd köré ültek, mint a bolygók a nap köré. Ebben az értelemben a központi tűz és a köré gyűlők egymást feltételezik, egymásból táplálkoznak.</p>
+
+                <p>Szomorú, hogy nyelvtan órán megtanítják velünk, hogy van olyan, hogy azonos alkú de különböző jelentésű szó, és erre példaként az ég és tűz szavakat említik. Ezzel ugyanis nyelvünk értelmét veszíti. A földi <i>tűz</i> lángol, vagyis <i>ég</i>, míg a Nap amikor az <i>ég</i>en világít, azt úgy mondjuk, hogy a nap <i>tűz</i> (vagyis sugaraival, mint apró tűkkel akár tűző fájdalmat tud okozni, akárcsak a tűz égetése) A máglya szavunk összefügg a mágiával. A tűzmágusok máglyát raktak, mágiát csináltak.</p>
+
+                <p>
+                  A három királyok, avagy napkeleti bölcsek (angolul: mágusok) korai ábrázolásán (3. század, Priscilla-katakomba) szintén a három színnel szerepelnek. Azt lehet tudni róluk, hogy <i>nap</i>keletről érkeztek, a fény születését megünnepelni, és áldozatot bemutatni.
+                </p>
+                <p><Image src={withPrefix('images/alchemy/magi.jpg')} className="ui image" centered /></p>
+                <p><Image src={withPrefix('images/snowwhite/cosmic/16590b724333bf444253a94dfc640c86.jpg')} className="ui image" centered /></p>
 
                 <h3>Szerelem - félelem</h3>
 
