@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{pssB:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("Bl7J"),r=a("xYz4");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement("div",{className:"content"},l.a.createElement("div",{className:"ui text container list"},l.a.createElement("h1",null,"404 - NOT FOUND"),l.a.createElement("p",null,"A keresett oldal nem található..."),l.a.createElement(r.a,{to:"/",content:"Főoldal"}))))}}}]);
+//# sourceMappingURL=component---src-pages-404-jsx-ee994bcc32b090cd5d7a.js.map
